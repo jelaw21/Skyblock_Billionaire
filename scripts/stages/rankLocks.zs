@@ -23,6 +23,10 @@ mods.ItemStages.addItemStage("EMPLOYEE",<harvestcraft:freshwateritem>);
 mods.ItemStages.addItemStage("EMPLOYEE",<harvestcraft:potitem>);
 mods.ItemStages.addItemStage("EMPLOYEE",<harvestcraft:mortarandpestleitem>);
 mods.ItemStages.addItemStage("EMPLOYEE",<contenttweaker:stone_hammer>);
+mods.ItemStages.addItemStage("SHIFT_MANAGER",<contenttweaker:iron_hammer>);
+mods.ItemStages.addItemStage("ASSISTANT_MANAGER",<contenttweaker:diamond_hammer>);
+mods.ItemStages.addItemStage("ASSISTANT_MANAGER",<silentgems:craftingmaterial:0>);
+
 
 
 

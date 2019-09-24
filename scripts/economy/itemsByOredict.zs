@@ -191,9 +191,6 @@ val oneDollar = [
 	<ore:enderpearl>,
 	<ore:record>,
 	<ore:blockSlime>,
-	<ore:blockPrismarine>,
-	<ore:blockPrismarineBrick>,
-	<ore:blockPrismarineDark>,
 	<ore:compressed1xNetherrack>,
 	<ore:compressed5xCobblestone>,
 	<ore:compressed6xCobblestone>,
@@ -220,14 +217,13 @@ val oneDollar = [
 	<ore:oreLead>,
 	<ore:blockLapis>,
 	<ore:essenceTier3>,
+	<ore:blockRedstone>,
 	<ore:compressedDirt2>
-
 	
 ] as IIngredient[];
 
 val threeDollar=[
 
-	<ore:blockPrudentiumEssence>,
 	<ore:coinSteel>,
 	<ore:coinElectrum>,
 	<ore:coinInvar>,
@@ -235,10 +231,7 @@ val threeDollar=[
 	<ore:compressed2xGravel>,
 	<ore:compressed2xSand>,
 	<ore:blockGold>,
-	<ore:blockIron>,	
-	<ore:blockDiamond>,
-	<ore:blockRedstone>,
-	<ore:blockEmerald>,
+	<ore:blockIron>,
 	<ore:blockQuartz>,
 	<ore:endstone>,
 	<ore:blockCopper>,
@@ -264,12 +257,16 @@ val threeDollar=[
 	<ore:orePlatinum>,
 	<ore:oreAluminum>,
 	<ore:oreIridium>,
-	<ore:oreMithril>
+	<ore:oreMithril>,
+	<ore:blockPrismarine>,
+	<ore:blockPrismarineBrick>,
+	<ore:blockPrismarineDark>,
 	
 ]as IIngredient[];
 
 val oneFive = [
 	<ore:seedsTier2>,
+	<ore:blockPrudentiumEssence>,
 	<ore:cofh:potion>,
 	<ore:compressed4xDirt>,
 	<ore:blockSteel>,
@@ -305,6 +302,8 @@ val oneTen = [
 	<ore:blockIntermediumEssence>,
 	<ore:blockPrudentium>,
 	<ore:blockSoulium>,
+	<ore:blockDiamond>,
+	<ore:blockEmerald>,
 	<ore:ingotSupremium>
 	
 	

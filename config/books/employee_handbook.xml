@@ -3,7 +3,7 @@
     <conditions>
         <stage-unlocked name="employee" stage="EMPLOYEE"/>
         <stage-unlocked name="shift" stage="SHIFT_MANAGER"/>
-        <stage-unlocked name="assistant" stage="ASSITANT_MANAGER"/>
+        <stage-unlocked name="assistant" stage="ASSISTANT_MANAGER"/>
         <stage-unlocked name="general" stage="GENERAL_MANAGER"/>
         <stage-unlocked name="regional" stage="REGIONAL_MANAGER"/>
         <stage-unlocked name="executive" stage="EXECUTIVE_DIRECTOR"/>
@@ -109,7 +109,7 @@
                 <stack item="silentgems:gem" count="4"/>
                 <span>(any 4 stack)</span>
             </p>
-            <title space='20'>TOOL UNLOCKS</title>
+            <title space='20'>UNLOCKS</title>
             <p space="20">
                 <stack item="flintmod:knife_flint"/>
                 <stack item="flintmod:hoe_flint"/>
@@ -135,10 +135,10 @@
             <title space='20'>Shift Manager</title>
             <p color="#4f5f98" space='10'>Nice job, you're starting to smell like a good worker now. You know how to
                 hustle, but can you motivate others to work as hard?</p>
-            <p color="#4f5f98" space='20'>You've been promoted to a shift manager, which means you'll be overseeing
+            <p color="#4f5f98" space='10'>You've been promoted to a shift manager, which means you'll be overseeing
                 other employees to keep our industries running. I've given you enough capital to hire three employees
                 and a few industries. You'll also need to manage those angry customers, real zombies those are.</p>
-            <title space='20'>REQUIREMENTS</title>
+            <title space='10'>REQUIREMENTS</title>
             <p color="#4f5f98" space='10'>You'll need to figure out how to summon some livestock for our production
                 lines and to feed the employees.</p>
             <p color="#4f5f98" space='10'>To find more diverse foods, I've given you access to the local grocer. They've
@@ -158,37 +158,75 @@
                 <stack item="minecraft:nether_wart" count="16"/>
                 <stack item="soulus:bone_meal_nether" count="24"/>
             </p>
-
+            <title space='20'>UNLOCKS</title>
+            <p space="10">Local Markets - very limited.</p>
+            <p space="10">Summoners to spawn mobs.</p>
+            <p space="20">Access to the Employee page to purchase workers and combat personnel.</p>
             <p>Hints on next page ...</p>
         </page>
         <page>
+
             <title space='20'>HINTS</title>
             <p space="10">The miner can mine the cobblegen if set-up correctly.</p>
-            <p space="10">The Breakroom is the only place employees will go to get food.</p>
-            <p space="10">Work your way through the Soulus book to spawn mobs. Once you have a few creatures, breeding
-                may be faster and more reliable.</p>
+            <p space="10">The Breakroom is the only place employees will go to get food, and they won't work without food.</p>
+            <p space="10">Work your way through the Soulus book to spawn mobs. The better the Summoner the faster it spawns.</p>
             <p space="10">Don't sweat the ingot making, you will have access to better resource gathering as you get
                 more promotions.</p>
             <p space="10">Always keep an eye on the Specials tab in the store. You never know when something good
                 appears.</p>
-            <p space="10">Upgrading the Summoners is always a good idea!</p>
             <p space="10">You don't have to spend the cash on employees, you can always save it and use the automation
-                tools provided by Ancient Warefare.</p>
-
+                tools provided by Ancient Warefare. All the machines run on RF as well.</p>
         </page>
     </chapter>
     <chapter id="assistant" condition="assistant">
         <page>
-            <title space='20'>Shift Manager</title>
-            <p color="#4f5f98" space='10'>.</p>
-            <title space='20'>REQUIREMENTS</title>
+            <title space='20'>Assistant Manager</title>
+            <p color="#4f5f98" space='10'>Well, that
+                wasn't so hard. You've kept your employee fed and dealt with the angry customers. But that's not
+                going to be enough. The landscape is money, you are have a long way to go if you want to be a
+                Billionaire.</p>
+            <p color="#4f5f98" space='10'>You are going to need to ramp up resource production and learn to interact
+                more fully
+                with the local markets.For this purpose, I've given you enough capital to purchase a resource
+                industry. Choose wisely, as these are more expensive to unlock later. Each on has its pros and cons,
+                but they all produce the same resources.</p>
+            <p  color="#4f5f98" space='10'> I've also given you a shipping bin, which you can use to
+                sell the goods you produce. You can buy them too, but why bother when you can just produce em.</p>
+            <p color="#4f5f98" space='10'>Enough chit-chattering, go make some money. Earn that bacon! Money don't
+                fall from trees. You reap what you sow.</p>
+
         </page>
         <page>
             <title space='20'>GATHER</title>
+            <p space="20">
+                <stack item="minecraft:iron_ingot" count="64"/>
+                <stack item="minecraft:diamond" count="16"/>
+                <stack item="minecraft:emerald" count="16"/>
+                <stack item="minecraft:gold_ingot" count="32"/>
+                <stack item="modcurrency:banknote" meta="5" count="25"/>
+            </p>
+            <title space='20'>UNLOCKS</title>
+            <p space='10'>Choice of Resource Gathering Industry in Industries Market</p>
+            <p space='10'>Use of Shipping Bin to ship goods and recieve payment. Right-click the bin with the
+                correct amount of items and wait for your payment. The table below gives stack-size per price:</p>
+                <p><span>$1 - 32 items -</span><span>- $2 - 16 items</span></p>
+                <p><span>$3 - 16 items -</span><span>- $5 - 16 items</span></p>
+                <p><span>$6 - 10 items -</span><span>- $10 - 8 items</span></p>
+                <p><span>$20 - 8 items -</span><span>- $30 - 8 items</span></p>
+                <p><span>$50 - 2 items -</span><span>- $100 - 2 items</span></p>
+                <p space='10'><span>$200 - 2 items -</span><span indent="2">- $500+ - 1 items</span></p>
+            <p space="10">Example: Diamond is worth $1 so it will take a stack of 32 to trade with the shipping bin.
+            </p>
         </page>
         <page>
+            <title space='10'>MORE UNLOCKS</title>
+            <p space="5">Full Access to the Local Market.</p>
+            <p space="5">Access to the Warehouse Market.</p>
+            <p space="20">Access to Mining, Mob and Dungeon Worlds.</p>
             <title space='20'>HINTS</title>
-
+            <p space="10">A crafted item tends to yield more profit.</p>
+            <p space="10">Use your employees, sometimes it takes money to make money.</p>
+            <p space="10">Check out the Special Equipment tab, it make be worth an investment.</p>
         </page>
     </chapter>
     <chapter id="general" condition="general">
@@ -199,6 +237,7 @@
         </page>
         <page>
             <title space='20'>GATHER</title>
+            <title space='20'>UNLOCKS</title>
         </page>
         <page>
             <title space='20'>HINTS</title>
@@ -213,6 +252,7 @@
         </page>
         <page>
             <title space='20'>GATHER</title>
+            <title space='20'>UNLOCKS</title>
         </page>
         <page>
             <title space='20'>HINTS</title>
@@ -227,6 +267,7 @@
         </page>
         <page>
             <title space='20'>GATHER</title>
+            <title space='20'>UNLOCKS</title>
         </page>
         <page>
             <title space='20'>HINTS</title>
@@ -241,6 +282,7 @@
         </page>
         <page>
             <title space='20'>GATHER</title>
+            <title space='20'>UNLOCKS</title>
         </page>
         <page>
             <title space='20'>HINTS</title>
@@ -255,6 +297,7 @@
         </page>
         <page>
             <title space='20'>GATHER</title>
+            <title space='20'>UNLOCKS</title>
         </page>
         <page>
             <title space='20'>HINTS</title>
@@ -269,6 +312,7 @@
         </page>
         <page>
             <title space='20'>GATHER</title>
+            <title space='20'>UNLOCKS</title>
         </page>
         <page>
             <title space='20'>HINTS</title>
@@ -283,6 +327,7 @@
         </page>
         <page>
             <title space='20'>GATHER</title>
+            <title space='20'>UNLOCKS</title>
         </page>
         <page>
             <title space='20'>HINTS</title>
@@ -297,6 +342,7 @@
         </page>
         <page>
             <title space='20'>GATHER</title>
+            <title space='20'>UNLOCKS</title>
         </page>
         <page>
             <title space='20'>HINTS</title>
@@ -311,6 +357,7 @@
         </page>
         <page>
             <title space='20'>GATHER</title>
+            <title space='20'>UNLOCKS</title>
         </page>
         <page>
             <title space='20'>HINTS</title>
@@ -325,6 +372,7 @@
         </page>
         <page>
             <title space='20'>GATHER</title>
+            <title space='20'>UNLOCKS</title>
         </page>
         <page>
             <title space='20'>HINTS</title>
@@ -339,6 +387,7 @@
         </page>
         <page>
             <title space='20'>GATHER</title>
+            <title space='20'>UNLOCKS</title>
         </page>
         <page>
             <title space='20'>HINTS</title>
@@ -353,6 +402,7 @@
         </page>
         <page>
             <title space='20'>GATHER</title>
+            <title space='20'>UNLOCKS</title>
         </page>
         <page>
             <title space='20'>HINTS</title>
@@ -367,6 +417,7 @@
         </page>
         <page>
             <title space='20'>GATHER</title>
+            <title space='20'>UNLOCKS</title>
         </page>
         <page>
             <title space='20'>HINTS</title>
