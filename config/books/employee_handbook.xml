@@ -1,99 +1,378 @@
-<book title="Employee Handbook" cover="gbook:company_logo" fontSize="0.6" home="0:0"
-	  xmlns="http://localhost/gbook/base"
-      xmlns:minecraft="http://localhost/gbook/minecraft-addons">>
-	  
-	  <conditions>
-		<stage-unlocked name="employee" stage="EMPLOYEE" />
-		<stage-unlocked name="shift" stage="SHIFT_MANAGER" />		
-	  </conditions>
-	  
-	  <chapter id="table_contents">
-		<page>
-			<title space='30'>Skyblock Billionaire</title>
-			<link ref="trainee">Trainee</link>
-			<link condition="employee" ref="employee">Employee</link>			
-			<link condition="shift" ref="shift">Shift Manager</link>
-		</page>
-		<page>
-			<p space='10'>Good Morning.</p>
-			<p space='10'>This is your guide to becoming a BILLIONAIRE and even possibly PRESIDENT OF THE WORLD.</p>
-			<p space='10'>If this is your first time with us, please click on the Trainee link to begin your training.</p>
-			<p space='10'>Those of you who are already aquainted with the system, please click your desired link to see more information on what is required of you.</p>
-			<p space='10'>Thank you for choosing, GWK, Inc. We hope you enjoy becoming a Billionaire.</p>
-		</page>	  
-	  </chapter>
-	  <chapter id="trainee">
-		<page>
-			<title space='20'>TRAINEE</title>
-			<p color="#4f5f98" space='10'>Ah, I've been lookin' for ya. Didn't know I'd find ya next to the pond.</p>
-			<p color="#4f5f98" space='10'>I'll cut right to the chase. I'm looking for some entreprenuer to look after my company when I'm gone.</p> <p color="#4f5f98" space='10'>I've got a nice little thing going here, but I need someone to take it to the next level. I made a comfortable million dollars its time for someone else to take over.</p>
-			<p color="#4f5f98" space='10'>So this is your chance kid. Impress me, and you may just wind up with keys to the kingdom.</p>
-			<p color="#4f5f98" space='10'>However, you aren't the only one vying for position. There are others wanting to run my company, all very good candidates. If you're lucky, you might make it. Doubtful, though.</p>			
-		</page>
-		<page>
-			<title space="20">REQUIREMENTS</title>
-			<p color="#4f5f98" space='10'>Well, since you're just standing here staring at this pond, might as well do something while we're here.</p>
-			<p color="#4f5f98" space='10'>Prove you got what it takes kid and fish us up some supplies. We're going to need a lot of dirt, some food, some sticks and a few droplets of water. We also gonna need some saplings. You writing this all down?</p>
-			<title space='10'>GATHER</title>
-			<p space="10"><stack item="minecraft:dirt" count="16" /><stack item="minecraft:apple" count="8" /><stack item="minecraft:fish" count="4"/><stack item="contenttweaker:item_water" count="4"/><stack item="minecraft:sapling" count="2"/></p>
-			<title space='10'>HINTS</title>
-			<p space="10">You can keep track of your progress from the Advancement Menu. And probably should keybind that to 'L' or something.</p>
-			<p space="10">YOu can hold down shift to help plants and saplings grow. But be careful not to have an accident!</p>			
-		</page>
-			
-	  </chapter>
-	  <chapter id="employee" condition="employee">
-		<page>
-			<title space='20'>Employee</title>
-			<p color="#4f5f98" space='10'>Well done, kid. But that was just the beginning. The hard work begins.</p>
-			<p color="#4f5f98" space='20'>Now that you're an employee, you are going to have learn to work. Grease those elbows.</p>
-			<title space='20'>REQUIREMENTS</title>
-			<p color="#4f5f98" space='10'>First off, you're gonna need one of them cobble gens, which is just lava and water.</p>
-			<p color="#4f5f98" space='10'>Next, is the gems. Those things are your ticket to greatness. Take some time and learn how they work, or you are gonna regret it.</p>
-			<p color="#4f5f98" space='10'>Lastly, you're gonna be working in the dirt, making food to fill our bellies, and later, line our pockets.</p>
-			<p color="#4f5f98" space='10'>Better get going, you're getting behind.</p>			
-		</page>
-		<page>			
-			<title space='20'>GATHER</title>
-			<p space="20"><stack item="minecraft:cobblestone" count="64" /><stack item="harvestcraft:vegetablesoupitem" count="4"/><stack item="minecraft:bread" count="8"/><stack item="silentgems:gem" count="4" /><span>(any 4 stack)</span></p>
-			<title space='20'>TOOL UNLOCKS</title>
-			<p space="20"><stack item="flintmod:knife_flint" /><stack item="flintmod:hoe_flint" /><stack item="flintmod:axe_flint" /><stack item="flintmod:pickaxe_flint" /><stack item="flintmod:spade_flint" /><stack item="contenttweaker:stone_hammer" /><stack item="harvestcraft:bakewareitem" /><stack item="harvestcraft:potitem" /><stack item="harvestcraft:mixingbowlitem" /></p>
-			<title space='20'>HINTS</title>
-			<p space="10">There are a few ways to get dirt, be sure to read the information tab in the JEI when you look at the dirt recipe.</p>
-			<p space="10">Glowrose flowers can be grown with Glow Rose Fertilizer used on Grass. Check the JEI on how to make grass!</p>
-			<p space="10">Mortars take a lot of work. You may not be able to operate them if you are too hungry.</p>			
-		</page>
-			
-	  </chapter>
-	  <chapter id="shift" condition="shift">
-		<page>
-			<title space='20'>Shift Manager</title>
-			<p color="#4f5f98" space='10'>Nice job, you're starting to smell like a good worker now. You know how to hustle, but can you motivate others to work as hard? </p>
-			<p color="#4f5f98" space='20'>You've been promoted to a shift manager, which means you'll be overseeing other employees to keep our industries running. I've given you enough capital to hire three employees and a few industries. You'll also need to manage those angry customers, real zombies those are.</p>
-			<title space='20'>REQUIREMENTS</title>
-			<p color="#4f5f98" space='10'>You'll need to figure out how to summon some livestock for our production lines and to feed the employees.</p>
-			<p color="#4f5f98" space='10'>To find more diverse foods, I've given you access to the local grocer. They've agreed to a small exchange. It may take a bit for your supplies to arrive, just keep your eyes to the skies!</p>
-		</page>
-		<page>
-			<p color="#4f5f98" space='10'>Finally, we'll need some rare materials from one of the hottest places I know. </p>
-			<p color="#4f5f98" space='20'>What are you standing around reading for, get moving!</p>						
-			<title space='20'>GATHER</title>
-			<p space="30"><stack item="harvestcraft:pbandjitem" count="16" /><stack item="ancientwarfarenpc:food_bundle" count="8"/><stack item="harvestcraft:zombiejerkyitem" count="8"/><stack item="soulus:bone_normal" count="4" /><stack item="minecraft:nether_wart" count="16"/><stack item="soulus:bone_meal_nether" count="24"/></p>
-			
-			<p>Hints on next page ...</p>
-		</page>
-		<page>
-			<title space='20'>HINTS</title>
-			<p space="10">The miner can mine the cobblegen if set-up correctly.</p>
-			<p space="10">The Breakroom is the only place employees will go to get food.</p>
-			<p space="10">Work your way through the Soulus book to spawn mobs. Once you have a few creatures, breeding may be faster and more reliable.</p>
-			<p space="10">Don't sweat the ingot making, you will have access to better resource gathering as you get more promotions.</p>
-			<p space="10">Always keep an eye on the Specials tab in the store. You never know when something good appears.</p>
-			<p space="10">Upgrading the Summoners is always a good idea!</p>			
-			<p space="10">You don't have to spend the cash on employees, you can always save it and use the automation tools provided by Ancient Warefare.</p>
-				
-		</page>
-			
-	  </chapter>
-  
+<book title="Employee Handbook" cover="gbook:company_logo" fontSize="0.6" home="0:0">
+
+    <conditions>
+        <stage-unlocked name="employee" stage="EMPLOYEE"/>
+        <stage-unlocked name="shift" stage="SHIFT_MANAGER"/>
+        <stage-unlocked name="assistant" stage="ASSITANT_MANAGER"/>
+        <stage-unlocked name="general" stage="GENERAL_MANAGER"/>
+        <stage-unlocked name="regional" stage="REGIONAL_MANAGER"/>
+        <stage-unlocked name="executive" stage="EXECUTIVE_DIRECTOR"/>
+        <stage-unlocked name="ceo" stage="CEO"/>
+        <stage-unlocked name="board" stage="BOARD_MEMBER"/>
+        <stage-unlocked name="chairman" stage="CHAIRMAN"/>
+        <stage-unlocked name="philanthropist" stage="PHILANTHROPIST"/>
+        <stage-unlocked name="tycoon" stage="FINANCIAL_TYCOON"/>
+        <stage-unlocked name="invester" stage="GLOBAL_INVESTER"/>
+        <stage-unlocked name="bank" stage="WORLD_BANK"/>
+        <stage-unlocked name="un" stage="UN_SCRETARY"/>
+        <stage-unlocked name="world" stage="WORLD_LEADER"/>
+        <stage-unlocked name="president" stage="WORLD_PRESIDENT"/>
+    </conditions>
+
+    <chapter id="table_contents">
+        <page>
+            <title space='30'>Skyblock Billionaire</title>
+            <link ref="trainee">Trainee</link>
+            <link condition="employee" ref="employee">Employee</link>
+            <link condition="shift" ref="shift">Shift Manager</link>
+            <link condition="assistant" ref="assistant">Assistant Manager</link>
+            <link condition="general" ref="general">General Manager</link>
+            <link condition="regional" ref="regional">Regional Manager</link>
+            <link condition="executive" ref="executive">Executive Director</link>
+            <link condition="ceo" ref="ceo">Chief Executive Officer</link>
+            <link condition="board" ref="board">Board Member</link>
+            <link condition="chairman" ref="chairman">Chairman of the Board</link>
+            <link condition="philanthropist" ref="philanthropist">Philanthropist</link>
+            <link condition="tycoon" ref="tycoon">Financial Tycoon</link>
+            <link condition="invester" ref="invester">Global Invester</link>
+            <link condition="bank" ref="bank">World Bank President</link>
+            <link condition="un" ref="un">UN Secretary-General</link>
+            <link condition="world" ref="world">World Leader</link>
+            <link condition="president" ref="president">President of the World</link>
+        </page>
+        <page>
+            <p space='10'>Good Morning.</p>
+            <p space='10'>This is your guide to becoming a BILLIONAIRE and even possibly PRESIDENT OF THE WORLD.</p>
+            <p space='10'>If this is your first time with us, please click on the Trainee link to begin your training.</p>
+            <p space='10'>Those of you who are already aquainted with the system, please click your desired link to see
+                more information on what is required of you.</p>
+            <p space='10'>Thank you for choosing, GWK, Inc. We hope you enjoy becoming a Billionaire.</p>
+        </page>
+    </chapter>
+    <chapter id="trainee">
+        <page>
+            <title space='20'>TRAINEE</title>
+            <p color="#4f5f98" space='10'>Ah, I've been lookin' for ya. Didn't know I'd find ya next to the pond.</p>
+            <p color="#4f5f98" space='10'>I'll cut right to the chase. I'm looking for some entreprenuer to look after
+                my company when I'm gone.</p>
+            <p color="#4f5f98" space='10'>I've got a nice little thing going here, but I need someone to take it to the
+                next level. I made a comfortable million dollars its time for someone else to take over.</p>
+            <p color="#4f5f98" space='10'>So this is your chance kid. Impress me, and you may just wind up with keys to
+                the kingdom.</p>
+            <p color="#4f5f98" space='10'>However, you aren't the only one vying for position. There are others wanting
+                to run my company, all very good candidates. If you're lucky, you might make it. Doubtful, though.</p>
+        </page>
+        <page>
+            <title space="20">REQUIREMENTS</title>
+            <p color="#4f5f98" space='10'>Well, since you're just standing here staring at this pond, might as well do
+                something while we're here.</p>
+            <p color="#4f5f98" space='10'>Prove you got what it takes kid and fish us up some supplies. We're going to
+                need a lot of dirt, some food, some sticks and a few droplets of water. We also gonna need some
+                saplings. You writing this all down?</p>
+            <title space='10'>GATHER</title>
+            <p space="10">
+                <stack item="minecraft:dirt" count="16"/>
+                <stack item="minecraft:apple" count="8"/>
+                <stack item="minecraft:fish" count="4"/>
+                <stack item="contenttweaker:item_water" count="4"/>
+                <stack item="minecraft:sapling" count="2"/>
+            </p>
+            <title space='10'>HINTS</title>
+            <p space="10">You can keep track of your progress from the Advancement Menu. And probably should keybind
+                that to 'L' or something.</p>
+            <p space="10">YOu can hold down shift to help plants and saplings grow. But be careful not to have an
+                accident!</p>
+        </page>
+
+    </chapter>
+    <chapter id="employee" condition="employee">
+        <page>
+            <title space='20'>Employee</title>
+            <p color="#4f5f98" space='10'>Well done, kid. But that was just the beginning. The hard work begins.</p>
+            <p color="#4f5f98" space='20'>Now that you're an employee, you are going to have learn to work. Grease those
+                elbows.</p>
+            <title space='20'>REQUIREMENTS</title>
+            <p color="#4f5f98" space='10'>First off, you're gonna need one of them cobble gens, which is just lava and
+                water.</p>
+            <p color="#4f5f98" space='10'>Next, is the gems. Those things are your ticket to greatness. Take some time
+                and learn how they work, or you are gonna regret it.</p>
+            <p color="#4f5f98" space='10'>Lastly, you're gonna be working in the dirt, making food to fill our bellies,
+                and later, line our pockets.</p>
+            <p color="#4f5f98" space='10'>Better get going, you're getting behind.</p>
+        </page>
+        <page>
+            <title space='20'>GATHER</title>
+            <p space="20">
+                <stack item="minecraft:cobblestone" count="64"/>
+                <stack item="harvestcraft:vegetablesoupitem" count="4"/>
+                <stack item="minecraft:bread" count="8"/>
+                <stack item="silentgems:gem" count="4"/>
+                <span>(any 4 stack)</span>
+            </p>
+            <title space='20'>TOOL UNLOCKS</title>
+            <p space="20">
+                <stack item="flintmod:knife_flint"/>
+                <stack item="flintmod:hoe_flint"/>
+                <stack item="flintmod:axe_flint"/>
+                <stack item="flintmod:pickaxe_flint"/>
+                <stack item="flintmod:spade_flint"/>
+                <stack item="contenttweaker:stone_hammer"/>
+                <stack item="harvestcraft:bakewareitem"/>
+                <stack item="harvestcraft:potitem"/>
+                <stack item="harvestcraft:mixingbowlitem"/>
+            </p>
+            <title space='20'>HINTS</title>
+            <p space="10">There are a few ways to get dirt, be sure to read the information tab in the JEI when you look
+                at the dirt recipe.</p>
+            <p space="10">Glowrose flowers can be grown with Glow Rose Fertilizer used on Grass. Check the JEI on how to
+                make grass!</p>
+            <p space="10">Mortars take a lot of work. You may not be able to operate them if you are too hungry.</p>
+        </page>
+
+    </chapter>
+    <chapter id="shift" condition="shift">
+        <page>
+            <title space='20'>Shift Manager</title>
+            <p color="#4f5f98" space='10'>Nice job, you're starting to smell like a good worker now. You know how to
+                hustle, but can you motivate others to work as hard?</p>
+            <p color="#4f5f98" space='20'>You've been promoted to a shift manager, which means you'll be overseeing
+                other employees to keep our industries running. I've given you enough capital to hire three employees
+                and a few industries. You'll also need to manage those angry customers, real zombies those are.</p>
+            <title space='20'>REQUIREMENTS</title>
+            <p color="#4f5f98" space='10'>You'll need to figure out how to summon some livestock for our production
+                lines and to feed the employees.</p>
+            <p color="#4f5f98" space='10'>To find more diverse foods, I've given you access to the local grocer. They've
+                agreed to a small exchange. It may take a bit for your supplies to arrive, just keep your eyes to the
+                skies!</p>
+        </page>
+        <page>
+            <p color="#4f5f98" space='10'>Finally, we'll need some rare materials from one of the hottest places I
+                know.</p>
+            <p color="#4f5f98" space='20'>What are you standing around reading for, get moving!</p>
+            <title space='20'>GATHER</title>
+            <p space="30">
+                <stack item="harvestcraft:pbandjitem" count="16"/>
+                <stack item="ancientwarfarenpc:food_bundle" count="8"/>
+                <stack item="harvestcraft:zombiejerkyitem" count="8"/>
+                <stack item="soulus:bone_normal" count="4"/>
+                <stack item="minecraft:nether_wart" count="16"/>
+                <stack item="soulus:bone_meal_nether" count="24"/>
+            </p>
+
+            <p>Hints on next page ...</p>
+        </page>
+        <page>
+            <title space='20'>HINTS</title>
+            <p space="10">The miner can mine the cobblegen if set-up correctly.</p>
+            <p space="10">The Breakroom is the only place employees will go to get food.</p>
+            <p space="10">Work your way through the Soulus book to spawn mobs. Once you have a few creatures, breeding
+                may be faster and more reliable.</p>
+            <p space="10">Don't sweat the ingot making, you will have access to better resource gathering as you get
+                more promotions.</p>
+            <p space="10">Always keep an eye on the Specials tab in the store. You never know when something good
+                appears.</p>
+            <p space="10">Upgrading the Summoners is always a good idea!</p>
+            <p space="10">You don't have to spend the cash on employees, you can always save it and use the automation
+                tools provided by Ancient Warefare.</p>
+
+        </page>
+    </chapter>
+    <chapter id="assistant" condition="assistant">
+        <page>
+            <title space='20'>Shift Manager</title>
+            <p color="#4f5f98" space='10'>.</p>
+            <title space='20'>REQUIREMENTS</title>
+        </page>
+        <page>
+            <title space='20'>GATHER</title>
+        </page>
+        <page>
+            <title space='20'>HINTS</title>
+
+        </page>
+    </chapter>
+    <chapter id="general" condition="general">
+        <page>
+            <title space='20'>Shift Manager</title>
+            <p color="#4f5f98" space='10'>.</p>
+            <title space='20'>REQUIREMENTS</title>
+        </page>
+        <page>
+            <title space='20'>GATHER</title>
+        </page>
+        <page>
+            <title space='20'>HINTS</title>
+
+        </page>
+    </chapter>
+    <chapter id="regional" condition="regional">
+        <page>
+            <title space='20'>Shift Manager</title>
+            <p color="#4f5f98" space='10'>.</p>
+            <title space='20'>REQUIREMENTS</title>
+        </page>
+        <page>
+            <title space='20'>GATHER</title>
+        </page>
+        <page>
+            <title space='20'>HINTS</title>
+
+        </page>
+    </chapter>
+    <chapter id="executive" condition="executive">
+        <page>
+            <title space='20'>Shift Manager</title>
+            <p color="#4f5f98" space='10'>.</p>
+            <title space='20'>REQUIREMENTS</title>
+        </page>
+        <page>
+            <title space='20'>GATHER</title>
+        </page>
+        <page>
+            <title space='20'>HINTS</title>
+
+        </page>
+    </chapter>
+    <chapter id="ceo" condition="ceo">
+        <page>
+            <title space='20'>Shift Manager</title>
+            <p color="#4f5f98" space='10'>.</p>
+            <title space='20'>REQUIREMENTS</title>
+        </page>
+        <page>
+            <title space='20'>GATHER</title>
+        </page>
+        <page>
+            <title space='20'>HINTS</title>
+
+        </page>
+    </chapter>
+    <chapter id="board" condition="board">
+        <page>
+            <title space='20'>Shift Manager</title>
+            <p color="#4f5f98" space='10'>.</p>
+            <title space='20'>REQUIREMENTS</title>
+        </page>
+        <page>
+            <title space='20'>GATHER</title>
+        </page>
+        <page>
+            <title space='20'>HINTS</title>
+
+        </page>
+    </chapter>
+    <chapter id="chairman" condition="chairman">
+        <page>
+            <title space='20'>Shift Manager</title>
+            <p color="#4f5f98" space='10'>.</p>
+            <title space='20'>REQUIREMENTS</title>
+        </page>
+        <page>
+            <title space='20'>GATHER</title>
+        </page>
+        <page>
+            <title space='20'>HINTS</title>
+
+        </page>
+    </chapter>
+    <chapter id="philanthropist" condition="philanthropist">
+        <page>
+            <title space='20'>Shift Manager</title>
+            <p color="#4f5f98" space='10'>.</p>
+            <title space='20'>REQUIREMENTS</title>
+        </page>
+        <page>
+            <title space='20'>GATHER</title>
+        </page>
+        <page>
+            <title space='20'>HINTS</title>
+
+        </page>
+    </chapter>
+    <chapter id="tycoon" condition="tycoon">
+        <page>
+            <title space='20'>Shift Manager</title>
+            <p color="#4f5f98" space='10'>.</p>
+            <title space='20'>REQUIREMENTS</title>
+        </page>
+        <page>
+            <title space='20'>GATHER</title>
+        </page>
+        <page>
+            <title space='20'>HINTS</title>
+
+        </page>
+    </chapter>
+    <chapter id="invester" condition="invester">
+        <page>
+            <title space='20'>Shift Manager</title>
+            <p color="#4f5f98" space='10'>.</p>
+            <title space='20'>REQUIREMENTS</title>
+        </page>
+        <page>
+            <title space='20'>GATHER</title>
+        </page>
+        <page>
+            <title space='20'>HINTS</title>
+
+        </page>
+    </chapter>
+    <chapter id="bank" condition="bank">
+        <page>
+            <title space='20'>Shift Manager</title>
+            <p color="#4f5f98" space='10'>.</p>
+            <title space='20'>REQUIREMENTS</title>
+        </page>
+        <page>
+            <title space='20'>GATHER</title>
+        </page>
+        <page>
+            <title space='20'>HINTS</title>
+
+        </page>
+    </chapter>
+    <chapter id="un" condition="un">
+        <page>
+            <title space='20'>Shift Manager</title>
+            <p color="#4f5f98" space='10'>.</p>
+            <title space='20'>REQUIREMENTS</title>
+        </page>
+        <page>
+            <title space='20'>GATHER</title>
+        </page>
+        <page>
+            <title space='20'>HINTS</title>
+
+        </page>
+    </chapter>
+    <chapter id="world" condition="world">
+        <page>
+            <title space='20'>Shift Manager</title>
+            <p color="#4f5f98" space='10'>.</p>
+            <title space='20'>REQUIREMENTS</title>
+        </page>
+        <page>
+            <title space='20'>GATHER</title>
+        </page>
+        <page>
+            <title space='20'>HINTS</title>
+
+        </page>
+    </chapter>
+    <chapter id="president" condition="president">
+        <page>
+            <title space='20'>Shift Manager</title>
+            <p color="#4f5f98" space='10'>.</p>
+            <title space='20'>REQUIREMENTS</title>
+        </page>
+        <page>
+            <title space='20'>GATHER</title>
+        </page>
+        <page>
+            <title space='20'>HINTS</title>
+
+        </page>
+    </chapter>
+
+
 </book>
