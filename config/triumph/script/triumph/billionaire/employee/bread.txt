@@ -1,0 +1,19 @@
+setTitle("Bread")
+
+setIcon(<minecraft:bread>)
+
+setDescription("Collect 8 Bread")
+
+addParent("triumph:billionaire/employee/root")
+
+
+//Criteria
+criteria = addCriteria("promotionEmployee", "minecraft:inventory_changed")
+criteria.addItem(<minecraft:bread, count:8~>);
+
+setShowToast(true)
+setAnnounceToChat(false)
+
+//Rewards
+
+visibleIf("triumph:billionaire/employee/root")

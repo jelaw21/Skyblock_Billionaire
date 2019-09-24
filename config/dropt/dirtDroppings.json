@@ -1,0 +1,161 @@
+{
+  "rules": [
+    {
+      "match": {
+        "blocks": {
+          "blocks": [
+            "minecraft:dirt:*"
+          ]
+        },
+        "harvester": {
+          "heldItemMainHand": {
+				"items": [
+				  "contenttweaker:wood_hammer"
+				]
+			}	
+        }
+      },
+      "drops": [
+        {
+          "selector": {
+            "weight": {
+              "value": 32
+            }
+          },
+          "item": {
+            "items": [
+              "soulus:dust_stone"
+            ],
+            "quantity": {
+              "min": 3,
+              "max": 6
+            }
+          }
+        },
+        {
+          "selector": {
+            "weight": {
+              "value": 10
+            }
+          },
+          "item": {
+            "items": [
+              "soulus:bone_chunk_normal"
+            ],
+            "quantity": {
+              "min": 1,
+              "max": 2
+            }
+          }
+        },
+        {
+          "selector": {
+            "weight": {
+              "value": 2
+            }
+          },
+          "item": {
+            "items": [
+              "minecraft:gunpowder"
+            ]
+          }
+        },
+		{
+          "selector": {
+            "weight": {
+              "value": 55
+            }
+          },
+          "item": {
+            "items": [
+              "earthworks:item_dirt"
+            ],
+            "quantity": {
+              "min": 1,
+              "max": 2
+            }
+          }
+        }
+      ]
+    },
+	{
+      "match": {
+        "blocks": {
+          "blocks": [
+            "soulus:fossil_dirt",
+			"soulus:fossil_dirt_fungal",
+			"soulus:fossil_dirt_frozen",
+			"soulus:fossil_dirt_ender"
+          ]
+        },      
+        "harvester": {
+          "heldItemMainHand": {
+				"items": [
+				  "contenttweaker:wood_hammer"
+				]
+			}	
+        }
+	  },
+	  "replaceStrategy": "ADD",
+      "drops": [
+        {
+          "item": {
+            "items": [
+              "earthworks:item_dirt"			  	  
+            ],
+            "quantity": {
+              "min": 3,
+              "max": 6
+            }
+          }
+        }
+      ]
+    },
+	{
+      "match": {
+        "blocks": {
+          "blocks": [
+            "minecraft:mycelium"
+          ]
+        },
+        "harvester": {
+          "heldItemMainHand": {
+				"items": [
+				  "contenttweaker:wood_hammer"
+				]
+			}	
+        }
+      },
+      "drops": [
+        {
+          "selector": {
+            "weight": {
+              "value": 60
+            }
+          },
+          "item": {
+            "items": [
+              "minecraft:brown_mushroom",
+			  "minecraft:red_mushroom"
+            ],
+            "quantity": {
+              "min": 1,
+              "max": 3
+            }
+          }
+        },
+        {
+          "selector": {
+            "weight": {
+              "value": 40
+            }
+          },
+          "item": {
+            "items": [
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}

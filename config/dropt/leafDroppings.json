@@ -1,0 +1,86 @@
+{
+  "rules": [
+    {
+      "match": {
+        "blocks": {
+          "blocks": [
+            "minecraft:leaves:0",
+			  "minecraft:leaves:1",
+			  "minecraft:leaves:2",
+			  "minecraft:leaves:3"
+          ]
+        }
+      },
+	  "replaceStrategy": "ADD",
+      "drops": [
+        {
+          "selector": {
+            "weight": {
+              "value": 70
+            }
+          },
+          "item": {
+            "items": [
+              "minecraft:apple"
+            ]
+          }
+        },
+		{
+          "selector": {
+            "weight": {
+              "value": 30
+            }
+          },
+          "item": {
+            "items": [
+			
+            ]
+          }
+        }
+	  ]
+    },
+	{
+      "match": {
+        "blocks": {
+          "blocks": [
+            "minecraft:leaves:0",
+			  "minecraft:leaves:1",
+			  "minecraft:leaves:2",
+			  "minecraft:leaves:3"
+          ]
+        },
+		"harvester": {
+		
+          "type": "REAL_PLAYER"
+        }
+      },
+	  "replaceStrategy": "ADD",
+      "drops": [
+        {
+          "selector": {
+            "weight": {
+              "value": 80
+            }
+          },
+          "item": {
+            "items": [
+              "minecraft:stick"
+            ]
+          }
+        },
+		{
+          "selector": {
+            "weight": {
+              "value": 20
+            }
+          },
+          "item": {
+            "items": [
+			
+            ]
+          }
+        }
+	  ]
+    }
+  ]
+}

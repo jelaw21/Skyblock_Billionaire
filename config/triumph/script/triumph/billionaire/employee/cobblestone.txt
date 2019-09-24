@@ -1,0 +1,19 @@
+setTitle("Cobblestone")
+
+setIcon(<minecraft:cobblestone>)
+
+setDescription("Collect 64 Cobblestone")
+
+addParent("triumph:billionaire/employee/root")
+
+
+//Criteria
+criteria = addCriteria("promotionEmployee", "minecraft:inventory_changed")
+criteria.addItem(<minecraft:cobblestone, count:64~>);
+
+setShowToast(true)
+setAnnounceToChat(false)
+
+//Rewards
+
+visibleIf("triumph:billionaire/employee/root")

@@ -1,0 +1,11 @@
+mods.chisel.Carving.addVariation("stonebrick", <minecraft:stone:1>);
+mods.chisel.Carving.addVariation("stonebrick", <minecraft:stone:3>);
+mods.chisel.Carving.addVariation("stonebrick", <minecraft:stone:5>);
+mods.chisel.Carving.addVariation("stonebrick", <notenoughroofs:slate>);
+mods.chisel.Carving.addVariation("stonebrick", <earthworks:block_slate_purple>);
+mods.chisel.Carving.addVariation("stonebrick", <earthworks:block_slate_green>);
+mods.chisel.Carving.addVariation("stonebrick", <earthworks:block_slate>);
+mods.chisel.Carving.addVariation("stonebrick", <chisel:marble2:7>);
+mods.chisel.Carving.addVariation("stonebrick", <chisel:basalt2:7>);
+mods.chisel.Carving.addVariation("stonebrick", <chisel:limestone2:7>);
+mods.chisel.Carving.addVariation("dirt", <earthworks:block_chalk>);

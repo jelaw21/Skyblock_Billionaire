@@ -1,0 +1,22 @@
+setTitle("TRAINEE")
+//setTranslatedTitle("advancements.stage0.root.title")
+
+setIcon(<minecraft:skull:3>)
+
+setDescription("Just a pup!")
+//setTranslatedDescription("advancements.stage0.root.description")
+
+setBackground("minecraft:textures/blocks/dirt.png")
+
+setShowToast(false)
+
+setAnnounceToChat(false)
+
+setRequirements("any")
+
+//Criteria
+addCriteria("inventoryChange", "minecraft:inventory_changed")
+addCriteria("location", "minecraft:location")
+
+//Rewards
+setRewardFunction("billionaire:trainee")

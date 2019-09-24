@@ -1,0 +1,216 @@
+/*{
+    "targetBlock": "<namespace>:<block>:<metadata>",      // The block that is interacted with must match this to activate this block.
+    "heldItem": "<namespace>:<item>:<metadata>",          // The player must have this item in their hand.
+    "replacementBlock": "<namespace>:<block>:<metadata>", // If this interaction replaces the target block, it replaces with this. (optional)
+    "replacementChance": "<x>:<y>",                       // If this interaction replaces the target block, it has x in y chances to do so. (optional)
+    "dropItem": "<namespace>:<item>:<metadata>",          // If this interaction drops an item, it drops this. (optional)
+    "dropOnlyOnSuccess": "<true/false>",                  // If this interaction drops an item, setting this to true only allows the drop if block replacement was successful. (optional)
+    "dropChance": "<x>:<y>",                              // If this interaction drops an item, it has x in y chances to do so. (optional)
+    "dropCount": "<x>:<y>",                               // If this interactions drops an item, it drops between x and y (y can be left out for an exact amount). (optional)
+    "damage": "<x>",                                      // If this interaction damages the hand item, it does this much damage. (optional)
+    "damageOnlyOnSuccess": "<true/false>",                // If this interaction damages the hand item, setting this to true only allows the damage if block replacement was successful. (optional)
+    "damageChance": "<x>:<y>",                            // If this interaction damages the hand item, it has x in y chances to do so. (optional),
+    "particleType": "<particletype>",                     // If this interaction emits particles, it emits these particles. (optional),
+    "particleCount": "<x>:<y>"                            // If this interaction emits particles, it emits between x and y (y can be left out for an exact amount). (optional)
+  }*/  
+[
+	{
+		"targetBlock": "minecraft:cobblestone:0",                   
+		"heldItem": "silentgems:craftingmaterial:0",
+		"replacementBlock": "silentgems:essenceore:0",	
+		"damage": "1",
+		"particleType": "largesmoke",
+		"particleCount": "10:20"                                     
+	},
+	{
+		"targetBlock": "silentgems:essenceore:0",                   
+		"heldItem": "powderpower:powderiron:0",
+		"replacementBlock": "minecraft:iron_ore:0",	
+		"damage": "1",
+		"particleType": "largesmoke",
+		"particleCount": "10:20"                                      
+	},
+	{
+		"targetBlock": "silentgems:essenceore:0",                   
+		"heldItem": "powderpower:powdergold:0",
+		"replacementBlock": "minecraft:gold_ore:0",	
+		"damage": "1",
+		"particleType": "largesmoke",
+		"particleCount": "10:20"                                      
+	},
+	{
+		"targetBlock": "silentgems:essenceore:0",                   
+		"heldItem": "powderpower:powderlapis:0",
+		"replacementBlock": "minecraft:lapis_ore:0",	
+		"damage": "1",
+		"particleType": "largesmoke",
+		"particleCount": "10:20"                                      
+	},
+	{
+		"targetBlock": "silentgems:essenceore:0",                   
+		"heldItem": "chisel:block_charcoal2:1",
+		"replacementBlock": "minecraft:coal_ore:0",	
+		"damage": "1",
+		"particleType": "largesmoke",
+		"particleCount": "10:20"                                      
+	},
+	{
+		"targetBlock": "silentgems:essenceore:0",                   
+		"heldItem": "powderpower:powderdiamond:0",
+		"replacementBlock": "minecraft:diamond_ore:0",	
+		"damage": "1",
+		"particleType": "largesmoke",
+		"particleCount": "10:20"                                      
+	},
+	{
+		"targetBlock": "silentgems:essenceore:0",                   
+		"heldItem": "powderpower:powdernetherquartz:0",
+		"replacementBlock": "minecraft:quartz_ore:0",	
+		"damage": "1",
+		"particleType": "largesmoke",
+		"particleCount": "10:20"                                      
+	},
+	{
+		"targetBlock": "silentgems:essenceore:0",                   
+		"heldItem": "powderpower:powderemerald:0",
+		"replacementBlock": "minecraft:emerald_ore:0",	
+		"damage": "1",
+		"particleType": "largesmoke",
+		"particleCount": "10:20"                                      
+	},
+	{
+		"targetBlock": "silentgems:essenceore:0",                   
+		"heldItem": "powderpower:powderredstone:0",
+		"replacementBlock": "minecraft:redstone_ore:0",	
+		"damage": "1",
+		"particleType": "largesmoke",
+		"particleCount": "10:20"                                      
+	},
+	{
+		"targetBlock": "silentgems:essenceore:0",                   
+		"heldItem": "silentgems:craftingmaterial:0",
+		"replacementBlock": "mysticalagriculture:prosperity_ore:0",	
+		"damage": "1",
+		"particleType": "largesmoke",
+		"particleCount": "10:20"                                      
+	},
+	{
+		"targetBlock": "silentgems:essenceore:0",                   
+		"heldItem": "silentgems:glowrosefertilizer:0",
+		"replacementBlock": "silentgems:multi_gem_ore_classic:0",	
+		"damage": "1",
+		"particleType": "largesmoke",
+		"particleCount": "10:20"                                      
+	},
+	{
+		"targetBlock": "silentgems:multi_gem_ore_classic:0",                   
+		"heldItem": "minecraft:blaze_powder:0",
+		"replacementBlock": "silentgems:multi_gem_ore_dark:0",	
+		"damage": "1",
+		"particleType": "largesmoke",
+		"particleCount": "10:20"                                      
+	},
+	{
+		"targetBlock": "silentgems:multi_gem_ore_dark:0",                   
+		"heldItem": "boneappetit:ender_bone_meal:0",
+		"replacementBlock": "silentgems:multi_gem_ore_light:0",	
+		"damage": "1",
+		"particleType": "largesmoke",
+		"particleCount": "10:20"                                      
+	},
+	{
+		"targetBlock": "minecraft:iron_ore:0",                   
+		"heldItem": "thermalfoundation:material:1024",
+		"replacementBlock": "thermalfoundation:ore:0",	
+		"damage": "1",
+		"particleType": "largesmoke",
+		"particleCount": "10:20"                                      
+	},
+	{
+		"targetBlock": "minecraft:gold_ore:0",                   
+		"heldItem": "thermalfoundation:material:1024",
+		"replacementBlock": "thermalfoundation:ore:5",	
+		"damage": "1",
+		"particleType": "largesmoke",
+		"particleCount": "10:20"                                      
+	},
+	{
+		"targetBlock": "minecraft:lapis_ore:0",                   
+		"heldItem": "thermalfoundation:material:1024",
+		"replacementBlock": "thermalfoundation:ore:3",	
+		"damage": "1",
+		"particleType": "largesmoke",
+		"particleCount": "10:20"                                      
+	},
+	{
+		"targetBlock": "minecraft:coal_ore:0",                   
+		"heldItem": "thermalfoundation:material:1024",
+		"replacementBlock": "thermalfoundation:ore:1",	
+		"damage": "1",
+		"particleType": "largesmoke",
+		"particleCount": "10:20"                                      
+	},
+	{
+		"targetBlock": "minecraft:diamond_ore:0",                   
+		"heldItem": "thermalfoundation:material:1024",
+		"replacementBlock": "thermalfoundation:ore:6",	
+		"damage": "1",
+		"particleType": "largesmoke",
+		"particleCount": "10:20"                                      
+	},
+	{
+		"targetBlock": "silentgems:essenceore:0",                   
+		"heldItem": "thermalfoundation:material:1024",
+		"replacementBlock": "thermalfoundation:ore:2",	
+		"damage": "1",
+		"particleType": "largesmoke",
+		"particleCount": "10:20"                                      
+	},
+	{
+		"targetBlock": "minecraft:emerald_ore:0",                   
+		"heldItem": "thermalfoundation:material:1024",
+		"replacementBlock": "thermalfoundation:ore:8",	
+		"damage": "1",
+		"particleType": "largesmoke",
+		"particleCount": "10:20"                                      
+	},
+	{
+		"targetBlock": "minecraft:redstone_ore:0",                   
+		"heldItem": "thermalfoundation:material:1024",
+		"replacementBlock": "thermalfoundation:ore:4",	
+		"damage": "1",
+		"particleType": "largesmoke",
+		"particleCount": "10:20"                                      
+	},
+	{
+		"targetBlock": "mysticalagriculture:prosperity_ore:0",                   
+		"heldItem": "thermalfoundation:material:1024",
+		"replacementBlock": "thermalfoundation:ore:7",	
+		"damage": "1",
+		"particleType": "largesmoke",
+		"particleCount": "5:10"                                      
+	},
+	{
+		"targetBlock": "minecraft:end_stone:0",                   
+		"heldItem": "silentgems:craftingmaterial:0",
+		"replacementBlock": "contenttweaker:chaos_endstone:0",	
+		"damage": "1",
+		"particleType": "largesmoke",
+		"particleCount": "5:10"                                      
+	},
+	{
+		"targetBlock": "contenttweaker:chaos_endstone:0",                   
+		"heldItem": "powderpower:powderender:0",
+		"replacementBlock": "silentgems:essenceore:1",	
+		"damage": "1",
+		"particleType": "largesmoke",
+		"particleCount": "5:10"                                      
+	}
+	
+  
+  
+  
+  
+  
+  
+]

@@ -1,0 +1,5 @@
+execute @p ~ ~ ~ gamestage silentadd @p SHIFT_MANAGER
+title @p subtitle "PROMOTION EARNED"
+title @p title "SHIFT MANAGER - SEE HANDBOOK"
+ranks set @p shift_manager
+give @p contenttweaker:backpack

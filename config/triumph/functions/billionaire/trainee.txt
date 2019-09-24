@@ -1,0 +1,5 @@
+execute @p ~ ~ ~ gamestage silentadd @p TRAINEE
+title @p subtitle "PROMOTION EARNED"
+title @p title "TRAINEE - SEE HANDBOOK"
+give @p gbook:guidebook 1 0 {Book:"gbook:employee_handbook.xml"}
+give @p thermalfoundation:tool.fishing_rod_copper 1 0 {display:{Name:"Papa Law's Epic Rod"}, ench: [{lvl: 5, id: 62}, {lvl: 6, id: 34}], RepairCost: 0}

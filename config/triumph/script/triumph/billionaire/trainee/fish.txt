@@ -1,0 +1,18 @@
+setTitle("Fish")
+
+setIcon(<minecraft:fish>)
+
+setDescription("Collect 4 Fish")
+
+addParent("triumph:billionaire/trainee/root")
+
+//Criteria
+fish = addCriteria("promotionEmployee", "minecraft:inventory_changed")
+fish.addItem(<minecraft:fish, count:4~>)
+
+setShowToast(true)
+setAnnounceToChat(false)
+
+//Rewards
+
+visibleIf("triumph:billionaire/trainee/root")

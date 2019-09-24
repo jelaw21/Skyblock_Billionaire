@@ -1,0 +1,19 @@
+{
+	"id": "prismarine",
+	"inputs": [
+		"ore:blockPrismarine"
+	],
+	"output": "minecraft:prismarine_shard",
+	"diggableBlocks": [
+		"earthworks:block_rammed_earth"
+	],
+	"renderBlock": "minecraft:prismarine",
+	"validDimensions": [-1,
+		0,
+		1
+	],
+	"maxHealth": 15.0,
+	"movementSpeed": 0.30,
+	"armorAmount": 6,
+	"digTickDelay": 2400
+}

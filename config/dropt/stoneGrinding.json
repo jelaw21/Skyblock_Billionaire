@@ -1,0 +1,283 @@
+{
+  "rules": [
+    {
+      "match": {
+        "blocks": {
+          "blocks": [
+			"minecraft:cobblestone"
+            
+          ]
+        },
+		"dimensions":{
+			"ids":[0]
+		},
+		"harvester":{
+			"gamestages":{
+				"type":"BLACKLIST",
+				"require":"ALL",
+				"stages":[
+									
+				]
+			},
+			"heldItemMainHand": {
+				"items": [
+				  "contenttweaker:stone_hammer"
+				]
+			}			
+		}		
+      },
+      "drops": [ 
+		{
+          "item": {
+            "items": [
+              "minecraft:gravel"
+            ]
+          }
+        }
+      ]
+	},
+	{
+      "match": {
+        "blocks": {
+          "blocks": [
+			"minecraft:gravel"
+            
+          ]
+        },
+		"dimensions":{
+			"ids":[0]
+		},
+		"harvester":{
+			"gamestages":{
+				"type":"BLACKLIST",
+				"require":"ALL",
+				"stages":[
+									
+				]
+			},
+			"heldItemMainHand": {
+				"items": [
+				  "contenttweaker:stone_hammer"
+				]
+			}			
+		}		
+      },
+      "drops": [ 
+		{
+          "selector": {
+            "weight": {
+              "value": 20
+            }
+          },
+          "item": {
+            "items": [
+              "minecraft:flint"
+            ],
+			"quantity": {
+              "min": 1,
+              "max": 3
+            }
+          }
+        },
+        {
+          "selector": {
+            "weight": {
+              "value": 80
+            }
+          },
+          "item": {
+            "items": [
+              "minecraft:sand"
+            ]
+          }
+        }
+      ]
+	},
+	{
+      "match": {
+        "blocks": {
+          "blocks": [
+			"minecraft:cobblestone"
+            
+          ]
+        },
+		"dimensions":{
+			"ids":[0]
+		},
+		"harvester":{
+			"gamestages":{
+				"type":"BLACKLIST",
+				"require":"ALL",
+				"stages":[
+									
+				]
+			},
+			"heldItemMainHand": {
+				"items": [
+				  "contenttweaker:iron_hammer"
+				]
+			}			
+		}		
+      },
+      "drops": [ 
+		{
+          "item": {
+            "items": [
+              "minecraft:gravel"
+            ]
+          }
+        }
+      ]
+	},
+	{
+      "match": {
+        "blocks": {
+          "blocks": [
+			"minecraft:gravel"
+            
+          ]
+        },
+		"dimensions":{
+			"ids":[0]
+		},
+		"harvester":{
+			"gamestages":{
+				"type":"BLACKLIST",
+				"require":"ALL",
+				"stages":[
+									
+				]
+			},
+			"heldItemMainHand": {
+				"items": [
+				  "contenttweaker:iron_hammer"
+				]
+			}			
+		}		
+      },
+      "drops": [ 
+		{
+          "selector": {
+            "weight": {
+              "value": 25
+            }
+          },
+          "item": {
+            "items": [
+              "minecraft:flint"
+            ],
+			"quantity": {
+              "min": 2,
+              "max": 4
+            }
+          }
+        },
+        {
+          "selector": {
+            "weight": {
+              "value": 70
+            }
+          },
+          "item": {
+            "items": [
+              "minecraft:sand"
+            ]
+          }
+        }
+      ]
+	},
+	{
+      "match": {
+        "blocks": {
+          "blocks": [
+			"minecraft:cobblestone"
+            
+          ]
+        },
+		"dimensions":{
+			"ids":[0]
+		},
+		"harvester":{
+			"gamestages":{
+				"type":"BLACKLIST",
+				"require":"ALL",
+				"stages":[
+									
+				]
+			},
+			"heldItemMainHand": {
+				"items": [
+				  "contenttweaker:diamond_hammer"
+				]
+			}			
+		}		
+      },
+      "drops": [ 
+		{
+          "item": {
+            "items": [
+              "minecraft:gravel"
+            ]
+          }
+        }
+      ]
+	},
+	{
+      "match": {
+        "blocks": {
+          "blocks": [
+			"minecraft:gravel"
+            
+          ]
+        },
+		"dimensions":{
+			"ids":[0]
+		},
+		"harvester":{
+			"gamestages":{
+				"type":"BLACKLIST",
+				"require":"ALL",
+				"stages":[
+									
+				]
+			},
+			"heldItemMainHand": {
+				"items": [
+				  "contenttweaker:diamond_hammer"
+				]
+			}			
+		}		
+      },
+      "drops": [ 
+		{
+          "selector": {
+            "weight": {
+              "value": 25
+            }
+          },
+          "item": {
+            "items": [
+              "minecraft:flint"
+            ],
+			"quantity": {
+              "min": 3,
+              "max": 6
+            }
+          }
+        },
+        {
+          "selector": {
+            "weight": {
+              "value": 75
+            }
+          },
+          "item": {
+            "items": [
+              "minecraft:sand"
+            ]
+          }
+        }
+      ]
+	}
+  ]
+}

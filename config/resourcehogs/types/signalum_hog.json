@@ -1,0 +1,19 @@
+{
+	"id": "signalum",
+	"inputs": [
+		"ore:blockSignalum"
+	],
+	"output": "thermalfoundation:material:165",
+	"diggableBlocks": [
+		"earthworks:block_rammed_earth"
+	],
+	"renderBlock": "thermalfoundation:storage_alloy:5",
+	"validDimensions": [-1,
+		0,
+		1
+	],
+	"maxHealth": 15.0,
+	"movementSpeed": 0.30,
+	"armorAmount": 6,
+	"digTickDelay": 2400
+}
