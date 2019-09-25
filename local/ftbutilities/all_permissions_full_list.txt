@@ -1,4 +1,4 @@
-7226 nodes in total
+7227 nodes in total
 Modifying this file won't have any effect, edit ranks.txt!
 
 admin_panel.ftbutilities.crash_reports.delete: OP
@@ -3851,6 +3851,7 @@ ftbutilities.claims.item.contenttweaker.emerald_strip: ALL
 ftbutilities.claims.item.contenttweaker.ender_strip: ALL
 ftbutilities.claims.item.contenttweaker.enderium_strip: ALL
 ftbutilities.claims.item.contenttweaker.eu2: ALL
+ftbutilities.claims.item.contenttweaker.fooldollarone: ALL
 ftbutilities.claims.item.contenttweaker.gemium: ALL
 ftbutilities.claims.item.contenttweaker.glowstone_strip: ALL
 ftbutilities.claims.item.contenttweaker.gold_strip: ALL

@@ -291,3 +291,21 @@ block.setToolClass("pickaxe");
 block.setToolLevel(2);
 block.setBlockSoundType(<soundtype:stone>);
 block.register();
+
+var investment = VanillaFactory.createItem("fooldollarone");
+investment.maxStackSize = 64;
+investment.maxDamage = 5000;
+investment.onItemUpdate = function(itemStack, world, owner, slot, isSelected) {
+
+    if(world.getWorldTime()%20 == 0){
+
+        var total = itemStack.tag.Total as int;
+        print("Old Tag: " + total);
+        total = total + 1;
+        print("Tag increase: " + total);
+        itemStack.updateTag({Total: total});
+        print("New Tag: " + itemStack.tag.Total);
+    }
+    return;
+};
+investment.register();
