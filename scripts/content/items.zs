@@ -293,19 +293,18 @@ block.setBlockSoundType(<soundtype:stone>);
 block.register();
 
 var investment = VanillaFactory.createItem("fooldollarone");
-investment.maxStackSize = 64;
+investment.maxStackSize = 1;
 investment.maxDamage = 5000;
 investment.onItemUpdate = function(itemStack, world, owner, slot, isSelected) {
+        var time = world.getWorldInfo();
+        if(time.getWorldTotalTime()%12000 == 0){
 
-    if(world.getWorldTime()%20 == 0){
+            var total = itemStack.maxDamage as float;
+            total = total*1.01;
+            itemStack.maxDamage = total as int;
+            itemStack.displayName = "IRA Value: $" + itemStack.maxDamage;
+        }
 
-        var total = itemStack.tag.Total as int;
-        print("Old Tag: " + total);
-        total = total + 1;
-        print("Tag increase: " + total);
-        itemStack.updateTag({Total: total});
-        print("New Tag: " + itemStack.tag.Total);
-    }
     return;
 };
 investment.register();

@@ -330,8 +330,21 @@ recipes.addShapeless("split_banks", bank, [<contenttweaker:split_bill>.reuse(), 
 		sum = sum / 2.0;
 		sum = round(sum);
 		return out.updateTag({Total: sum}).withLore(["$"+ sum])*2;
-			
+
 	
+}, null);
+
+recipes.addShapeless("redeem_ira", bank, [bank.marked("bag1"),<contenttweaker:fooldollarone>.marked("bag2")],
+
+	function(out, ins, cInfo){
+
+		var bagTag1 = ins.bag1.tag.Total.asFloat();
+		var bagTag2 = ins.bag2.maxDamage as float;
+		var sum=bagTag1 + bagTag2;
+		sum = round(sum);
+		return out.updateTag({Total: sum}).withLore(["$"+ sum]);
+
+
 }, null);
 
 function round(a as float) as float{
