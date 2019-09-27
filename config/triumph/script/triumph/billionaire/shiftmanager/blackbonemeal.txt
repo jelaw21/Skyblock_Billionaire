@@ -1,0 +1,19 @@
+setTitle("Black Bone Meal")
+
+setIcon(<soulus:bone_meal_nether>)
+
+setDescription("Collect 24 Blackened Bone Meal")
+
+addParent("triumph:billionaire/shiftmanager/root")
+
+
+//Criteria
+criteria = addCriteria("promotion", "minecraft:inventory_changed")
+criteria.addItem(<soulus:bone_meal_nether, count:24~>)
+
+setShowToast(true)
+setAnnounceToChat(false)
+
+//Rewards
+
+visibleIf("triumph:billionaire/shiftmanager/root")

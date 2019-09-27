@@ -258,7 +258,7 @@ setRequirements:
     Usage:
         Requirements type, criteria exception array
     Notes:
-        This is a helper method designed to make setting criteria requirements easier. If set to "all" this will make all criteria required for completion. If set to "any" this will make any criteria complete the advancement. If set to "any" the array of criteria exceptions is used to configure the requirements where all exceptions are required plus any other single criteria.
+        This is a helper method designed to make setting criteria requirements easier. If set to "all" this will make all criteria required for completion. If set to "any" this will make any criteria complete the advancement. If set to "any" the array of criteria exceptions is used to configure the requirementsF
 
 addRequirements:
     Arguments:

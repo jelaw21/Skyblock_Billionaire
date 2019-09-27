@@ -1,0 +1,19 @@
+setTitle("Food Bundle")
+
+setIcon(<ancientwarfarenpc:food_bundle>)
+
+setDescription("Collect 8 Food Bundles")
+
+addParent("triumph:billionaire/shiftmanager/root")
+
+
+//Criteria
+criteria = addCriteria("promotion", "minecraft:inventory_changed")
+criteria.addItem(<ancientwarfarenpc:food_bundle, count:8~>);
+
+setShowToast(true)
+setAnnounceToChat(false)
+
+//Rewards
+
+visibleIf("triumph:billionaire/shiftmanager/root")

@@ -8,7 +8,7 @@ import mods.contenttweaker.IItemRightClick;
 import mods.contenttweaker.Commands;
 
 var image = mods.contenttweaker.ResourceLocation.create("contenttweaker:items/modManual");
-
+var backpack = mods.contenttweaker.ResourceLocation.create("contenttweaker:items/backpack");
 
 var modbook = VanillaFactory.createItem("agricraft");
 modbook.maxStackSize = 1;
@@ -60,6 +60,7 @@ modbook.textureLocation = image;
 modbook.rarity = "rare";
 modbook.itemRightClick = function(stack, world, player, hand) {
     Commands.call("gamestage add @s MYSTICAL_AG", player, world, false, true);
+    Commands.call("gamestage remove @s ASSISTANT_MANAGER_STORE", player, world, false, true);
 	stack.shrink(1);
     return "Pass";
 };
@@ -82,6 +83,7 @@ modbook.textureLocation = image;
 modbook.rarity = "rare";
 modbook.itemRightClick = function(stack, world, player, hand) {
     Commands.call("gamestage add @s RESOURCE_HOGS", player, world, false, true);
+    Commands.call("gamestage remove @s ASSISTANT_MANAGER_STORE", player, world, false, true);
 	stack.shrink(1);
     return "Pass";
 };
@@ -126,6 +128,7 @@ modbook.textureLocation = image;
 modbook.rarity = "rare";
 modbook.itemRightClick = function(stack, world, player, hand) {
     Commands.call("gamestage add @s RESOURCE_TREES", player, world, false, true);
+    Commands.call("gamestage remove @s ASSISTANT_MANAGER_STORE", player, world, false, true);
 	stack.shrink(1);
     return "Pass";
 };
@@ -272,9 +275,10 @@ var water = VanillaFactory.createItem("item_water");
 water.maxStackSize = 64;
 water.register();
 
-var backpack = VanillaFactory.createItem("backpack");
-backpack.rarity="uncommon";
-backpack.itemRightClick = function(stack, world, player, hand) {
+var shift = VanillaFactory.createItem("shift_kit");
+shift.rarity="uncommon";
+shift.textureLocation = backpack;
+shift.itemRightClick = function(stack, world, player, hand) {
     Commands.call("give @s ancientwarfare:manual", player, world, false, true);
     Commands.call("give @s modcurrency:banknote 3 4", player, world, false, true);
     Commands.call("give @s modcurrency:banknote 1 3", player, world, false, true);
@@ -282,7 +286,17 @@ backpack.itemRightClick = function(stack, world, player, hand) {
 	stack.shrink(1);
     return "Pass";
 };
-backpack.register();
+shift.register();
+
+var assistant = VanillaFactory.createItem("assistant_kit");
+assistant.rarity="uncommon";
+assistant.textureLocation = backpack;
+assistant.itemRightClick = function(stack, world, player, hand) {
+    Commands.call("give @s contenttweaker:coupon", player, world, false, true);
+	stack.shrink(1);
+    return "Pass";
+};
+assistant.register();
 
 var block = VanillaFactory.createBlock("chaos_endstone", <blockmaterial:rock>);
 block.setBlockHardness(3.0);
@@ -291,6 +305,11 @@ block.setToolClass("pickaxe");
 block.setToolLevel(2);
 block.setBlockSoundType(<soundtype:stone>);
 block.register();
+
+var coupon = VanillaFactory.createItem("coupon");
+coupon.maxStackSize = 1;
+coupon.rarity="rare";
+coupon.register();
 
 /*var investment = VanillaFactory.createItem("fooldollarone");
 investment.maxStackSize = 1;
