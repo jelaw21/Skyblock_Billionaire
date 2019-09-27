@@ -8,7 +8,7 @@ addParent("triumph:billionaire/trainee/root")
 
 //Criteria
 apple = addCriteria("promotionEmployee", "minecraft:inventory_changed")
-apple.addItem(<minecraft:sapling, meta:0-4, count:2~>)
+apple.addItem(<minecraft:sapling, meta:0~4, count:2~>)
 
 setShowToast(true)
 setAnnounceToChat(false)

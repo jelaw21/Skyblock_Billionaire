@@ -1,0 +1,22 @@
+setTitle("SHIFT MANAGER")
+//setTranslatedTitle("advancements.stage0.root.title")
+
+setIcon(<minecraft:skull:3>)
+
+setDescription("Time to work on your people skills.")
+//setTranslatedDescription("advancements.stage0.root.description")
+
+setBackground("minecraft:textures/blocks/sand.png")
+
+setShowToast(false)
+
+setAnnounceToChat(false)
+
+setRequirements("any")
+
+//Criteria
+criteria = addCriteria("completedEmployee", "triumph:completed_advancement")
+criteria.setString("triumph:billionaire/employee/promotion")
+
+//Rewards
+setRewardFunction("billionaire:shift_manager")

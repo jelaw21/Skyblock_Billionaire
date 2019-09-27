@@ -1,0 +1,22 @@
+setTitle("ASSISTANT MANAGER")
+//setTranslatedTitle("advancements.stage0.root.title")
+
+setIcon(<minecraft:skull:3>)
+
+setDescription("Increase Production!")
+//setTranslatedDescription("advancements.stage0.root.description")
+
+setBackground("minecraft:textures/blocks/gravel.png")
+
+setShowToast(false)
+
+setAnnounceToChat(false)
+
+setRequirements("any")
+
+//Criteria
+criteria = addCriteria("completedShift", "triumph:completed_advancement")
+criteria.setString("triumph:billionaire/shiftmanager/promotion")
+
+//Rewards
+setRewardFunction("billionaire:assistant_manager")

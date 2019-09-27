@@ -16,3 +16,6 @@ ftbutilities.chat.name_format: "[&7EMPLOYEE&r]<{name}>:"
 
 [shift_manager]
 ftbutilities.chat.name_format: "[SHIFT MANAGER]<{name}>:"
+
+[assistant]
+ftbutilities.chat.name_format: "[&3SHIFT MANAGER&r]<{name}>:"
