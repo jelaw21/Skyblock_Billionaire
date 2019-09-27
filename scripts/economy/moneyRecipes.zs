@@ -13,4 +13,3 @@ recipes.addShapeless("anti_twenty",<contenttweaker:anti_dollartwenty>, [<modcurr
 recipes.addShapeless("anti_fifty",<contenttweaker:anti_dollarfifty>, [<modcurrency:banknote:4>, <contenttweaker:split_bill>.reuse()]);
 recipes.addShapeless("anti_hundred",<contenttweaker:anti_dollaronehundred> , [<modcurrency:banknote:5>, <contenttweaker:split_bill>.reuse()]);
 recipes.addShapeless("anti_bill", <contenttweaker:split_bill> , [<minecraft:iron_ingot>, <modcurrency:banknote:1>.reuse()]);
-recipes.addShapeless("ira", <contenttweaker:fooldollarone>,[<minecraft:stick>]);

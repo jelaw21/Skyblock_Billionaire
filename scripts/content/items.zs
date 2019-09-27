@@ -292,7 +292,7 @@ block.setToolLevel(2);
 block.setBlockSoundType(<soundtype:stone>);
 block.register();
 
-var investment = VanillaFactory.createItem("fooldollarone");
+/*var investment = VanillaFactory.createItem("fooldollarone");
 investment.maxStackSize = 1;
 investment.maxDamage = 5000;
 investment.onItemUpdate = function(itemStack, world, owner, slot, isSelected) {
@@ -307,4 +307,4 @@ investment.onItemUpdate = function(itemStack, world, owner, slot, isSelected) {
 
     return;
 };
-investment.register();
+investment.register();*/

@@ -334,7 +334,7 @@ recipes.addShapeless("split_banks", bank, [<contenttweaker:split_bill>.reuse(), 
 	
 }, null);
 
-recipes.addShapeless("redeem_ira", bank, [bank.marked("bag1"),<contenttweaker:fooldollarone>.marked("bag2")],
+/*recipes.addShapeless("redeem_ira", bank, [bank.marked("bag1"),<contenttweaker:fooldollarone>.marked("bag2")],
 
 	function(out, ins, cInfo){
 
@@ -345,7 +345,7 @@ recipes.addShapeless("redeem_ira", bank, [bank.marked("bag1"),<contenttweaker:fo
 		return out.updateTag({Total: sum}).withLore(["$"+ sum]);
 
 
-}, null);
+}, null);*/
 
 function round(a as float) as float{
     var sum = (a*100) + 0.5;
