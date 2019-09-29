@@ -36,7 +36,7 @@ mods.ItemStages.addItemStage("GENERAL_MANAGER",<contenttweaker:anti_coin_2>);
 mods.ItemStages.addItemStage("GENERAL_MANAGER",<contenttweaker:anti_coin_3>);
 mods.ItemStages.addItemStage("GENERAL_MANAGER",<contenttweaker:anti_coin_4>);
 mods.ItemStages.addItemStage("GENERAL_MANAGER",<contenttweaker:anti_dollarfive>);
-mods.ItemStages.addItemStage("GENERAL_MANAGER",<contenttweaker:anti_dollarten);
+mods.ItemStages.addItemStage("GENERAL_MANAGER",<contenttweaker:anti_dollarten>);
 mods.ItemStages.addItemStage("GENERAL_MANAGER",<contenttweaker:anti_dollartwenty>);
 mods.ItemStages.addItemStage("GENERAL_MANAGER",<contenttweaker:anti_dollarfifty>);
 mods.ItemStages.addItemStage("GENERAL_MANAGER",<contenttweaker:anti_dollaronehundred>);

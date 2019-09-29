@@ -1,5 +1,5 @@
 {
-	"*": {
+	"minecraft:*": {
 		"*": {
 			"minecraft:skeleton": {
 				"spawn_chance": 0.0,
