@@ -1,5 +1,5 @@
 {
-	"minecraft:overworld": {
+	"overworld": {
 		"*": {
 			"minecraft:skeleton": {
 				"spawn_chance": 0.0,
