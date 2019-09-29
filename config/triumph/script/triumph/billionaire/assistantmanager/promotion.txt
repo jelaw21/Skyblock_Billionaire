@@ -1,0 +1,22 @@
+setTitle("PROMOTION: General Manager")
+
+setIcon(<minecraft:skull:3>)
+
+setDescription("Please consult the employee handbook for further instructions.")
+
+addParent("triumph:billionaire/assistantmanager/diamond")
+addParent("triumph:billionaire/assistantmanager/emerald")
+addParent("triumph:billionaire/assistantmanager/gold")
+addParent("triumph:billionaire/assistantmanager/hundreds")
+addParent("triumph:billionaire/assistantmanager/iron")
+setRequiresParents()
+
+//Criteria
+
+
+setShowToast(true)
+setAnnounceToChat(true)
+
+//Rewards
+
+setHidden(true)
