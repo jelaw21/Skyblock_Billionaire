@@ -1,4 +1,4 @@
-7242 nodes in total
+7248 nodes in total
 Modifying this file won't have any effect, edit ranks.txt!
 
 admin_panel.ftbutilities.crash_reports.delete: OP
@@ -938,6 +938,8 @@ ftbutilities.claims.block.edit.harvestcraft.well: OP
 ftbutilities.claims.block.edit.harvestcraft.windygarden: OP
 ftbutilities.claims.block.edit.huntingdim.frame: OP
 ftbutilities.claims.block.edit.huntingdim.portal: OP
+ftbutilities.claims.block.edit.labyrinth.daedalus: OP
+ftbutilities.claims.block.edit.labyrinth.daedalusportal: OP
 ftbutilities.claims.block.edit.mcjtylib_ng.multipart: OP
 ftbutilities.claims.block.edit.minecraft.acacia_door: OP
 ftbutilities.claims.block.edit.minecraft.acacia_fence: OP
@@ -2606,6 +2608,8 @@ ftbutilities.claims.block.interact.harvestcraft.well: OP
 ftbutilities.claims.block.interact.harvestcraft.windygarden: OP
 ftbutilities.claims.block.interact.huntingdim.frame: OP
 ftbutilities.claims.block.interact.huntingdim.portal: OP
+ftbutilities.claims.block.interact.labyrinth.daedalus: OP
+ftbutilities.claims.block.interact.labyrinth.daedalusportal: OP
 ftbutilities.claims.block.interact.mcjtylib_ng.multipart: OP
 ftbutilities.claims.block.interact.minecraft.acacia_door: ALL
 ftbutilities.claims.block.interact.minecraft.acacia_fence: OP
@@ -5621,6 +5625,8 @@ ftbutilities.claims.item.harvestcraft.zucchiniseeditem: ALL
 ftbutilities.claims.item.huntingdim.biome_changer: ALL
 ftbutilities.claims.item.huntingdim.frame: ALL
 ftbutilities.claims.item.huntingdim.portal: ALL
+ftbutilities.claims.item.labyrinth.daedalus: ALL
+ftbutilities.claims.item.lootchests.loot_crate: ALL
 ftbutilities.claims.item.mcjtylib_ng.multipart: ALL
 ftbutilities.claims.item.minecraft.acacia_boat: ALL
 ftbutilities.claims.item.minecraft.acacia_door: ALL
@@ -7267,11 +7273,6 @@ command.crafttweaker.ctgui
 command.debug
 command.defaultgamemode
 command.difficulty
-command.dldungeonsjbg.dlddimid
-command.dldungeonsjbg.dldforceinstallthemes
-command.dldungeonsjbg.dldinstallthemes
-command.dldungeonsjbg.dldreload
-command.dldungeonsjbg.dldspawn
 command.dropt.dropt
 command.effect
 command.enchant
@@ -7390,6 +7391,7 @@ command.hookt.hookt
 command.interactions.interactions
 command.journeymap.jtp
 command.kill
+command.labyrinth.labyrinth
 command.locate
 command.me
 command.oreexcavation.undo_excavation

@@ -1,0 +1,38 @@
+{
+  "triumph:billionaire/assistantmanager/hundreds": {
+    "criteria": {
+      "promotion": "2019-09-29 15:55:52 -0400"
+    },
+    "done": true
+  },
+  "soulus:summoner": {
+    "criteria": {
+      "craft": "2019-09-29 16:25:16 -0400"
+    },
+    "done": true
+  },
+  "soulus:soulbook": {
+    "criteria": {
+      "craft": "2019-09-29 16:28:28 -0400"
+    },
+    "done": true
+  },
+  "triumph:billionaire/assistantmanager/promotion": {
+    "criteria": {
+      "Completed $2500§r": "2019-09-29 15:55:52 -0400"
+    },
+    "done": false
+  },
+  "soulus:soulbook_fill": {
+    "criteria": {
+      "craft": "2019-09-29 16:28:28 -0400"
+    },
+    "done": true
+  },
+  "triumph:billionaire/trainee/root": {
+    "criteria": {
+      "location": "2019-09-29 15:55:52 -0400"
+    },
+    "done": true
+  }
+}
