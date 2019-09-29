@@ -1,6 +1,7 @@
 val bank = <contenttweaker:bank_item>;
 
-recipes.addShapeless("piggy_bank",bank.withTag({Total: 0}).withLore(["$0"]), [<minecraft:leather>, <minecraft:clay>]);
+recipes.addShaped("piggy_bank",bank.withTag({Total: 0}).withLore(["$0"]), [[null, null, null],[<minecraft:clay_ball>, null, <minecraft:clay_ball>],[null, <minecraft:clay_ball>, null]]);
+
 
 recipes.addShapeless("anti_penny",<contenttweaker:anti_coin_0>, [<modcurrency:coin:0>, <contenttweaker:split_bill>.reuse()]);
 recipes.addShapeless("anti_nickel",<contenttweaker:anti_coin_1>, [<modcurrency:coin:1>, <contenttweaker:split_bill>.reuse()]);

@@ -7374,6 +7374,7 @@ command.kill
 command.locate
 command.me
 command.oreexcavation.undo_excavation
+command.oreexcavation.undo_excavation_forced
 command.particle
 command.playsound
 command.publish

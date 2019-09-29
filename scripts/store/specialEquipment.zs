@@ -4,6 +4,6 @@ mods.Delivery.Store.addTrade("SHIFT_MANAGER",<thermalfoundation:tool.fishing_rod
 
 mods.Delivery.Store.addTrade("REGIONAL_MANAGER",<contenttweaker:redium_lapium>, special, <contenttweaker:bank_item>.withTag({Total: 60000.0 as float, display: {Lore: ["$60000.0"]}}));
 
-mods.Delivery.Store.addTrade("REGIONAL_MANAGER",<contenttweaker:gemium>, special, <contenttweaker:bank_item>.withTag({Total: 70000.0 as float, display: {Lore: ["$70000.0"]}}));
+mods.Delivery.Store.addTrade("CEO",<contenttweaker:gemium>, special, <contenttweaker:bank_item>.withTag({Total: 70000.0 as float, display: {Lore: ["$70000.0"]}}));
 
-mods.Delivery.Store.addTrade("REGIONAL_MANAGER",<contenttweaker:trilium>, special, <contenttweaker:bank_item>.withTag({Total: 90000.0 as float, display: {Lore: ["$90000.0"]}}));
+mods.Delivery.Store.addTrade("CHAIRMAN",<contenttweaker:trilium>, special, <contenttweaker:bank_item>.withTag({Total: 90000.0 as float, display: {Lore: ["$90000.0"]}}));
