@@ -1,0 +1,63 @@
+{
+  "weight": 1,
+  "size": [
+    "DOUBLE"
+  ],
+  "transformations": [
+    {
+      "rotation": "any"
+    }
+  ],
+  "replacements":[
+    {
+      "original": {
+        "name": "minecraft:wool"
+      },
+      "replacement": [
+        {
+          "name": "-ore:oreIron"
+        },
+        {
+          "name": "-ore:oreIron"
+        },
+        {
+          "name": "-ore:oreRedstone"
+        },
+        {
+          "name": "-ore:oreDiamond"
+        },
+        {
+          "name": "-ore:oreLapis"
+        },
+        {
+          "name": "-ore:oreEmerald"
+        },
+        {
+          "name": "-ore:oreGold"
+        },
+        {
+          "name": "mysticalagriculture:inferium_ore"
+        },
+        {
+          "name": "mysticalagriculture:prosperity_ore"
+        },
+        {
+          "name": "silentgems:essenceore"
+        },
+        {
+          "name": "silentgems:multi_gem_ore_classic"
+        },
+        {
+          "name": "silentgems:multi_gem_ore_classic"
+        },
+        {
+          "name": "silentgems:multi_gem_ore_classic"
+        },
+        {
+          "name": "silentgems:multi_gem_ore_classic"
+        }
+      ],
+      "type": "single"
+    }
+  ]
+}

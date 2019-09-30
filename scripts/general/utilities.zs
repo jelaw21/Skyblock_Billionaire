@@ -20,3 +20,32 @@
 <ore:waterItem>.add(<contenttweaker:item_water>);
 <ore:listAllwater>.add(<contenttweaker:item_water>);
 
+//REPLACEMENT ORE DICTS
+<ore:overOre>.addAll(<ore:oreRuby>);
+<ore:overOre>.addAll(<ore:oreGarnet>);
+<ore:overOre>.addAll(<ore:oreTopaz>);
+<ore:overOre>.addAll(<ore:oreAmber>);
+<ore:overOre>.addAll(<ore:oreHeliodor>);
+<ore:overOre>.addAll(<ore:orePeridot>);
+<ore:overOre>.addAll(<ore:oreBeryl>);
+<ore:overOre>.addAll(<ore:oreIndicolite>);
+<ore:overOre>.addAll(<ore:oreAquamarine>);
+<ore:overOre>.addAll(<ore:oreSapphire>);
+<ore:overOre>.addAll(<ore:oreIolite>);
+<ore:overOre>.addAll(<ore:oreAmethyst>);
+<ore:overOre>.addAll(<ore:oreAgate>);
+<ore:overOre>.addAll(<ore:oreMorganite>);
+<ore:overOre>.addAll(<ore:oreOnyx>);
+<ore:overOre>.addAll(<ore:oreOpal>);
+<ore:overOre>.addAll(<ore:oreIron>);
+<ore:overOre>.addAll(<ore:oreRedstone>);
+<ore:overOre>.addAll(<ore:oreDiamond>);
+<ore:overOre>.addAll(<ore:oreLapis>);
+<ore:overOre>.addAll(<ore:oreEmerald>);
+<ore:overOre>.addAll(<ore:oreGold>);
+<ore:overOre>.addAll(<ore:oreCopper>);
+<ore:overOre>.addAll(<ore:oreTin>);
+<ore:overOre>.addAll(<ore:oreAluminum>);
+<ore:overOre>.addAll(<ore:oreNickel>);
+
+
