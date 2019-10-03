@@ -172,7 +172,7 @@ modbook.maxStackSize = 1;
 modbook.textureLocation = image;
 modbook.rarity = "rare";
 modbook.itemRightClick = function(stack, world, player, hand) {
-    Commands.call("gamestage add @s AW2_WAREHOUSE", player, world, false, true);
+    Commands.call("gamestage add @s ANCIENT_WAREFARE", player, world, false, true);
 	stack.shrink(1);
     return "Pass";
 };

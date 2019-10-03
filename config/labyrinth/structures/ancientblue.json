@@ -2,11 +2,13 @@
   "weight": 1,
   "up": 6,
   "size": [
-    "SINGLE"
+    "Z_4",
+    "X_4"
   ],
   "transformations": [
     {
-      "rotation": "any"
+      "size": "X_4",
+      "rotation": "CLOCKWISE_90"
     }
   ]
 }
