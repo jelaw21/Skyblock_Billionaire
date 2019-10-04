@@ -1,4 +1,4 @@
-7240 nodes in total
+7242 nodes in total
 Modifying this file won't have any effect, edit ranks.txt!
 
 admin_panel.ftbutilities.crash_reports.delete: OP
@@ -3843,6 +3843,7 @@ ftbutilities.claims.item.contenttweaker.anti_dollaronehundred: ALL
 ftbutilities.claims.item.contenttweaker.anti_dollarten: ALL
 ftbutilities.claims.item.contenttweaker.anti_dollartwenty: ALL
 ftbutilities.claims.item.contenttweaker.assistant_kit: ALL
+ftbutilities.claims.item.contenttweaker.aw2_suite: ALL
 ftbutilities.claims.item.contenttweaker.aw2_warehouse: ALL
 ftbutilities.claims.item.contenttweaker.bank_item: ALL
 ftbutilities.claims.item.contenttweaker.bronze_strip: ALL
@@ -3870,6 +3871,7 @@ ftbutilities.claims.item.contenttweaker.iron_hammer: ALL
 ftbutilities.claims.item.contenttweaker.iron_strip: ALL
 ftbutilities.claims.item.contenttweaker.item_water: ALL
 ftbutilities.claims.item.contenttweaker.kitchen: ALL
+ftbutilities.claims.item.contenttweaker.labyrinth: ALL
 ftbutilities.claims.item.contenttweaker.lapis_strip: ALL
 ftbutilities.claims.item.contenttweaker.lead_strip: ALL
 ftbutilities.claims.item.contenttweaker.luminum_strip: ALL

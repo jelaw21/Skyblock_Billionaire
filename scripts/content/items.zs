@@ -178,6 +178,28 @@ modbook.itemRightClick = function(stack, world, player, hand) {
 };
 modbook.register();
 
+modbook = VanillaFactory.createItem("aw2_suite");
+modbook.maxStackSize = 1;
+modbook.textureLocation = image;
+modbook.rarity = "rare";
+modbook.itemRightClick = function(stack, world, player, hand) {
+    Commands.call("gamestage add @s ANCIENT_WARFARE", player, world, false, true);
+	stack.shrink(1);
+    return "Pass";
+};
+modbook.register();
+
+modbook = VanillaFactory.createItem("labyrinth");
+modbook.maxStackSize = 1;
+modbook.textureLocation = image;
+modbook.rarity = "rare";
+modbook.itemRightClick = function(stack, world, player, hand) {
+    Commands.call("setblock ~1 ~1 ~ labyrinth:daedalus 1 1", player, world, false, true);
+    Commands.call("setblock ~1 ~ ~ labyrinth:daedalus", player, world, false, true);
+    return "Pass";
+};
+modbook.register();
+
 var bank = VanillaFactory.createItem("bank_item");
 bank.maxStackSize = 1;
 bank.register();

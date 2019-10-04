@@ -14,6 +14,10 @@
 <contenttweaker:redium_lapium>.addTooltip(format.green("Right Click to Use"));
 <contenttweaker:gemium>.addTooltip(format.green("Right Click to Use"));
 <contenttweaker:trilium>.addTooltip(format.green("Right Click to Use"));
+<contenttweaker:aw2_warehouse>.addTooltip(format.green("Right Click to Use"));
+<contenttweaker:aw2_suite>.addTooltip(format.green("Right Click to Use"));
+<contenttweaker:labyrinth>.addTooltip(format.green("Right Click to Create the portal. Right-click top block with a stick."));
+<contenttweaker:labyrinth>.addTooltip(format.green("Blocks CANNOT be broken and replaced."));
 
 //ORE DICT
 <ore:waterItem>.add(<minecraft:water_bucket>);
