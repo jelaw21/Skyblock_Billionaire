@@ -4,10 +4,7 @@
       "match": {
         "blocks": {
           "blocks": [
-            "minecraft:leaves:0",
-			  "minecraft:leaves:1",
-			  "minecraft:leaves:2",
-			  "minecraft:leaves:3"
+            "minecraft:leaves:*"
           ]
         },
         "harvester": {

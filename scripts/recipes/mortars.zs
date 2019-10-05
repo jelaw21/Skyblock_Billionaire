@@ -20,6 +20,9 @@ mods.advancedmortars.Mortar.addRecipe(["iron", "diamond"], <soulus:dust_gold>, 4
 
 mods.advancedmortars.Mortar.addRecipe(["iron", "diamond"], <soulus:dust_iron>, 4, [<ore:ingotIron>]);
 
+mods.advancedmortars.Mortar.addRecipe(["iron", "diamond"], <soulus:dust_ender_iron>, 4, [<ore:dustIron>,
+<ore:dustEnder>]);
+
 mods.advancedmortars.Mortar.addRecipe(["diamond"], <soulus:dust_midnight>, 4, [<soulus:crystal_dark>]);
 
 mods.advancedmortars.Mortar.addRecipe(["stone", "iron", "diamond"], <soulus:dust_stone>*4, 4, [<minecraft:cobblestone>]);
@@ -32,7 +35,7 @@ mods.advancedmortars.Mortar.addRecipe(["wood", "stone", "iron", "diamond"], <sou
 
 mods.advancedmortars.Mortar.addRecipe(["diamond"], <soulus:dust_niobium>, 4, [<soulus:ingot_niobium>]);
 
-mods.advancedmortars.Mortar.addRecipe(["stone", "iron", "diamond"], <minecraft:clay>, 4, [<soulus:dust_stone>*2, <earthworks:item_dirt>, <minecraft:dye:15>, <earthworks:item_sand>*2, <ore:waterItem>]);
+mods.advancedmortars.Mortar.addRecipe(["stone", "iron", "diamond"], <minecraft:clay>, 4, [<soulus:dust_stone>, <earthworks:item_dirt>, <minecraft:dye:15>, <earthworks:item_sand>, <ore:waterItem>]);
 
 val gemRecipes = [
 

@@ -61,6 +61,17 @@ recipes.addShapeless(<contenttweaker:steel_strip>*2, [<resourcehogs:bacon>.withT
 
 
 //SHAPED
+
+recipes.addShaped("soulus/bars_endersteel_ender", <soulus:bars_endersteel:3> * 8, [[<soulus:dust_ender:*>,
+<soulus:bars_endersteel> | <soulus:bars_endersteel:1> | <soulus:bars_endersteel:2> | <soulus:bars_endersteel:4> |
+<soulus:bars_endersteel:5> | <soulus:bars_endersteel:6>, <soulus:bars_endersteel> | <soulus:bars_endersteel:1> |
+<soulus:bars_endersteel:2> | <soulus:bars_endersteel:4> | <soulus:bars_endersteel:5> | <soulus:bars_endersteel:6>],[
+<soulus:bars_endersteel> | <soulus:bars_endersteel:1> | <soulus:bars_endersteel:2> | <soulus:bars_endersteel:4> |
+<soulus:bars_endersteel:5> | <soulus:bars_endersteel:6>, <soulus:bars_endersteel> | <soulus:bars_endersteel:1> |
+<soulus:bars_endersteel:2> | <soulus:bars_endersteel:4> | <soulus:bars_endersteel:5> | <soulus:bars_endersteel:6>,
+<soulus:bars_endersteel> | <soulus:bars_endersteel:1> | <soulus:bars_endersteel:2> | <soulus:bars_endersteel:4> |
+<soulus:bars_endersteel:5> | <soulus:bars_endersteel:6>],[ <soulus:bars_endersteel> | <soulus:bars_endersteel:1> | <soulus:bars_endersteel:2> | <soulus:bars_endersteel:4> | <soulus:bars_endersteel:5> | <soulus:bars_endersteel:6>, <soulus:bars_endersteel> | <soulus:bars_endersteel:1> | <soulus:bars_endersteel:2> | <soulus:bars_endersteel:4> | <soulus:bars_endersteel:5> | <soulus:bars_endersteel:6>, <soulus:bars_endersteel> | <soulus:bars_endersteel:1> | <soulus:bars_endersteel:2> | <soulus:bars_endersteel:4> | <soulus:bars_endersteel:5> | <soulus:bars_endersteel:6>]]);
+
 recipes.addShaped(<extrautils2:teleporter:1>, [[<prefab:block_compressed_stone:2>, <prefab:block_compressed_obsidian:1>, <prefab:block_compressed_stone:2>],[<prefab:block_compressed_obsidian:1>, <silentgems:teleporteranchor>, <prefab:block_compressed_obsidian:1>], [<prefab:block_compressed_stone:2>, <prefab:block_compressed_obsidian:1>, <prefab:block_compressed_stone:2>]]);
 recipes.addShaped(<sky_orchards:amber_tinium>, [[<sky_orchards:resin_tinium>, <sky_orchards:resin_tinium>, <sky_orchards:resin_tinium>],[<sky_orchards:resin_tinium>, <sky_orchards:resin_tinium>, <sky_orchards:resin_tinium>], [<sky_orchards:resin_tinium>, <sky_orchards:resin_tinium>, <sky_orchards:resin_tinium>]]);
 recipes.addShaped(<sky_orchards:amber_steely>, [[<sky_orchards:resin_steely>, <sky_orchards:resin_steely>, <sky_orchards:resin_steely>],[<sky_orchards:resin_steely>, <sky_orchards:resin_steely>, <sky_orchards:resin_steely>], [<sky_orchards:resin_steely>, <sky_orchards:resin_steely>, <sky_orchards:resin_steely>]]);
@@ -96,7 +107,8 @@ recipes.addShaped(<sky_orchards:sapling_leaden>, [[<ore:oreLead>, <ore:treeSapli
 recipes.addShaped(<sky_orchards:sapling_tinium>, [[<ore:oreTin>, <ore:treeSapling>, <ore:oreTin>],[<ore:treeSapling>, <silentgems:craftingmaterial>, <ore:treeSapling>], [<ore:oreTin>, <ore:treeSapling>, <ore:oreTin>]]);
 recipes.addShaped(<sky_orchards:sapling_copperina>, [[<ore:oreCopper>, <ore:treeSapling>, <ore:oreCopper>],[<ore:treeSapling>, <silentgems:craftingmaterial>, <ore:treeSapling>], [<ore:oreCopper>, <ore:treeSapling>, <ore:oreCopper>]]);
 recipes.addShaped(<sky_orchards:sapling_mithril>, [[<ore:oreMithril>, <ore:treeSapling>, <ore:oreMithril>],[<ore:treeSapling>, <silentgems:craftingmaterial>, <ore:treeSapling>], [<ore:oreMithril>, <ore:treeSapling>, <ore:oreMithril>]]);
-recipes.addShaped(<boneappetit:fiery_bone_meal>, [[<minecraft:dye:15>, <minecraft:dye:15>, <minecraft:dye:15>],[<minecraft:dye:15>, <minecraft:blaze_powder>, <minecraft:dye:15>], [<minecraft:dye:15>, <minecraft:dye:15>, <minecraft:dye:15>]]);
+recipes.addShaped(<boneappetit:fiery_bone_meal>*4, [[<minecraft:dye:15>, <minecraft:dye:15>, <minecraft:dye:15>],
+[<minecraft:dye:15>, <minecraft:blaze_powder>, <minecraft:dye:15>], [<minecraft:dye:15>, <minecraft:dye:15>, <minecraft:dye:15>]]);
 recipes.addShaped(<earthworks:block_rammed_earth>, [[null, null, null],[<minecraft:dirt>, <minecraft:dirt:1>, <minecraft:dirt>], [<minecraft:dirt>, <minecraft:dirt:1>, <minecraft:dirt>]]);
 recipes.addShaped(<contenttweaker:wood_hammer>, [[null, <ore:plankWood>, null],[null, <minecraft:stick>, <ore:plankWood>], [<minecraft:stick>, null, null]]);
 recipes.addShaped(<contenttweaker:diamond_hammer>, [[null, <minecraft:diamond>, null],[null, <minecraft:stick>, <minecraft:diamond>], [<minecraft:stick>, null, null]]);

@@ -84,7 +84,7 @@
   },
   {
     "targetBlock": "minecraft:cobblestone:0",                   
-    "heldItem": "minecraft:blaze_powder:0",
+    "heldItem": "silentgems:craftingmaterial:27",
 	"replacementBlock": "minecraft:netherrack:0",                              
     "damage": "1",
 	"particleType": "lava",
@@ -100,7 +100,7 @@
   },
   {
     "targetBlock": "minecraft:sand:0",                   
-    "heldItem": "minecraft:blaze_powder:0",
+    "heldItem": "silentgems:craftingmaterial:27",
 	"replacementBlock": "minecraft:soul_sand:0",                              
     "damage": "1",
 	"particleType": "mobSpell",

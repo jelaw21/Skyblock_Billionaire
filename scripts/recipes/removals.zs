@@ -92,7 +92,9 @@ val removalNames = [
 	"resourcehogs:deconstruct_bacon_obsidian",
 	"resourcehogs:deconstruct_bacon_ender",
 	"resourcehogs:deconstruct_bacon_nether_quartz",
-	"resourcehogs:deconstruct_bacon_dirt"
+	"resourcehogs:deconstruct_bacon_dirt",
+	"soulus:bars_endersteel_ender",
+	"soulus:dust/dust_ender_iron"
 	
 	
 ] as string[];

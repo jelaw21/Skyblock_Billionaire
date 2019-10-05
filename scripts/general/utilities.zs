@@ -23,6 +23,8 @@
 <ore:waterItem>.add(<minecraft:water_bucket>);
 <ore:waterItem>.add(<contenttweaker:item_water>);
 <ore:listAllwater>.add(<contenttweaker:item_water>);
+<ore:materialBinding>.add(<minecraft:leaves:*>);
+<ore:materialBinding>.add(<minecraft:leaves2:*>);
 
 //REPLACEMENT ORE DICTS
 <ore:overOre>.addAll(<ore:oreRuby>);

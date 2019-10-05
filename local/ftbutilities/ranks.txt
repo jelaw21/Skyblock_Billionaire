@@ -18,4 +18,10 @@ ftbutilities.chat.name_format: "[&7EMPLOYEE&r]<{name}>:"
 ftbutilities.chat.name_format: "[SHIFT MANAGER]<{name}>:"
 
 [assistant]
-ftbutilities.chat.name_format: "[&3SHIFT MANAGER&r]<{name}>:"
+ftbutilities.chat.name_format: "[&3ASSISTANT MANAGER&r]<{name}>:"
+
+[general]
+ftbutilities.chat.name_format: "[&4GENERAL MANAGER&r]<{name}>:"
+
+[regional]
+ftbutilities.chat.name_format: "[&1REGIONAL MANAGER&r]<{name}>:"

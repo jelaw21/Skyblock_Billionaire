@@ -54,7 +54,7 @@
             <title space='20'>TRAINEE</title>
             <p color="#4f5f98" space='10'>Ah, I've been lookin' for ya. Didn't know I'd find ya next to the pond.</p>
             <p color="#4f5f98" space='10'>I'll cut right to the chase. I'm looking for some entreprenuer to look after
-                my company when I'm gone.</p>
+                my company, GWK, Inc. when I'm gone.</p>
             <p color="#4f5f98" space='10'>I've got a nice little thing going here, but I need someone to take it to the
                 next level. I made a comfortable million dollars its time for someone else to take over.</p>
             <p color="#4f5f98" space='10'>So this is your chance kid. Impress me, and you may just wind up with keys to
@@ -170,8 +170,8 @@
             <p space="10">The miner can mine the cobblegen if set-up correctly.</p>
             <p space="10">The Breakroom is the only place employees will go to get food, and they won't work without food.</p>
             <p space="10">Work your way through the Soulus book to spawn mobs. The better the Summoner the faster it spawns.</p>
-            <p space="10">Don't sweat the ingot making, you will have access to better resource gathering as you get
-                more promotions.</p>
+            <p space="10">To make ingots and other resources, you will need to craft their powdered form in the
+                mortars. Then stick the powder in the furnace.</p>
             <p space="10">Always keep an eye on the Specials tab in the store. You never know when something good
                 appears.</p>
             <p space="10">You don't have to spend the cash on employees, you can always save it and use the automation
@@ -181,8 +181,7 @@
     <chapter id="assistant" condition="assistant">
         <page>
             <title space='20'>Assistant Manager</title>
-            <p color="#4f5f98" space='10'>Well, that
-                wasn't so hard. You've kept your employee fed and dealt with the angry customers. But that's not
+            <p color="#4f5f98" space='10'>Well, that wasn't so hard. You've kept your employee fed and dealt with the angry customers. But that's not
                 going to be enough. The landscape is money, you are have a long way to go if you want to be a
                 Billionaire.</p>
             <p color="#4f5f98" space='10'>You are going to need to ramp up resource production and learn to interact
@@ -222,7 +221,7 @@
             <title space='10'>MORE UNLOCKS</title>
             <p space="5">Full Access to the Local Market.</p>
             <p space="5">Access to the Warehouse Market.</p>
-            <p space="20">Access to Mining, Mob and Dungeon Worlds.</p>
+            <p space="20">Access to The Labyrinth, a mob dimension with awesome loot and terrifying mobs.</p>
             <title space='20'>HINTS</title>
             <p space="10">A crafted item tends to yield more profit.</p>
             <p space="10">Use your employees, sometimes it takes money to make money.</p>
@@ -231,38 +230,64 @@
     </chapter>
     <chapter id="general" condition="general">
         <page>
-            <title space='20'>Shift Manager</title>
-            <p color="#4f5f98" space='10'>.</p>
+            <title space='20'>General Manager</title>
+            <p color="#4f5f98" space='10'>I think you may be getting the hang of this. But don't get too cocky, the
+                worst is yet to come. You are now the General Manager of GWK, Inc and are responsible for overseeing
+                all operations of our company and interacting with the finances. I have given you a few things to
+                help manage your money.</p>
             <title space='20'>REQUIREMENTS</title>
+            <p color="#4f5f98" space='10'>You are going to need to make use of your Piggy Bank to store money
+                long-term and your wallet to store money short term.</p>
+            <p color="#4f5f98" space='10'>You can extract money from your Piggy Bank with "Withdraw" currency.
+                Withdraw currency is made with a Money Switcher. You can also combine banks and split them 50/50
+                using the Money Switcher.</p>
         </page>
         <page>
             <title space='20'>GATHER</title>
+                <stack item="contenttweaker:bank_item"/><span> with EXACTLY $10,000</span>
             <title space='20'>UNLOCKS</title>
+            <p space="20">Access to The Labyrinth, a mob dimension with awesome loot and terrifying mobs.</p>
         </page>
         <page>
             <title space='20'>HINTS</title>
+            <p space="10">The Labyrinth is full of goodies and if you have skills, can make some quick cash in there
+                .</p>
+            <p space="10">Utilize the autocrafter to save time adding hard cash to your piggy bank.</p>
+            <p space="10">Automation is the key.</p>
 
         </page>
     </chapter>
     <chapter id="regional" condition="regional">
         <page>
-            <title space='20'>Shift Manager</title>
-            <p color="#4f5f98" space='10'>.</p>
+            <title space='20'>Regional Manager</title>
+            <p color="#4f5f98" space='10'>One rung higher on the ladder to success! Now, you have some decisions to
+                make. You have a lot of new technologies and industries available to you. As a Regional Manager, you
+            get to decide which new systems you will install in GWK,Inc. to maximize profits. It possible to be able
+            to purchase them all, but the price tag on that would be steep. Although, it takes money to make money.
+                I kinda like ya kid, I hope you succeed, though there are others working just as hard.</p>
             <title space='20'>REQUIREMENTS</title>
+            <p color="#4f5f98" space='10'>Its all about that money. Use your resources and make some fat cash!</p>
         </page>
         <page>
             <title space='20'>GATHER</title>
+                <stack item="contenttweaker:bank_item"/><span> with EXACTLY $25,000</span>
             <title space='20'>UNLOCKS</title>
+            <p space="10">All the mods are now available for purchase.</p>
         </page>
         <page>
             <title space='20'>HINTS</title>
-
+            <p space="10">Don't go overboard to buy all the mods. Be choosey. Two strategies that may work well: buy
+            1 big mod to get a big increase, or buy a bunch of smaller ones to to gradually increase production.</p>
+            <p space="10">Spend some time researching the mods on what they do. Most mods also come with an in-game
+                guide.</p>
+            <p space="10">Selling to the markets is time consuming, soon you will be able to sell to the global
+                market.</p>
         </page>
     </chapter>
     <chapter id="executive" condition="executive">
         <page>
-            <title space='20'>Shift Manager</title>
-            <p color="#4f5f98" space='10'>.</p>
+            <title space='20'>Executive Director</title>
+            <p color="#4f5f98" space='10'></p>
             <title space='20'>REQUIREMENTS</title>
         </page>
         <page>

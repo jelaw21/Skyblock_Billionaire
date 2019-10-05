@@ -1,0 +1,146 @@
+[
+  {
+    "targetBlock": "silentgems:glowrose:0",
+    "heldItem": "boneappetit:wet_bone_meal:0",
+    "replacementBlock": "silentgems:glowrose:1",
+    "damage": "1",
+    "damageChance": "1:4",
+    "particleType": "dripWater",
+    "particleCount": "10:30"
+  },
+  {
+    "targetBlock": "silentgems:glowrose:1",
+    "heldItem": "boneappetit:wet_bone_meal:0",
+    "replacementBlock": "silentgems:glowrose:2",
+    "damage": "1",
+    "damageChance": "1:4",
+    "particleType": "dripWater",
+    "particleCount": "10:30"
+  },
+  {
+    "targetBlock": "silentgems:glowrose:2",
+    "heldItem": "boneappetit:wet_bone_meal:0",
+    "replacementBlock": "silentgems:glowrose:3",
+    "damage": "1",
+    "damageChance": "1:4",
+    "particleType": "dripWater",
+    "particleCount": "10:30"
+  },
+  {
+    "targetBlock": "silentgems:glowrose:3",
+    "heldItem": "boneappetit:wet_bone_meal:0",
+    "replacementBlock": "silentgems:glowrose:4",
+    "damage": "1",
+    "damageChance": "1:4",
+    "particleType": "dripWater",
+    "particleCount": "10:30"
+  },
+  {
+    "targetBlock": "silentgems:glowrose:4",
+    "heldItem": "boneappetit:wet_bone_meal:0",
+    "replacementBlock": "silentgems:glowrose:5",
+    "damage": "1",
+    "damageChance": "1:4",
+    "particleType": "dripWater",
+    "particleCount": "10:30"
+  },
+  {
+    "targetBlock": "silentgems:glowrose:5",
+    "heldItem": "boneappetit:wet_bone_meal:0",
+    "replacementBlock": "silentgems:glowrose:6",
+    "damage": "1",
+    "damageChance": "1:4",
+    "particleType": "dripWater",
+    "particleCount": "10:30"
+  },
+  {
+    "targetBlock": "silentgems:glowrose:6",
+    "heldItem": "boneappetit:wet_bone_meal:0",
+    "replacementBlock": "silentgems:glowrose:7",
+    "damage": "1",
+    "damageChance": "1:4",
+    "particleType": "dripWater",
+    "particleCount": "10:30"
+  },
+  {
+    "targetBlock": "silentgems:glowrose:7",
+    "heldItem": "boneappetit:wet_bone_meal:0",
+    "replacementBlock": "silentgems:glowrose:8",
+    "damage": "1",
+    "damageChance": "1:4",
+    "particleType": "dripWater",
+    "particleCount": "10:30"
+  },
+  {
+    "targetBlock": "silentgems:glowrose:8",
+    "heldItem": "boneappetit:wet_bone_meal:0",
+    "replacementBlock": "silentgems:glowrose:9",
+    "damage": "1",
+    "damageChance": "1:4",
+    "particleType": "dripWater",
+    "particleCount": "10:30"
+  },
+  {
+    "targetBlock": "silentgems:glowrose:9",
+    "heldItem": "boneappetit:wet_bone_meal:0",
+    "replacementBlock": "silentgems:glowrose:10",
+    "damage": "1",
+    "damageChance": "1:4",
+    "particleType": "dripWater",
+    "particleCount": "10:30"
+  },
+  {
+    "targetBlock": "silentgems:glowrose:10",
+    "heldItem": "boneappetit:wet_bone_meal:0",
+    "replacementBlock": "silentgems:glowrose:11",
+    "damage": "1",
+    "damageChance": "1:4",
+    "particleType": "dripWater",
+    "particleCount": "10:30"
+  },
+  {
+    "targetBlock": "silentgems:glowrose:11",
+    "heldItem": "boneappetit:wet_bone_meal:0",
+    "replacementBlock": "silentgems:glowrose:12",
+    "damage": "1",
+    "damageChance": "1:4",
+    "particleType": "dripWater",
+    "particleCount": "10:30"
+  },
+  {
+    "targetBlock": "silentgems:glowrose:12",
+    "heldItem": "boneappetit:wet_bone_meal:0",
+    "replacementBlock": "silentgems:glowrose:13",
+    "damage": "1",
+    "damageChance": "1:4",
+    "particleType": "dripWater",
+    "particleCount": "10:30"
+  },
+  {
+    "targetBlock": "silentgems:glowrose:13",
+    "heldItem": "boneappetit:wet_bone_meal:0",
+    "replacementBlock": "silentgems:glowrose:14",
+    "damage": "1",
+    "damageChance": "1:4",
+    "particleType": "dripWater",
+    "particleCount": "10:30"
+  },
+  {
+    "targetBlock": "silentgems:glowrose:14",
+    "heldItem": "boneappetit:wet_bone_meal:0",
+    "replacementBlock": "silentgems:glowrose:15",
+    "damage": "1",
+    "damageChance": "1:4",
+    "particleType": "dripWater",
+    "particleCount": "10:30"
+  },
+  {
+    "targetBlock": "silentgems:glowrose:15",
+    "heldItem": "boneappetit:wet_bone_meal:0",
+    "replacementBlock": "silentgems:glowrose:0",
+    "damage": "1",
+    "damageChance": "1:4",
+    "particleType": "dripWater",
+    "particleCount": "10:30"
+  }
+]

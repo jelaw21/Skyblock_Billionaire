@@ -1,0 +1,22 @@
+setTitle("GENERAL MANAGER")
+//setTranslatedTitle("advancements.stage0.root.title")
+
+setIcon(<minecraft:skull:3>)
+
+setDescription("Making Dat Money!")
+//setTranslatedDescription("advancements.stage0.root.description")
+
+setBackground("minecraft:textures/blocks/iron_block.png")
+
+setShowToast(false)
+
+setAnnounceToChat(false)
+
+setRequirements("any")
+
+//Criteria
+criteria = addCriteria("completedAssistant", "triumph:completed_advancement")
+criteria.setString("triumph:billionaire/assistantmanager/promotion")
+
+//Rewards
+setRewardFunction("billionaire:general_manager")

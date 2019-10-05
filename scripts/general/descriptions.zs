@@ -10,7 +10,9 @@ mods.jei.JEI.addDescription(<minecraft:grass>,"Use some wet bone meal on a dirt 
 
 mods.jei.JEI.addDescription([<minecraft:wheat_seeds>, <minecraft:potato>, <minecraft:carrot>, <minecraft:cactus>, <minecraft:reeds>, <minecraft:sand>, <minecraft:beetroot_seeds>],"Sand, over the years, has trapped so much vegetation and seeds. Apply some wet bone meal to pull these out of the sand."," ", "It may not work the first time, but keep trying and you'll get it!");
 
-mods.jei.JEI.addDescription([<minecraft:cobblestone>, <soulus:dust_stone>, <minecraft:gunpowder>],"Cobblestone can be crafted with stone dust and vice-versa.", "To find stone dust, just use the Dirt Smasher on some dirt.", " ", "You may also find some other goodies! Wonder what other kinds of dirt the smasher can smash?");
+mods.jei.JEI.addDescription([<minecraft:cobblestone>, <soulus:dust_stone>],"Cobblestone can be crafted with stone dust and vice-versa.", "To find stone dust, just use the Dirt Smasher on some dirt.", " ", "You may also find some other goodies! Wonder what other kinds of dirt the smasher can smash?");
+
+mods.jei.JEI.addDescription([<minecraft:gunpowder>],"Gunpowder can be found rarely by using the Dirt Smasher on dirt.");
 
 mods.jei.JEI.addDescription([<minecraft:gravel>, <minecraft:sand>, <minecraft:flint>],"You know the drill. Use the stone smasher to smash cobblestone and gravel.", " ", "Cobble -> Gravel", "Gravel -> Sand", " ", "You might find some flint. The better the smasher, the faster it smashes and higher the chance of getting flint.");
 
@@ -22,7 +24,8 @@ mods.jei.JEI.addDescription([<minecraft:brown_mushroom>, <minecraft:red_mushroom
 
 mods.jei.JEI.addDescription([<minecraft:clay_ball>],"I'm only putting this here cause my wife often forgets.", " ", "Clay balls come from breaking clay blocks.", " ", "Clay blocks are craftable in the mortars.");
 
-mods.jei.JEI.addDescription([<minecraft:stick>, <minecraft:apple>],"Break leaves to get sticks and apples. Any leaves will do.");
+mods.jei.JEI.addDescription([<minecraft:stick>, <minecraft:apple>],"Break leaves to get sticks and apples. Any leaves
+will do. Must break by hand, no vein mine!");
 
 mods.jei.JEI.addDescription([<minecraft:netherrack>, <minecraft:soul_sand>, <minecraft:glowstone_dust>],"Blaze powder has the ability to change normal blocks into their hellish counterparts.", "Cobblestone -> Netherrack", "Sand -> Soulsand", "Glass -> Glowstone Dust");
 

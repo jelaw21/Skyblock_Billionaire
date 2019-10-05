@@ -89,7 +89,7 @@
 	},
 	{
 		"targetBlock": "silentgems:multi_gem_ore_classic:0",                   
-		"heldItem": "minecraft:blaze_powder:0",
+		"heldItem": "silentgems:craftingmaterial:27",
 		"replacementBlock": "silentgems:multi_gem_ore_dark:0",	
 		"damage": "1",
 		"particleType": "largesmoke",
