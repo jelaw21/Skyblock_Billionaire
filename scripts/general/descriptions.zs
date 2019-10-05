@@ -1,6 +1,10 @@
 mods.jei.JEI.addDescription(<minecraft:dirt>,"Dirt can be made by adding dirt balls to sand.", " ", "Just right-click the sand with a dirt ball and voila!  Dirt!");
 
-mods.jei.JEI.addDescription(<ore:treeSapling>,"Various species of tree saplings can be made by right-clicking saplings with wet bone meal.", "Oak -> Dark Oak", "Birch -> Ferrous - Juniper", "Jungle -> Acacia");
+mods.jei.JEI.addDescription(<contenttweaker:water_item>,"Place a water bottle on the crafting grid, not the silly
+potion JEI shows!");
+
+mods.jei.JEI.addDescription(<ore:treeSapling>,"Various species of tree saplings can be made by right-clicking saplings
+with wet bone meal.", "Oak -> Dark Oak", "Birch -> Ferrous - Juniper", "Jungle -> Acacia",");
 
 mods.jei.JEI.addDescription(<minecraft:lava_bucket>,"Lava is made by applying blaze powder to a cobblestone block.", " ", "It may not work the first time, but keep trying and you'll get it!");
 
@@ -14,7 +18,12 @@ mods.jei.JEI.addDescription([<minecraft:cobblestone>, <soulus:dust_stone>],"Cobb
 
 mods.jei.JEI.addDescription([<minecraft:gunpowder>],"Gunpowder can be found rarely by using the Dirt Smasher on dirt.");
 
-mods.jei.JEI.addDescription([<minecraft:gravel>, <minecraft:sand>, <minecraft:flint>],"You know the drill. Use the stone smasher to smash cobblestone and gravel.", " ", "Cobble -> Gravel", "Gravel -> Sand", " ", "You might find some flint. The better the smasher, the faster it smashes and higher the chance of getting flint.");
+mods.jei.JEI.addDescription([<minecraft:gravel>, <minecraft:sand>, <minecraft:flint>],"You know the drill. Use the Stone
+ Smasher to smash cobblestone and gravel.", " ", "Cobble -> Gravel", "Gravel -> Sand", " ", "You could find flint,
+ rarely.");
+
+ mods.jei.JEI.addDescription([<minecraft:flint>],"A flint spade used to dig up gravel is the most reliable way to get
+ flint.");
 
 mods.jei.JEI.addDescription([<minecraft:red_flower>, <minecraft:yellow_flower>],"Applying some wet bone meal will switch a red flower to a yellow and vice-versa.", " ", "Flower power baby!");
 
@@ -27,7 +36,9 @@ mods.jei.JEI.addDescription([<minecraft:clay_ball>],"I'm only putting this here 
 mods.jei.JEI.addDescription([<minecraft:stick>, <minecraft:apple>],"Break leaves to get sticks and apples. Any leaves
 will do. Must break by hand, no vein mine!");
 
-mods.jei.JEI.addDescription([<minecraft:netherrack>, <minecraft:soul_sand>, <minecraft:glowstone_dust>],"Blaze powder has the ability to change normal blocks into their hellish counterparts.", "Cobblestone -> Netherrack", "Sand -> Soulsand", "Glass -> Glowstone Dust");
+mods.jei.JEI.addDescription([<minecraft:netherrack>, <minecraft:soul_sand>, <minecraft:glowstone_dust>, <silentgems:craftingmaterial:27>],"Blazestone
+has
+the ability to change normal blocks into their hellish counterparts.", "Cobblestone -> Netherrack", "Sand -> Soulsand", "Glass -> Glowstone Dust");
 
 mods.jei.JEI.addDescription([<soulus:bone_chunk_nether>],"To reveal the bones hidden in netherrack, apply a fiery bone meal.", "You can then extract the essence or use it to craft blackened bone meal.");
 

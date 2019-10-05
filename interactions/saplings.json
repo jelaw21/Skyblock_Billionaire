@@ -1,0 +1,426 @@
+[
+  {
+    "targetBlock": "harvestcraft:apple_sapling:0",
+    "heldItem": "boneappetit:wet_bone_meal:0",
+    "replacementBlock": "harvestcraft:cherry_sapling:0",
+    "damage": "1",
+    "damageChance": "1:4",
+    "particleType": "splash",
+    "particleCount": "10:30"
+  },
+  {
+    "targetBlock": "harvestcraft:cherry_sapling:0",
+    "heldItem": "boneappetit:wet_bone_meal:0",
+    "replacementBlock": "harvestcraft:lemon_sapling:0",
+    "damage": "1",
+    "damageChance": "1:4",
+    "particleType": "splash",
+    "particleCount": "10:30"
+  },
+  {
+    "targetBlock": "harvestcraft:lemon_sapling:0",
+    "heldItem": "boneappetit:wet_bone_meal:0",
+    "replacementBlock": "harvestcraft:pear_sapling:0",
+    "damage": "1",
+    "damageChance": "1:4",
+    "particleType": "splash",
+    "particleCount": "10:30"
+  },
+  {
+    "targetBlock": "harvestcraft:pear_sapling:0",
+    "heldItem": "boneappetit:wet_bone_meal:0",
+    "replacementBlock": "harvestcraft:orange_sapling:0",
+    "damage": "1",
+    "damageChance": "1:4",
+    "particleType": "splash",
+    "particleCount": "10:30"
+  },
+  {
+    "targetBlock": "harvestcraft:orange_sapling:0",
+    "heldItem": "boneappetit:wet_bone_meal:0",
+    "replacementBlock": "harvestcraft:banana_sapling:0",
+    "damage": "1",
+    "damageChance": "1:4",
+    "particleType": "splash",
+    "particleCount": "10:30"
+  },
+  {
+    "targetBlock": "harvestcraft:banana_sapling:0",
+    "heldItem": "boneappetit:wet_bone_meal:0",
+    "replacementBlock": "harvestcraft:plum_sapling:0",
+    "damage": "1",
+    "damageChance": "1:4",
+    "particleType": "splash",
+    "particleCount": "10:30"
+  },
+  {
+    "targetBlock": "harvestcraft:plum_sapling:0",
+    "heldItem": "boneappetit:wet_bone_meal:0",
+    "replacementBlock": "harvestcraft:lime_sapling:0",
+    "damage": "1",
+    "damageChance": "1:4",
+    "particleType": "splash",
+    "particleCount": "10:30"
+  },
+  {
+    "targetBlock": "harvestcraft:lime_sapling:0",
+    "heldItem": "boneappetit:wet_bone_meal:0",
+    "replacementBlock": "harvestcraft:peach_sapling:0",
+    "damage": "1",
+    "damageChance": "1:4",
+    "particleType": "splash",
+    "particleCount": "10:30"
+  },
+  {
+    "targetBlock": "harvestcraft:peach_sapling:0",
+    "heldItem": "boneappetit:wet_bone_meal:0",
+    "replacementBlock": "harvestcraft:grapefruit_sapling:0",
+    "damage": "1",
+    "damageChance": "1:4",
+    "particleType": "splash",
+    "particleCount": "10:30"
+  },
+  {
+    "targetBlock": "harvestcraft:grapefruit_sapling:0",
+    "heldItem": "boneappetit:wet_bone_meal:0",
+    "replacementBlock": "harvestcraft:passionfruit_sapling:0",
+    "damage": "1",
+    "damageChance": "1:4",
+    "particleType": "splash",
+    "particleCount": "10:30"
+  },
+  {
+    "targetBlock": "harvestcraft:passionfruit_sapling:0",
+    "heldItem": "boneappetit:wet_bone_meal:0",
+    "replacementBlock": "harvestcraft:pomegranate_sapling:0",
+    "damage": "1",
+    "damageChance": "1:4",
+    "particleType": "splash",
+    "particleCount": "10:30"
+  },
+  {
+    "targetBlock": "harvestcraft:pomegranate_sapling:0",
+    "heldItem": "boneappetit:wet_bone_meal:0",
+    "replacementBlock": "harvestcraft:starfruit_sapling:0",
+    "damage": "1",
+    "damageChance": "1:4",
+    "particleType": "splash",
+    "particleCount": "10:30"
+  },
+  {
+    "targetBlock": "harvestcraft:starfruit_sapling:0",
+    "heldItem": "boneappetit:wet_bone_meal:0",
+    "replacementBlock": "harvestcraft:gooseberry_sapling:0",
+    "damage": "1",
+    "damageChance": "1:4",
+    "particleType": "splash",
+    "particleCount": "10:30"
+  },
+  {
+    "targetBlock": "harvestcraft:gooseberry_sapling:0",
+    "heldItem": "boneappetit:wet_bone_meal:0",
+    "replacementBlock": "harvestcraft:coconut_sapling:0",
+    "damage": "1",
+    "damageChance": "1:4",
+    "particleType": "splash",
+    "particleCount": "10:30"
+  },
+  {
+    "targetBlock": "harvestcraft:coconut_sapling:0",
+    "heldItem": "boneappetit:wet_bone_meal:0",
+    "replacementBlock": "harvestcraft:mango_sapling:0",
+    "damage": "1",
+    "damageChance": "1:4",
+    "particleType": "splash",
+    "particleCount": "10:30"
+  },
+  {
+    "targetBlock": "harvestcraft:mango_sapling:0",
+    "heldItem": "boneappetit:wet_bone_meal:0",
+    "replacementBlock": "harvestcraft:papaya_sapling:0",
+    "damage": "1",
+    "damageChance": "1:4",
+    "particleType": "splash",
+    "particleCount": "10:30"
+  },
+  {
+    "targetBlock": "harvestcraft:papaya_sapling:0",
+    "heldItem": "boneappetit:wet_bone_meal:0",
+    "replacementBlock": "harvestcraft:soursop_sapling:0",
+    "damage": "1",
+    "damageChance": "1:4",
+    "particleType": "splash",
+    "particleCount": "10:30"
+  },
+  {
+    "targetBlock": "harvestcraft:soursop_sapling:0",
+    "heldItem": "boneappetit:wet_bone_meal:0",
+    "replacementBlock": "harvestcraft:dragonfruit_sapling:0",
+    "damage": "1",
+    "damageChance": "1:4",
+    "particleType": "splash",
+    "particleCount": "10:30"
+  },
+  {
+    "targetBlock": "harvestcraft:dragonfruit_sapling:0",
+    "heldItem": "boneappetit:wet_bone_meal:0",
+    "replacementBlock": "harvestcraft:rambutan_sapling:0",
+    "damage": "1",
+    "damageChance": "1:4",
+    "particleType": "splash",
+    "particleCount": "10:30"
+  },
+  {
+    "targetBlock": "harvestcraft:rambutan_sapling:0",
+    "heldItem": "boneappetit:wet_bone_meal:0",
+    "replacementBlock": "harvestcraft:jackfruit_sapling:0",
+    "damage": "1",
+    "damageChance": "1:4",
+    "particleType": "splash",
+    "particleCount": "10:30"
+  },
+  {
+    "targetBlock": "harvestcraft:jackfruit_sapling:0",
+    "heldItem": "boneappetit:wet_bone_meal:0",
+    "replacementBlock": "harvestcraft:pawpaw_sapling:0",
+    "damage": "1",
+    "damageChance": "1:4",
+    "particleType": "splash",
+    "particleCount": "10:30"
+  },
+  {
+    "targetBlock": "harvestcraft:pawpaw_sapling:0",
+    "heldItem": "boneappetit:wet_bone_meal:0",
+    "replacementBlock": "harvestcraft:breadfruit_sapling:0",
+    "damage": "1",
+    "damageChance": "1:4",
+    "particleType": "splash",
+    "particleCount": "10:30"
+  },
+  {
+    "targetBlock": "harvestcraft:breadfruit_sapling:0",
+    "heldItem": "boneappetit:wet_bone_meal:0",
+    "replacementBlock": "harvestcraft:guava_sapling:0",
+    "damage": "1",
+    "damageChance": "1:4",
+    "particleType": "splash",
+    "particleCount": "10:30"
+  },
+  {
+    "targetBlock": "harvestcraft:guava_sapling:0",
+    "heldItem": "boneappetit:wet_bone_meal:0",
+    "replacementBlock": "harvestcraft:lychee_sapling:0",
+    "damage": "1",
+    "damageChance": "1:4",
+    "particleType": "splash",
+    "particleCount": "10:30"
+  },
+  {
+    "targetBlock": "harvestcraft:lychee_sapling:0",
+    "heldItem": "boneappetit:wet_bone_meal:0",
+    "replacementBlock": "harvestcraft:persimmon_sapling:0",
+    "damage": "1",
+    "damageChance": "1:4",
+    "particleType": "splash",
+    "particleCount": "10:30"
+  },
+  {
+    "targetBlock": "harvestcraft:persimmon_sapling:0",
+    "heldItem": "boneappetit:wet_bone_meal:0",
+    "replacementBlock": "harvestcraft:olive_sapling:0",
+    "damage": "1",
+    "damageChance": "1:4",
+    "particleType": "splash",
+    "particleCount": "10:30"
+  },
+  {
+    "targetBlock": "harvestcraft:olive_sapling:0",
+    "heldItem": "boneappetit:wet_bone_meal:0",
+    "replacementBlock": "harvestcraft:date_sapling:0",
+    "damage": "1",
+    "damageChance": "1:4",
+    "particleType": "splash",
+    "particleCount": "10:30"
+  },
+  {
+    "targetBlock": "harvestcraft:date_sapling:0",
+    "heldItem": "boneappetit:wet_bone_meal:0",
+    "replacementBlock": "harvestcraft:fig_sapling:0",
+    "damage": "1",
+    "damageChance": "1:4",
+    "particleType": "splash",
+    "particleCount": "10:30"
+  },
+  {
+    "targetBlock": "harvestcraft:fig_sapling:0",
+    "heldItem": "boneappetit:wet_bone_meal:0",
+    "replacementBlock": "harvestcraft:cashew_sapling:0",
+    "damage": "1",
+    "damageChance": "1:4",
+    "particleType": "splash",
+    "particleCount": "10:30"
+  },
+  {
+    "targetBlock": "harvestcraft:cashew_sapling:0",
+    "heldItem": "boneappetit:wet_bone_meal:0",
+    "replacementBlock": "harvestcraft:vanillabean_sapling:0",
+    "damage": "1",
+    "damageChance": "1:4",
+    "particleType": "splash",
+    "particleCount": "10:30"
+  },
+  {
+    "targetBlock": "harvestcraft:vanillabean_sapling:0",
+    "heldItem": "boneappetit:wet_bone_meal:0",
+    "replacementBlock": "harvestcraft:avocado_sapling:0",
+    "damage": "1",
+    "damageChance": "1:4",
+    "particleType": "splash",
+    "particleCount": "10:30"
+  },
+  {
+    "targetBlock": "harvestcraft:avocado_sapling:0",
+    "heldItem": "boneappetit:wet_bone_meal:0",
+    "replacementBlock": "harvestcraft:pecan_sapling:0",
+    "damage": "1",
+    "damageChance": "1:4",
+    "particleType": "splash",
+    "particleCount": "10:30"
+  },
+  {
+    "targetBlock": "harvestcraft:pecan_sapling:0",
+    "heldItem": "boneappetit:wet_bone_meal:0",
+    "replacementBlock": "harvestcraft:pistachio_sapling:0",
+    "damage": "1",
+    "damageChance": "1:4",
+    "particleType": "splash",
+    "particleCount": "10:30"
+  },
+  {
+    "targetBlock": "harvestcraft:pistachio_sapling:0",
+    "heldItem": "boneappetit:wet_bone_meal:0",
+    "replacementBlock": "harvestcraft:hazelnut_sapling:0",
+    "damage": "1",
+    "damageChance": "1:4",
+    "particleType": "splash",
+    "particleCount": "10:30"
+  },
+  {
+    "targetBlock": "harvestcraft:hazelnut_sapling:0",
+    "heldItem": "boneappetit:wet_bone_meal:0",
+    "replacementBlock": "harvestcraft:peppercorn_sapling:0",
+    "damage": "1",
+    "damageChance": "1:4",
+    "particleType": "splash",
+    "particleCount": "10:30"
+  },
+  {
+    "targetBlock": "harvestcraft:peppercorn_sapling:0",
+    "heldItem": "boneappetit:wet_bone_meal:0",
+    "replacementBlock": "harvestcraft:chestnut_sapling:0",
+    "damage": "1",
+    "damageChance": "1:4",
+    "particleType": "splash",
+    "particleCount": "10:30"
+  },
+  {
+    "targetBlock": "harvestcraft:chestnut_sapling:0",
+    "heldItem": "boneappetit:wet_bone_meal:0",
+    "replacementBlock": "harvestcraft:almond_sapling:0",
+    "damage": "1",
+    "damageChance": "1:4",
+    "particleType": "splash",
+    "particleCount": "10:30"
+  },
+  {
+    "targetBlock": "harvestcraft:almond_sapling:0",
+    "heldItem": "boneappetit:wet_bone_meal:0",
+    "replacementBlock": "harvestcraft:apricot_sapling:0",
+    "damage": "1",
+    "damageChance": "1:4",
+    "particleType": "splash",
+    "particleCount": "10:30"
+  },
+  {
+    "targetBlock": "harvestcraft:apricot_sapling:0",
+    "heldItem": "boneappetit:wet_bone_meal:0",
+    "replacementBlock": "harvestcraft:maple_sapling:0",
+    "damage": "1",
+    "damageChance": "1:4",
+    "particleType": "splash",
+    "particleCount": "10:30"
+  },
+  {
+    "targetBlock": "harvestcraft:maple_sapling:0",
+    "heldItem": "boneappetit:wet_bone_meal:0",
+    "replacementBlock": "harvestcraft:tamarind_sapling:0",
+    "damage": "1",
+    "damageChance": "1:4",
+    "particleType": "splash",
+    "particleCount": "10:30"
+  },
+  {
+    "targetBlock": "harvestcraft:tamarind_sapling:0",
+    "heldItem": "boneappetit:wet_bone_meal:0",
+    "replacementBlock": "harvestcraft:durian_sapling:0",
+    "damage": "1",
+    "damageChance": "1:4",
+    "particleType": "splash",
+    "particleCount": "10:30"
+  },
+  {
+    "targetBlock": "harvestcraft:durian_sapling:0",
+    "heldItem": "boneappetit:wet_bone_meal:0",
+    "replacementBlock": "harvestcraft:nutmeg_sapling:0",
+    "damage": "1",
+    "damageChance": "1:4",
+    "particleType": "splash",
+    "particleCount": "10:30"
+  },
+  {
+    "targetBlock": "harvestcraft:nutmeg_sapling:0",
+    "heldItem": "boneappetit:wet_bone_meal:0",
+    "replacementBlock": "harvestcraft:walnut_sapling:0",
+    "damage": "1",
+    "damageChance": "1:4",
+    "particleType": "splash",
+    "particleCount": "10:30"
+  },
+  {
+    "targetBlock": "harvestcraft:walnut_sapling:0",
+    "heldItem": "boneappetit:wet_bone_meal:0",
+    "replacementBlock": "harvestcraft:cinnamon_sapling:0",
+    "damage": "1",
+    "damageChance": "1:4",
+    "particleType": "splash",
+    "particleCount": "10:30"
+  },
+  {
+    "targetBlock": "harvestcraft:cinnamon_sapling:0",
+    "heldItem": "boneappetit:wet_bone_meal:0",
+    "replacementBlock": "harvestcraft:spiderweb_sapling:0",
+    "damage": "1",
+    "damageChance": "1:4",
+    "particleType": "splash",
+    "particleCount": "10:30"
+  },
+  {
+    "targetBlock": "harvestcraft:spiderweb_sapling:0",
+    "heldItem": "boneappetit:wet_bone_meal:0",
+    "replacementBlock": "harvestcraft:paperbark_sapling:0",
+    "damage": "1",
+    "damageChance": "1:4",
+    "particleType": "splash",
+    "particleCount": "10:30"
+  },
+  {
+    "targetBlock": "harvestcraft:paperbark_sapling:0",
+    "heldItem": "boneappetit:wet_bone_meal:0",
+    "replacementBlock": "harvestcraft:apple_sapling:0",
+    "damage": "1",
+    "damageChance": "1:4",
+    "particleType": "splash",
+    "particleCount": "10:30"
+  }
+
+]

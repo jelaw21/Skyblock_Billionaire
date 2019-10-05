@@ -220,3 +220,4 @@ furnace.addRecipe(<minecraft:prismarine_shard>, <powderpower:powderprismarine>, 
 furnace.addRecipe(<minecraft:obsidian>, <powderpower:powderobsidian>, 2.0);
 furnace.addRecipe(<minecraft:redstone>, <powderpower:powderredstone>, 2.0);
 furnace.addRecipe(<minecraft:dye:4>, <powderpower:powderlapis>, 2.0);
+furnace.addRecipe(<minecraft:bread>,<harvestcraft:doughitem>);

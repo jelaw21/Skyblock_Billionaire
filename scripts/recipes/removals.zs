@@ -94,7 +94,8 @@ val removalNames = [
 	"resourcehogs:deconstruct_bacon_nether_quartz",
 	"resourcehogs:deconstruct_bacon_dirt",
 	"soulus:bars_endersteel_ender",
-	"soulus:dust/dust_ender_iron"
+	"soulus:dust/dust_ender_iron",
+	"harvestcraft:minecraft_bread"
 	
 	
 ] as string[];

@@ -94,12 +94,50 @@
       },
 	  "drops": [
         {
+          "selector": {
+            "weight": {
+              "value": 50
+            }
+          },
           "item": {
             "items": [
-			  "soulus:fossil_dirt",
-			  "soulus:fossil_dirt_fungal",	
-              "soulus:fossil_dirt_frozen",
-			  "soulus:fossil_dirt_ender"		  
+              "soulus:fossil_dirt"
+            ]
+          }
+        },
+        {
+          "selector": {
+            "weight": {
+              "value": 20
+            }
+          },
+          "item": {
+            "items": [
+              "soulus:fossil_dirt_fungal"
+            ]
+          }
+        },
+        {
+          "selector": {
+            "weight": {
+              "value": 20
+            }
+          },
+          "item": {
+            "items": [
+              "soulus:fossil_dirt_frozen"
+            ]
+          }
+        },
+        {
+          "selector": {
+            "weight": {
+              "value": 10
+            }
+          },
+          "item": {
+            "items": [
+              "soulus:fossil_dirt_ender"
             ]
           }
         }

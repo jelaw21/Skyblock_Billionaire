@@ -21,7 +21,7 @@
     "heldItem": "boneappetit:wet_bone_meal:0",          
     "replacementBlock": "minecraft:sapling:5",                              
     "damage": "1",
-	"particleType": "dripWater",
+	"particleType": "splash",
     "particleCount": "10:30"                                     
   },
   {
@@ -29,7 +29,7 @@
     "heldItem": "boneappetit:wet_bone_meal:0",          
     "replacementBlock": "extrautils2:ironwood_sapling:0",                              
     "damage": "1",
-	"particleType": "dripWater",
+	"particleType": "splash",
     "particleCount": "10:30"                                     
   },
   {
@@ -37,7 +37,7 @@
     "heldItem": "boneappetit:wet_bone_meal:0",          
     "replacementBlock": "minecraft:sapling:4",                              
     "damage": "1",
-	"particleType": "dripWater",
+	"particleType": "splash",
     "particleCount": "10:30"                                     
   },
   {
@@ -53,7 +53,7 @@
     "heldItem": "boneappetit:wet_bone_meal:0",          
     "replacementBlock": "minecraft:yellow_flower:0",                              
     "damage": "1",
-	"particleType": "dripWater",
+	"particleType": "splash",
     "particleCount": "10:30"                                     
   },
   {
@@ -61,7 +61,7 @@
     "heldItem": "boneappetit:wet_bone_meal:0",          
     "replacementBlock": "minecraft:red_flower:0",                              
     "damage": "1",
-	"particleType": "dripWater",
+	"particleType": "splash",
     "particleCount": "10:30"                                     
   },
   {

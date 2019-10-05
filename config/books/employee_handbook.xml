@@ -107,7 +107,7 @@
                 <stack item="harvestcraft:vegetablesoupitem" count="4"/>
                 <stack item="minecraft:bread" count="8"/>
                 <stack item="silentgems:gem" count="4"/>
-                <span>(any 4 stack)</span>
+                <span>(any 4 of the same type)</span>
             </p>
             <title space='20'>UNLOCKS</title>
             <p space="20">
