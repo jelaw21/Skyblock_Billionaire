@@ -1,5 +1,5 @@
 {
-  "*": {
+  "overworld": {
     "*": {
       "moofluids:entityfluidcow": {
         "spawn_chance": 1.0
