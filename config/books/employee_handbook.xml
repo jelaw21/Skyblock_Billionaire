@@ -247,13 +247,20 @@
                 <stack item="contenttweaker:bank_item"/><span> with EXACTLY $10,000</span>
             <title space='20'>UNLOCKS</title>
             <p space="20">Access to The Labyrinth, a mob dimension with awesome loot and terrifying mobs.</p>
+            <p space="10">All the mods are now available for purchase. You need a Piggy Bank with the EXACT amount.</p>
         </page>
         <page>
             <title space='20'>HINTS</title>
-            <p space="10">The Labyrinth is full of goodies and if you have skills, can make some quick cash in there
+            <p space="10">The Labyrinth is full of goodies and if you have skills, you can make some quick cash in there
                 .</p>
             <p space="10">Utilize the autocrafter to save time adding hard cash to your piggy bank.</p>
             <p space="10">Automation is the key.</p>
+            <p space="10">Don't go overboard to buy all the mods. Be choosey. Two strategies that may work well: buy
+                1 big mod to get a big increase, or buy a bunch of smaller ones to to gradually increase production.</p>
+            <p space="10">Spend some time researching the mods on what they do. Most mods also come with an in-game
+                guide.</p>
+            <p space="10">Selling to the markets is time consuming, soon you will be able to sell to the global
+                market.</p>
 
         </page>
     </chapter>
@@ -267,43 +274,48 @@
                 I kinda like ya kid, I hope you succeed, though there are others working just as hard.</p>
             <title space='20'>REQUIREMENTS</title>
             <p color="#4f5f98" space='10'>Its all about that money. Use your resources and make some fat cash!</p>
+            <p color="#4f5f98" space='10'>You may purchase one of the three new systems to install in GWK, Agriculture, Industrial and somthing else. Each one will increase your overall  productivity. </p>
         </page>
         <page>
             <title space='20'>GATHER</title>
                 <stack item="contenttweaker:bank_item"/><span> with EXACTLY $25,000</span>
             <title space='20'>UNLOCKS</title>
-            <p space="10">All the mods are now available for purchase.</p>
+            <p space="10">The other systems you didn't choose will be available in their respective categories in the shop.</p>
+            <p space="10">The ability to make Redium and Lapium Armor and Weapons.</p>
         </page>
         <page>
             <title space='20'>HINTS</title>
-            <p space="10">Don't go overboard to buy all the mods. Be choosey. Two strategies that may work well: buy
-            1 big mod to get a big increase, or buy a bunch of smaller ones to to gradually increase production.</p>
-            <p space="10">Spend some time researching the mods on what they do. Most mods also come with an in-game
-                guide.</p>
-            <p space="10">Selling to the markets is time consuming, soon you will be able to sell to the global
-                market.</p>
+            <p space ="10">TBA</p>
         </page>
     </chapter>
     <chapter id="executive" condition="executive">
         <page>
             <title space='20'>Executive Director</title>
-            <p color="#4f5f98" space='10'></p>
+            <p color="#4f5f98" space='10'>Well, kid, things are really getitng going now. But it takes a lot of work to sell goods to the local market. I think our infrastruture is at a point where we can make use of the Global Markets and sell goods and services there. However, there is an entry price into those markets, its not a bad price, but you're going to want a few of those machines. </p>
+            <p color="#4f5f98" space='10'>Other than the obvious advantage of the Global Markets, another benefit is that you can sell ALL ITEMS, no matter their price. And you can sell them one at a time. It may take some time to find an appropriate buyer, but with more efficient traders and brokers, you should be able to speed those devices up. In the future, you can even dedicate yourself to one market and rank in even more profit.</p>
+            <p color="#4f5f98" space='10'>I never compliment anyone. It lets their guard down. Many others are already trading on the Global Markets, so the more we stand here, the less money you are making!</p>
             <title space='20'>REQUIREMENTS</title>
+            <p space="10">Place at least one of each Global Markets and earn an income of $100,000.</p>
         </page>
         <page>
             <title space='20'>GATHER</title>
+            <stack item="contenttweaker:bank_item"/><span> with EXACTLY $25,000</span>
             <title space='20'>UNLOCKS</title>
+            <p space="10">Access to the Global Markets via the Special Equipment tab in the store.</p>
+
         </page>
         <page>
             <title space='20'>HINTS</title>
-
+            <p space="10">TBA</p>
         </page>
     </chapter>
     <chapter id="ceo" condition="ceo">
         <page>
-            <title space='20'>Shift Manager</title>
-            <p color="#4f5f98" space='10'>.</p>
+            <title space='20'>Chief Executive Officer</title>
+            <p color="#4f5f98" space='10'>Well, the company recognized your greatness and moved you up to CEO. I advised against this, but they don't like listening to an old man. But here we are, so we gotta make due with what we have. If I were you, I would try and get myself on the Board of Directors and be a part of the decision making. You can easily contorl the major decisions of the company from there.</p>
+            <p color="#4f5f98" space='10'>If they moved you to CEO, they must need some serious guidance on the Board.</p>
             <title space='20'>REQUIREMENTS</title>
+            <p color="#4f5f98" space='10'>To acquire a seat on the Board of Directors you must acquire 100,000 shares of the company. You can purchase 10,000 shares at a time. </p>
         </page>
         <page>
             <title space='20'>GATHER</title>
@@ -316,9 +328,10 @@
     </chapter>
     <chapter id="board" condition="board">
         <page>
-            <title space='20'>Shift Manager</title>
-            <p color="#4f5f98" space='10'>.</p>
+            <title space='20'>Board Member</title>
+            <p color="#4f5f98" space='10'>Well look at you. A big head hauncho. Sitting at the big table. I know you're proud, but wouldn't you like to be "THE MAN" at the head of the table. That's right, you should set your sights on being the Chairman. Then you would have full authority of what the company says or does.</p>
             <title space='20'>REQUIREMENTS</title>
+            <p color="#4f5f98" space='10'>To become Chairman of the Board you will need to "persuade" a few current board members, 6 to be precise, to vote you to Chairman. They each have different demands, some want goods, some want money and others want you to endorse their programs.</p>
         </page>
         <page>
             <title space='20'>GATHER</title>
@@ -331,9 +344,10 @@
     </chapter>
     <chapter id="chairman" condition="chairman">
         <page>
-            <title space='20'>Shift Manager</title>
-            <p color="#4f5f98" space='10'>.</p>
+            <title space='20'>Chairman of the Board</title>
+            <p color="#4f5f98" space='10'>Congratulations, you've made it. This is as far as I can take you. You have now just replaced me as Chairman of the Board and the company is yours. Where you go from here, the skies the limit. But it would be cool to be a Billionaire. I just ask that you do one thing, something I do frequently. Donate to charities. There are three charities I would like you to consider, and if you support them, you may find they give back to you!</p>
             <title space='20'>REQUIREMENTS</title>
+            <p color="#4f5f98" space='10'>Select a charity from the Special Equipment tab to support. You can support all three, but the price will increase for the other two. Each charity will provide a bonus to YOUR company.</p>
         </page>
         <page>
             <title space='20'>GATHER</title>
@@ -346,7 +360,7 @@
     </chapter>
     <chapter id="philanthropist" condition="philanthropist">
         <page>
-            <title space='20'>Shift Manager</title>
+            <title space='20'>Philanthropist</title>
             <p color="#4f5f98" space='10'>.</p>
             <title space='20'>REQUIREMENTS</title>
         </page>
