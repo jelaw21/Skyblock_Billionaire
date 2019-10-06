@@ -1,7 +1,7 @@
 //SHAPELESS
 recipes.addShapeless(<silentgems:craftingmaterial:3>, [<mysticalagriculture:chrome_essence>, <mysticalagriculture:chrome_essence>, <mysticalagriculture:chrome_essence>, <mysticalagriculture:chrome_essence>]);
 recipes.addShapeless(<contenttweaker:item_water> * 4, [<minecraft:water_bucket>]);
-recipes.addShapeless(<contenttweaker:item_water> * 4, [<minecraft:potion>.onlyWithTag({Potion: "minecraft:water"})]);
+recipes.addShapeless(<contenttweaker:item_water> * 4, [<minecraft:potion>.withTag({Potion: "minecraft:water"})]);
 recipes.addShapeless(<minecraft:sapling:1> * 2, [<minecraft:leaves:1>,<minecraft:leaves:1>,<soulus:bark>,<minecraft:stick>]);
 recipes.addShapeless(<minecraft:sapling:3>*2, [<minecraft:leaves:3>,<minecraft:leaves:3>,<soulus:bark>,<minecraft:stick>]);
 recipes.addShapeless(<minecraft:sapling:2> *2, [<minecraft:leaves:2>,<minecraft:leaves:2>,<soulus:bark>,<minecraft:stick>]);

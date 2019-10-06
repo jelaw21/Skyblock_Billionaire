@@ -1,8 +1,5 @@
 mods.jei.JEI.addDescription(<minecraft:dirt>,"Dirt can be made by adding dirt balls to sand.", " ", "Just right-click the sand with a dirt ball and voila!  Dirt!");
 
-mods.jei.JEI.addDescription(<contenttweaker:item_water>,"Place a water bottle on the crafting grid, not the silly
-potion JEI shows!");
-
 mods.jei.JEI.addDescription(<ore:treeSapling>,"Various species of tree saplings can be made by right-clicking saplings
 with wet bone meal.", "Oak -> Dark Oak", "Birch -> Ferrous - Juniper", "Jungle -> Acacia","You can cycle through all
 the Pam's Fruit Tree Saplings");
@@ -37,9 +34,9 @@ mods.jei.JEI.addDescription([<minecraft:clay_ball>],"I'm only putting this here 
 mods.jei.JEI.addDescription([<minecraft:stick>, <minecraft:apple>],"Break leaves to get sticks and apples. Any leaves
 will do. Must break by hand, no vein mine!");
 
-mods.jei.JEI.addDescription([<minecraft:netherrack>, <minecraft:soul_sand>, <minecraft:glowstone_dust>, <silentgems:craftingmaterial:27>],"Blazestone
-has
-the ability to change normal blocks into their hellish counterparts.", "Cobblestone -> Netherrack", "Sand -> Soulsand", "Glass -> Glowstone Dust");
+mods.jei.JEI.addDescription([<minecraft:netherrack>, <minecraft:soul_sand>, <minecraft:glowstone_dust>,
+<silentgems:craftingmaterial:27>],"Blazestone has the ability to change normal blocks into their hellish counterparts.",
+ " ", "Cobblestone -> Netherrack", "Sand -> Soulsand", "Glass -> Glowstone Dust");
 
 mods.jei.JEI.addDescription([<soulus:bone_chunk_nether>],"To reveal the bones hidden in netherrack, apply a fiery bone meal.", "You can then extract the essence or use it to craft blackened bone meal.");
 

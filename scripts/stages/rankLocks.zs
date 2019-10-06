@@ -1,7 +1,6 @@
 mods.ItemStages.stageModItems("EMPLOYEE", "silentgems");
 mods.ItemStages.stageModItems("EMPLOYEE", "flintmod");
 mods.ItemStages.stageModItems("SHIFT_MANAGER", "harvestcraft");
-mods.ItemStages.stageModItems("SHIFT_MANAGER", "powderpower");
 mods.ItemStages.removeItemStage(<harvestcraft:vegetablesoupitem>);
 mods.ItemStages.removeItemStage(<harvestcraft:stockitem>);
 mods.ItemStages.removeItemStage(<harvestcraft:doughitem>);

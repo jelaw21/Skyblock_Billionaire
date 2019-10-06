@@ -122,41 +122,7 @@
 			}
 		],
 		"normal": [
-			{
-				"effect": "water_breathing",
-				"duration": 2147483647,
-				"chance": 0.1
-			},
-			{
-				"effect": "strength",
-				"duration": 2147483647,
-				"chance": 0.1
-			},
-			{
-				"effect": "slowness",
-				"duration": 2147483647,
-				"chance": 0.1
-			},
-			{
-				"effect": "weakness",
-				"duration": 2147483647,
-				"chance": 0.1
-			},
-			{
-				"effect": "regeneration",
-				"duration": 2147483647,
-				"chance": 0.1
-			},
-			{
-				"effect": "speed",
-				"duration": 2147483647,
-				"chance": 0.1
-			},
-			{
-				"effect": "resistance",
-				"duration": 2147483647,
-				"chance": 0.1
-			}
+
 		],
 		"spooky": [
 			{
