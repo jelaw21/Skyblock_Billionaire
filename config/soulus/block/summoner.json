@@ -3,7 +3,7 @@
 	"particle_count_activated": 0.0,
 	"perfect_essence_boost": 0.015,
 	"perfect_essence_boost_decay": 0.7,
-	"non_upgraded_spawning_radius": 2,
+	"non_upgraded_spawning_radius": 3,
 	"non_upgraded_count": {
 		"min": 1.0,
 		"max": 2.0
@@ -176,8 +176,8 @@
 	},
 	"max_upgrades": {
 		"count": 16,
-		"delay": 16,
-		"range": 16,
+		"delay": 32,
+		"range": 32,
 		"efficiency": 16,
 		"crystal_dark": 16
 	}
