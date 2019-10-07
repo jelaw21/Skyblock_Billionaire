@@ -299,7 +299,7 @@
         </page>
         <page>
             <title space='20'>GATHER</title>
-            <stack item="contenttweaker:bank_item"/><span> with EXACTLY $25,000</span>
+            <stack item="contenttweaker:bank_item"/><span> with EXACTLY $100,000</span>
             <title space='20'>UNLOCKS</title>
             <p space="10">Access to the Global Markets via the Special Equipment tab in the store.</p>
 
@@ -316,9 +316,11 @@
             <p color="#4f5f98" space='10'>If they moved you to CEO, they must need some serious guidance on the Board.</p>
             <title space='20'>REQUIREMENTS</title>
             <p color="#4f5f98" space='10'>To acquire a seat on the Board of Directors you must acquire 100,000 shares of the company. You can purchase 10,000 shares at a time. </p>
+            <p color="#4f5f98" space='10'>You will also need to prove you are financially responsible and continue to rake in the profits. </p>
         </page>
         <page>
             <title space='20'>GATHER</title>
+            <stack item="contenttweaker:bank_item"/><span> with EXACTLY $250,000</span>
             <title space='20'>UNLOCKS</title>
         </page>
         <page>
@@ -335,6 +337,7 @@
         </page>
         <page>
             <title space='20'>GATHER</title>
+            <stack item="contenttweaker:bank_item"/><span> with EXACTLY $500,000</span>
             <title space='20'>UNLOCKS</title>
         </page>
         <page>
@@ -351,6 +354,7 @@
         </page>
         <page>
             <title space='20'>GATHER</title>
+            <stack item="contenttweaker:bank_item"/><span> with EXACTLY $1,000,000</span>
             <title space='20'>UNLOCKS</title>
         </page>
         <page>
@@ -361,11 +365,12 @@
     <chapter id="philanthropist" condition="philanthropist">
         <page>
             <title space='20'>Philanthropist</title>
-            <p color="#4f5f98" space='10'>.</p>
+            <p color="#4f5f98" space='10'>I'm back kid, cause frankly, you need me. You need a good advisor. Listen kid, money is where its at. If you have money, you have power. And those with the most of both are banks. They control the wealth. And if we control the banks, we control the wealth. There are a number of banks I have contacted with are open for a merger. It's not going to be cheap, but the pay-off will be immense. We will have the potential to earn more on the global market and even on local markets. Not to mention, a chance to earn interest on loans. Its quite a great thing here.</p>
             <title space='20'>REQUIREMENTS</title>
         </page>
         <page>
             <title space='20'>GATHER</title>
+            <stack item="contenttweaker:bank_item"/><span> with EXACTLY $25,000,000</span>
             <title space='20'>UNLOCKS</title>
         </page>
         <page>
@@ -375,12 +380,13 @@
     </chapter>
     <chapter id="tycoon" condition="tycoon">
         <page>
-            <title space='20'>Shift Manager</title>
-            <p color="#4f5f98" space='10'>.</p>
+            <title space='20'>Financial Tycoon</title>
+            <p color="#4f5f98" space='10'>Now that we own some banks, let's give up some cheese and establish them world-wide. But here's the catch, kiddo. If people don't have money, they can't pay their loans, which means we don't get interest. Or they don't get credit cards, and we don't get interest. So what we need to do, is dumb money into under-funded communities and countries around the world and help them establish a decent economy, then plop The Bank of GWK, right in the middle. GOLD MINE! Everyone wins, we make money, communities prosper and people are happy. </p>
             <title space='20'>REQUIREMENTS</title>
         </page>
         <page>
             <title space='20'>GATHER</title>
+            <stack item="contenttweaker:bank_item"/><span> with EXACTLY $150,000,000</span>
             <title space='20'>UNLOCKS</title>
         </page>
         <page>
@@ -390,27 +396,13 @@
     </chapter>
     <chapter id="invester" condition="invester">
         <page>
-            <title space='20'>Shift Manager</title>
+            <title space='20'>Global Invester</title>
             <p color="#4f5f98" space='10'>.</p>
             <title space='20'>REQUIREMENTS</title>
         </page>
         <page>
             <title space='20'>GATHER</title>
-            <title space='20'>UNLOCKS</title>
-        </page>
-        <page>
-            <title space='20'>HINTS</title>
-
-        </page>
-    </chapter>
-    <chapter id="bank" condition="bank">
-        <page>
-            <title space='20'>Shift Manager</title>
-            <p color="#4f5f98" space='10'>.</p>
-            <title space='20'>REQUIREMENTS</title>
-        </page>
-        <page>
-            <title space='20'>GATHER</title>
+            <stack item="contenttweaker:bank_item"/><span> with EXACTLY $250,000,000</span>
             <title space='20'>UNLOCKS</title>
         </page>
         <page>
@@ -420,12 +412,13 @@
     </chapter>
     <chapter id="un" condition="un">
         <page>
-            <title space='20'>Shift Manager</title>
+            <title space='20'>Secretary General of the UN</title>
             <p color="#4f5f98" space='10'>.</p>
             <title space='20'>REQUIREMENTS</title>
         </page>
         <page>
             <title space='20'>GATHER</title>
+            <stack item="contenttweaker:bank_item"/><span> with EXACTLY $500,000,000</span>
             <title space='20'>UNLOCKS</title>
         </page>
         <page>
@@ -435,12 +428,13 @@
     </chapter>
     <chapter id="world" condition="world">
         <page>
-            <title space='20'>Shift Manager</title>
+            <title space='20'>World Leader</title>
             <p color="#4f5f98" space='10'>.</p>
             <title space='20'>REQUIREMENTS</title>
         </page>
         <page>
             <title space='20'>GATHER</title>
+            <stack item="contenttweaker:bank_item"/><span> with EXACTLY $1,000,000,000</span>
             <title space='20'>UNLOCKS</title>
         </page>
         <page>
@@ -450,7 +444,7 @@
     </chapter>
     <chapter id="president" condition="president">
         <page>
-            <title space='20'>Shift Manager</title>
+            <title space='20'>President of the World</title>
             <p color="#4f5f98" space='10'>.</p>
             <title space='20'>REQUIREMENTS</title>
         </page>
