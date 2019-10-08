@@ -9,6 +9,8 @@ import mods.contenttweaker.Commands;
 
 var image = mods.contenttweaker.ResourceLocation.create("contenttweaker:items/modManual");
 var backpack = mods.contenttweaker.ResourceLocation.create("contenttweaker:items/backpack");
+var vote = mods.contenttweaker.ResourceLocation.create("contenttweaker:items/vote");
+var charity = mods.contenttweaker.ResourceLocation.create("contenttweaker:items/charity");
 
 var modbook = VanillaFactory.createItem("agricraft");
 modbook.maxStackSize = 1;
@@ -344,19 +346,95 @@ coupon.maxStackSize = 1;
 coupon.rarity="rare";
 coupon.register();
 
-/*var investment = VanillaFactory.createItem("fooldollarone");
+var investment = VanillaFactory.createItem("approval_loan");
 investment.maxStackSize = 1;
-investment.maxDamage = 5000;
-investment.onItemUpdate = function(itemStack, world, owner, slot, isSelected) {
-        var time = world.getWorldInfo();
-        if(time.getWorldTotalTime()%12000 == 0){
+investment.itemRightClick = function(stack, world, player, hand) {
+    if !world.remote && !extrautilities2.Tweaker.XUTweaker.isPlayerFake(player) {
+        player.update(player.data + {"Investment": 36000});
+        player.update(player.data + {"InvestmentType": 0});
+        player.sendChat("Loan Period Started for Customer " + world.time);
+        stack.shrink(1);
+    }
+    return "SUCCESS";
+  };
+investment.register();
 
-            var total = itemStack.maxDamage as float;
-            total = total*1.01;
-            itemStack.maxDamage = total as int;
-            itemStack.displayName = "IRA Value: $" + itemStack.maxDamage;
-        }
+investment = VanillaFactory.createItem("approval_credit");
+investment.maxStackSize = 1;
+investment.itemRightClick = function(stack, world, player, hand) {
+    if !world.remote && !extrautilities2.Tweaker.XUTweaker.isPlayerFake(player) {
+        player.update(player.data + {"Investment": 144000});
+        player.update(player.data + {"InvestmentType": 1});
+        player.sendChat("Line of Credit Started for Customer " + world.time);
+        stack.shrink(1);
+    }
+    return "SUCCESS";
+  };
+investment.register();
 
-    return;
-};
-investment.register();*/
+investment = VanillaFactory.createItem("approval_investment");
+investment.maxStackSize = 1;
+investment.itemRightClick = function(stack, world, player, hand) {
+    if !world.remote && !extrautilities2.Tweaker.XUTweaker.isPlayerFake(player) {
+        player.update(player.data + {"Investment": 432000});
+        player.update(player.data + {"InvestmentType": 2});
+        player.sendChat("Your Investment Started");
+        stack.shrink(1);
+    }
+    return "SUCCESS";
+  };
+investment.register();
+
+var boardVote = VanillaFactory.createItem("vote_1");
+boardVote.maxStackSize = 1;
+boardVote.textureLocation = vote;
+boardVote.rarity = "rare";
+boardVote.register();
+
+boardVote = VanillaFactory.createItem("vote_2");
+boardVote.maxStackSize = 1;
+boardVote.textureLocation = vote;
+boardVote.rarity = "rare";
+boardVote.register();
+
+boardVote = VanillaFactory.createItem("vote_3");
+boardVote.maxStackSize = 1;
+boardVote.textureLocation = vote;
+boardVote.rarity = "rare";
+boardVote.register();
+
+boardVote = VanillaFactory.createItem("vote_4");
+boardVote.maxStackSize = 1;
+boardVote.textureLocation = vote;
+boardVote.rarity = "rare";
+boardVote.register();
+
+boardVote = VanillaFactory.createItem("vote_5");
+boardVote.maxStackSize = 1;
+boardVote.textureLocation = vote;
+boardVote.rarity = "rare";
+boardVote.register();
+
+boardVote = VanillaFactory.createItem("vote_6");
+boardVote.maxStackSize = 1;
+boardVote.textureLocation = vote;
+boardVote.rarity = "rare";
+boardVote.register();
+
+var charityItem = VanillaFactory.createItem("charity_1");
+charityItem.maxStackSize = 1;
+charityItem.textureLocation = charity;
+charityItem.rarity = "rare";
+charityItem.register();
+
+charityItem = VanillaFactory.createItem("charity_2");
+charityItem.maxStackSize = 1;
+charityItem.textureLocation = charity;
+charityItem.rarity = "rare";
+charityItem.register();
+
+charityItem = VanillaFactory.createItem("charity_3");
+charityItem.maxStackSize = 1;
+charityItem.textureLocation = charity;
+charityItem.rarity = "rare";
+charityItem.register();

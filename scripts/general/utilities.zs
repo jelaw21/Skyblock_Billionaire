@@ -1,3 +1,5 @@
+import crafttweaker.data.IData;
+
 <contenttweaker:shift_kit>.addTooltip("Gives 4 items. Make room!");
 <contenttweaker:assistant_kit>.addTooltip("Gives 4 items. Make room!");
 <contenttweaker:agricraft>.addTooltip(format.green("Right Click to Use"));
@@ -26,32 +28,41 @@
 <ore:materialBinding>.add(<minecraft:leaves:*>);
 <ore:materialBinding>.add(<minecraft:leaves2:*>);
 
-//REPLACEMENT ORE DICTS
-<ore:overOre>.addAll(<ore:oreRuby>);
-<ore:overOre>.addAll(<ore:oreGarnet>);
-<ore:overOre>.addAll(<ore:oreTopaz>);
-<ore:overOre>.addAll(<ore:oreAmber>);
-<ore:overOre>.addAll(<ore:oreHeliodor>);
-<ore:overOre>.addAll(<ore:orePeridot>);
-<ore:overOre>.addAll(<ore:oreBeryl>);
-<ore:overOre>.addAll(<ore:oreIndicolite>);
-<ore:overOre>.addAll(<ore:oreAquamarine>);
-<ore:overOre>.addAll(<ore:oreSapphire>);
-<ore:overOre>.addAll(<ore:oreIolite>);
-<ore:overOre>.addAll(<ore:oreAmethyst>);
-<ore:overOre>.addAll(<ore:oreAgate>);
-<ore:overOre>.addAll(<ore:oreMorganite>);
-<ore:overOre>.addAll(<ore:oreOnyx>);
-<ore:overOre>.addAll(<ore:oreOpal>);
-<ore:overOre>.addAll(<ore:oreIron>);
-<ore:overOre>.addAll(<ore:oreRedstone>);
-<ore:overOre>.addAll(<ore:oreDiamond>);
-<ore:overOre>.addAll(<ore:oreLapis>);
-<ore:overOre>.addAll(<ore:oreEmerald>);
-<ore:overOre>.addAll(<ore:oreGold>);
-<ore:overOre>.addAll(<ore:oreCopper>);
-<ore:overOre>.addAll(<ore:oreTin>);
-<ore:overOre>.addAll(<ore:oreAluminum>);
-<ore:overOre>.addAll(<ore:oreNickel>);
+
+//FUNCTIONS
+events.onPlayerTick(function(event as crafttweaker.event.PlayerTickEvent){
+	var player = event.player as crafttweaker.player.IPlayer;
+	if !player.world.remote {
+		var data = player.data;
+		if data has "Investment" {
+			var time = data.memberGet("Investment") as int;
+			var type = data.memberGet("InvestmentType") as int;
+			if time > 0 {
+                time = time - 1;
+                player.update(data + {"Investment": time});
+			}
+			else{
+                if(time == 0){
+                    if(type == 0){
+                        player.give(<contenttweaker:bank_item>.withTag({Total: 7500}).withLore(["$7500"]));
+                        player.sendChat("Investment Matured");
+                        player.update(data + {"Investment": -1});
+                    }
+                    if(type == 1){
+                        player.give(<contenttweaker:bank_item>.withTag({Total: 17500}).withLore(["$17500"]));
+                        player.sendChat("Investment Matured");
+                        player.update(data + {"Investment": -1});
+                    }
+                    if(type == 2){
+                        player.give(<contenttweaker:bank_item>.withTag({Total: 50000}).withLore(["$50000"]));
+                        player.sendChat("Investment Matured");
+                        player.update(data + {"Investment": -1});
+                    }
+                }
+            }
+		}
+	}
+});
+
 
 

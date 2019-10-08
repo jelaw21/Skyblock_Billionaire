@@ -17,3 +17,4 @@ setAnnounceToChat(false)
 //Rewards
 
 visibleIf("triumph:billionaire/shiftmanager/root")
+setPos(32,54)

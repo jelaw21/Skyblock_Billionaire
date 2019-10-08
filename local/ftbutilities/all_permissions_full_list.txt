@@ -1,4 +1,4 @@
-7242 nodes in total
+7254 nodes in total
 Modifying this file won't have any effect, edit ranks.txt!
 
 admin_panel.ftbutilities.crash_reports.delete: OP
@@ -3842,6 +3842,9 @@ ftbutilities.claims.item.contenttweaker.anti_dollarfive: ALL
 ftbutilities.claims.item.contenttweaker.anti_dollaronehundred: ALL
 ftbutilities.claims.item.contenttweaker.anti_dollarten: ALL
 ftbutilities.claims.item.contenttweaker.anti_dollartwenty: ALL
+ftbutilities.claims.item.contenttweaker.approval_credit: ALL
+ftbutilities.claims.item.contenttweaker.approval_investment: ALL
+ftbutilities.claims.item.contenttweaker.approval_loan: ALL
 ftbutilities.claims.item.contenttweaker.assistant_kit: ALL
 ftbutilities.claims.item.contenttweaker.aw2_suite: ALL
 ftbutilities.claims.item.contenttweaker.aw2_warehouse: ALL
@@ -3849,6 +3852,9 @@ ftbutilities.claims.item.contenttweaker.bank_item: ALL
 ftbutilities.claims.item.contenttweaker.bronze_strip: ALL
 ftbutilities.claims.item.contenttweaker.chaos_endstone: ALL
 ftbutilities.claims.item.contenttweaker.chaos_strip: ALL
+ftbutilities.claims.item.contenttweaker.charity_1: ALL
+ftbutilities.claims.item.contenttweaker.charity_2: ALL
+ftbutilities.claims.item.contenttweaker.charity_3: ALL
 ftbutilities.claims.item.contenttweaker.chisel: ALL
 ftbutilities.claims.item.contenttweaker.coal_strip: ALL
 ftbutilities.claims.item.contenttweaker.constantan_strip: ALL
@@ -3898,6 +3904,12 @@ ftbutilities.claims.item.contenttweaker.stone_hammer: ALL
 ftbutilities.claims.item.contenttweaker.thermal: ALL
 ftbutilities.claims.item.contenttweaker.tin_strip: ALL
 ftbutilities.claims.item.contenttweaker.trilium: ALL
+ftbutilities.claims.item.contenttweaker.vote_1: ALL
+ftbutilities.claims.item.contenttweaker.vote_2: ALL
+ftbutilities.claims.item.contenttweaker.vote_3: ALL
+ftbutilities.claims.item.contenttweaker.vote_4: ALL
+ftbutilities.claims.item.contenttweaker.vote_5: ALL
+ftbutilities.claims.item.contenttweaker.vote_6: ALL
 ftbutilities.claims.item.contenttweaker.wood_hammer: ALL
 ftbutilities.claims.item.cookingforblockheads.cabinet: ALL
 ftbutilities.claims.item.cookingforblockheads.cooking_table: ALL
