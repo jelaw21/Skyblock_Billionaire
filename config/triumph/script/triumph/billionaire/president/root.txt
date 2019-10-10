@@ -1,0 +1,22 @@
+setTitle("PRESIDENT OF THE WORLD")
+//setTranslatedTitle("advancements.stage0.root.title")
+
+setIcon(<minecraft:skull:3>)
+
+setDescription("GALACTIC EMPEROR!")
+//setTranslatedDescription("advancements.stage0.root.description")
+
+setBackground("minecraft:textures/blocks/obsidian_block.png")
+
+setShowToast(false)
+
+setAnnounceToChat(false)
+
+setRequirements("any")
+
+//Criteria
+criteria = addCriteria("completedAssistant", "triumph:completed_advancement")
+criteria.setString("triumph:billionaire/world/promotion")
+
+//Rewards
+setRewardFunction("billionaire:president")

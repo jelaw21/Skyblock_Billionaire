@@ -1,0 +1,4 @@
+execute @s ~ ~ ~ gamestage silentadd @p PHILANTHROPIST
+title @s subtitle "PROMOTION EARNED - SEE HANDBOOK"
+title @s title "PHILANTHROPIST"
+ranks set @s philanthropist

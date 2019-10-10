@@ -1,0 +1,18 @@
+setTitle("PROMOTION: Chief Executive Officer")
+
+setIcon(<minecraft:skull:3>)
+
+setDescription("Please consult the employee handbook for further instructions.")
+
+addParent("triumph:billionaire/executivedirector/money")
+setRequiresParents()
+
+//Criteria
+
+
+setShowToast(true)
+setAnnounceToChat(true)
+
+//Rewards
+
+setHidden(true)

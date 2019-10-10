@@ -13,8 +13,7 @@
         <stage-unlocked name="philanthropist" stage="PHILANTHROPIST"/>
         <stage-unlocked name="tycoon" stage="FINANCIAL_TYCOON"/>
         <stage-unlocked name="invester" stage="GLOBAL_INVESTER"/>
-        <stage-unlocked name="bank" stage="WORLD_BANK"/>
-        <stage-unlocked name="un" stage="UN_SCRETARY"/>
+        <stage-unlocked name="un" stage="UN_SECRETARY"/>
         <stage-unlocked name="world" stage="WORLD_LEADER"/>
         <stage-unlocked name="president" stage="WORLD_PRESIDENT"/>
     </conditions>
@@ -35,7 +34,6 @@
             <link condition="philanthropist" ref="philanthropist">Philanthropist</link>
             <link condition="tycoon" ref="tycoon">Financial Tycoon</link>
             <link condition="invester" ref="invester">Global Invester</link>
-            <link condition="bank" ref="bank">World Bank President</link>
             <link condition="un" ref="un">UN Secretary-General</link>
             <link condition="world" ref="world">World Leader</link>
             <link condition="president" ref="president">President of the World</link>
@@ -185,8 +183,7 @@
                 going to be enough. The landscape is money, you are have a long way to go if you want to be a
                 Billionaire.</p>
             <p color="#4f5f98" space='10'>You are going to need to ramp up resource production and learn to interact
-                more fully
-                with the local markets.For this purpose, I've given you enough capital to purchase a resource
+                more fully with the local markets.For this purpose, I've given you a coupon to purchase a resource
                 industry. Choose wisely, as these are more expensive to unlock later. Each on has its pros and cons,
                 but they all produce the same resources.</p>
             <p  color="#4f5f98" space='10'> I've also given you a shipping bin, which you can use to
@@ -248,6 +245,7 @@
             <title space='20'>UNLOCKS</title>
             <p space="20">Access to The Labyrinth, a mob dimension with awesome loot and terrifying mobs.</p>
             <p space="10">All the mods are now available for purchase. You need a Piggy Bank with the EXACT amount.</p>
+            <p space="10">Access to a simple autocrafter. Search up autorafter in the JEI.</p>
         </page>
         <page>
             <title space='20'>HINTS</title>
@@ -274,7 +272,7 @@
                 I kinda like ya kid, I hope you succeed, though there are others working just as hard.</p>
             <title space='20'>REQUIREMENTS</title>
             <p color="#4f5f98" space='10'>Its all about that money. Use your resources and make some fat cash!</p>
-            <p color="#4f5f98" space='10'>You may purchase one of the three new systems to install in GWK, Agriculture, Industrial and somthing else. Each one will increase your overall  productivity. </p>
+            <p color="#4f5f98" space='10'>You may purchase one of the three new systems to install in GWK, Agriculture, Industrial and somthing else. Each one will could increase your overall  productivity. </p>
         </page>
         <page>
             <title space='20'>GATHER</title>
@@ -302,7 +300,6 @@
             <stack item="contenttweaker:bank_item"/><span> with EXACTLY $100,000</span>
             <title space='20'>UNLOCKS</title>
             <p space="10">Access to the Global Markets via the Special Equipment tab in the store.</p>
-
         </page>
         <page>
             <title space='20'>HINTS</title>
@@ -396,7 +393,7 @@
     </chapter>
     <chapter id="invester" condition="invester">
         <page>
-            <title space='20'>Global Invester</title>
+            <title space='20'>Global Investor</title>
             <p color="#4f5f98" space='10'>.</p>
             <title space='20'>REQUIREMENTS</title>
         </page>

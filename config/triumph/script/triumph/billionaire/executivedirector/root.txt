@@ -1,0 +1,22 @@
+setTitle("EXECUTIVE DIRECTOR")
+//setTranslatedTitle("advancements.stage0.root.title")
+
+setIcon(<minecraft:skull:3>)
+
+setDescription("Going Global!")
+//setTranslatedDescription("advancements.stage0.root.description")
+
+setBackground("minecraft:textures/blocks/lapis_block.png")
+
+setShowToast(false)
+
+setAnnounceToChat(false)
+
+setRequirements("any")
+
+//Criteria
+criteria = addCriteria("completedAssistant", "triumph:completed_advancement")
+criteria.setString("triumph:billionaire/regionalmanager/promotion")
+
+//Rewards
+setRewardFunction("billionaire:executive_director")
