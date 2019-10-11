@@ -293,11 +293,12 @@
             <p color="#4f5f98" space='10'>Other than the obvious advantage of the Global Markets, another benefit is that you can sell ALL ITEMS, no matter their price. And you can sell them one at a time. It may take some time to find an appropriate buyer, but with more efficient traders and brokers, you should be able to speed those devices up. In the future, you can even dedicate yourself to one market and rank in even more profit.</p>
             <p color="#4f5f98" space='10'>I never compliment anyone. It lets their guard down. Many others are already trading on the Global Markets, so the more we stand here, the less money you are making!</p>
             <title space='20'>REQUIREMENTS</title>
-            <p space="10">Place at least one of each Global Markets and earn an income of $100,000.</p>
+            <p space="10">Purchase at least one of each Global Markets and earn an income of $100,000.</p>
         </page>
         <page>
             <title space='20'>GATHER</title>
             <stack item="contenttweaker:bank_item"/><span> with EXACTLY $100,000</span>
+            <p space="20">Purchase 1 of EACH Global Markets</p>
             <title space='20'>UNLOCKS</title>
             <p space="10">Access to the Global Markets via the Special Equipment tab in the store.</p>
         </page>
@@ -335,6 +336,7 @@
         <page>
             <title space='20'>GATHER</title>
             <stack item="contenttweaker:bank_item"/><span> with EXACTLY $500,000</span>
+            <p space="10">6 Board Member Votes</p>
             <title space='20'>UNLOCKS</title>
         </page>
         <page>

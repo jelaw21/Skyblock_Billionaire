@@ -18,6 +18,7 @@ modbook.textureLocation = image;
 modbook.rarity = "rare";
 modbook.itemRightClick = function(stack, world, player, hand) {
     Commands.call("gamestage add @s AGRICRAFT", player, world, false, true);
+    Commands.call("gamestage silentremove @s REGIONAL_MANAGER_STORE", player, world, false, true);
 	stack.shrink(1);
     return "Pass";
 };
@@ -438,3 +439,8 @@ charityItem.maxStackSize = 1;
 charityItem.textureLocation = charity;
 charityItem.rarity = "rare";
 charityItem.register();
+
+share = VanillaFactory.createItem("share");
+share.maxStackSize = 10;
+share.rarity = "epic";
+share.register();

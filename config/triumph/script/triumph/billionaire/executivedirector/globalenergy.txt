@@ -1,0 +1,19 @@
+setTitle("Global Market: Energy")
+
+setIcon(<extrautils2:machine>)
+
+setDescription("Purchase Global Market: Energy")
+
+addParent("triumph:billionaire/executivedirector/root")
+
+
+//Criteria
+criteria = addCriteria("promotion", "minecraft:inventory_changed")
+criteria.addItem(<extrautils2:machine,  nbt:{Type:"crafttweaker:global_energy"}>)
+
+setShowToast(true)
+setAnnounceToChat(false)
+
+//Rewards
+
+visibleIf("triumph:billionaire/executivedirector/root")

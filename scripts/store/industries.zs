@@ -15,3 +15,4 @@ mods.Delivery.Store.addTrade("ASSISTANT_MANAGER",<contenttweaker:sky_orchards>, 
 mods.Delivery.Store.addTrade("ASSISTANT_MANAGER",<contenttweaker:mystical_ag>, industries, <contenttweaker:bank_item>.withTag({Total: 40000.0 as float, display: {Lore: ["$40000.0"]}}));
 mods.Delivery.Store.addTrade("ASSISTANT_MANAGER",<contenttweaker:resource_hogs>, industries, <contenttweaker:bank_item>.withTag({Total: 40000.0 as float, display: {Lore: ["$40000.0"]}}));
 mods.Delivery.Store.addTrade("ASSISTANT_MANAGER",<contenttweaker:rftools>, industries, <contenttweaker:bank_item>.withTag({Total: 30000.0 as float, display: {Lore: ["$30000.0"]}}));
+mods.Delivery.Store.addTrade("REGIONAL_MANAGER",<contenttweaker:agricraft>, industries, <contenttweaker:bank_item>.withTag({Total: 40000.0 as float, display: {Lore: ["$40000.0"]}}));
