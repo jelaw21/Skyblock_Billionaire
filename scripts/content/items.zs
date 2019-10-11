@@ -440,7 +440,7 @@ charityItem.textureLocation = charity;
 charityItem.rarity = "rare";
 charityItem.register();
 
-share = VanillaFactory.createItem("share");
+var share = VanillaFactory.createItem("share");
 share.maxStackSize = 10;
 share.rarity = "epic";
 share.register();

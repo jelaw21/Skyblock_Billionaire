@@ -1,4 +1,4 @@
-7254 nodes in total
+7263 nodes in total
 Modifying this file won't have any effect, edit ranks.txt!
 
 admin_panel.ftbutilities.crash_reports.delete: OP
@@ -337,6 +337,7 @@ ftbutilities.claims.block.edit.cookingforblockheads.sink: OP
 ftbutilities.claims.block.edit.cookingforblockheads.spice_rack: OP
 ftbutilities.claims.block.edit.cookingforblockheads.toaster: OP
 ftbutilities.claims.block.edit.cookingforblockheads.tool_rack: OP
+ftbutilities.claims.block.edit.craftingautomat.autocrafter: OP
 ftbutilities.claims.block.edit.cropdusting.fertile_dirt: OP
 ftbutilities.claims.block.edit.delivery.crate: OP
 ftbutilities.claims.block.edit.delivery.shipping_crate: OP
@@ -938,6 +939,7 @@ ftbutilities.claims.block.edit.harvestcraft.well: OP
 ftbutilities.claims.block.edit.harvestcraft.windygarden: OP
 ftbutilities.claims.block.edit.labyrinth.daedalus: OP
 ftbutilities.claims.block.edit.labyrinth.daedalusportal: OP
+ftbutilities.claims.block.edit.lowtechcrafting.crafting_table: OP
 ftbutilities.claims.block.edit.mcjtylib_ng.multipart: OP
 ftbutilities.claims.block.edit.minecraft.acacia_door: OP
 ftbutilities.claims.block.edit.minecraft.acacia_fence: OP
@@ -1507,6 +1509,7 @@ ftbutilities.claims.block.edit.silentgems.teleporterlight: OP
 ftbutilities.claims.block.edit.silentgems.teleporterredstone: OP
 ftbutilities.claims.block.edit.silentgems.teleporterredstonedark: OP
 ftbutilities.claims.block.edit.silentgems.teleporterredstonelight: OP
+ftbutilities.claims.block.edit.simplycrafting.simply_crafter: OP
 ftbutilities.claims.block.edit.sky_orchards.amber_alumina: OP
 ftbutilities.claims.block.edit.sky_orchards.amber_brilliant: OP
 ftbutilities.claims.block.edit.sky_orchards.amber_bronze: OP
@@ -2005,6 +2008,7 @@ ftbutilities.claims.block.interact.cookingforblockheads.sink: OP
 ftbutilities.claims.block.interact.cookingforblockheads.spice_rack: OP
 ftbutilities.claims.block.interact.cookingforblockheads.toaster: OP
 ftbutilities.claims.block.interact.cookingforblockheads.tool_rack: OP
+ftbutilities.claims.block.interact.craftingautomat.autocrafter: OP
 ftbutilities.claims.block.interact.cropdusting.fertile_dirt: OP
 ftbutilities.claims.block.interact.delivery.crate: OP
 ftbutilities.claims.block.interact.delivery.shipping_crate: OP
@@ -2606,6 +2610,7 @@ ftbutilities.claims.block.interact.harvestcraft.well: OP
 ftbutilities.claims.block.interact.harvestcraft.windygarden: OP
 ftbutilities.claims.block.interact.labyrinth.daedalus: OP
 ftbutilities.claims.block.interact.labyrinth.daedalusportal: OP
+ftbutilities.claims.block.interact.lowtechcrafting.crafting_table: OP
 ftbutilities.claims.block.interact.mcjtylib_ng.multipart: OP
 ftbutilities.claims.block.interact.minecraft.acacia_door: ALL
 ftbutilities.claims.block.interact.minecraft.acacia_fence: OP
@@ -3175,6 +3180,7 @@ ftbutilities.claims.block.interact.silentgems.teleporterlight: OP
 ftbutilities.claims.block.interact.silentgems.teleporterredstone: OP
 ftbutilities.claims.block.interact.silentgems.teleporterredstonedark: OP
 ftbutilities.claims.block.interact.silentgems.teleporterredstonelight: OP
+ftbutilities.claims.block.interact.simplycrafting.simply_crafter: OP
 ftbutilities.claims.block.interact.sky_orchards.amber_alumina: OP
 ftbutilities.claims.block.interact.sky_orchards.amber_brilliant: OP
 ftbutilities.claims.block.interact.sky_orchards.amber_bronze: OP
@@ -3930,6 +3936,7 @@ ftbutilities.claims.item.cookingforblockheads.sink: ALL
 ftbutilities.claims.item.cookingforblockheads.spice_rack: ALL
 ftbutilities.claims.item.cookingforblockheads.toaster: ALL
 ftbutilities.claims.item.cookingforblockheads.tool_rack: ALL
+ftbutilities.claims.item.craftingautomat.autocrafter: ALL
 ftbutilities.claims.item.cropdusting.fertile_dirt: ALL
 ftbutilities.claims.item.cropdusting.poop: ALL
 ftbutilities.claims.item.delivery.crate: ALL
@@ -5633,6 +5640,7 @@ ftbutilities.claims.item.harvestcraft.zucchinifriesitem: ALL
 ftbutilities.claims.item.harvestcraft.zucchiniitem: ALL
 ftbutilities.claims.item.harvestcraft.zucchiniseeditem: ALL
 ftbutilities.claims.item.labyrinth.daedalus: ALL
+ftbutilities.claims.item.lowtechcrafting.crafting_table: ALL
 ftbutilities.claims.item.mcjtylib_ng.multipart: ALL
 ftbutilities.claims.item.minecraft.acacia_boat: ALL
 ftbutilities.claims.item.minecraft.acacia_door: ALL
@@ -6691,6 +6699,7 @@ ftbutilities.claims.item.silentgems.torchbandolier: ALL
 ftbutilities.claims.item.silentgems.urn_upgrade_storage_advanced: ALL
 ftbutilities.claims.item.silentgems.urn_upgrade_storage_basic: ALL
 ftbutilities.claims.item.silentgems.urn_upgrade_vacuum: ALL
+ftbutilities.claims.item.simplycrafting.simply_crafter: ALL
 ftbutilities.claims.item.sky_orchards.acorn_alumina: ALL
 ftbutilities.claims.item.sky_orchards.acorn_brilliant: ALL
 ftbutilities.claims.item.sky_orchards.acorn_bronze: ALL
