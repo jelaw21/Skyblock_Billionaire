@@ -25,3 +25,33 @@ ftbutilities.chat.name_format: "[&4GENERAL MANAGER&r]<{name}>:"
 
 [regional]
 ftbutilities.chat.name_format: "[&1REGIONAL MANAGER&r]<{name}>:"
+
+[director]
+ftbutilities.chat.name_format: "[&5EXECUTIVE DIRECTOR&r]<{name}>:"
+
+[ceo]
+ftbutilities.chat.name_format: "[&2CEO&r]<{name}>:"
+
+[board]
+ftbutilities.chat.name_format: "[&bBOARD MEMBER&r]<{name}>:"
+
+[chairman]
+ftbutilities.chat.name_format: "[&cCHAIRMAN OF THE BOARD&r]<{name}>:"
+
+[philanthropist]
+ftbutilities.chat.name_format: "[&9PHILANTHROPIST&r]<{name}>:"
+
+[tycoon]
+ftbutilities.chat.name_format: "[&dFINANCIAL TYCOON&r]<{name}>:"
+
+[investor]
+ftbutilities.chat.name_format: "[&aGLOBAL INVESTOR&r]<{name}>:"
+
+[un]
+ftbutilities.chat.name_format: "[&eSECRETARY GENERAL&r]<{name}>:"
+
+[world]
+ftbutilities.chat.name_format: "[&6WORLD LEADER&r]<{name}>:"
+
+[president]
+ftbutilities.chat.name_format: "[&kPRESIDENT OF THE WORLD&r]<{name}>:"
