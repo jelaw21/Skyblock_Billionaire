@@ -203,7 +203,7 @@ modbook.itemRightClick = function(stack, world, player, hand) {
 };
 modbook.register();
 
-modbook = VanillaFactory.createItem("backpack");
+modbook = VanillaFactory.createItem("backpacks");
 modbook.maxStackSize = 1;
 modbook.textureLocation = image;
 modbook.rarity = "rare";
@@ -221,6 +221,56 @@ modbook.rarity = "rare";
 modbook.itemRightClick = function(stack, world, player, hand) {
     Commands.call("gamestage add @s PROGRESSIVE", player, world, false, true);
     Commands.call("gamestage silentremove @s REGIONAL_MANAGER_STORE", player, world, false, true);
+    return "Pass";
+};
+modbook.register();
+
+modbook = VanillaFactory.createItem("airship");
+modbook.maxStackSize = 1;
+modbook.textureLocation = image;
+modbook.rarity = "rare";
+modbook.itemRightClick = function(stack, world, player, hand) {
+    Commands.call("gamestage add @s AIRSHIP", player, world, false, true);
+    return "Pass";
+};
+modbook.register();
+
+modbook = VanillaFactory.createItem("mobfarm");
+modbook.maxStackSize = 1;
+modbook.textureLocation = image;
+modbook.rarity = "rare";
+modbook.itemRightClick = function(stack, world, player, hand) {
+    Commands.call("gamestage add @s TINY_MOB_FARM", player, world, false, true);
+    return "Pass";
+};
+modbook.register();
+
+modbook = VanillaFactory.createItem("animalnet");
+modbook.maxStackSize = 1;
+modbook.textureLocation = image;
+modbook.rarity = "rare";
+modbook.itemRightClick = function(stack, world, player, hand) {
+    Commands.call("gamestage add @s ANIMAL_NET", player, world, false, true);
+    return "Pass";
+};
+modbook.register();
+
+modbook = VanillaFactory.createItem("mobutils");
+modbook.maxStackSize = 1;
+modbook.textureLocation = image;
+modbook.rarity = "rare";
+modbook.itemRightClick = function(stack, world, player, hand) {
+    Commands.call("gamestage add @s MOB_UTILS", player, world, false, true);
+    return "Pass";
+};
+modbook.register();
+
+modbook = VanillaFactory.createItem("weapons");
+modbook.maxStackSize = 1;
+modbook.textureLocation = image;
+modbook.rarity = "rare";
+modbook.itemRightClick = function(stack, world, player, hand) {
+    Commands.call("gamestage add @s WEAPONS", player, world, false, true);
     return "Pass";
 };
 modbook.register();

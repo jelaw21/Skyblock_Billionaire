@@ -66,8 +66,14 @@ item.contenttweaker.coupon.name=Free Purchase
 item.contenttweaker.aw_warehouse.name=Mod Unlock: The Warehouse
 item.contenttweaker.aw_suite.name=Mod Unlock: Ancient Warfare
 item.contenttweaker.labyrinth.name=Mod Unlock: The Labyrinth
-item.contenttweaker.backpack.name=Mod Unlock: Smart Backpacks
+item.contenttweaker.backpacks.name=Mod Unlock: Smart Backpacks
 item.contenttweaker.progressive.name=Mod Unlock: Progressive Automation
+item.contenttweaker.airship.name=Mod Unlock: Viescraft Airships
+item.contenttweaker.mobfarm.name=Mod Unlock: Tiny Mob Farm
+item.contenttweaker.animalnet.name=Mod Unlock: Animal Net
+item.contenttweaker.mobutils.name=Mod Unlock: Mob Grinding Utils
+item.contenttweaker.weapons.name=Mod Unlock: Too Many Weapons
+
 item.contenttweaker.approval_loan.name=Loan: $5000
 item.contenttweaker.approval_credit.name=Credit: $5000
 item.contenttweaker.approval_investment.name=Investment: $5000
