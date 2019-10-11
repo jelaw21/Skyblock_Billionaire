@@ -244,7 +244,7 @@
                 <stack item="contenttweaker:bank_item"/><span> with EXACTLY $10,000</span>
             <title space='20'>UNLOCKS</title>
             <p space="20">Access to The Labyrinth, a mob dimension with awesome loot and terrifying mobs.</p>
-            <p space="10">All the mods are now available for purchase. You need a Piggy Bank with the EXACT amount.</p>
+            <p space="10">More mods are now available for purchase. You need a Piggy Bank with the EXACT amount.</p>
             <p space="10">Access to a simple autocrafter. Search up autorafter in the JEI.</p>
         </page>
         <page>
@@ -278,6 +278,7 @@
             <title space='20'>GATHER</title>
                 <stack item="contenttweaker:bank_item"/><span> with EXACTLY $25,000</span>
             <title space='20'>UNLOCKS</title>
+            <p space="10">All other mods are available for purchase.</p>
             <p space="10">The other systems you didn't choose will be available in their respective categories in the shop.</p>
             <p space="10">The ability to make Redium and Lapium Armor and Weapons.</p>
         </page>

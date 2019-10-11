@@ -203,6 +203,28 @@ modbook.itemRightClick = function(stack, world, player, hand) {
 };
 modbook.register();
 
+modbook = VanillaFactory.createItem("backpack");
+modbook.maxStackSize = 1;
+modbook.textureLocation = image;
+modbook.rarity = "rare";
+modbook.itemRightClick = function(stack, world, player, hand) {
+    Commands.call("gamestage add @s BACKPACKS", player, world, false, true);
+    Commands.call("gamestage silentremove @s REGIONAL_MANAGER_STORE", player, world, false, true)
+    return "Pass";
+};
+modbook.register();
+
+modbook = VanillaFactory.createItem("progressive");
+modbook.maxStackSize = 1;
+modbook.textureLocation = image;
+modbook.rarity = "rare";
+modbook.itemRightClick = function(stack, world, player, hand) {
+    Commands.call("gamestage add @s PROGRESSIVE", player, world, false, true);
+    Commands.call("gamestage silentremove @s REGIONAL_MANAGER_STORE", player, world, false, true)
+    return "Pass";
+};
+modbook.register();
+
 var bank = VanillaFactory.createItem("bank_item");
 bank.maxStackSize = 1;
 bank.register();

@@ -10,7 +10,7 @@ mods.Delivery.Store.addTrade("REGIONAL_MANAGER_STORE",<contenttweaker:agricraft>
 
 mods.Delivery.Store.addTrade("REGIONAL_MANAGER_STORE",<contenttweaker:progressive>, special, <contenttweaker:coupon>);
 
-mods.Delivery.Store.addTrade("REGIONAL_MANAGER_STORE",<contenttweaker:backpacks>, special, <contenttweaker:coupon>);
+mods.Delivery.Store.addTrade("REGIONAL_MANAGER_STORE",<contenttweaker:backpack>, special, <contenttweaker:coupon>);
 
 mods.Delivery.Store.addTrade("EXECUTIVE_MANAGER",<extrautils2:machine>.withTag({Type: "crafttweaker:global_energy"}), special, <contenttweaker:bank_item>.withTag({Total: 15000.0 as float, display: {Lore: ["$15000.0"]}}));
 

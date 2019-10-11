@@ -5,7 +5,7 @@ val construction ="Construction";
 val industries = "Industries";
 val warehouse = "Warehouses";
 val manufactories = "Manufactories";
-val service = "Customer Service";
+val utils = "Utilities";
 val special = "Special Equipment";
 
 
@@ -17,7 +17,7 @@ mods.Delivery.Store.setStoreIcon(construction, <prefab:item_warehouse_upgrade>);
 mods.Delivery.Store.setStoreIcon(industries, <ancientwarfareautomation:stirling_generator>);
 mods.Delivery.Store.setStoreIcon(warehouse, <prefab:item_compressed_chest>);
 mods.Delivery.Store.setStoreIcon(manufactories, <thermalexpansion:machine:7>);
-mods.Delivery.Store.setStoreIcon(service, <extrautils2:spike_stone>);
+mods.Delivery.Store.setStoreIcon(utils, <extrautils2:spike_stone>);
 mods.Delivery.Store.setStoreIcon(special, <minecraft:totem_of_undying>);
  
 

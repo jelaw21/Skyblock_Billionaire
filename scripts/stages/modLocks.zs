@@ -25,7 +25,7 @@ mods.ItemStages.stageModItems("MYSTICAL_AG", "mysticalagriculture");
 mods.ItemStages.stageModItems("KITCHEN", "cookingforblockheads");
 mods.ItemStages.stageModItems("AGRICRAFT", "agricraft");
 mods.ItemStages.stageModItems("MOO", "moofluids");
-mods.ItemStages.stageModItems("BACKPACKS", "moofluids");
+mods.ItemStages.stageModItems("BACKPACKS", "v0idssmartbackpacks");
 mods.ItemStages.stageModItems("PROGRESSIVE", "progressiveautomation");
 mods.ItemStages.addItemStage("REDIUM_LAPIUM",<powderpower:armorrediumhelmet>);
 mods.ItemStages.addItemStage("REDIUM_LAPIUM",<powderpower:armorrediumlegs>);
