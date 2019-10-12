@@ -307,7 +307,7 @@ recipes.addShapeless("subtract_hundred", bank, [bank.marked("bag").transformRepl
 		
 	}, null);
 	
-recipes.addShapeless("combine_banks", bank, [bank.marked("bag1").giveBack(bank.withTag({Total: 0}).withLore(["$0"])),bank.marked("bag2")],
+recipes.addShapeless("combine_banks", bank, [bank.marked("bag1").transformReplace(bank.withTag({Total: 0}).withLore(["$0"])),bank.marked("bag2")],
 
 	function(out, ins, cInfo){
 	
