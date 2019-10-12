@@ -32,6 +32,8 @@ mods.ItemStages.stageModItems("TINY_MOB_FARM", "tinymobfarm");
 mods.ItemStages.stageModItems("ANIMAL_NET", "animalnet");
 mods.ItemStages.stageModItems("MOB_UTILS", "mob_grinding_utils");
 mods.ItemStages.stageModItems("WEAPONS", "seltaks_weapon_pack");
+mods.ItemStages.stageModItems("MAGNETS", "tieredmagnets");
+mods.ItemStages.stageModItems("SANDWICH", "culinaryconstruct");
 mods.ItemStages.addItemStage("REDIUM_LAPIUM",<powderpower:armorrediumhelmet>);
 mods.ItemStages.addItemStage("REDIUM_LAPIUM",<powderpower:armorrediumlegs>);
 mods.ItemStages.addItemStage("REDIUM_LAPIUM",<powderpower:armorrediumboots>);

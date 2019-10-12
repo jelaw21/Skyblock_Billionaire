@@ -275,6 +275,26 @@ modbook.itemRightClick = function(stack, world, player, hand) {
 };
 modbook.register();
 
+modbook = VanillaFactory.createItem("magnets");
+modbook.maxStackSize = 1;
+modbook.textureLocation = image;
+modbook.rarity = "rare";
+modbook.itemRightClick = function(stack, world, player, hand) {
+    Commands.call("gamestage add @s MAGNETS", player, world, false, true);
+    return "Pass";
+};
+modbook.register();
+
+modbook = VanillaFactory.createItem("sandwich");
+modbook.maxStackSize = 1;
+modbook.textureLocation = image;
+modbook.rarity = "rare";
+modbook.itemRightClick = function(stack, world, player, hand) {
+    Commands.call("gamestage add @s SANDWICH", player, world, false, true);
+    return "Pass";
+};
+modbook.register();
+
 var bank = VanillaFactory.createItem("bank_item");
 bank.maxStackSize = 1;
 bank.register();

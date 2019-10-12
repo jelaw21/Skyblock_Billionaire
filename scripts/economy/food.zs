@@ -99,3 +99,50 @@ for item in loadedMods["minecraft"].items {
 		machine.addRecipe({"itemIn":item}, {"moneyOut":<modcurrency:coin:1>%80}, 200, 5);		
 	}	
 }
+
+for item in loadedMods["culinaryconstruct"].items {
+    if(item.healAmount >= 14){
+		item.addTooltip(format.blue("$100"));
+		machine.addRecipe({"itemIn":item}, {"moneyOut":<modcurrency:banknote:5>%90}, 200, 5);
+		mods.Delivery.Store.addTrade("ASSISTANT_MANAGER",item, <modcurrency:banknote:5>);
+	}
+
+	if(item.healAmount >= 10 & item.healAmount < 14){
+		item.addTooltip(format.blue("$50"));
+		machine.addRecipe({"itemIn":item}, {"moneyOut":<modcurrency:banknote:4>%90}, 200, 5);
+		mods.Delivery.Store.addTrade("ASSISTANT_MANAGER",item, <modcurrency:banknote:4>);
+	}
+
+	if(item.healAmount >= 8 & item.healAmount < 10){
+		item.addTooltip(format.blue("$10"));
+		machine.addRecipe({"itemIn":item}, {"moneyOut":<modcurrency:banknote:2>%85}, 200, 5);
+		mods.Delivery.Store.addTrade("ASSISTANT_MANAGER",item, <modcurrency:banknote:2>);
+	}
+
+	if(item.healAmount >= 6 & item.healAmount < 8){
+		item.addTooltip(format.blue("$5"));
+		machine.addRecipe({"itemIn":item}, {"moneyOut":<modcurrency:banknote:1>%85}, 200, 5);
+		mods.Delivery.Store.addTrade("ASSISTANT_MANAGER",item, <modcurrency:banknote:1>);
+	}
+
+	if(item.healAmount >= 4 & item.healAmount < 6){
+		item.addTooltip(format.blue("$1"));
+		machine.addRecipe({"itemIn":item}, {"moneyOut":<modcurrency:coin:4>%80}, 200, 5);
+		mods.Delivery.Store.addTrade("ASSISTANT_MANAGER",item, <modcurrency:coin:4>);
+	}
+
+	if(item.healAmount >= 2 & item.healAmount < 4){
+		item.addTooltip(format.blue("$0.50"));
+		machine.addRecipe({"itemIn":item}, {"moneyOut":<modcurrency:coin:3>*2%80}, 200, 5);
+	}
+
+	if(item.healAmount >= 1 & item.healAmount < 2){
+		item.addTooltip(format.blue("$0.10"));
+		machine.addRecipe({"itemIn":item}, {"moneyOut":<modcurrency:coin:2>%80}, 200, 5);
+	}
+
+	if(item.healAmount > 0 & item.healAmount < 1){
+		item.addTooltip(format.blue("$0.05"));
+		machine.addRecipe({"itemIn":item}, {"moneyOut":<modcurrency:coin:1>%80}, 200, 5);
+	}
+}
