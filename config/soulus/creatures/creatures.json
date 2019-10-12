@@ -30,6 +30,26 @@
 			"insert_strategy": "merge",
 			"insert_path": [],
 			"from": "mob_stages/claysoldiers"
+		},
+		{
+			"conditions": {
+				"type": "gamestage",
+				"player": "any",
+				"stages": ["PET_ROCK"]
+			},
+			"insert_strategy": "merge",
+			"insert_path": [],
+			"from": "mob_stages/rock"
+		},
+		{
+			"conditions": {
+				"type": "gamestage",
+				"player": "any",
+				"stages": ["PET_DOG"]
+			},
+			"insert_strategy": "merge",
+			"insert_path": [],
+			"from": "mob_stages/dog"
 		}
 	]
 }

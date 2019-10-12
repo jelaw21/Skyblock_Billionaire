@@ -1,0 +1,9 @@
+{
+  "overworld": {
+    "*": {
+      "doggytalents:dog": {
+        "spawn_chance": 1.0
+      }
+    }
+  }
+}
