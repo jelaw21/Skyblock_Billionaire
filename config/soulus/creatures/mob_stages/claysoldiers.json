@@ -1,0 +1,9 @@
+{
+  "overworld": {
+    "*": {
+      "claysoldiers:claysoldier": {
+        "spawn_chance": 1.0
+      }
+    }
+  }
+}

@@ -8,3 +8,4 @@ val employees = "Employees";
 mods.Delivery.Store.addTrade("SHIFT_MANAGER",<ancientwarfarenpc:npc_spawner>.withTag({npcSubtype: "", npcType: "worker"}), employees, <modcurrency:banknote:4>);
 mods.Delivery.Store.addTrade("SHIFT_MANAGER",<ancientwarfarenpc:npc_spawner>.withTag({npcSubtype: "", npcType: "combat"}), employees, <modcurrency:banknote:4>);
 mods.Delivery.Store.addTrade("ASSISTANT_MANAGER",<ancientwarfarenpc:npc_spawner>.withTag({npcSubtype: "", npcType: "courier"}), employees, <modcurrency:banknote:4>);
+mods.Delivery.Store.addTrade("GENERAL_MANAGER",<contenttweaker:blockling>, employees, <contenttweaker:bank_item>.withTag({Total: 5000.0 as float, display: {Lore: ["$5000.0"]}}));

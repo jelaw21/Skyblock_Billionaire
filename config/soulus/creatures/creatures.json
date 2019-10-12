@@ -10,6 +10,26 @@
 			"insert_strategy": "merge",
 			"insert_path": [],
 			"from": "mob_stages/fluid_cows"
+		},
+		{
+			"conditions": {
+				"type": "gamestage",
+				"player": "any",
+				"stages": ["BLOCKLING"]
+			},
+			"insert_strategy": "merge",
+			"insert_path": [],
+			"from": "mob_stages/blocklings"
+		},
+		{
+			"conditions": {
+				"type": "gamestage",
+				"player": "any",
+				"stages": ["CLAY_SOLDIERS"]
+			},
+			"insert_strategy": "merge",
+			"insert_path": [],
+			"from": "mob_stages/claysoldiers"
 		}
 	]
 }
