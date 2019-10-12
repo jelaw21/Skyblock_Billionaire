@@ -706,6 +706,7 @@ false
 <tr><td><code>command.ancientwarfare.awutils</code></td><td>/awutils exportentities [fileName - defaults to "entitylist.csv"]<br>/awutils exportbiomes [fileName - defaults to "biomelist.csv"]<br>/awutils exportblocks [fileName - defaults to "blocklist.csv"]<br>/awutils exportloottables [fileName - defaults to "loottablelist.csv"]<br>/awutils reloadmanual</td></tr>
 <tr><td><code>command.ancientwarfare.awwarehouse</code></td><td class='error' title='Invalid usage language key!'>/awwarehouse startdebug &lt;x&gt; &lt;y&gt; &lt;z&gt;<br>/awwarehouse stopdebug [x] [y] [z]</td></tr>
 <tr><td><code>command.base.base.recipes.reload</code></td><td class='error' title='Invalid usage language key!'>Reloads the Recipe System</td></tr>
+<tr><td><code>command.baubles.baubles</code></td><td class='error' title='Invalid usage language key!'>/baubles &lt;action&gt; [&lt;player&gt; [&lt;params&gt;]]</td></tr>
 <tr><td><code>command.blockdata</code></td><td>/blockdata &lt;x&gt; &lt;y&gt; &lt;z&gt; &lt;dataTag&gt;</td></tr>
 <tr><td><code>command.bnbgaminglib.bnb</code></td><td>bnbgaminglib.cmd.item.usage</td></tr>
 <tr><td><code>command.clear</code></td><td>/clear [player] [item] [data] [maxCount] [dataTag]</td></tr>
@@ -724,6 +725,8 @@ false
 <tr><td><code>command.enchant</code></td><td>/enchant &lt;player&gt; &lt;enchantment ID&gt; [level]</td></tr>
 <tr><td><code>command.entitydata</code></td><td>/entitydata &lt;entity&gt; &lt;dataTag&gt;</td></tr>
 <tr><td><code>command.execute</code></td><td>/execute &lt;entity&gt; &lt;x&gt; &lt;y&gt; &lt;z&gt; &lt;command&gt;<br>/execute &lt;entity&gt; &lt;x&gt; &lt;y&gt; &lt;z&gt; detect &lt;x&gt; &lt;y&gt; &lt;z&gt; &lt;block&gt; &lt;dataValue|-1|state|*&gt; &lt;command&gt;</td></tr>
+<tr><td><code>command.extendeddays.edtime</code></td><td class='error' title='Invalid usage language key!'>Gets/sets the Extended Days time. Currently, the set command requires 2 values, I'm working on making it more 'sensible'.
+Usage: /edtime &lt;get|set&gt; &lt;value&gt;</td></tr>
 <tr><td><code>command.extrautils2.xudebug</code></td><td>xudebug</td></tr>
 <tr><td><code>command.fill</code></td><td>/fill &lt;x1&gt; &lt;y1&gt; &lt;z1&gt; &lt;x2&gt; &lt;y2&gt; &lt;z2&gt; &lt;block&gt; [dataValue|state] [oldBlockHandling] [dataTag]</td></tr>
 <tr><td><code>command.forge.dimensions</code></td><td>Use /forge dimensions</td></tr>
@@ -832,6 +835,7 @@ false
 <tr><td><code>command.gamestages.gamestage.silentadd</code></td><td class='error' title='Invalid usage language key!'>/gamestage silentadd &lt;player&gt; &lt;stage&gt;</td></tr>
 <tr><td><code>command.gamestages.gamestage.silentremove</code></td><td class='error' title='Invalid usage language key!'>/gamestage silentremove &lt;player&gt; &lt;stage&gt;</td></tr>
 <tr><td><code>command.give</code></td><td>/give &lt;player&gt; &lt;item&gt; [amount] [data] [dataTag]</td></tr>
+<tr><td><code>command.hats.hats</code></td><td class='error' title='Invalid usage language key!'>/hats           type /hats for full list.</td></tr>
 <tr><td><code>command.help</code></td><td>/help [page|command name]</td></tr>
 <tr><td><code>command.hookt.hookt</code></td><td class='error' title='Invalid usage language key!'>hookt &lt;reload&gt; | &lt;hand&gt;</td></tr>
 <tr><td><code>command.interactions.interactions</code></td><td class='error' title='Invalid usage language key!'>interactions &lt;reload&gt;</td></tr>
@@ -871,9 +875,18 @@ false
 <tr><td><code>command.testforblocks</code></td><td>/testforblocks &lt;x1&gt; &lt;y1&gt; &lt;z1&gt; &lt;x2&gt; &lt;y2&gt; &lt;z2&gt; &lt;x&gt; &lt;y&gt; &lt;z&gt; [mode]</td></tr>
 <tr><td><code>command.time</code></td><td>/time &lt;set|add|query&gt; &lt;value&gt;</td></tr>
 <tr><td><code>command.title</code></td><td>/title &lt;player&gt; title|subtitle|actionbar|clear|reset|times ...</td></tr>
+<tr><td><code>command.todayisagift.holiday</code></td><td class='error' title='Invalid usage language key!'>/holiday &lt;day&gt;/&lt;month&gt;</td></tr>
 <tr><td><code>command.togetherforever.tfdebug</code></td><td>tfdebug</td></tr>
 <tr><td><code>command.togetherforever.togetherforever</code></td><td class='error' title='Invalid usage language key!'>Usage: /tofe &lt;help|invite|accept|decline|kick|leave|info|forcesync&gt;</td></tr>
 <tr><td><code>command.toggledownfall</code></td><td>/toggledownfall</td></tr>
+<tr><td><code>command.tombmanygraves.tmg_drop</code></td><td class='error' title='Invalid usage language key!'>tmg_drop &lt;player&gt; &lt;timestamp or latest&gt; [receiving player]</td></tr>
+<tr><td><code>command.tombmanygraves.tmg_friends</code></td><td class='error' title='Invalid usage language key!'>tmg_friends [add/remove/list] [player]</td></tr>
+<tr><td><code>command.tombmanygraves.tmg_getdeathlist</code></td><td class='error' title='Invalid usage language key!'>tmg_getDeathList [player] &lt;timestamp or latest&gt;</td></tr>
+<tr><td><code>command.tombmanygraves.tmg_pop_grave</code></td><td class='error' title='Invalid usage language key!'>tmg_pop_grave [x] [y] [z]</td></tr>
+<tr><td><code>command.tombmanygraves.tmg_restore</code></td><td class='error' title='Invalid usage language key!'>tmg_restore &lt;player&gt; &lt;timestamp or latest&gt; [receiving player]</td></tr>
+<tr><td><code>command.tombmanygraves.tmg_steal</code></td><td class='error' title='Invalid usage language key!'>tmg_steal [x] [y] [z]</td></tr>
+<tr><td><code>command.tombmanygraves.tmg_toggle_grave_pos</code></td><td>tmg_toggle_grave_pos</td></tr>
+<tr><td><code>command.tombmanygraves.tmg_toggle_render</code></td><td>tmg_toggle_render</td></tr>
 <tr><td><code>command.tp</code></td><td>/tp [target player] &lt;destination player&gt;<br>/tp [target player] &lt;x&gt; &lt;y&gt; &lt;z&gt; [&lt;yaw&gt; &lt;pitch&gt;]</td></tr>
 <tr><td><code>command.trigger</code></td><td>/trigger &lt;objective&gt; &lt;add|set&gt; &lt;value&gt;</td></tr>
 <tr><td><code>command.triumph.triumph.debug</code></td><td class='error' title='Invalid usage language key!'>Use /triumph debug</td></tr>
