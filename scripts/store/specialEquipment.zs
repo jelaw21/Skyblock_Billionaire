@@ -12,14 +12,12 @@ mods.Delivery.Store.addTrade("REGIONAL_MANAGER_STORE",<contenttweaker:progressiv
 
 mods.Delivery.Store.addTrade("REGIONAL_MANAGER_STORE",<contenttweaker:backpacks>, special, <contenttweaker:coupon>);
 
-mods.Delivery.Store.addTrade("EXECUTIVE_MANAGER",<extrautils2:machine>.withTag({Type: "crafttweaker:global_energy"}), special, <contenttweaker:bank_item>.withTag({Total: 15000.0 as float, display: {Lore: ["$15000.0"]}}));
+mods.Delivery.Store.addTrade("EXECUTIVE_DIRECTOR",<extrautils2:machine>.withTag({Type: "crafttweaker:global_energy"}), special, <contenttweaker:bank_item>.withTag({Total: 15000.0 as float, display: {Lore: ["$15000.0"]}}));
 
-mods.Delivery.Store.addTrade("EXECUTIVE_MANAGER",<extrautils2:machine>.withTag({Type: "crafttweaker:global_fluids"}), special, <contenttweaker:bank_item>.withTag({Total: 15000.0 as float, display: {Lore: ["$15000.0"]}}));
+mods.Delivery.Store.addTrade("EXECUTIVE_DIRECTOR",<extrautils2:machine>.withTag({Type: "crafttweaker:global_fluids"}), special, <contenttweaker:bank_item>.withTag({Total: 15000.0 as float, display: {Lore: ["$15000.0"]}}));
 
-mods.Delivery.Store.addTrade("EXECUTIVE_MANAGER",<extrautils2:machine>.withTag({Type: "crafttweaker:global_items"}), special, <contenttweaker:bank_item>.withTag({Total: 15000.0 as float, display: {Lore: ["$15000.0"]}}));
+mods.Delivery.Store.addTrade("EXECUTIVE_DIRECTOR",<extrautils2:machine>.withTag({Type: "crafttweaker:global_items"}), special, <contenttweaker:bank_item>.withTag({Total: 15000.0 as float, display: {Lore: ["$15000.0"]}}));
 
-mods.Delivery.Store.addTrade("CEO",<extrautils2:machine>.withTag({Type: "crafttweaker:global_items"}), special, <contenttweaker:bank_item>.withTag({Total: 15000.0 as float, display: {Lore: ["$15000.0"]}}));
-
-mods.Delivery.Store.addTrade("CEO",<contenttweaker:share>, special, <contenttweaker:bank_item>.withTag({Total: 10000.0 as float, display: {Lore: ["$10000.0"]}}));
+mods.Delivery.Store.addTrade("CEO",<contenttweaker:share>, special, <contenttweaker:bank_item>.withTag({Total: 20000.0 as float, display: {Lore: ["$20000.0"]}}));
 
 mods.Delivery.Store.addTrade("CHAIRMAN",<contenttweaker:trilium>, special, <contenttweaker:bank_item>.withTag({Total: 90000.0 as float, display: {Lore: ["$90000.0"]}}));
