@@ -325,6 +325,16 @@ modbook.itemRightClick = function(stack, world, player, hand) {
 };
 modbook.register();
 
+modbook = VanillaFactory.createItem("petdog");
+modbook.maxStackSize = 1;
+modbook.textureLocation = image;
+modbook.rarity = "rare";
+modbook.itemRightClick = function(stack, world, player, hand) {
+    Commands.call("gamestage add @s PET_DOG", player, world, false, true);
+    return "Pass";
+};
+modbook.register();
+
 modbook = VanillaFactory.createItem("compactor");
 modbook.maxStackSize = 1;
 modbook.textureLocation = image;
@@ -341,6 +351,26 @@ modbook.textureLocation = image;
 modbook.rarity = "rare";
 modbook.itemRightClick = function(stack, world, player, hand) {
     Commands.call("gamestage add @s GRINDER", player, world, false, true);
+    return "Pass";
+};
+modbook.register();
+
+modbook = VanillaFactory.createItem("furnaces");
+modbook.maxStackSize = 1;
+modbook.textureLocation = image;
+modbook.rarity = "rare";
+modbook.itemRightClick = function(stack, world, player, hand) {
+    Commands.call("gamestage add @s FURNACES", player, world, false, true);
+    return "Pass";
+};
+modbook.register();
+
+modbook = VanillaFactory.createItem("virtualmachines");
+modbook.maxStackSize = 1;
+modbook.textureLocation = image;
+modbook.rarity = "rare";
+modbook.itemRightClick = function(stack, world, player, hand) {
+    Commands.call("gamestage add @s VIRTUAL_MACHINES", player, world, false, true);
     return "Pass";
 };
 modbook.register();

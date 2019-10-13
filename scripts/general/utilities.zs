@@ -20,6 +20,9 @@ import crafttweaker.data.IData;
 <contenttweaker:aw2_suite>.addTooltip(format.green("Right Click to Use"));
 <contenttweaker:labyrinth>.addTooltip(format.green("Right Click to Create the portal. Right-click top block with a stick."));
 <contenttweaker:labyrinth>.addTooltip(format.green("Blocks CANNOT be broken and replaced."));
+<contenttweaker:virtualmachines>.addTooltip(format.green("REQUIRES THERMAL EXPANSION"));
+
+
 
 //ORE DICT
 <ore:waterItem>.add(<minecraft:water_bucket>);

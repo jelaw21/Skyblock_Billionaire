@@ -19,3 +19,5 @@ mods.Delivery.Store.addTrade("REGIONAL_MANAGER",<contenttweaker:agricraft>, indu
 mods.Delivery.Store.addTrade("REGIONAL_MANAGER",<contenttweaker:progressive>, industries, <contenttweaker:bank_item>.withTag({Total: 40000.0 as float, display: {Lore: ["$40000.0"]}}));
 mods.Delivery.Store.addTrade("GENERAL_MANAGER",<contenttweaker:compactor>, industries, <contenttweaker:bank_item>.withTag({Total: 5000.0 as float, display: {Lore: ["$5000.0"]}}));
 mods.Delivery.Store.addTrade("GENERAL_MANAGER",<contenttweaker:grinder>, industries, <contenttweaker:bank_item>.withTag({Total: 25000.0 as float, display: {Lore: ["$25000.0"]}}));
+mods.Delivery.Store.addTrade("REGIONAL_MANAGER",<contenttweaker:furnaces>, industries, <contenttweaker:bank_item>.withTag({Total: 15000.0 as float, display: {Lore: ["$15000.0"]}}));
+mods.Delivery.Store.addTrade("REGIONAL_MANAGER",<contenttweaker:virtualmachines>, industries, <contenttweaker:bank_item>.withTag({Total: 30000.0 as float, display: {Lore: ["$30000.0"]}}));

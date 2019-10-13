@@ -9,7 +9,7 @@ mods.ItemStages.addItemStage("EXECUTIVE_DIRECTOR", <extrautils2:machine>.withTag
 mods.ItemStages.stageModItems("CHISEL", "chisel");
 mods.ItemStages.removeItemStage(<chisel:block_charcoal2:1>);
 mods.ItemStages.stageModItems("PREFAB", "prefab");
-mods.ItemStages.stageModItems("THERMAL", "thermalfoundation");
+//mods.ItemStages.stageModItems("THERMAL", "thermalfoundation");
 mods.ItemStages.stageModItems("THERMAL", "thermalexpansion");
 mods.ItemStages.addItemStage("THERMAL",<forge:bucketfilled:*>);
 mods.ItemStages.stageModItems("ANCIENT_WARFARE", "ancientwarfarestructure");
@@ -39,6 +39,8 @@ mods.ItemStages.stageModItems("PET_ROCK", "petrock");
 mods.ItemStages.stageModItems("PET_DOG", "doggytalents");
 mods.ItemStages.stageModItems("COMPACTOR", "compactor");
 mods.ItemStages.stageModItems("GRINDER", "simplegrinder");
+mods.ItemStages.stageModItems("FURNACES", "morefurnaces");
+mods.ItemStages.stageModItems("VIRTUAL_MACHINES", "virtualmachines");
 mods.ItemStages.addItemStage("REDIUM_LAPIUM",<powderpower:armorrediumhelmet>);
 mods.ItemStages.addItemStage("REDIUM_LAPIUM",<powderpower:armorrediumlegs>);
 mods.ItemStages.addItemStage("REDIUM_LAPIUM",<powderpower:armorrediumboots>);
