@@ -37,6 +37,8 @@ mods.ItemStages.stageModItems("SANDWICH", "culinaryconstruct");
 mods.ItemStages.stageModItems("CLAY_SOLDIERS", "claysoldiers");
 mods.ItemStages.stageModItems("PET_ROCK", "petrock");
 mods.ItemStages.stageModItems("PET_DOG", "doggytalents");
+mods.ItemStages.stageModItems("COMPACTOR", "compactor");
+mods.ItemStages.stageModItems("GRINDER", "simplegrinder");
 mods.ItemStages.addItemStage("REDIUM_LAPIUM",<powderpower:armorrediumhelmet>);
 mods.ItemStages.addItemStage("REDIUM_LAPIUM",<powderpower:armorrediumlegs>);
 mods.ItemStages.addItemStage("REDIUM_LAPIUM",<powderpower:armorrediumboots>);

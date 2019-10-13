@@ -79,6 +79,9 @@ item.contenttweaker.blockling.name=Mod Unlock: Blocklings
 item.contenttweaker.claysoldiers.name=Mod Unlock: Clay Soldiers
 item.contenttweaker.petrock.name=Mod Unlock: Pet Rock
 item.contenttweaker.petdog.name=Mod Unlock: Doggy Talents
+item.contenttweaker.compactor.name=Mod Unlock: Compactor
+item.contenttweaker.grinder.name=Mod Unlock: Simple Grinder
+
 
 item.contenttweaker.approval_loan.name=Loan: $5000
 item.contenttweaker.approval_credit.name=Credit: $5000
