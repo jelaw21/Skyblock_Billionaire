@@ -20,4 +20,6 @@ mods.Delivery.Store.addTrade("EXECUTIVE_DIRECTOR",<extrautils2:machine>.withTag(
 
 mods.Delivery.Store.addTrade("CEO",<contenttweaker:share>, special, <contenttweaker:bank_item>.withTag({Total: 20000.0 as float, display: {Lore: ["$20000.0"]}}));
 
+mods.Delivery.Store.addTrade("REGIONAL_MANAGER",<contenttweaker:gemium>, special, <contenttweaker:bank_item>.withTag({Total: 80000.0 as float, display: {Lore: ["$80000.0"]}}));
+
 mods.Delivery.Store.addTrade("CHAIRMAN",<contenttweaker:trilium>, special, <contenttweaker:bank_item>.withTag({Total: 90000.0 as float, display: {Lore: ["$90000.0"]}}));

@@ -375,6 +375,66 @@ modbook.itemRightClick = function(stack, world, player, hand) {
 };
 modbook.register();
 
+modbook = VanillaFactory.createItem("wirelessutils");
+modbook.maxStackSize = 1;
+modbook.textureLocation = image;
+modbook.rarity = "rare";
+modbook.itemRightClick = function(stack, world, player, hand) {
+    Commands.call("gamestage add @s WIRELESS_UTILS", player, world, false, true);
+    return "Pass";
+};
+modbook.register();
+
+modbook = VanillaFactory.createItem("superfactory");
+modbook.maxStackSize = 1;
+modbook.textureLocation = image;
+modbook.rarity = "rare";
+modbook.itemRightClick = function(stack, world, player, hand) {
+    Commands.call("gamestage add @s SUPER_FACTORY", player, world, false, true);
+    return "Pass";
+};
+modbook.register();
+
+modbook = VanillaFactory.createItem("compact");
+modbook.maxStackSize = 1;
+modbook.textureLocation = image;
+modbook.rarity = "rare";
+modbook.itemRightClick = function(stack, world, player, hand) {
+    Commands.call("gamestage add @s COMPACT_MACHINES", player, world, false, true);
+    return "Pass";
+};
+modbook.register();
+
+modbook = VanillaFactory.createItem("industmeat");
+modbook.maxStackSize = 1;
+modbook.textureLocation = image;
+modbook.rarity = "rare";
+modbook.itemRightClick = function(stack, world, player, hand) {
+    Commands.call("gamestage add @s INDUSTRIAL_MEAT", player, world, false, true);
+    return "Pass";
+};
+modbook.register();
+
+modbook = VanillaFactory.createItem("industrenew");
+modbook.maxStackSize = 1;
+modbook.textureLocation = image;
+modbook.rarity = "rare";
+modbook.itemRightClick = function(stack, world, player, hand) {
+    Commands.call("gamestage add @s INDUSTRIAL_RENEWAL", player, world, false, true);
+    return "Pass";
+};
+modbook.register();
+
+modbook = VanillaFactory.createItem("industforegoing");
+modbook.maxStackSize = 1;
+modbook.textureLocation = image;
+modbook.rarity = "rare";
+modbook.itemRightClick = function(stack, world, player, hand) {
+    Commands.call("gamestage add @s INDUSTRIAL_FOREGOING", player, world, false, true);
+    return "Pass";
+};
+modbook.register();
+
 
 var bank = VanillaFactory.createItem("bank_item");
 bank.maxStackSize = 1;

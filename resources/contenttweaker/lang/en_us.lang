@@ -83,6 +83,12 @@ item.contenttweaker.compactor.name=Mod Unlock: Compactor
 item.contenttweaker.grinder.name=Mod Unlock: Simple Grinder
 item.contenttweaker.furnaces.name=Mod Unlock: More Furnaces
 item.contenttweaker.virtualmachines.name=Mod Unlock: Virtual Machines
+item.contenttweaker.wirelessutils.name=Mod Unlock: Wireless Utilities
+item.contenttweaker.superfactory.name=Mod Unlock: Super Factory Manager
+item.contenttweaker.compact.name=Mod Unlock: Compact Machines
+item.contenttweaker.industmeat.name=Mod Unlock: Industrial Meat
+item.contenttweaker.industrenew.name=Mod Unlock: Industrial Renewal
+item.contenttweaker.industforegoing.name=Mod Unlock: Industrial Foregoing
 
 
 item.contenttweaker.approval_loan.name=Loan: $5000
