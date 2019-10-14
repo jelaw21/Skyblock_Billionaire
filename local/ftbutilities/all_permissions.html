@@ -46,6 +46,26 @@ false
 <p>Allow to edit gamerules via Admin Panel</p>
 </td></tr>
 <tr>
+<td><code>block.tap</code></td>
+<td><code>bool</code></td>
+<td class='true' colspan='2'><code>true</code></td>
+<td title='
+true 
+false 
+'>
+<p>Node for taping blocks with the tree tap</p>
+</td></tr>
+<tr>
+<td><code>block.wrench</code></td>
+<td><code>bool</code></td>
+<td class='true' colspan='2'><code>true</code></td>
+<td title='
+true 
+false 
+'>
+<p>Node for wrenching blocks</p>
+</td></tr>
+<tr>
 <td><code>command</code></td>
 <td><code>bool</code></td>
 <td class='false'><code>false</code></td>
@@ -55,6 +75,2350 @@ true
 false 
 '>
 <p>Permission for commands, if FTBUtilities command overriding is enabled. If not, this node will be inactive</p>
+</td></tr>
+<tr>
+<td><code>enderio.attack.block_killer_joe</code></td>
+<td><code>bool</code></td>
+<td class='true' colspan='2'><code>true</code></td>
+<td title='
+true 
+false 
+'>
+<p>Permission for the block block_killer_joe of Ender IO to attack entities. Note: The GameProfile will be for the block owner, the EntityPlayer in the context will be the fake player.</p>
+</td></tr>
+<tr>
+<td><code>enderio.attract.tile.block_attractor_obelisk</code></td>
+<td><code>bool</code></td>
+<td class='true' colspan='2'><code>true</code></td>
+<td title='
+true 
+false 
+'>
+<p>Permission for the block tile.block_attractor_obelisk of Ender IO to attract entities. Note: The GameProfile will be for the block owner, the EntityPlayer in the context will be the fake player.</p>
+</td></tr>
+<tr>
+<td><code>enderio.creative_spawner.edit</code></td>
+<td><code>bool</code></td>
+<td class='false'><code>false</code></td>
+<td class='true'><code>true</code></td>
+<td title='
+true 
+false 
+'>
+<p>Permission to edit the creative spawner's settings.</p>
+</td></tr>
+<tr>
+<td><code>enderio.farm.tile.block_farm_station</code></td>
+<td><code>bool</code></td>
+<td class='true' colspan='2'><code>true</code></td>
+<td title='
+true 
+false 
+'>
+<p>Permission for the block tile.block_farm_station of Ender IO to farm land. This includes tilling, planting, harvesting and fertilizing. Only the base block of a plant will be checked, not the dirt block below it or the additional plant blocks above it. Note: The GameProfile will be for the block owner, the EntityPlayer in the context will be the fake player.</p>
+</td></tr>
+<tr>
+<td><code>enderio.gui.block_advanced_power_monitor</code></td>
+<td><code>bool</code></td>
+<td class='true' colspan='2'><code>true</code></td>
+<td title='
+true 
+false 
+'>
+<p>Permission to open the GUI(s) of Ender IO's block_advanced_power_monitor</p>
+</td></tr>
+<tr>
+<td><code>enderio.gui.block_alloy_smelter</code></td>
+<td><code>bool</code></td>
+<td class='true' colspan='2'><code>true</code></td>
+<td title='
+true 
+false 
+'>
+<p>Permission to open the GUI(s) of Ender IO's block_alloy_smelter</p>
+</td></tr>
+<tr>
+<td><code>enderio.gui.block_attractor_obelisk</code></td>
+<td><code>bool</code></td>
+<td class='true' colspan='2'><code>true</code></td>
+<td title='
+true 
+false 
+'>
+<p>Permission to open the GUI(s) of Ender IO's block_attractor_obelisk</p>
+</td></tr>
+<tr>
+<td><code>enderio.gui.block_aversion_obelisk</code></td>
+<td><code>bool</code></td>
+<td class='true' colspan='2'><code>true</code></td>
+<td title='
+true 
+false 
+'>
+<p>Permission to open the GUI(s) of Ender IO's block_aversion_obelisk</p>
+</td></tr>
+<tr>
+<td><code>enderio.gui.block_buffer</code></td>
+<td><code>bool</code></td>
+<td class='true' colspan='2'><code>true</code></td>
+<td title='
+true 
+false 
+'>
+<p>Permission to open the GUI(s) of Ender IO's block_buffer</p>
+</td></tr>
+<tr>
+<td><code>enderio.gui.block_cap_bank</code></td>
+<td><code>bool</code></td>
+<td class='true' colspan='2'><code>true</code></td>
+<td title='
+true 
+false 
+'>
+<p>Permission to open the GUI(s) of Ender IO's block_cap_bank</p>
+</td></tr>
+<tr>
+<td><code>enderio.gui.block_combustion_generator</code></td>
+<td><code>bool</code></td>
+<td class='true' colspan='2'><code>true</code></td>
+<td title='
+true 
+false 
+'>
+<p>Permission to open the GUI(s) of Ender IO's block_combustion_generator</p>
+</td></tr>
+<tr>
+<td><code>enderio.gui.block_conduit_bundle</code></td>
+<td><code>bool</code></td>
+<td class='true' colspan='2'><code>true</code></td>
+<td title='
+true 
+false 
+'>
+<p>Permission to open the GUI(s) of Ender IO's block_conduit_bundle</p>
+</td></tr>
+<tr>
+<td><code>enderio.gui.block_crafter</code></td>
+<td><code>bool</code></td>
+<td class='true' colspan='2'><code>true</code></td>
+<td title='
+true 
+false 
+'>
+<p>Permission to open the GUI(s) of Ender IO's block_crafter</p>
+</td></tr>
+<tr>
+<td><code>enderio.gui.block_creative_spawner</code></td>
+<td><code>bool</code></td>
+<td class='true' colspan='2'><code>true</code></td>
+<td title='
+true 
+false 
+'>
+<p>Permission to open the GUI(s) of Ender IO's block_creative_spawner</p>
+</td></tr>
+<tr>
+<td><code>enderio.gui.block_dark_paper_anvil</code></td>
+<td><code>bool</code></td>
+<td class='true' colspan='2'><code>true</code></td>
+<td title='
+true 
+false 
+'>
+<p>Permission to open the GUI(s) of Ender IO's block_dark_paper_anvil</p>
+</td></tr>
+<tr>
+<td><code>enderio.gui.block_dark_steel_anvil</code></td>
+<td><code>bool</code></td>
+<td class='true' colspan='2'><code>true</code></td>
+<td title='
+true 
+false 
+'>
+<p>Permission to open the GUI(s) of Ender IO's block_dark_steel_anvil</p>
+</td></tr>
+<tr>
+<td><code>enderio.gui.block_dialing_device</code></td>
+<td><code>bool</code></td>
+<td class='true' colspan='2'><code>true</code></td>
+<td title='
+true 
+false 
+'>
+<p>Permission to open the GUI(s) of Ender IO's block_dialing_device</p>
+</td></tr>
+<tr>
+<td><code>enderio.gui.block_enchanter</code></td>
+<td><code>bool</code></td>
+<td class='true' colspan='2'><code>true</code></td>
+<td title='
+true 
+false 
+'>
+<p>Permission to open the GUI(s) of Ender IO's block_enchanter</p>
+</td></tr>
+<tr>
+<td><code>enderio.gui.block_ender_generator</code></td>
+<td><code>bool</code></td>
+<td class='true' colspan='2'><code>true</code></td>
+<td title='
+true 
+false 
+'>
+<p>Permission to open the GUI(s) of Ender IO's block_ender_generator</p>
+</td></tr>
+<tr>
+<td><code>enderio.gui.block_enhanced_alloy_smelter</code></td>
+<td><code>bool</code></td>
+<td class='true' colspan='2'><code>true</code></td>
+<td title='
+true 
+false 
+'>
+<p>Permission to open the GUI(s) of Ender IO's block_enhanced_alloy_smelter</p>
+</td></tr>
+<tr>
+<td><code>enderio.gui.block_enhanced_combustion_generator</code></td>
+<td><code>bool</code></td>
+<td class='true' colspan='2'><code>true</code></td>
+<td title='
+true 
+false 
+'>
+<p>Permission to open the GUI(s) of Ender IO's block_enhanced_combustion_generator</p>
+</td></tr>
+<tr>
+<td><code>enderio.gui.block_enhanced_sag_mill</code></td>
+<td><code>bool</code></td>
+<td class='true' colspan='2'><code>true</code></td>
+<td title='
+true 
+false 
+'>
+<p>Permission to open the GUI(s) of Ender IO's block_enhanced_sag_mill</p>
+</td></tr>
+<tr>
+<td><code>enderio.gui.block_enhanced_vat</code></td>
+<td><code>bool</code></td>
+<td class='true' colspan='2'><code>true</code></td>
+<td title='
+true 
+false 
+'>
+<p>Permission to open the GUI(s) of Ender IO's block_enhanced_vat</p>
+</td></tr>
+<tr>
+<td><code>enderio.gui.block_enhanced_wired_charger</code></td>
+<td><code>bool</code></td>
+<td class='true' colspan='2'><code>true</code></td>
+<td title='
+true 
+false 
+'>
+<p>Permission to open the GUI(s) of Ender IO's block_enhanced_wired_charger</p>
+</td></tr>
+<tr>
+<td><code>enderio.gui.block_experience_obelisk</code></td>
+<td><code>bool</code></td>
+<td class='true' colspan='2'><code>true</code></td>
+<td title='
+true 
+false 
+'>
+<p>Permission to open the GUI(s) of Ender IO's block_experience_obelisk</p>
+</td></tr>
+<tr>
+<td><code>enderio.gui.block_farm_station</code></td>
+<td><code>bool</code></td>
+<td class='true' colspan='2'><code>true</code></td>
+<td title='
+true 
+false 
+'>
+<p>Permission to open the GUI(s) of Ender IO's block_farm_station</p>
+</td></tr>
+<tr>
+<td><code>enderio.gui.block_franken_zombie_generator</code></td>
+<td><code>bool</code></td>
+<td class='true' colspan='2'><code>true</code></td>
+<td title='
+true 
+false 
+'>
+<p>Permission to open the GUI(s) of Ender IO's block_franken_zombie_generator</p>
+</td></tr>
+<tr>
+<td><code>enderio.gui.block_impulse_hopper</code></td>
+<td><code>bool</code></td>
+<td class='true' colspan='2'><code>true</code></td>
+<td title='
+true 
+false 
+'>
+<p>Permission to open the GUI(s) of Ender IO's block_impulse_hopper</p>
+</td></tr>
+<tr>
+<td><code>enderio.gui.block_inhibitor_obelisk</code></td>
+<td><code>bool</code></td>
+<td class='true' colspan='2'><code>true</code></td>
+<td title='
+true 
+false 
+'>
+<p>Permission to open the GUI(s) of Ender IO's block_inhibitor_obelisk</p>
+</td></tr>
+<tr>
+<td><code>enderio.gui.block_killer_joe</code></td>
+<td><code>bool</code></td>
+<td class='true' colspan='2'><code>true</code></td>
+<td title='
+true 
+false 
+'>
+<p>Permission to open the GUI(s) of Ender IO's block_killer_joe</p>
+</td></tr>
+<tr>
+<td><code>enderio.gui.block_lava_generator</code></td>
+<td><code>bool</code></td>
+<td class='true' colspan='2'><code>true</code></td>
+<td title='
+true 
+false 
+'>
+<p>Permission to open the GUI(s) of Ender IO's block_lava_generator</p>
+</td></tr>
+<tr>
+<td><code>enderio.gui.block_painter</code></td>
+<td><code>bool</code></td>
+<td class='true' colspan='2'><code>true</code></td>
+<td title='
+true 
+false 
+'>
+<p>Permission to open the GUI(s) of Ender IO's block_painter</p>
+</td></tr>
+<tr>
+<td><code>enderio.gui.block_power_monitor</code></td>
+<td><code>bool</code></td>
+<td class='true' colspan='2'><code>true</code></td>
+<td title='
+true 
+false 
+'>
+<p>Permission to open the GUI(s) of Ender IO's block_power_monitor</p>
+</td></tr>
+<tr>
+<td><code>enderio.gui.block_powered_spawner</code></td>
+<td><code>bool</code></td>
+<td class='true' colspan='2'><code>true</code></td>
+<td title='
+true 
+false 
+'>
+<p>Permission to open the GUI(s) of Ender IO's block_powered_spawner</p>
+</td></tr>
+<tr>
+<td><code>enderio.gui.block_relocator_obelisk</code></td>
+<td><code>bool</code></td>
+<td class='true' colspan='2'><code>true</code></td>
+<td title='
+true 
+false 
+'>
+<p>Permission to open the GUI(s) of Ender IO's block_relocator_obelisk</p>
+</td></tr>
+<tr>
+<td><code>enderio.gui.block_sag_mill</code></td>
+<td><code>bool</code></td>
+<td class='true' colspan='2'><code>true</code></td>
+<td title='
+true 
+false 
+'>
+<p>Permission to open the GUI(s) of Ender IO's block_sag_mill</p>
+</td></tr>
+<tr>
+<td><code>enderio.gui.block_simple_alloy_smelter</code></td>
+<td><code>bool</code></td>
+<td class='true' colspan='2'><code>true</code></td>
+<td title='
+true 
+false 
+'>
+<p>Permission to open the GUI(s) of Ender IO's block_simple_alloy_smelter</p>
+</td></tr>
+<tr>
+<td><code>enderio.gui.block_simple_crafter</code></td>
+<td><code>bool</code></td>
+<td class='true' colspan='2'><code>true</code></td>
+<td title='
+true 
+false 
+'>
+<p>Permission to open the GUI(s) of Ender IO's block_simple_crafter</p>
+</td></tr>
+<tr>
+<td><code>enderio.gui.block_simple_furnace</code></td>
+<td><code>bool</code></td>
+<td class='true' colspan='2'><code>true</code></td>
+<td title='
+true 
+false 
+'>
+<p>Permission to open the GUI(s) of Ender IO's block_simple_furnace</p>
+</td></tr>
+<tr>
+<td><code>enderio.gui.block_simple_sag_mill</code></td>
+<td><code>bool</code></td>
+<td class='true' colspan='2'><code>true</code></td>
+<td title='
+true 
+false 
+'>
+<p>Permission to open the GUI(s) of Ender IO's block_simple_sag_mill</p>
+</td></tr>
+<tr>
+<td><code>enderio.gui.block_simple_stirling_generator</code></td>
+<td><code>bool</code></td>
+<td class='true' colspan='2'><code>true</code></td>
+<td title='
+true 
+false 
+'>
+<p>Permission to open the GUI(s) of Ender IO's block_simple_stirling_generator</p>
+</td></tr>
+<tr>
+<td><code>enderio.gui.block_simple_wired_charger</code></td>
+<td><code>bool</code></td>
+<td class='true' colspan='2'><code>true</code></td>
+<td title='
+true 
+false 
+'>
+<p>Permission to open the GUI(s) of Ender IO's block_simple_wired_charger</p>
+</td></tr>
+<tr>
+<td><code>enderio.gui.block_slice_and_splice</code></td>
+<td><code>bool</code></td>
+<td class='true' colspan='2'><code>true</code></td>
+<td title='
+true 
+false 
+'>
+<p>Permission to open the GUI(s) of Ender IO's block_slice_and_splice</p>
+</td></tr>
+<tr>
+<td><code>enderio.gui.block_soul_binder</code></td>
+<td><code>bool</code></td>
+<td class='true' colspan='2'><code>true</code></td>
+<td title='
+true 
+false 
+'>
+<p>Permission to open the GUI(s) of Ender IO's block_soul_binder</p>
+</td></tr>
+<tr>
+<td><code>enderio.gui.block_stirling_generator</code></td>
+<td><code>bool</code></td>
+<td class='true' colspan='2'><code>true</code></td>
+<td title='
+true 
+false 
+'>
+<p>Permission to open the GUI(s) of Ender IO's block_stirling_generator</p>
+</td></tr>
+<tr>
+<td><code>enderio.gui.block_tank</code></td>
+<td><code>bool</code></td>
+<td class='true' colspan='2'><code>true</code></td>
+<td title='
+true 
+false 
+'>
+<p>Permission to open the GUI(s) of Ender IO's block_tank</p>
+</td></tr>
+<tr>
+<td><code>enderio.gui.block_tele_pad</code></td>
+<td><code>bool</code></td>
+<td class='true' colspan='2'><code>true</code></td>
+<td title='
+true 
+false 
+'>
+<p>Permission to open the GUI(s) of Ender IO's block_tele_pad</p>
+</td></tr>
+<tr>
+<td><code>enderio.gui.block_transceiver</code></td>
+<td><code>bool</code></td>
+<td class='true' colspan='2'><code>true</code></td>
+<td title='
+true 
+false 
+'>
+<p>Permission to open the GUI(s) of Ender IO's block_transceiver</p>
+</td></tr>
+<tr>
+<td><code>enderio.gui.block_travel_anchor</code></td>
+<td><code>bool</code></td>
+<td class='true' colspan='2'><code>true</code></td>
+<td title='
+true 
+false 
+'>
+<p>Permission to open the GUI(s) of Ender IO's block_travel_anchor</p>
+</td></tr>
+<tr>
+<td><code>enderio.gui.block_vacuum_chest</code></td>
+<td><code>bool</code></td>
+<td class='true' colspan='2'><code>true</code></td>
+<td title='
+true 
+false 
+'>
+<p>Permission to open the GUI(s) of Ender IO's block_vacuum_chest</p>
+</td></tr>
+<tr>
+<td><code>enderio.gui.block_vat</code></td>
+<td><code>bool</code></td>
+<td class='true' colspan='2'><code>true</code></td>
+<td title='
+true 
+false 
+'>
+<p>Permission to open the GUI(s) of Ender IO's block_vat</p>
+</td></tr>
+<tr>
+<td><code>enderio.gui.block_weather_obelisk</code></td>
+<td><code>bool</code></td>
+<td class='true' colspan='2'><code>true</code></td>
+<td title='
+true 
+false 
+'>
+<p>Permission to open the GUI(s) of Ender IO's block_weather_obelisk</p>
+</td></tr>
+<tr>
+<td><code>enderio.gui.block_wired_charger</code></td>
+<td><code>bool</code></td>
+<td class='true' colspan='2'><code>true</code></td>
+<td title='
+true 
+false 
+'>
+<p>Permission to open the GUI(s) of Ender IO's block_wired_charger</p>
+</td></tr>
+<tr>
+<td><code>enderio.gui.block_xp_vacuum</code></td>
+<td><code>bool</code></td>
+<td class='true' colspan='2'><code>true</code></td>
+<td title='
+true 
+false 
+'>
+<p>Permission to open the GUI(s) of Ender IO's block_xp_vacuum</p>
+</td></tr>
+<tr>
+<td><code>enderio.gui.block_zombie_generator</code></td>
+<td><code>bool</code></td>
+<td class='true' colspan='2'><code>true</code></td>
+<td title='
+true 
+false 
+'>
+<p>Permission to open the GUI(s) of Ender IO's block_zombie_generator</p>
+</td></tr>
+<tr>
+<td><code>enderio.gui.item_advanced_item_filter</code></td>
+<td><code>bool</code></td>
+<td class='true' colspan='2'><code>true</code></td>
+<td title='
+true 
+false 
+'>
+<p>Permission to open the GUI(s) of Ender IO's item_advanced_item_filter</p>
+</td></tr>
+<tr>
+<td><code>enderio.gui.item_basic_item_filter</code></td>
+<td><code>bool</code></td>
+<td class='true' colspan='2'><code>true</code></td>
+<td title='
+true 
+false 
+'>
+<p>Permission to open the GUI(s) of Ender IO's item_basic_item_filter</p>
+</td></tr>
+<tr>
+<td><code>enderio.gui.item_big_advanced_item_filter</code></td>
+<td><code>bool</code></td>
+<td class='true' colspan='2'><code>true</code></td>
+<td title='
+true 
+false 
+'>
+<p>Permission to open the GUI(s) of Ender IO's item_big_advanced_item_filter</p>
+</td></tr>
+<tr>
+<td><code>enderio.gui.item_big_item_filter</code></td>
+<td><code>bool</code></td>
+<td class='true' colspan='2'><code>true</code></td>
+<td title='
+true 
+false 
+'>
+<p>Permission to open the GUI(s) of Ender IO's item_big_item_filter</p>
+</td></tr>
+<tr>
+<td><code>enderio.gui.item_dark_steel_boots</code></td>
+<td><code>bool</code></td>
+<td class='true' colspan='2'><code>true</code></td>
+<td title='
+true 
+false 
+'>
+<p>Permission to open the GUI(s) of Ender IO's item_dark_steel_boots</p>
+</td></tr>
+<tr>
+<td><code>enderio.gui.item_dark_steel_chestplate</code></td>
+<td><code>bool</code></td>
+<td class='true' colspan='2'><code>true</code></td>
+<td title='
+true 
+false 
+'>
+<p>Permission to open the GUI(s) of Ender IO's item_dark_steel_chestplate</p>
+</td></tr>
+<tr>
+<td><code>enderio.gui.item_dark_steel_helmet</code></td>
+<td><code>bool</code></td>
+<td class='true' colspan='2'><code>true</code></td>
+<td title='
+true 
+false 
+'>
+<p>Permission to open the GUI(s) of Ender IO's item_dark_steel_helmet</p>
+</td></tr>
+<tr>
+<td><code>enderio.gui.item_dark_steel_leggings</code></td>
+<td><code>bool</code></td>
+<td class='true' colspan='2'><code>true</code></td>
+<td title='
+true 
+false 
+'>
+<p>Permission to open the GUI(s) of Ender IO's item_dark_steel_leggings</p>
+</td></tr>
+<tr>
+<td><code>enderio.gui.item_enchantment_filter_big</code></td>
+<td><code>bool</code></td>
+<td class='true' colspan='2'><code>true</code></td>
+<td title='
+true 
+false 
+'>
+<p>Permission to open the GUI(s) of Ender IO's item_enchantment_filter_big</p>
+</td></tr>
+<tr>
+<td><code>enderio.gui.item_enchantment_filter_normal</code></td>
+<td><code>bool</code></td>
+<td class='true' colspan='2'><code>true</code></td>
+<td title='
+true 
+false 
+'>
+<p>Permission to open the GUI(s) of Ender IO's item_enchantment_filter_normal</p>
+</td></tr>
+<tr>
+<td><code>enderio.gui.item_end_steel_boots</code></td>
+<td><code>bool</code></td>
+<td class='true' colspan='2'><code>true</code></td>
+<td title='
+true 
+false 
+'>
+<p>Permission to open the GUI(s) of Ender IO's item_end_steel_boots</p>
+</td></tr>
+<tr>
+<td><code>enderio.gui.item_end_steel_chestplate</code></td>
+<td><code>bool</code></td>
+<td class='true' colspan='2'><code>true</code></td>
+<td title='
+true 
+false 
+'>
+<p>Permission to open the GUI(s) of Ender IO's item_end_steel_chestplate</p>
+</td></tr>
+<tr>
+<td><code>enderio.gui.item_end_steel_helmet</code></td>
+<td><code>bool</code></td>
+<td class='true' colspan='2'><code>true</code></td>
+<td title='
+true 
+false 
+'>
+<p>Permission to open the GUI(s) of Ender IO's item_end_steel_helmet</p>
+</td></tr>
+<tr>
+<td><code>enderio.gui.item_end_steel_leggings</code></td>
+<td><code>bool</code></td>
+<td class='true' colspan='2'><code>true</code></td>
+<td title='
+true 
+false 
+'>
+<p>Permission to open the GUI(s) of Ender IO's item_end_steel_leggings</p>
+</td></tr>
+<tr>
+<td><code>enderio.gui.item_existing_item_filter</code></td>
+<td><code>bool</code></td>
+<td class='true' colspan='2'><code>true</code></td>
+<td title='
+true 
+false 
+'>
+<p>Permission to open the GUI(s) of Ender IO's item_existing_item_filter</p>
+</td></tr>
+<tr>
+<td><code>enderio.gui.item_fluid_filter</code></td>
+<td><code>bool</code></td>
+<td class='true' colspan='2'><code>true</code></td>
+<td title='
+true 
+false 
+'>
+<p>Permission to open the GUI(s) of Ender IO's item_fluid_filter</p>
+</td></tr>
+<tr>
+<td><code>enderio.gui.item_limited_item_filter</code></td>
+<td><code>bool</code></td>
+<td class='true' colspan='2'><code>true</code></td>
+<td title='
+true 
+false 
+'>
+<p>Permission to open the GUI(s) of Ender IO's item_limited_item_filter</p>
+</td></tr>
+<tr>
+<td><code>enderio.gui.item_mod_item_filter</code></td>
+<td><code>bool</code></td>
+<td class='true' colspan='2'><code>true</code></td>
+<td title='
+true 
+false 
+'>
+<p>Permission to open the GUI(s) of Ender IO's item_mod_item_filter</p>
+</td></tr>
+<tr>
+<td><code>enderio.gui.item_power_item_filter</code></td>
+<td><code>bool</code></td>
+<td class='true' colspan='2'><code>true</code></td>
+<td title='
+true 
+false 
+'>
+<p>Permission to open the GUI(s) of Ender IO's item_power_item_filter</p>
+</td></tr>
+<tr>
+<td><code>enderio.gui.item_redstone_and_filter</code></td>
+<td><code>bool</code></td>
+<td class='true' colspan='2'><code>true</code></td>
+<td title='
+true 
+false 
+'>
+<p>Permission to open the GUI(s) of Ender IO's item_redstone_and_filter</p>
+</td></tr>
+<tr>
+<td><code>enderio.gui.item_redstone_counting_filter</code></td>
+<td><code>bool</code></td>
+<td class='true' colspan='2'><code>true</code></td>
+<td title='
+true 
+false 
+'>
+<p>Permission to open the GUI(s) of Ender IO's item_redstone_counting_filter</p>
+</td></tr>
+<tr>
+<td><code>enderio.gui.item_redstone_nand_filter</code></td>
+<td><code>bool</code></td>
+<td class='true' colspan='2'><code>true</code></td>
+<td title='
+true 
+false 
+'>
+<p>Permission to open the GUI(s) of Ender IO's item_redstone_nand_filter</p>
+</td></tr>
+<tr>
+<td><code>enderio.gui.item_redstone_nor_filter</code></td>
+<td><code>bool</code></td>
+<td class='true' colspan='2'><code>true</code></td>
+<td title='
+true 
+false 
+'>
+<p>Permission to open the GUI(s) of Ender IO's item_redstone_nor_filter</p>
+</td></tr>
+<tr>
+<td><code>enderio.gui.item_redstone_not_filter</code></td>
+<td><code>bool</code></td>
+<td class='true' colspan='2'><code>true</code></td>
+<td title='
+true 
+false 
+'>
+<p>Permission to open the GUI(s) of Ender IO's item_redstone_not_filter</p>
+</td></tr>
+<tr>
+<td><code>enderio.gui.item_redstone_or_filter</code></td>
+<td><code>bool</code></td>
+<td class='true' colspan='2'><code>true</code></td>
+<td title='
+true 
+false 
+'>
+<p>Permission to open the GUI(s) of Ender IO's item_redstone_or_filter</p>
+</td></tr>
+<tr>
+<td><code>enderio.gui.item_redstone_sensor_filter</code></td>
+<td><code>bool</code></td>
+<td class='true' colspan='2'><code>true</code></td>
+<td title='
+true 
+false 
+'>
+<p>Permission to open the GUI(s) of Ender IO's item_redstone_sensor_filter</p>
+</td></tr>
+<tr>
+<td><code>enderio.gui.item_redstone_timer_filter</code></td>
+<td><code>bool</code></td>
+<td class='true' colspan='2'><code>true</code></td>
+<td title='
+true 
+false 
+'>
+<p>Permission to open the GUI(s) of Ender IO's item_redstone_timer_filter</p>
+</td></tr>
+<tr>
+<td><code>enderio.gui.item_redstone_toggle_filter</code></td>
+<td><code>bool</code></td>
+<td class='true' colspan='2'><code>true</code></td>
+<td title='
+true 
+false 
+'>
+<p>Permission to open the GUI(s) of Ender IO's item_redstone_toggle_filter</p>
+</td></tr>
+<tr>
+<td><code>enderio.gui.item_redstone_xnor_filter</code></td>
+<td><code>bool</code></td>
+<td class='true' colspan='2'><code>true</code></td>
+<td title='
+true 
+false 
+'>
+<p>Permission to open the GUI(s) of Ender IO's item_redstone_xnor_filter</p>
+</td></tr>
+<tr>
+<td><code>enderio.gui.item_redstone_xor_filter</code></td>
+<td><code>bool</code></td>
+<td class='true' colspan='2'><code>true</code></td>
+<td title='
+true 
+false 
+'>
+<p>Permission to open the GUI(s) of Ender IO's item_redstone_xor_filter</p>
+</td></tr>
+<tr>
+<td><code>enderio.gui.item_soul_filter_big</code></td>
+<td><code>bool</code></td>
+<td class='true' colspan='2'><code>true</code></td>
+<td title='
+true 
+false 
+'>
+<p>Permission to open the GUI(s) of Ender IO's item_soul_filter_big</p>
+</td></tr>
+<tr>
+<td><code>enderio.gui.item_soul_filter_normal</code></td>
+<td><code>bool</code></td>
+<td class='true' colspan='2'><code>true</code></td>
+<td title='
+true 
+false 
+'>
+<p>Permission to open the GUI(s) of Ender IO's item_soul_filter_normal</p>
+</td></tr>
+<tr>
+<td><code>enderio.gui.item_stellar_alloy_boots</code></td>
+<td><code>bool</code></td>
+<td class='true' colspan='2'><code>true</code></td>
+<td title='
+true 
+false 
+'>
+<p>Permission to open the GUI(s) of Ender IO's item_stellar_alloy_boots</p>
+</td></tr>
+<tr>
+<td><code>enderio.gui.item_stellar_alloy_chestplate</code></td>
+<td><code>bool</code></td>
+<td class='true' colspan='2'><code>true</code></td>
+<td title='
+true 
+false 
+'>
+<p>Permission to open the GUI(s) of Ender IO's item_stellar_alloy_chestplate</p>
+</td></tr>
+<tr>
+<td><code>enderio.gui.item_stellar_alloy_helmet</code></td>
+<td><code>bool</code></td>
+<td class='true' colspan='2'><code>true</code></td>
+<td title='
+true 
+false 
+'>
+<p>Permission to open the GUI(s) of Ender IO's item_stellar_alloy_helmet</p>
+</td></tr>
+<tr>
+<td><code>enderio.gui.item_stellar_alloy_leggings</code></td>
+<td><code>bool</code></td>
+<td class='true' colspan='2'><code>true</code></td>
+<td title='
+true 
+false 
+'>
+<p>Permission to open the GUI(s) of Ender IO's item_stellar_alloy_leggings</p>
+</td></tr>
+<tr>
+<td><code>enderio.soulvial.pickup</code></td>
+<td><code>bool</code></td>
+<td class='true' colspan='2'><code>true</code></td>
+<td title='
+true 
+false 
+'>
+<p>Permission to pickup an entity with Ender IO's soul vessel</p>
+</td></tr>
+<tr>
+<td><code>enderio.soulvial.pickup_owned</code></td>
+<td><code>bool</code></td>
+<td class='false'><code>false</code></td>
+<td class='true'><code>true</code></td>
+<td title='
+true 
+false 
+'>
+<p>Permission to pickup an entity that is owned by another player with Ender IO's soul vessel</p>
+</td></tr>
+<tr>
+<td><code>enderio.soulvial.place</code></td>
+<td><code>bool</code></td>
+<td class='true' colspan='2'><code>true</code></td>
+<td title='
+true 
+false 
+'>
+<p>Permission to place down an entity with Ender IO's soul vessel</p>
+</td></tr>
+<tr>
+<td><code>enderio.wrench.break.block_advanced_power_monitor</code></td>
+<td><code>bool</code></td>
+<td class='true' colspan='2'><code>true</code></td>
+<td title='
+true 
+false 
+'>
+<p>Permission to wrench-break the block block_advanced_power_monitor of Ender IO</p>
+</td></tr>
+<tr>
+<td><code>enderio.wrench.break.block_alloy_smelter</code></td>
+<td><code>bool</code></td>
+<td class='true' colspan='2'><code>true</code></td>
+<td title='
+true 
+false 
+'>
+<p>Permission to wrench-break the block block_alloy_smelter of Ender IO</p>
+</td></tr>
+<tr>
+<td><code>enderio.wrench.break.block_attractor_obelisk</code></td>
+<td><code>bool</code></td>
+<td class='true' colspan='2'><code>true</code></td>
+<td title='
+true 
+false 
+'>
+<p>Permission to wrench-break the block block_attractor_obelisk of Ender IO</p>
+</td></tr>
+<tr>
+<td><code>enderio.wrench.break.block_aversion_obelisk</code></td>
+<td><code>bool</code></td>
+<td class='true' colspan='2'><code>true</code></td>
+<td title='
+true 
+false 
+'>
+<p>Permission to wrench-break the block block_aversion_obelisk of Ender IO</p>
+</td></tr>
+<tr>
+<td><code>enderio.wrench.break.block_buffer</code></td>
+<td><code>bool</code></td>
+<td class='true' colspan='2'><code>true</code></td>
+<td title='
+true 
+false 
+'>
+<p>Permission to wrench-break the block block_buffer of Ender IO</p>
+</td></tr>
+<tr>
+<td><code>enderio.wrench.break.block_cap_bank</code></td>
+<td><code>bool</code></td>
+<td class='true' colspan='2'><code>true</code></td>
+<td title='
+true 
+false 
+'>
+<p>Permission to wrench-break the block block_cap_bank of Ender IO</p>
+</td></tr>
+<tr>
+<td><code>enderio.wrench.break.block_combustion_generator</code></td>
+<td><code>bool</code></td>
+<td class='true' colspan='2'><code>true</code></td>
+<td title='
+true 
+false 
+'>
+<p>Permission to wrench-break the block block_combustion_generator of Ender IO</p>
+</td></tr>
+<tr>
+<td><code>enderio.wrench.break.block_conduit_bundle</code></td>
+<td><code>bool</code></td>
+<td class='true' colspan='2'><code>true</code></td>
+<td title='
+true 
+false 
+'>
+<p>Permission to wrench-break the block block_conduit_bundle of Ender IO</p>
+</td></tr>
+<tr>
+<td><code>enderio.wrench.break.block_crafter</code></td>
+<td><code>bool</code></td>
+<td class='true' colspan='2'><code>true</code></td>
+<td title='
+true 
+false 
+'>
+<p>Permission to wrench-break the block block_crafter of Ender IO</p>
+</td></tr>
+<tr>
+<td><code>enderio.wrench.break.block_creative_spawner</code></td>
+<td><code>bool</code></td>
+<td class='false'><code>false</code></td>
+<td class='true'><code>true</code></td>
+<td title='
+true 
+false 
+'>
+<p>Permission to wrench-break the block block_creative_spawner of Ender IO</p>
+</td></tr>
+<tr>
+<td><code>enderio.wrench.break.block_detector_block</code></td>
+<td><code>bool</code></td>
+<td class='true' colspan='2'><code>true</code></td>
+<td title='
+true 
+false 
+'>
+<p>Permission to wrench-break the block block_detector_block of Ender IO</p>
+</td></tr>
+<tr>
+<td><code>enderio.wrench.break.block_detector_block_silent</code></td>
+<td><code>bool</code></td>
+<td class='true' colspan='2'><code>true</code></td>
+<td title='
+true 
+false 
+'>
+<p>Permission to wrench-break the block block_detector_block_silent of Ender IO</p>
+</td></tr>
+<tr>
+<td><code>enderio.wrench.break.block_dialing_device</code></td>
+<td><code>bool</code></td>
+<td class='true' colspan='2'><code>true</code></td>
+<td title='
+true 
+false 
+'>
+<p>Permission to wrench-break the block block_dialing_device of Ender IO</p>
+</td></tr>
+<tr>
+<td><code>enderio.wrench.break.block_electric_light</code></td>
+<td><code>bool</code></td>
+<td class='true' colspan='2'><code>true</code></td>
+<td title='
+true 
+false 
+'>
+<p>Permission to wrench-break the block block_electric_light of Ender IO</p>
+</td></tr>
+<tr>
+<td><code>enderio.wrench.break.block_enchanter</code></td>
+<td><code>bool</code></td>
+<td class='true' colspan='2'><code>true</code></td>
+<td title='
+true 
+false 
+'>
+<p>Permission to wrench-break the block block_enchanter of Ender IO</p>
+</td></tr>
+<tr>
+<td><code>enderio.wrench.break.block_ender_generator</code></td>
+<td><code>bool</code></td>
+<td class='true' colspan='2'><code>true</code></td>
+<td title='
+true 
+false 
+'>
+<p>Permission to wrench-break the block block_ender_generator of Ender IO</p>
+</td></tr>
+<tr>
+<td><code>enderio.wrench.break.block_enderman_skull</code></td>
+<td><code>bool</code></td>
+<td class='true' colspan='2'><code>true</code></td>
+<td title='
+true 
+false 
+'>
+<p>Permission to wrench-break the block block_enderman_skull of Ender IO</p>
+</td></tr>
+<tr>
+<td><code>enderio.wrench.break.block_enhanced_alloy_smelter</code></td>
+<td><code>bool</code></td>
+<td class='true' colspan='2'><code>true</code></td>
+<td title='
+true 
+false 
+'>
+<p>Permission to wrench-break the block block_enhanced_alloy_smelter of Ender IO</p>
+</td></tr>
+<tr>
+<td><code>enderio.wrench.break.block_enhanced_alloy_smelter_top</code></td>
+<td><code>bool</code></td>
+<td class='true' colspan='2'><code>true</code></td>
+<td title='
+true 
+false 
+'>
+<p>Permission to wrench-break the block block_enhanced_alloy_smelter_top of Ender IO</p>
+</td></tr>
+<tr>
+<td><code>enderio.wrench.break.block_enhanced_combustion_generator</code></td>
+<td><code>bool</code></td>
+<td class='true' colspan='2'><code>true</code></td>
+<td title='
+true 
+false 
+'>
+<p>Permission to wrench-break the block block_enhanced_combustion_generator of Ender IO</p>
+</td></tr>
+<tr>
+<td><code>enderio.wrench.break.block_enhanced_combustion_generator_top</code></td>
+<td><code>bool</code></td>
+<td class='true' colspan='2'><code>true</code></td>
+<td title='
+true 
+false 
+'>
+<p>Permission to wrench-break the block block_enhanced_combustion_generator_top of Ender IO</p>
+</td></tr>
+<tr>
+<td><code>enderio.wrench.break.block_enhanced_sag_mill</code></td>
+<td><code>bool</code></td>
+<td class='true' colspan='2'><code>true</code></td>
+<td title='
+true 
+false 
+'>
+<p>Permission to wrench-break the block block_enhanced_sag_mill of Ender IO</p>
+</td></tr>
+<tr>
+<td><code>enderio.wrench.break.block_enhanced_sag_mill_top</code></td>
+<td><code>bool</code></td>
+<td class='true' colspan='2'><code>true</code></td>
+<td title='
+true 
+false 
+'>
+<p>Permission to wrench-break the block block_enhanced_sag_mill_top of Ender IO</p>
+</td></tr>
+<tr>
+<td><code>enderio.wrench.break.block_enhanced_vat</code></td>
+<td><code>bool</code></td>
+<td class='true' colspan='2'><code>true</code></td>
+<td title='
+true 
+false 
+'>
+<p>Permission to wrench-break the block block_enhanced_vat of Ender IO</p>
+</td></tr>
+<tr>
+<td><code>enderio.wrench.break.block_enhanced_vat_top</code></td>
+<td><code>bool</code></td>
+<td class='true' colspan='2'><code>true</code></td>
+<td title='
+true 
+false 
+'>
+<p>Permission to wrench-break the block block_enhanced_vat_top of Ender IO</p>
+</td></tr>
+<tr>
+<td><code>enderio.wrench.break.block_enhanced_wired_charger</code></td>
+<td><code>bool</code></td>
+<td class='true' colspan='2'><code>true</code></td>
+<td title='
+true 
+false 
+'>
+<p>Permission to wrench-break the block block_enhanced_wired_charger of Ender IO</p>
+</td></tr>
+<tr>
+<td><code>enderio.wrench.break.block_enhanced_wired_charger_top</code></td>
+<td><code>bool</code></td>
+<td class='true' colspan='2'><code>true</code></td>
+<td title='
+true 
+false 
+'>
+<p>Permission to wrench-break the block block_enhanced_wired_charger_top of Ender IO</p>
+</td></tr>
+<tr>
+<td><code>enderio.wrench.break.block_enhanced_wireless_charger</code></td>
+<td><code>bool</code></td>
+<td class='true' colspan='2'><code>true</code></td>
+<td title='
+true 
+false 
+'>
+<p>Permission to wrench-break the block block_enhanced_wireless_charger of Ender IO</p>
+</td></tr>
+<tr>
+<td><code>enderio.wrench.break.block_experience_obelisk</code></td>
+<td><code>bool</code></td>
+<td class='true' colspan='2'><code>true</code></td>
+<td title='
+true 
+false 
+'>
+<p>Permission to wrench-break the block block_experience_obelisk of Ender IO</p>
+</td></tr>
+<tr>
+<td><code>enderio.wrench.break.block_farm_station</code></td>
+<td><code>bool</code></td>
+<td class='true' colspan='2'><code>true</code></td>
+<td title='
+true 
+false 
+'>
+<p>Permission to wrench-break the block block_farm_station of Ender IO</p>
+</td></tr>
+<tr>
+<td><code>enderio.wrench.break.block_franken_zombie_generator</code></td>
+<td><code>bool</code></td>
+<td class='true' colspan='2'><code>true</code></td>
+<td title='
+true 
+false 
+'>
+<p>Permission to wrench-break the block block_franken_zombie_generator of Ender IO</p>
+</td></tr>
+<tr>
+<td><code>enderio.wrench.break.block_gauge</code></td>
+<td><code>bool</code></td>
+<td class='true' colspan='2'><code>true</code></td>
+<td title='
+true 
+false 
+'>
+<p>Permission to wrench-break the block block_gauge of Ender IO</p>
+</td></tr>
+<tr>
+<td><code>enderio.wrench.break.block_holy_fog</code></td>
+<td><code>bool</code></td>
+<td class='true' colspan='2'><code>true</code></td>
+<td title='
+true 
+false 
+'>
+<p>Permission to wrench-break the block block_holy_fog of Ender IO</p>
+</td></tr>
+<tr>
+<td><code>enderio.wrench.break.block_impulse_hopper</code></td>
+<td><code>bool</code></td>
+<td class='true' colspan='2'><code>true</code></td>
+<td title='
+true 
+false 
+'>
+<p>Permission to wrench-break the block block_impulse_hopper of Ender IO</p>
+</td></tr>
+<tr>
+<td><code>enderio.wrench.break.block_industrial_insulation</code></td>
+<td><code>bool</code></td>
+<td class='true' colspan='2'><code>true</code></td>
+<td title='
+true 
+false 
+'>
+<p>Permission to wrench-break the block block_industrial_insulation of Ender IO</p>
+</td></tr>
+<tr>
+<td><code>enderio.wrench.break.block_infinity_fog</code></td>
+<td><code>bool</code></td>
+<td class='true' colspan='2'><code>true</code></td>
+<td title='
+true 
+false 
+'>
+<p>Permission to wrench-break the block block_infinity_fog of Ender IO</p>
+</td></tr>
+<tr>
+<td><code>enderio.wrench.break.block_inhibitor_obelisk</code></td>
+<td><code>bool</code></td>
+<td class='true' colspan='2'><code>true</code></td>
+<td title='
+true 
+false 
+'>
+<p>Permission to wrench-break the block block_inhibitor_obelisk of Ender IO</p>
+</td></tr>
+<tr>
+<td><code>enderio.wrench.break.block_killer_joe</code></td>
+<td><code>bool</code></td>
+<td class='true' colspan='2'><code>true</code></td>
+<td title='
+true 
+false 
+'>
+<p>Permission to wrench-break the block block_killer_joe of Ender IO</p>
+</td></tr>
+<tr>
+<td><code>enderio.wrench.break.block_lava_generator</code></td>
+<td><code>bool</code></td>
+<td class='true' colspan='2'><code>true</code></td>
+<td title='
+true 
+false 
+'>
+<p>Permission to wrench-break the block block_lava_generator of Ender IO</p>
+</td></tr>
+<tr>
+<td><code>enderio.wrench.break.block_light_node</code></td>
+<td><code>bool</code></td>
+<td class='true' colspan='2'><code>true</code></td>
+<td title='
+true 
+false 
+'>
+<p>Permission to wrench-break the block block_light_node of Ender IO</p>
+</td></tr>
+<tr>
+<td><code>enderio.wrench.break.block_normal_wireless_charger</code></td>
+<td><code>bool</code></td>
+<td class='true' colspan='2'><code>true</code></td>
+<td title='
+true 
+false 
+'>
+<p>Permission to wrench-break the block block_normal_wireless_charger of Ender IO</p>
+</td></tr>
+<tr>
+<td><code>enderio.wrench.break.block_omni_reservoir</code></td>
+<td><code>bool</code></td>
+<td class='true' colspan='2'><code>true</code></td>
+<td title='
+true 
+false 
+'>
+<p>Permission to wrench-break the block block_omni_reservoir of Ender IO</p>
+</td></tr>
+<tr>
+<td><code>enderio.wrench.break.block_painter</code></td>
+<td><code>bool</code></td>
+<td class='true' colspan='2'><code>true</code></td>
+<td title='
+true 
+false 
+'>
+<p>Permission to wrench-break the block block_painter of Ender IO</p>
+</td></tr>
+<tr>
+<td><code>enderio.wrench.break.block_power_monitor</code></td>
+<td><code>bool</code></td>
+<td class='true' colspan='2'><code>true</code></td>
+<td title='
+true 
+false 
+'>
+<p>Permission to wrench-break the block block_power_monitor of Ender IO</p>
+</td></tr>
+<tr>
+<td><code>enderio.wrench.break.block_powered_spawner</code></td>
+<td><code>bool</code></td>
+<td class='true' colspan='2'><code>true</code></td>
+<td title='
+true 
+false 
+'>
+<p>Permission to wrench-break the block block_powered_spawner of Ender IO</p>
+</td></tr>
+<tr>
+<td><code>enderio.wrench.break.block_relocator_obelisk</code></td>
+<td><code>bool</code></td>
+<td class='true' colspan='2'><code>true</code></td>
+<td title='
+true 
+false 
+'>
+<p>Permission to wrench-break the block block_relocator_obelisk of Ender IO</p>
+</td></tr>
+<tr>
+<td><code>enderio.wrench.break.block_reservoir</code></td>
+<td><code>bool</code></td>
+<td class='true' colspan='2'><code>true</code></td>
+<td title='
+true 
+false 
+'>
+<p>Permission to wrench-break the block block_reservoir of Ender IO</p>
+</td></tr>
+<tr>
+<td><code>enderio.wrench.break.block_sag_mill</code></td>
+<td><code>bool</code></td>
+<td class='true' colspan='2'><code>true</code></td>
+<td title='
+true 
+false 
+'>
+<p>Permission to wrench-break the block block_sag_mill of Ender IO</p>
+</td></tr>
+<tr>
+<td><code>enderio.wrench.break.block_simple_alloy_smelter</code></td>
+<td><code>bool</code></td>
+<td class='true' colspan='2'><code>true</code></td>
+<td title='
+true 
+false 
+'>
+<p>Permission to wrench-break the block block_simple_alloy_smelter of Ender IO</p>
+</td></tr>
+<tr>
+<td><code>enderio.wrench.break.block_simple_crafter</code></td>
+<td><code>bool</code></td>
+<td class='true' colspan='2'><code>true</code></td>
+<td title='
+true 
+false 
+'>
+<p>Permission to wrench-break the block block_simple_crafter of Ender IO</p>
+</td></tr>
+<tr>
+<td><code>enderio.wrench.break.block_simple_furnace</code></td>
+<td><code>bool</code></td>
+<td class='true' colspan='2'><code>true</code></td>
+<td title='
+true 
+false 
+'>
+<p>Permission to wrench-break the block block_simple_furnace of Ender IO</p>
+</td></tr>
+<tr>
+<td><code>enderio.wrench.break.block_simple_sag_mill</code></td>
+<td><code>bool</code></td>
+<td class='true' colspan='2'><code>true</code></td>
+<td title='
+true 
+false 
+'>
+<p>Permission to wrench-break the block block_simple_sag_mill of Ender IO</p>
+</td></tr>
+<tr>
+<td><code>enderio.wrench.break.block_simple_stirling_generator</code></td>
+<td><code>bool</code></td>
+<td class='true' colspan='2'><code>true</code></td>
+<td title='
+true 
+false 
+'>
+<p>Permission to wrench-break the block block_simple_stirling_generator of Ender IO</p>
+</td></tr>
+<tr>
+<td><code>enderio.wrench.break.block_simple_wired_charger</code></td>
+<td><code>bool</code></td>
+<td class='true' colspan='2'><code>true</code></td>
+<td title='
+true 
+false 
+'>
+<p>Permission to wrench-break the block block_simple_wired_charger of Ender IO</p>
+</td></tr>
+<tr>
+<td><code>enderio.wrench.break.block_slice_and_splice</code></td>
+<td><code>bool</code></td>
+<td class='true' colspan='2'><code>true</code></td>
+<td title='
+true 
+false 
+'>
+<p>Permission to wrench-break the block block_slice_and_splice of Ender IO</p>
+</td></tr>
+<tr>
+<td><code>enderio.wrench.break.block_solar_panel</code></td>
+<td><code>bool</code></td>
+<td class='true' colspan='2'><code>true</code></td>
+<td title='
+true 
+false 
+'>
+<p>Permission to wrench-break the block block_solar_panel of Ender IO</p>
+</td></tr>
+<tr>
+<td><code>enderio.wrench.break.block_soul_binder</code></td>
+<td><code>bool</code></td>
+<td class='true' colspan='2'><code>true</code></td>
+<td title='
+true 
+false 
+'>
+<p>Permission to wrench-break the block block_soul_binder of Ender IO</p>
+</td></tr>
+<tr>
+<td><code>enderio.wrench.break.block_stirling_generator</code></td>
+<td><code>bool</code></td>
+<td class='true' colspan='2'><code>true</code></td>
+<td title='
+true 
+false 
+'>
+<p>Permission to wrench-break the block block_stirling_generator of Ender IO</p>
+</td></tr>
+<tr>
+<td><code>enderio.wrench.break.block_tank</code></td>
+<td><code>bool</code></td>
+<td class='true' colspan='2'><code>true</code></td>
+<td title='
+true 
+false 
+'>
+<p>Permission to wrench-break the block block_tank of Ender IO</p>
+</td></tr>
+<tr>
+<td><code>enderio.wrench.break.block_tele_pad</code></td>
+<td><code>bool</code></td>
+<td class='true' colspan='2'><code>true</code></td>
+<td title='
+true 
+false 
+'>
+<p>Permission to wrench-break the block block_tele_pad of Ender IO</p>
+</td></tr>
+<tr>
+<td><code>enderio.wrench.break.block_transceiver</code></td>
+<td><code>bool</code></td>
+<td class='true' colspan='2'><code>true</code></td>
+<td title='
+true 
+false 
+'>
+<p>Permission to wrench-break the block block_transceiver of Ender IO</p>
+</td></tr>
+<tr>
+<td><code>enderio.wrench.break.block_travel_anchor</code></td>
+<td><code>bool</code></td>
+<td class='true' colspan='2'><code>true</code></td>
+<td title='
+true 
+false 
+'>
+<p>Permission to wrench-break the block block_travel_anchor of Ender IO</p>
+</td></tr>
+<tr>
+<td><code>enderio.wrench.break.block_vacuum_chest</code></td>
+<td><code>bool</code></td>
+<td class='true' colspan='2'><code>true</code></td>
+<td title='
+true 
+false 
+'>
+<p>Permission to wrench-break the block block_vacuum_chest of Ender IO</p>
+</td></tr>
+<tr>
+<td><code>enderio.wrench.break.block_vat</code></td>
+<td><code>bool</code></td>
+<td class='true' colspan='2'><code>true</code></td>
+<td title='
+true 
+false 
+'>
+<p>Permission to wrench-break the block block_vat of Ender IO</p>
+</td></tr>
+<tr>
+<td><code>enderio.wrench.break.block_weather_obelisk</code></td>
+<td><code>bool</code></td>
+<td class='true' colspan='2'><code>true</code></td>
+<td title='
+true 
+false 
+'>
+<p>Permission to wrench-break the block block_weather_obelisk of Ender IO</p>
+</td></tr>
+<tr>
+<td><code>enderio.wrench.break.block_wired_charger</code></td>
+<td><code>bool</code></td>
+<td class='true' colspan='2'><code>true</code></td>
+<td title='
+true 
+false 
+'>
+<p>Permission to wrench-break the block block_wired_charger of Ender IO</p>
+</td></tr>
+<tr>
+<td><code>enderio.wrench.break.block_wireless_charger</code></td>
+<td><code>bool</code></td>
+<td class='true' colspan='2'><code>true</code></td>
+<td title='
+true 
+false 
+'>
+<p>Permission to wrench-break the block block_wireless_charger of Ender IO</p>
+</td></tr>
+<tr>
+<td><code>enderio.wrench.break.block_wireless_charger_extension</code></td>
+<td><code>bool</code></td>
+<td class='true' colspan='2'><code>true</code></td>
+<td title='
+true 
+false 
+'>
+<p>Permission to wrench-break the block block_wireless_charger_extension of Ender IO</p>
+</td></tr>
+<tr>
+<td><code>enderio.wrench.break.block_xp_vacuum</code></td>
+<td><code>bool</code></td>
+<td class='true' colspan='2'><code>true</code></td>
+<td title='
+true 
+false 
+'>
+<p>Permission to wrench-break the block block_xp_vacuum of Ender IO</p>
+</td></tr>
+<tr>
+<td><code>enderio.wrench.break.block_zombie_generator</code></td>
+<td><code>bool</code></td>
+<td class='true' colspan='2'><code>true</code></td>
+<td title='
+true 
+false 
+'>
+<p>Permission to wrench-break the block block_zombie_generator of Ender IO</p>
+</td></tr>
+<tr>
+<td><code>enderio.wrench.iomode.block_advanced_power_monitor</code></td>
+<td><code>bool</code></td>
+<td class='true' colspan='2'><code>true</code></td>
+<td title='
+true 
+false 
+'>
+<p>Permission to set IO mode by wrench-clicking the block block_advanced_power_monitor of Ender IO</p>
+</td></tr>
+<tr>
+<td><code>enderio.wrench.iomode.block_alloy_smelter</code></td>
+<td><code>bool</code></td>
+<td class='true' colspan='2'><code>true</code></td>
+<td title='
+true 
+false 
+'>
+<p>Permission to set IO mode by wrench-clicking the block block_alloy_smelter of Ender IO</p>
+</td></tr>
+<tr>
+<td><code>enderio.wrench.iomode.block_attractor_obelisk</code></td>
+<td><code>bool</code></td>
+<td class='true' colspan='2'><code>true</code></td>
+<td title='
+true 
+false 
+'>
+<p>Permission to set IO mode by wrench-clicking the block block_attractor_obelisk of Ender IO</p>
+</td></tr>
+<tr>
+<td><code>enderio.wrench.iomode.block_aversion_obelisk</code></td>
+<td><code>bool</code></td>
+<td class='true' colspan='2'><code>true</code></td>
+<td title='
+true 
+false 
+'>
+<p>Permission to set IO mode by wrench-clicking the block block_aversion_obelisk of Ender IO</p>
+</td></tr>
+<tr>
+<td><code>enderio.wrench.iomode.block_buffer</code></td>
+<td><code>bool</code></td>
+<td class='true' colspan='2'><code>true</code></td>
+<td title='
+true 
+false 
+'>
+<p>Permission to set IO mode by wrench-clicking the block block_buffer of Ender IO</p>
+</td></tr>
+<tr>
+<td><code>enderio.wrench.iomode.block_cap_bank</code></td>
+<td><code>bool</code></td>
+<td class='true' colspan='2'><code>true</code></td>
+<td title='
+true 
+false 
+'>
+<p>Permission to set IO mode by wrench-clicking the block block_cap_bank of Ender IO</p>
+</td></tr>
+<tr>
+<td><code>enderio.wrench.iomode.block_combustion_generator</code></td>
+<td><code>bool</code></td>
+<td class='true' colspan='2'><code>true</code></td>
+<td title='
+true 
+false 
+'>
+<p>Permission to set IO mode by wrench-clicking the block block_combustion_generator of Ender IO</p>
+</td></tr>
+<tr>
+<td><code>enderio.wrench.iomode.block_conduit_bundle</code></td>
+<td><code>bool</code></td>
+<td class='true' colspan='2'><code>true</code></td>
+<td title='
+true 
+false 
+'>
+<p>Permission to set IO mode by wrench-clicking the block block_conduit_bundle of Ender IO</p>
+</td></tr>
+<tr>
+<td><code>enderio.wrench.iomode.block_crafter</code></td>
+<td><code>bool</code></td>
+<td class='true' colspan='2'><code>true</code></td>
+<td title='
+true 
+false 
+'>
+<p>Permission to set IO mode by wrench-clicking the block block_crafter of Ender IO</p>
+</td></tr>
+<tr>
+<td><code>enderio.wrench.iomode.block_creative_spawner</code></td>
+<td><code>bool</code></td>
+<td class='false'><code>false</code></td>
+<td class='true'><code>true</code></td>
+<td title='
+true 
+false 
+'>
+<p>Permission to set IO mode by wrench-clicking the block block_creative_spawner of Ender IO</p>
+</td></tr>
+<tr>
+<td><code>enderio.wrench.iomode.block_detector_block</code></td>
+<td><code>bool</code></td>
+<td class='true' colspan='2'><code>true</code></td>
+<td title='
+true 
+false 
+'>
+<p>Permission to set IO mode by wrench-clicking the block block_detector_block of Ender IO</p>
+</td></tr>
+<tr>
+<td><code>enderio.wrench.iomode.block_detector_block_silent</code></td>
+<td><code>bool</code></td>
+<td class='true' colspan='2'><code>true</code></td>
+<td title='
+true 
+false 
+'>
+<p>Permission to set IO mode by wrench-clicking the block block_detector_block_silent of Ender IO</p>
+</td></tr>
+<tr>
+<td><code>enderio.wrench.iomode.block_dialing_device</code></td>
+<td><code>bool</code></td>
+<td class='true' colspan='2'><code>true</code></td>
+<td title='
+true 
+false 
+'>
+<p>Permission to set IO mode by wrench-clicking the block block_dialing_device of Ender IO</p>
+</td></tr>
+<tr>
+<td><code>enderio.wrench.iomode.block_electric_light</code></td>
+<td><code>bool</code></td>
+<td class='true' colspan='2'><code>true</code></td>
+<td title='
+true 
+false 
+'>
+<p>Permission to set IO mode by wrench-clicking the block block_electric_light of Ender IO</p>
+</td></tr>
+<tr>
+<td><code>enderio.wrench.iomode.block_enchanter</code></td>
+<td><code>bool</code></td>
+<td class='true' colspan='2'><code>true</code></td>
+<td title='
+true 
+false 
+'>
+<p>Permission to set IO mode by wrench-clicking the block block_enchanter of Ender IO</p>
+</td></tr>
+<tr>
+<td><code>enderio.wrench.iomode.block_ender_generator</code></td>
+<td><code>bool</code></td>
+<td class='true' colspan='2'><code>true</code></td>
+<td title='
+true 
+false 
+'>
+<p>Permission to set IO mode by wrench-clicking the block block_ender_generator of Ender IO</p>
+</td></tr>
+<tr>
+<td><code>enderio.wrench.iomode.block_enderman_skull</code></td>
+<td><code>bool</code></td>
+<td class='true' colspan='2'><code>true</code></td>
+<td title='
+true 
+false 
+'>
+<p>Permission to set IO mode by wrench-clicking the block block_enderman_skull of Ender IO</p>
+</td></tr>
+<tr>
+<td><code>enderio.wrench.iomode.block_enhanced_alloy_smelter</code></td>
+<td><code>bool</code></td>
+<td class='true' colspan='2'><code>true</code></td>
+<td title='
+true 
+false 
+'>
+<p>Permission to set IO mode by wrench-clicking the block block_enhanced_alloy_smelter of Ender IO</p>
+</td></tr>
+<tr>
+<td><code>enderio.wrench.iomode.block_enhanced_alloy_smelter_top</code></td>
+<td><code>bool</code></td>
+<td class='true' colspan='2'><code>true</code></td>
+<td title='
+true 
+false 
+'>
+<p>Permission to set IO mode by wrench-clicking the block block_enhanced_alloy_smelter_top of Ender IO</p>
+</td></tr>
+<tr>
+<td><code>enderio.wrench.iomode.block_enhanced_combustion_generator</code></td>
+<td><code>bool</code></td>
+<td class='true' colspan='2'><code>true</code></td>
+<td title='
+true 
+false 
+'>
+<p>Permission to set IO mode by wrench-clicking the block block_enhanced_combustion_generator of Ender IO</p>
+</td></tr>
+<tr>
+<td><code>enderio.wrench.iomode.block_enhanced_combustion_generator_top</code></td>
+<td><code>bool</code></td>
+<td class='true' colspan='2'><code>true</code></td>
+<td title='
+true 
+false 
+'>
+<p>Permission to set IO mode by wrench-clicking the block block_enhanced_combustion_generator_top of Ender IO</p>
+</td></tr>
+<tr>
+<td><code>enderio.wrench.iomode.block_enhanced_sag_mill</code></td>
+<td><code>bool</code></td>
+<td class='true' colspan='2'><code>true</code></td>
+<td title='
+true 
+false 
+'>
+<p>Permission to set IO mode by wrench-clicking the block block_enhanced_sag_mill of Ender IO</p>
+</td></tr>
+<tr>
+<td><code>enderio.wrench.iomode.block_enhanced_sag_mill_top</code></td>
+<td><code>bool</code></td>
+<td class='true' colspan='2'><code>true</code></td>
+<td title='
+true 
+false 
+'>
+<p>Permission to set IO mode by wrench-clicking the block block_enhanced_sag_mill_top of Ender IO</p>
+</td></tr>
+<tr>
+<td><code>enderio.wrench.iomode.block_enhanced_vat</code></td>
+<td><code>bool</code></td>
+<td class='true' colspan='2'><code>true</code></td>
+<td title='
+true 
+false 
+'>
+<p>Permission to set IO mode by wrench-clicking the block block_enhanced_vat of Ender IO</p>
+</td></tr>
+<tr>
+<td><code>enderio.wrench.iomode.block_enhanced_vat_top</code></td>
+<td><code>bool</code></td>
+<td class='true' colspan='2'><code>true</code></td>
+<td title='
+true 
+false 
+'>
+<p>Permission to set IO mode by wrench-clicking the block block_enhanced_vat_top of Ender IO</p>
+</td></tr>
+<tr>
+<td><code>enderio.wrench.iomode.block_enhanced_wired_charger</code></td>
+<td><code>bool</code></td>
+<td class='true' colspan='2'><code>true</code></td>
+<td title='
+true 
+false 
+'>
+<p>Permission to set IO mode by wrench-clicking the block block_enhanced_wired_charger of Ender IO</p>
+</td></tr>
+<tr>
+<td><code>enderio.wrench.iomode.block_enhanced_wired_charger_top</code></td>
+<td><code>bool</code></td>
+<td class='true' colspan='2'><code>true</code></td>
+<td title='
+true 
+false 
+'>
+<p>Permission to set IO mode by wrench-clicking the block block_enhanced_wired_charger_top of Ender IO</p>
+</td></tr>
+<tr>
+<td><code>enderio.wrench.iomode.block_enhanced_wireless_charger</code></td>
+<td><code>bool</code></td>
+<td class='true' colspan='2'><code>true</code></td>
+<td title='
+true 
+false 
+'>
+<p>Permission to set IO mode by wrench-clicking the block block_enhanced_wireless_charger of Ender IO</p>
+</td></tr>
+<tr>
+<td><code>enderio.wrench.iomode.block_experience_obelisk</code></td>
+<td><code>bool</code></td>
+<td class='true' colspan='2'><code>true</code></td>
+<td title='
+true 
+false 
+'>
+<p>Permission to set IO mode by wrench-clicking the block block_experience_obelisk of Ender IO</p>
+</td></tr>
+<tr>
+<td><code>enderio.wrench.iomode.block_farm_station</code></td>
+<td><code>bool</code></td>
+<td class='true' colspan='2'><code>true</code></td>
+<td title='
+true 
+false 
+'>
+<p>Permission to set IO mode by wrench-clicking the block block_farm_station of Ender IO</p>
+</td></tr>
+<tr>
+<td><code>enderio.wrench.iomode.block_franken_zombie_generator</code></td>
+<td><code>bool</code></td>
+<td class='true' colspan='2'><code>true</code></td>
+<td title='
+true 
+false 
+'>
+<p>Permission to set IO mode by wrench-clicking the block block_franken_zombie_generator of Ender IO</p>
+</td></tr>
+<tr>
+<td><code>enderio.wrench.iomode.block_gauge</code></td>
+<td><code>bool</code></td>
+<td class='true' colspan='2'><code>true</code></td>
+<td title='
+true 
+false 
+'>
+<p>Permission to set IO mode by wrench-clicking the block block_gauge of Ender IO</p>
+</td></tr>
+<tr>
+<td><code>enderio.wrench.iomode.block_holy_fog</code></td>
+<td><code>bool</code></td>
+<td class='true' colspan='2'><code>true</code></td>
+<td title='
+true 
+false 
+'>
+<p>Permission to set IO mode by wrench-clicking the block block_holy_fog of Ender IO</p>
+</td></tr>
+<tr>
+<td><code>enderio.wrench.iomode.block_impulse_hopper</code></td>
+<td><code>bool</code></td>
+<td class='true' colspan='2'><code>true</code></td>
+<td title='
+true 
+false 
+'>
+<p>Permission to set IO mode by wrench-clicking the block block_impulse_hopper of Ender IO</p>
+</td></tr>
+<tr>
+<td><code>enderio.wrench.iomode.block_industrial_insulation</code></td>
+<td><code>bool</code></td>
+<td class='true' colspan='2'><code>true</code></td>
+<td title='
+true 
+false 
+'>
+<p>Permission to set IO mode by wrench-clicking the block block_industrial_insulation of Ender IO</p>
+</td></tr>
+<tr>
+<td><code>enderio.wrench.iomode.block_infinity_fog</code></td>
+<td><code>bool</code></td>
+<td class='true' colspan='2'><code>true</code></td>
+<td title='
+true 
+false 
+'>
+<p>Permission to set IO mode by wrench-clicking the block block_infinity_fog of Ender IO</p>
+</td></tr>
+<tr>
+<td><code>enderio.wrench.iomode.block_inhibitor_obelisk</code></td>
+<td><code>bool</code></td>
+<td class='true' colspan='2'><code>true</code></td>
+<td title='
+true 
+false 
+'>
+<p>Permission to set IO mode by wrench-clicking the block block_inhibitor_obelisk of Ender IO</p>
+</td></tr>
+<tr>
+<td><code>enderio.wrench.iomode.block_killer_joe</code></td>
+<td><code>bool</code></td>
+<td class='true' colspan='2'><code>true</code></td>
+<td title='
+true 
+false 
+'>
+<p>Permission to set IO mode by wrench-clicking the block block_killer_joe of Ender IO</p>
+</td></tr>
+<tr>
+<td><code>enderio.wrench.iomode.block_lava_generator</code></td>
+<td><code>bool</code></td>
+<td class='true' colspan='2'><code>true</code></td>
+<td title='
+true 
+false 
+'>
+<p>Permission to set IO mode by wrench-clicking the block block_lava_generator of Ender IO</p>
+</td></tr>
+<tr>
+<td><code>enderio.wrench.iomode.block_light_node</code></td>
+<td><code>bool</code></td>
+<td class='true' colspan='2'><code>true</code></td>
+<td title='
+true 
+false 
+'>
+<p>Permission to set IO mode by wrench-clicking the block block_light_node of Ender IO</p>
+</td></tr>
+<tr>
+<td><code>enderio.wrench.iomode.block_normal_wireless_charger</code></td>
+<td><code>bool</code></td>
+<td class='true' colspan='2'><code>true</code></td>
+<td title='
+true 
+false 
+'>
+<p>Permission to set IO mode by wrench-clicking the block block_normal_wireless_charger of Ender IO</p>
+</td></tr>
+<tr>
+<td><code>enderio.wrench.iomode.block_omni_reservoir</code></td>
+<td><code>bool</code></td>
+<td class='true' colspan='2'><code>true</code></td>
+<td title='
+true 
+false 
+'>
+<p>Permission to set IO mode by wrench-clicking the block block_omni_reservoir of Ender IO</p>
+</td></tr>
+<tr>
+<td><code>enderio.wrench.iomode.block_painter</code></td>
+<td><code>bool</code></td>
+<td class='true' colspan='2'><code>true</code></td>
+<td title='
+true 
+false 
+'>
+<p>Permission to set IO mode by wrench-clicking the block block_painter of Ender IO</p>
+</td></tr>
+<tr>
+<td><code>enderio.wrench.iomode.block_power_monitor</code></td>
+<td><code>bool</code></td>
+<td class='true' colspan='2'><code>true</code></td>
+<td title='
+true 
+false 
+'>
+<p>Permission to set IO mode by wrench-clicking the block block_power_monitor of Ender IO</p>
+</td></tr>
+<tr>
+<td><code>enderio.wrench.iomode.block_powered_spawner</code></td>
+<td><code>bool</code></td>
+<td class='true' colspan='2'><code>true</code></td>
+<td title='
+true 
+false 
+'>
+<p>Permission to set IO mode by wrench-clicking the block block_powered_spawner of Ender IO</p>
+</td></tr>
+<tr>
+<td><code>enderio.wrench.iomode.block_relocator_obelisk</code></td>
+<td><code>bool</code></td>
+<td class='true' colspan='2'><code>true</code></td>
+<td title='
+true 
+false 
+'>
+<p>Permission to set IO mode by wrench-clicking the block block_relocator_obelisk of Ender IO</p>
+</td></tr>
+<tr>
+<td><code>enderio.wrench.iomode.block_reservoir</code></td>
+<td><code>bool</code></td>
+<td class='true' colspan='2'><code>true</code></td>
+<td title='
+true 
+false 
+'>
+<p>Permission to set IO mode by wrench-clicking the block block_reservoir of Ender IO</p>
+</td></tr>
+<tr>
+<td><code>enderio.wrench.iomode.block_sag_mill</code></td>
+<td><code>bool</code></td>
+<td class='true' colspan='2'><code>true</code></td>
+<td title='
+true 
+false 
+'>
+<p>Permission to set IO mode by wrench-clicking the block block_sag_mill of Ender IO</p>
+</td></tr>
+<tr>
+<td><code>enderio.wrench.iomode.block_simple_alloy_smelter</code></td>
+<td><code>bool</code></td>
+<td class='true' colspan='2'><code>true</code></td>
+<td title='
+true 
+false 
+'>
+<p>Permission to set IO mode by wrench-clicking the block block_simple_alloy_smelter of Ender IO</p>
+</td></tr>
+<tr>
+<td><code>enderio.wrench.iomode.block_simple_crafter</code></td>
+<td><code>bool</code></td>
+<td class='true' colspan='2'><code>true</code></td>
+<td title='
+true 
+false 
+'>
+<p>Permission to set IO mode by wrench-clicking the block block_simple_crafter of Ender IO</p>
+</td></tr>
+<tr>
+<td><code>enderio.wrench.iomode.block_simple_furnace</code></td>
+<td><code>bool</code></td>
+<td class='true' colspan='2'><code>true</code></td>
+<td title='
+true 
+false 
+'>
+<p>Permission to set IO mode by wrench-clicking the block block_simple_furnace of Ender IO</p>
+</td></tr>
+<tr>
+<td><code>enderio.wrench.iomode.block_simple_sag_mill</code></td>
+<td><code>bool</code></td>
+<td class='true' colspan='2'><code>true</code></td>
+<td title='
+true 
+false 
+'>
+<p>Permission to set IO mode by wrench-clicking the block block_simple_sag_mill of Ender IO</p>
+</td></tr>
+<tr>
+<td><code>enderio.wrench.iomode.block_simple_stirling_generator</code></td>
+<td><code>bool</code></td>
+<td class='true' colspan='2'><code>true</code></td>
+<td title='
+true 
+false 
+'>
+<p>Permission to set IO mode by wrench-clicking the block block_simple_stirling_generator of Ender IO</p>
+</td></tr>
+<tr>
+<td><code>enderio.wrench.iomode.block_simple_wired_charger</code></td>
+<td><code>bool</code></td>
+<td class='true' colspan='2'><code>true</code></td>
+<td title='
+true 
+false 
+'>
+<p>Permission to set IO mode by wrench-clicking the block block_simple_wired_charger of Ender IO</p>
+</td></tr>
+<tr>
+<td><code>enderio.wrench.iomode.block_slice_and_splice</code></td>
+<td><code>bool</code></td>
+<td class='true' colspan='2'><code>true</code></td>
+<td title='
+true 
+false 
+'>
+<p>Permission to set IO mode by wrench-clicking the block block_slice_and_splice of Ender IO</p>
+</td></tr>
+<tr>
+<td><code>enderio.wrench.iomode.block_solar_panel</code></td>
+<td><code>bool</code></td>
+<td class='true' colspan='2'><code>true</code></td>
+<td title='
+true 
+false 
+'>
+<p>Permission to set IO mode by wrench-clicking the block block_solar_panel of Ender IO</p>
+</td></tr>
+<tr>
+<td><code>enderio.wrench.iomode.block_soul_binder</code></td>
+<td><code>bool</code></td>
+<td class='true' colspan='2'><code>true</code></td>
+<td title='
+true 
+false 
+'>
+<p>Permission to set IO mode by wrench-clicking the block block_soul_binder of Ender IO</p>
+</td></tr>
+<tr>
+<td><code>enderio.wrench.iomode.block_stirling_generator</code></td>
+<td><code>bool</code></td>
+<td class='true' colspan='2'><code>true</code></td>
+<td title='
+true 
+false 
+'>
+<p>Permission to set IO mode by wrench-clicking the block block_stirling_generator of Ender IO</p>
+</td></tr>
+<tr>
+<td><code>enderio.wrench.iomode.block_tank</code></td>
+<td><code>bool</code></td>
+<td class='true' colspan='2'><code>true</code></td>
+<td title='
+true 
+false 
+'>
+<p>Permission to set IO mode by wrench-clicking the block block_tank of Ender IO</p>
+</td></tr>
+<tr>
+<td><code>enderio.wrench.iomode.block_tele_pad</code></td>
+<td><code>bool</code></td>
+<td class='true' colspan='2'><code>true</code></td>
+<td title='
+true 
+false 
+'>
+<p>Permission to set IO mode by wrench-clicking the block block_tele_pad of Ender IO</p>
+</td></tr>
+<tr>
+<td><code>enderio.wrench.iomode.block_transceiver</code></td>
+<td><code>bool</code></td>
+<td class='true' colspan='2'><code>true</code></td>
+<td title='
+true 
+false 
+'>
+<p>Permission to set IO mode by wrench-clicking the block block_transceiver of Ender IO</p>
+</td></tr>
+<tr>
+<td><code>enderio.wrench.iomode.block_travel_anchor</code></td>
+<td><code>bool</code></td>
+<td class='true' colspan='2'><code>true</code></td>
+<td title='
+true 
+false 
+'>
+<p>Permission to set IO mode by wrench-clicking the block block_travel_anchor of Ender IO</p>
+</td></tr>
+<tr>
+<td><code>enderio.wrench.iomode.block_vacuum_chest</code></td>
+<td><code>bool</code></td>
+<td class='true' colspan='2'><code>true</code></td>
+<td title='
+true 
+false 
+'>
+<p>Permission to set IO mode by wrench-clicking the block block_vacuum_chest of Ender IO</p>
+</td></tr>
+<tr>
+<td><code>enderio.wrench.iomode.block_vat</code></td>
+<td><code>bool</code></td>
+<td class='true' colspan='2'><code>true</code></td>
+<td title='
+true 
+false 
+'>
+<p>Permission to set IO mode by wrench-clicking the block block_vat of Ender IO</p>
+</td></tr>
+<tr>
+<td><code>enderio.wrench.iomode.block_weather_obelisk</code></td>
+<td><code>bool</code></td>
+<td class='true' colspan='2'><code>true</code></td>
+<td title='
+true 
+false 
+'>
+<p>Permission to set IO mode by wrench-clicking the block block_weather_obelisk of Ender IO</p>
+</td></tr>
+<tr>
+<td><code>enderio.wrench.iomode.block_wired_charger</code></td>
+<td><code>bool</code></td>
+<td class='true' colspan='2'><code>true</code></td>
+<td title='
+true 
+false 
+'>
+<p>Permission to set IO mode by wrench-clicking the block block_wired_charger of Ender IO</p>
+</td></tr>
+<tr>
+<td><code>enderio.wrench.iomode.block_wireless_charger</code></td>
+<td><code>bool</code></td>
+<td class='true' colspan='2'><code>true</code></td>
+<td title='
+true 
+false 
+'>
+<p>Permission to set IO mode by wrench-clicking the block block_wireless_charger of Ender IO</p>
+</td></tr>
+<tr>
+<td><code>enderio.wrench.iomode.block_wireless_charger_extension</code></td>
+<td><code>bool</code></td>
+<td class='true' colspan='2'><code>true</code></td>
+<td title='
+true 
+false 
+'>
+<p>Permission to set IO mode by wrench-clicking the block block_wireless_charger_extension of Ender IO</p>
+</td></tr>
+<tr>
+<td><code>enderio.wrench.iomode.block_xp_vacuum</code></td>
+<td><code>bool</code></td>
+<td class='true' colspan='2'><code>true</code></td>
+<td title='
+true 
+false 
+'>
+<p>Permission to set IO mode by wrench-clicking the block block_xp_vacuum of Ender IO</p>
+</td></tr>
+<tr>
+<td><code>enderio.wrench.iomode.block_zombie_generator</code></td>
+<td><code>bool</code></td>
+<td class='true' colspan='2'><code>true</code></td>
+<td title='
+true 
+false 
+'>
+<p>Permission to set IO mode by wrench-clicking the block block_zombie_generator of Ender IO</p>
 </td></tr>
 <tr>
 <td><code>ftbutilities.afk.timer</code></td>
@@ -306,6 +2670,78 @@ true
 false 
 '>
 <p>Permission for blocks that players can right-click within claimed chunks</p>
+</td></tr>
+<tr>
+<td><code>ftbutilities.claims.block.interact.enderio.block_dark_paper_anvil</code></td>
+<td><code>bool</code></td>
+<td class='true' colspan='2'><code>true</code></td>
+<td title='
+true 
+false 
+'>
+</td></tr>
+<tr>
+<td><code>ftbutilities.claims.block.interact.enderio.block_dark_steel_anvil</code></td>
+<td><code>bool</code></td>
+<td class='true' colspan='2'><code>true</code></td>
+<td title='
+true 
+false 
+'>
+</td></tr>
+<tr>
+<td><code>ftbutilities.claims.block.interact.enderio.block_dark_steel_door</code></td>
+<td><code>bool</code></td>
+<td class='true' colspan='2'><code>true</code></td>
+<td title='
+true 
+false 
+'>
+</td></tr>
+<tr>
+<td><code>ftbutilities.claims.block.interact.enderio.block_painted_dark_steel_door</code></td>
+<td><code>bool</code></td>
+<td class='true' colspan='2'><code>true</code></td>
+<td title='
+true 
+false 
+'>
+</td></tr>
+<tr>
+<td><code>ftbutilities.claims.block.interact.enderio.block_painted_iron_door</code></td>
+<td><code>bool</code></td>
+<td class='true' colspan='2'><code>true</code></td>
+<td title='
+true 
+false 
+'>
+</td></tr>
+<tr>
+<td><code>ftbutilities.claims.block.interact.enderio.block_painted_wooden_door</code></td>
+<td><code>bool</code></td>
+<td class='true' colspan='2'><code>true</code></td>
+<td title='
+true 
+false 
+'>
+</td></tr>
+<tr>
+<td><code>ftbutilities.claims.block.interact.enderio.block_painted_workbench</code></td>
+<td><code>bool</code></td>
+<td class='true' colspan='2'><code>true</code></td>
+<td title='
+true 
+false 
+'>
+</td></tr>
+<tr>
+<td><code>ftbutilities.claims.block.interact.ic2.reinforced_door</code></td>
+<td><code>bool</code></td>
+<td class='true' colspan='2'><code>true</code></td>
+<td title='
+true 
+false 
+'>
 </td></tr>
 <tr>
 <td><code>ftbutilities.claims.block.interact.minecraft.acacia_door</code></td>
@@ -768,7 +3204,7 @@ false
 <tr><td><code>command.cofhworld.cofhworld.reload</code></td><td>Reloads CoFHWorld configuration</td></tr>
 <tr><td><code>command.cofhworld.cofhworld.version</code></td><td>cofhworld.version.usage</td></tr>
 <tr><td><code>command.compactmachines3.compactmachines3</code></td><td>/compactmachines3 [subcommand, leave empty for list of commands]</td></tr>
-<tr><td><code>command.crafttweaker.crafttweaker</code></td><td class='error' title='Invalid usage language key!'>/crafttweaker biomeTypes | biomes | blockinfo | blockmaterial | blocks | bugs | chiselGroups | conflict | copy | creativetab | discord | docs | dumpzs | enchants | entities | foods | give | hand | help | inventory | jeiCategories | json | keyNames | liquids | log | loottables | materialparts | materials | mods | names | nbt | oredict | parts | parttypes | potions | recipeNames | recipes | reload | scripts | seeds | soundevent | soundtype | syntax | wiki | zslint</td></tr>
+<tr><td><code>command.crafttweaker.crafttweaker</code></td><td class='error' title='Invalid usage language key!'>/crafttweaker biomeTypes | biomes | blockinfo | blockmaterial | blocks | bugs | chiselGroups | conflict | copy | creativetab | discord | docs | dumpzs | enchants | entities | foods | gases | give | hand | help | infuseTypes | inventory | jeiCategories | json | keyNames | liquids | log | loottables | materialparts | materials | mekrecipes | mods | names | nbt | oredict | parts | parttypes | potions | recipeNames | recipes | reload | scripts | seeds | soundevent | soundtype | syntax | wiki | zslint</td></tr>
 <tr><td><code>command.crafttweaker.ctgui</code></td><td class='error' title='Invalid usage language key!'>CTGUI &lt;id&gt;</td></tr>
 <tr><td><code>command.debug</code></td><td>/debug &lt;start|stop&gt;</td></tr>
 <tr><td><code>command.defaultgamemode</code></td><td>/defaultgamemode &lt;mode&gt;</td></tr>
@@ -776,6 +3212,7 @@ false
 <tr><td><code>command.dropt.dropt</code></td><td class='error' title='Invalid usage language key!'>dropt &lt;reload&gt;</td></tr>
 <tr><td><code>command.effect</code></td><td>/effect &lt;player&gt; &lt;effect&gt; [seconds] [amplifier] [hideParticles]<br>/effect &lt;player&gt; clear</td></tr>
 <tr><td><code>command.enchant</code></td><td>/enchant &lt;player&gt; &lt;enchantment ID&gt; [level]</td></tr>
+<tr><td><code>command.endercore.scoreboardinfo</code></td><td class='error' title='Invalid usage language key!'>/scoreboardinfo &lt;board&gt; &lt;name&gt;</td></tr>
 <tr><td><code>command.entitydata</code></td><td>/entitydata &lt;entity&gt; &lt;dataTag&gt;</td></tr>
 <tr><td><code>command.execute</code></td><td>/execute &lt;entity&gt; &lt;x&gt; &lt;y&gt; &lt;z&gt; &lt;command&gt;<br>/execute &lt;entity&gt; &lt;x&gt; &lt;y&gt; &lt;z&gt; detect &lt;x&gt; &lt;y&gt; &lt;z&gt; &lt;block&gt; &lt;dataValue|-1|state|*&gt; &lt;command&gt;</td></tr>
 <tr><td><code>command.extendeddays.edtime</code></td><td class='error' title='Invalid usage language key!'>Gets/sets the Extended Days time. Currently, the set command requires 2 values, I'm working on making it more 'sensible'.
@@ -891,17 +3328,42 @@ Usage: /edtime &lt;get|set&gt; &lt;value&gt;</td></tr>
 <tr><td><code>command.hats.hats</code></td><td class='error' title='Invalid usage language key!'>/hats           type /hats for full list.</td></tr>
 <tr><td><code>command.help</code></td><td>/help [page|command name]</td></tr>
 <tr><td><code>command.hookt.hookt</code></td><td class='error' title='Invalid usage language key!'>hookt &lt;reload&gt; | &lt;hand&gt;</td></tr>
+<tr><td><code>command.ic2.ic2</code></td><td class='error' title='Invalid usage language key!'>/ic2 uu-world-scan &lt;tiny|small|medium|large&gt; | debug (dumpUuValues | resolveIngredient &lt;name&gt; | dumpTextures &lt;name&gt; &lt;size&gt; | dumpLargeGrids | enet (logIssues | logUpdates) (true|false)) | currentItem | itemNameWithVariant | giveCrop &lt;owner&gt; &lt;name&gt; &lt;growth (1-31)&gt; &lt;gain (1-31)&gt; &lt;resistance (1-31)&gt;</td></tr>
+<tr><td><code>command.immersiveengineering.ie.clearshaders</code></td><td class='error' title='Invalid usage language key!'>/ie clearshaders [player name]</td></tr>
+<tr><td><code>command.immersiveengineering.ie.help.clearshaders</code></td><td class='error' title='Invalid usage language key!'>/ie clearshaders [player name]</td></tr>
+<tr><td><code>command.immersiveengineering.ie.help.mineral</code></td><td class='error' title='Invalid usage language key!'>Use "/ie mineral help" for more information</td></tr>
+<tr><td><code>command.immersiveengineering.ie.mineral.get</code></td><td class='error' title='Invalid usage language key!'>/mineral get</td></tr>
+<tr><td><code>command.immersiveengineering.ie.mineral.help.get</code></td><td class='error' title='Invalid usage language key!'>/mineral get</td></tr>
+<tr><td><code>command.immersiveengineering.ie.mineral.help.list</code></td><td class='error' title='Invalid usage language key!'>/mineral list</td></tr>
+<tr><td><code>command.immersiveengineering.ie.mineral.help.set</code></td><td class='error' title='Invalid usage language key!'>/mineral set &lt;mineral name&gt; (surround the name in &lt;angle brackets&gt; if it contains a space)</td></tr>
+<tr><td><code>command.immersiveengineering.ie.mineral.help.setdepletion</code></td><td class='error' title='Invalid usage language key!'>/mineral setDepletion &lt;depletion&gt;</td></tr>
+<tr><td><code>command.immersiveengineering.ie.mineral.list</code></td><td class='error' title='Invalid usage language key!'>/mineral list</td></tr>
+<tr><td><code>command.immersiveengineering.ie.mineral.set</code></td><td class='error' title='Invalid usage language key!'>/mineral set &lt;mineral name&gt; (surround the name in &lt;angle brackets&gt; if it contains a space)</td></tr>
+<tr><td><code>command.immersiveengineering.ie.mineral.setdepletion</code></td><td class='error' title='Invalid usage language key!'>/mineral setDepletion &lt;depletion&gt;</td></tr>
+<tr><td><code>command.immersivepetroleum.ip</code></td><td class='error' title='Invalid usage language key!'>/ip &lt;help|reservoir&gt;</td></tr>
 <tr><td><code>command.interactions.interactions</code></td><td class='error' title='Invalid usage language key!'>interactions &lt;reload&gt;</td></tr>
 <tr><td><code>command.journeymap.jtp</code></td><td class='error' title='Invalid usage language key!'>/jtp &lt;x y z dim&gt;</td></tr>
 <tr><td><code>command.kill</code></td><td>/kill [player|entity]</td></tr>
 <tr><td><code>command.labyrinth.labyrinth</code></td><td class='error' title='Invalid usage language key!'>§cUsage: labyrinth &lt;subCommand&gt;</td></tr>
 <tr><td><code>command.locate</code></td><td>/locate &lt;feature&gt;</td></tr>
 <tr><td><code>command.me</code></td><td>/me &lt;action ...&gt;</td></tr>
+<tr><td><code>command.mekanism.mek.chunk.clear</code></td><td>Remove all chunks from watch list for chunk loading/unloading events</td></tr>
+<tr><td><code>command.mekanism.mek.chunk.flush</code></td><td>cmd.mek.chunk.flush.usage</td></tr>
+<tr><td><code>command.mekanism.mek.chunk.unwatch</code></td><td>Remove caller's chunk from watch list for chunk loading/unloading events</td></tr>
+<tr><td><code>command.mekanism.mek.chunk.watch</code></td><td>Add caller's chunk to watch list for loading/unloading events</td></tr>
+<tr><td><code>command.mekanism.mek.debug</code></td><td></td></tr>
+<tr><td><code>command.mekanism.mek.testrules</code></td><td>Setup world rules for testing (no mob spawning, daylight cycle or weather)</td></tr>
+<tr><td><code>command.mekanism.mek.tp</code></td><td>Teleport to new coordinates, saving last position on a stack</td></tr>
+<tr><td><code>command.mekanism.mek.tpop</code></td><td>Return to last position on stack</td></tr>
+<tr><td><code>command.mekanism.mtp</code></td><td>Teleport to new coordinates, saving last position on a stack</td></tr>
+<tr><td><code>command.mekanism.mtpop</code></td><td>Return to last position on stack</td></tr>
 <tr><td><code>command.oreexcavation.undo_excavation</code></td><td class='error' title='Invalid usage language key!'>/undo_excavation</td></tr>
 <tr><td><code>command.oreexcavation.undo_excavation_forced</code></td><td class='error' title='Invalid usage language key!'>/undo_excavation_forced &lt;player&gt;</td></tr>
 <tr><td><code>command.particle</code></td><td>/particle &lt;name&gt; &lt;x&gt; &lt;y&gt; &lt;z&gt; &lt;xd&gt; &lt;yd&gt; &lt;zd&gt; &lt;speed&gt; [count] [mode] [player] [params]</td></tr>
 <tr><td><code>command.playsound</code></td><td>/playsound &lt;sound&gt; &lt;source&gt; &lt;player&gt; [x] [y] [z] [volume] [pitch] [minimumVolume]</td></tr>
 <tr><td><code>command.publish</code></td><td>/publish</td></tr>
+<tr><td><code>command.reborncore.rc_dumpmods</code></td><td>rc_dumpmods</td></tr>
+<tr><td><code>command.reborncore.rc_listrecipes</code></td><td>rc_listRecipes</td></tr>
 <tr><td><code>command.recipe</code></td><td>/recipe &lt;give|take&gt; [player] &lt;name|*&gt;</td></tr>
 <tr><td><code>command.replaceitem</code></td><td>/replaceitem &lt;entity|block&gt; ...</td></tr>
 <tr><td><code>command.rftools.rftcfg</code></td><td class='error' title='Invalid usage language key!'>rftcfg &lt;subcommand&gt; &lt;args&gt; (try 'rftcfg help' for more info)</td></tr>
@@ -920,6 +3382,7 @@ Usage: /edtime &lt;get|set&gt; &lt;value&gt;</td></tr>
 <tr><td><code>command.stats</code></td><td>/stats &lt;entity|block&gt; ...</td></tr>
 <tr><td><code>command.stopsound</code></td><td>/stopsound &lt;player&gt; [source] [sound]</td></tr>
 <tr><td><code>command.summon</code></td><td>/summon &lt;entityname&gt; [x] [y] [z] [dataTag]</td></tr>
+<tr><td><code>command.techreborn.trdev</code></td><td>Use /forge &lt;subcommand&gt;</td></tr>
 <tr><td><code>command.teleport</code></td><td>/teleport &lt;entity&gt; &lt;x&gt; &lt;y&gt; &lt;z&gt; [&lt;y-rot&gt; &lt;x-rot&gt;]</td></tr>
 <tr><td><code>command.tell</code></td><td>/tell &lt;player&gt; &lt;private message ...&gt;</td></tr>
 <tr><td><code>command.tellraw</code></td><td>/tellraw &lt;player&gt; &lt;raw json message&gt;</td></tr>
@@ -942,6 +3405,7 @@ Usage: /edtime &lt;get|set&gt; &lt;value&gt;</td></tr>
 <tr><td><code>command.tp</code></td><td>/tp [target player] &lt;destination player&gt;<br>/tp [target player] &lt;x&gt; &lt;y&gt; &lt;z&gt; [&lt;yaw&gt; &lt;pitch&gt;]</td></tr>
 <tr><td><code>command.trigger</code></td><td>/trigger &lt;objective&gt; &lt;add|set&gt; &lt;value&gt;</td></tr>
 <tr><td><code>command.triumph.triumph.debug</code></td><td class='error' title='Invalid usage language key!'>Use /triumph debug</td></tr>
+<tr><td><code>command.valkyrielib.removeowner</code></td><td>valkyrielib.removeowner</td></tr>
 <tr><td><code>command.voidislandcontrol.island</code></td><td>island</td></tr>
 <tr><td><code>command.voidislandcontrol.islandadmin</code></td><td>island</td></tr>
 <tr><td><code>command.voidislandcontrol.startinginv</code></td><td class='error' title='Invalid usage language key!'></td></tr>

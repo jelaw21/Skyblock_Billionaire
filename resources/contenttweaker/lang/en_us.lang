@@ -88,8 +88,15 @@ item.contenttweaker.superfactory.name=Mod Unlock: Super Factory Manager
 item.contenttweaker.compact.name=Mod Unlock: Compact Machines
 item.contenttweaker.industmeat.name=Mod Unlock: Industrial Meat
 item.contenttweaker.industrenew.name=Mod Unlock: Industrial Renewal
-item.contenttweaker.industforegoing.name=Mod Unlock: Industrial Foregoing
-
+item.contenttweaker.ic2.name=Mod Unlock: Industrial Craft 2
+item.contenttweaker.techreborn.name=Mod Unlock: Tech Reborn
+item.contenttweaker.mekanism.name=Mod Unlock: Mekanism
+item.contenttweaker.enderio.name=Mod Unlock: Ender IO
+item.contenttweaker.immersive.name=Mod Unlock: Immersive Engineering
+item.contenttweaker.flux.name=Mod Unlock: Flux Networks
+item.contenttweaker.advgenerators.name=Mod Unlock: Advanced Generators
+item.contenttweaker.fartgen.name=Mod Unlock: Fart Generator
+item.contenttweaker.simplegen.name=Mod Unlock: Simple Generators
 
 item.contenttweaker.approval_loan.name=Loan: $5000
 item.contenttweaker.approval_credit.name=Credit: $5000
