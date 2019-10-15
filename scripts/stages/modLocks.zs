@@ -9,7 +9,8 @@ mods.ItemStages.addItemStage("EXECUTIVE_DIRECTOR", <extrautils2:machine>.withTag
 mods.ItemStages.stageModItems("CHISEL", "chisel");
 mods.ItemStages.removeItemStage(<chisel:block_charcoal2:1>);
 mods.ItemStages.stageModItems("PREFAB", "prefab");
-//mods.ItemStages.stageModItems("THERMAL", "thermalfoundation");
+mods.ItemStages.stageModItems("ASSISTANT_MANAGER", "thermalfoundation");
+mods.ItemStages.stageModItems("REGIONAL_MANAGER", "poweradapter");
 mods.ItemStages.stageModItems("THERMAL", "thermalexpansion");
 mods.ItemStages.addItemStage("THERMAL",<forge:bucketfilled:*>);
 mods.ItemStages.stageModItems("ANCIENT_WARFARE", "ancientwarfarestructure");
@@ -48,7 +49,7 @@ mods.ItemStages.stageModItems("INDUSTRIAL_MEAT", "industrialmeat");
 mods.ItemStages.stageModItems("INDUSTRIAL_RENEWAL", "industrialrenewal");
 mods.ItemStages.stageModItems("INDUSTRIAL_FOREGOING", "industrialforegoing");
 mods.ItemStages.stageModItems("IC2", "ic2");
-mods.ItemStages.stageModItems("TECHREBORN", "techreborn");
+mods.ItemStages.stageModItems("TECH_REBORN", "techreborn");
 mods.ItemStages.stageModItems("MEKANISM", "mekanism");
 mods.ItemStages.stageModItems("ENDERIO", "enderio");
 mods.ItemStages.stageModItems("IMMERSIVE", "immersiveengineering");
@@ -59,6 +60,23 @@ mods.ItemStages.stageModItems("ADVANCED_GENERATORS", "advgenerators");
 mods.ItemStages.stageModItems("FART_GEN", "fartgen");
 mods.ItemStages.stageModItems("SIMPLE_GENERATORS", "simplegenerators");
 mods.ItemStages.stageModItems("SIMPLE_GENERATORS", "valkyrielib");
+mods.ItemStages.stageModItems("SOLAR_FLUX", "solarflux");
+mods.ItemStages.stageModItems("EXTREME_REACTORS", "bigreactors");
+mods.ItemStages.stageModItems("MEK_GENERATORS", "mekanismgenerators");
+mods.ItemStages.stageModItems("ADVANCED_SOLARS", "advanced_solar_panels");
+
+
+mods.ItemStages.stageModItems("PRACTICAL_LOGISTICS", "practicallogistics2");
+mods.ItemStages.stageModItems("REFINED_RELOCATION", "refinedrelocation");
+mods.ItemStages.stageModItems("STORAGE_DRAWERS", "compactdrawers");
+mods.ItemStages.stageModItems("STORAGE_DRAWERS", "storagedrawers");
+mods.ItemStages.stageModItems("IRON_CHEST", "ironchest");
+mods.ItemStages.stageModItems("XNET", "xnet");
+mods.ItemStages.stageModItems("EXPANDABLE_INVENTORY", "expandableinventory");
+mods.ItemStages.stageModItems("MULTISTORAGE", "multistorage");
+mods.ItemStages.stageModItems("MODULAR_ROUTERS", "modularrouters");
+
+
 mods.ItemStages.addItemStage("REDIUM_LAPIUM",<powderpower:armorrediumhelmet>);
 mods.ItemStages.addItemStage("REDIUM_LAPIUM",<powderpower:armorrediumlegs>);
 mods.ItemStages.addItemStage("REDIUM_LAPIUM",<powderpower:armorrediumboots>);

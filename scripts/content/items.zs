@@ -525,6 +525,126 @@ modbook.itemRightClick = function(stack, world, player, hand) {
 };
 modbook.register();
 
+modbook = VanillaFactory.createItem("solarflux");
+modbook.maxStackSize = 1;
+modbook.textureLocation = image;
+modbook.rarity = "rare";
+modbook.itemRightClick = function(stack, world, player, hand) {
+    Commands.call("gamestage add @s SOLAR_FLUX", player, world, false, true);
+    return "Pass";
+};
+modbook.register();
+
+modbook = VanillaFactory.createItem("extremereactors");
+modbook.maxStackSize = 1;
+modbook.textureLocation = image;
+modbook.rarity = "rare";
+modbook.itemRightClick = function(stack, world, player, hand) {
+    Commands.call("gamestage add @s EXTREME_REACTORS", player, world, false, true);
+    return "Pass";
+};
+modbook.register();
+
+modbook = VanillaFactory.createItem("advsolars");
+modbook.maxStackSize = 1;
+modbook.textureLocation = image;
+modbook.rarity = "rare";
+modbook.itemRightClick = function(stack, world, player, hand) {
+    Commands.call("gamestage add @s ADVANCED_SOLARS", player, world, false, true);
+    return "Pass";
+};
+modbook.register();
+
+modbook = VanillaFactory.createItem("mekgenerators");
+modbook.maxStackSize = 1;
+modbook.textureLocation = image;
+modbook.rarity = "rare";
+modbook.itemRightClick = function(stack, world, player, hand) {
+    Commands.call("gamestage add @s "MEK_GENERATORS", player, world, false, true);
+    return "Pass";
+};
+modbook.register();
+
+modbook = VanillaFactory.createItem("practicallogistics2");
+modbook.maxStackSize = 1;
+modbook.textureLocation = image;
+modbook.rarity = "rare";
+modbook.itemRightClick = function(stack, world, player, hand) {
+    Commands.call("gamestage add @s "PRACTICAL_LOGISTICS", player, world, false, true);
+    return "Pass";
+};
+modbook.register();
+
+modbook = VanillaFactory.createItem("refinedrelocation");
+modbook.maxStackSize = 1;
+modbook.textureLocation = image;
+modbook.rarity = "rare";
+modbook.itemRightClick = function(stack, world, player, hand) {
+    Commands.call("gamestage add @s "REFINED_RELOCATION", player, world, false, true);
+    return "Pass";
+};
+modbook.register();
+
+modbook = VanillaFactory.createItem("storagedrawers");
+modbook.maxStackSize = 1;
+modbook.textureLocation = image;
+modbook.rarity = "rare";
+modbook.itemRightClick = function(stack, world, player, hand) {
+    Commands.call("gamestage add @s "STORAGE_DRAWERS", player, world, false, true);
+    return "Pass";
+};
+modbook.register();
+
+modbook = VanillaFactory.createItem("ironchest");
+modbook.maxStackSize = 1;
+modbook.textureLocation = image;
+modbook.rarity = "rare";
+modbook.itemRightClick = function(stack, world, player, hand) {
+    Commands.call("gamestage add @s "IRON_CHEST", player, world, false, true);
+    return "Pass";
+};
+modbook.register();
+
+modbook = VanillaFactory.createItem("xnet");
+modbook.maxStackSize = 1;
+modbook.textureLocation = image;
+modbook.rarity = "rare";
+modbook.itemRightClick = function(stack, world, player, hand) {
+    Commands.call("gamestage add @s "XNET", player, world, false, true);
+    return "Pass";
+};
+modbook.register();
+
+modbook = VanillaFactory.createItem("expandableinventory");
+modbook.maxStackSize = 1;
+modbook.textureLocation = image;
+modbook.rarity = "rare";
+modbook.itemRightClick = function(stack, world, player, hand) {
+    Commands.call("gamestage add @s "EXPANDABLE_INVENTORY", player, world, false, true);
+    return "Pass";
+};
+modbook.register();
+
+modbook = VanillaFactory.createItem("multistorage");
+modbook.maxStackSize = 1;
+modbook.textureLocation = image;
+modbook.rarity = "rare";
+modbook.itemRightClick = function(stack, world, player, hand) {
+    Commands.call("gamestage add @s "MULTISTORAGE", player, world, false, true);
+    return "Pass";
+};
+modbook.register();
+
+modbook = VanillaFactory.createItem("modularrouters");
+modbook.maxStackSize = 1;
+modbook.textureLocation = image;
+modbook.rarity = "rare";
+modbook.itemRightClick = function(stack, world, player, hand) {
+    Commands.call("gamestage add @s "MODULAR_ROUTERS", player, world, false, true);
+    return "Pass";
+};
+modbook.register();
+
 var bank = VanillaFactory.createItem("bank_item");
 bank.maxStackSize = 1;
 bank.register();

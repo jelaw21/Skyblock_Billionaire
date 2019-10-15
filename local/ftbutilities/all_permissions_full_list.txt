@@ -1,4 +1,4 @@
-10476 nodes in total
+10673 nodes in total
 Modifying this file won't have any effect, edit ranks.txt!
 
 admin_panel.ftbutilities.crash_reports.delete: OP
@@ -254,6 +254,7 @@ ftbutilities.chat.nickname.set: OP
 ftbutilities.chat.speak: ALL
 ftbutilities.chunkloader.load_offline: ALL
 ftbutilities.claims.attack_animals: OP
+ftbutilities.claims.block.edit.advanced_solar_panels.machines: OP
 ftbutilities.claims.block.edit.advancedmortars.mortar: OP
 ftbutilities.claims.block.edit.advgenerators.control: OP
 ftbutilities.claims.block.edit.advgenerators.efficiency_upgrade_tier1: OP
@@ -364,6 +365,41 @@ ftbutilities.claims.block.edit.ancientwarfarestructure.tribal_stool: OP
 ftbutilities.claims.block.edit.ancientwarfarestructure.urn: OP
 ftbutilities.claims.block.edit.ancientwarfarestructure.wooden_post: OP
 ftbutilities.claims.block.edit.ancientwarfarestructure.wooden_throne: OP
+ftbutilities.claims.block.edit.bigreactors.blockblutonium: OP
+ftbutilities.claims.block.edit.bigreactors.blockcyanite: OP
+ftbutilities.claims.block.edit.bigreactors.blockgraphite: OP
+ftbutilities.claims.block.edit.bigreactors.blockludicrite: OP
+ftbutilities.claims.block.edit.bigreactors.blocksteel: OP
+ftbutilities.claims.block.edit.bigreactors.blockyellorium: OP
+ftbutilities.claims.block.edit.bigreactors.cyanite: OP
+ftbutilities.claims.block.edit.bigreactors.oreanglesite: OP
+ftbutilities.claims.block.edit.bigreactors.orebenitoite: OP
+ftbutilities.claims.block.edit.bigreactors.oreyellorite: OP
+ftbutilities.claims.block.edit.bigreactors.reactoraccessport: OP
+ftbutilities.claims.block.edit.bigreactors.reactorcasing: OP
+ftbutilities.claims.block.edit.bigreactors.reactorcomputerport: OP
+ftbutilities.claims.block.edit.bigreactors.reactorcontroller: OP
+ftbutilities.claims.block.edit.bigreactors.reactorcontrolrod: OP
+ftbutilities.claims.block.edit.bigreactors.reactorcoolantport: OP
+ftbutilities.claims.block.edit.bigreactors.reactorcreativecoolantport: OP
+ftbutilities.claims.block.edit.bigreactors.reactorfuelrod: OP
+ftbutilities.claims.block.edit.bigreactors.reactorglass: OP
+ftbutilities.claims.block.edit.bigreactors.reactorpowertaprf: OP
+ftbutilities.claims.block.edit.bigreactors.reactorpowertaptesla: OP
+ftbutilities.claims.block.edit.bigreactors.reactorrednetport: OP
+ftbutilities.claims.block.edit.bigreactors.reactorredstoneport: OP
+ftbutilities.claims.block.edit.bigreactors.turbinebearing: OP
+ftbutilities.claims.block.edit.bigreactors.turbinecomputerport: OP
+ftbutilities.claims.block.edit.bigreactors.turbinecontroller: OP
+ftbutilities.claims.block.edit.bigreactors.turbinecreativesteamgenerator: OP
+ftbutilities.claims.block.edit.bigreactors.turbinefluidport: OP
+ftbutilities.claims.block.edit.bigreactors.turbineglass: OP
+ftbutilities.claims.block.edit.bigreactors.turbinehousing: OP
+ftbutilities.claims.block.edit.bigreactors.turbinepowertaprf: OP
+ftbutilities.claims.block.edit.bigreactors.turbinepowertaptesla: OP
+ftbutilities.claims.block.edit.bigreactors.turbinerotorblade: OP
+ftbutilities.claims.block.edit.bigreactors.turbinerotorshaft: OP
+ftbutilities.claims.block.edit.bigreactors.yellorium: OP
 ftbutilities.claims.block.edit.chisel.andesite1: OP
 ftbutilities.claims.block.edit.chisel.andesite2: OP
 ftbutilities.claims.block.edit.chisel.andesite: OP
@@ -1657,6 +1693,9 @@ ftbutilities.claims.block.edit.mekanism.roadplasticblock: OP
 ftbutilities.claims.block.edit.mekanism.saltblock: OP
 ftbutilities.claims.block.edit.mekanism.slickplasticblock: OP
 ftbutilities.claims.block.edit.mekanism.transmitter: OP
+ftbutilities.claims.block.edit.mekanismgenerators.generator: OP
+ftbutilities.claims.block.edit.mekanismgenerators.reactor: OP
+ftbutilities.claims.block.edit.mekanismgenerators.reactorglass: OP
 ftbutilities.claims.block.edit.minecraft.acacia_door: OP
 ftbutilities.claims.block.edit.minecraft.acacia_fence: OP
 ftbutilities.claims.block.edit.minecraft.acacia_fence_gate: OP
@@ -1959,6 +1998,7 @@ ftbutilities.claims.block.edit.mysticalagriculture.glowstone_ingot_crop: OP
 ftbutilities.claims.block.edit.mysticalagriculture.glowstone_lamp: OP
 ftbutilities.claims.block.edit.mysticalagriculture.gold_crop: OP
 ftbutilities.claims.block.edit.mysticalagriculture.grains_of_infinity_crop: OP
+ftbutilities.claims.block.edit.mysticalagriculture.graphite_crop: OP
 ftbutilities.claims.block.edit.mysticalagriculture.growth_accelerator: OP
 ftbutilities.claims.block.edit.mysticalagriculture.guardian_crop: OP
 ftbutilities.claims.block.edit.mysticalagriculture.hop_graphite_crop: OP
@@ -2045,6 +2085,7 @@ ftbutilities.claims.block.edit.mysticalagriculture.vibrant_alloy_crop: OP
 ftbutilities.claims.block.edit.mysticalagriculture.water_crop: OP
 ftbutilities.claims.block.edit.mysticalagriculture.witherproof_block: OP
 ftbutilities.claims.block.edit.mysticalagriculture.witherproof_glass: OP
+ftbutilities.claims.block.edit.mysticalagriculture.yellorium_crop: OP
 ftbutilities.claims.block.edit.mysticalagriculture.zinc_crop: OP
 ftbutilities.claims.block.edit.notenoughroofs.chimney: OP
 ftbutilities.claims.block.edit.notenoughroofs.copper_ore: OP
@@ -2116,6 +2157,7 @@ ftbutilities.claims.block.edit.notenoughroofs.terracotta_planks_spruce: OP
 ftbutilities.claims.block.edit.notenoughroofs.terracotta_stonebrick: OP
 ftbutilities.claims.block.edit.petrock.stoneiumblock: OP
 ftbutilities.claims.block.edit.petrock.stoneiumore: OP
+ftbutilities.claims.block.edit.poweradapters.mj: OP
 ftbutilities.claims.block.edit.prefab.block_andesite_slab: OP
 ftbutilities.claims.block.edit.prefab.block_andesite_stairs: OP
 ftbutilities.claims.block.edit.prefab.block_boundary: OP
@@ -2445,6 +2487,14 @@ ftbutilities.claims.block.edit.sky_orchards.sapling_signalum: OP
 ftbutilities.claims.block.edit.sky_orchards.sapling_silver: OP
 ftbutilities.claims.block.edit.sky_orchards.sapling_steely: OP
 ftbutilities.claims.block.edit.sky_orchards.sapling_tinium: OP
+ftbutilities.claims.block.edit.solarflux.solar_panel_1: OP
+ftbutilities.claims.block.edit.solarflux.solar_panel_2: OP
+ftbutilities.claims.block.edit.solarflux.solar_panel_3: OP
+ftbutilities.claims.block.edit.solarflux.solar_panel_4: OP
+ftbutilities.claims.block.edit.solarflux.solar_panel_5: OP
+ftbutilities.claims.block.edit.solarflux.solar_panel_6: OP
+ftbutilities.claims.block.edit.solarflux.solar_panel_7: OP
+ftbutilities.claims.block.edit.solarflux.solar_panel_8: OP
 ftbutilities.claims.block.edit.soulus.ash_block: OP
 ftbutilities.claims.block.edit.soulus.bars_endersteel: OP
 ftbutilities.claims.block.edit.soulus.block_endersteel: OP
@@ -2654,6 +2704,7 @@ ftbutilities.claims.block.edit.wirelessutils.positional_desublimator: OP
 ftbutilities.claims.block.edit.wirelessutils.positional_vaporizer: OP
 ftbutilities.claims.block.edit.wirelessutils.powered_air: OP
 ftbutilities.claims.block.edit.wirelessutils.powered_redstone_wire: OP
+ftbutilities.claims.block.interact.advanced_solar_panels.machines: OP
 ftbutilities.claims.block.interact.advancedmortars.mortar: OP
 ftbutilities.claims.block.interact.advgenerators.control: OP
 ftbutilities.claims.block.interact.advgenerators.efficiency_upgrade_tier1: OP
@@ -2764,6 +2815,41 @@ ftbutilities.claims.block.interact.ancientwarfarestructure.tribal_stool: OP
 ftbutilities.claims.block.interact.ancientwarfarestructure.urn: OP
 ftbutilities.claims.block.interact.ancientwarfarestructure.wooden_post: OP
 ftbutilities.claims.block.interact.ancientwarfarestructure.wooden_throne: OP
+ftbutilities.claims.block.interact.bigreactors.blockblutonium: OP
+ftbutilities.claims.block.interact.bigreactors.blockcyanite: OP
+ftbutilities.claims.block.interact.bigreactors.blockgraphite: OP
+ftbutilities.claims.block.interact.bigreactors.blockludicrite: OP
+ftbutilities.claims.block.interact.bigreactors.blocksteel: OP
+ftbutilities.claims.block.interact.bigreactors.blockyellorium: OP
+ftbutilities.claims.block.interact.bigreactors.cyanite: OP
+ftbutilities.claims.block.interact.bigreactors.oreanglesite: OP
+ftbutilities.claims.block.interact.bigreactors.orebenitoite: OP
+ftbutilities.claims.block.interact.bigreactors.oreyellorite: OP
+ftbutilities.claims.block.interact.bigreactors.reactoraccessport: OP
+ftbutilities.claims.block.interact.bigreactors.reactorcasing: OP
+ftbutilities.claims.block.interact.bigreactors.reactorcomputerport: OP
+ftbutilities.claims.block.interact.bigreactors.reactorcontroller: OP
+ftbutilities.claims.block.interact.bigreactors.reactorcontrolrod: OP
+ftbutilities.claims.block.interact.bigreactors.reactorcoolantport: OP
+ftbutilities.claims.block.interact.bigreactors.reactorcreativecoolantport: OP
+ftbutilities.claims.block.interact.bigreactors.reactorfuelrod: OP
+ftbutilities.claims.block.interact.bigreactors.reactorglass: OP
+ftbutilities.claims.block.interact.bigreactors.reactorpowertaprf: OP
+ftbutilities.claims.block.interact.bigreactors.reactorpowertaptesla: OP
+ftbutilities.claims.block.interact.bigreactors.reactorrednetport: OP
+ftbutilities.claims.block.interact.bigreactors.reactorredstoneport: OP
+ftbutilities.claims.block.interact.bigreactors.turbinebearing: OP
+ftbutilities.claims.block.interact.bigreactors.turbinecomputerport: OP
+ftbutilities.claims.block.interact.bigreactors.turbinecontroller: OP
+ftbutilities.claims.block.interact.bigreactors.turbinecreativesteamgenerator: OP
+ftbutilities.claims.block.interact.bigreactors.turbinefluidport: OP
+ftbutilities.claims.block.interact.bigreactors.turbineglass: OP
+ftbutilities.claims.block.interact.bigreactors.turbinehousing: OP
+ftbutilities.claims.block.interact.bigreactors.turbinepowertaprf: OP
+ftbutilities.claims.block.interact.bigreactors.turbinepowertaptesla: OP
+ftbutilities.claims.block.interact.bigreactors.turbinerotorblade: OP
+ftbutilities.claims.block.interact.bigreactors.turbinerotorshaft: OP
+ftbutilities.claims.block.interact.bigreactors.yellorium: OP
 ftbutilities.claims.block.interact.chisel.andesite1: OP
 ftbutilities.claims.block.interact.chisel.andesite2: OP
 ftbutilities.claims.block.interact.chisel.andesite: OP
@@ -4057,6 +4143,9 @@ ftbutilities.claims.block.interact.mekanism.roadplasticblock: OP
 ftbutilities.claims.block.interact.mekanism.saltblock: OP
 ftbutilities.claims.block.interact.mekanism.slickplasticblock: OP
 ftbutilities.claims.block.interact.mekanism.transmitter: OP
+ftbutilities.claims.block.interact.mekanismgenerators.generator: OP
+ftbutilities.claims.block.interact.mekanismgenerators.reactor: OP
+ftbutilities.claims.block.interact.mekanismgenerators.reactorglass: OP
 ftbutilities.claims.block.interact.minecraft.acacia_door: ALL
 ftbutilities.claims.block.interact.minecraft.acacia_fence: OP
 ftbutilities.claims.block.interact.minecraft.acacia_fence_gate: OP
@@ -4359,6 +4448,7 @@ ftbutilities.claims.block.interact.mysticalagriculture.glowstone_ingot_crop: OP
 ftbutilities.claims.block.interact.mysticalagriculture.glowstone_lamp: OP
 ftbutilities.claims.block.interact.mysticalagriculture.gold_crop: OP
 ftbutilities.claims.block.interact.mysticalagriculture.grains_of_infinity_crop: OP
+ftbutilities.claims.block.interact.mysticalagriculture.graphite_crop: OP
 ftbutilities.claims.block.interact.mysticalagriculture.growth_accelerator: OP
 ftbutilities.claims.block.interact.mysticalagriculture.guardian_crop: OP
 ftbutilities.claims.block.interact.mysticalagriculture.hop_graphite_crop: OP
@@ -4445,6 +4535,7 @@ ftbutilities.claims.block.interact.mysticalagriculture.vibrant_alloy_crop: OP
 ftbutilities.claims.block.interact.mysticalagriculture.water_crop: OP
 ftbutilities.claims.block.interact.mysticalagriculture.witherproof_block: OP
 ftbutilities.claims.block.interact.mysticalagriculture.witherproof_glass: OP
+ftbutilities.claims.block.interact.mysticalagriculture.yellorium_crop: OP
 ftbutilities.claims.block.interact.mysticalagriculture.zinc_crop: OP
 ftbutilities.claims.block.interact.notenoughroofs.chimney: OP
 ftbutilities.claims.block.interact.notenoughroofs.copper_ore: OP
@@ -4516,6 +4607,7 @@ ftbutilities.claims.block.interact.notenoughroofs.terracotta_planks_spruce: OP
 ftbutilities.claims.block.interact.notenoughroofs.terracotta_stonebrick: OP
 ftbutilities.claims.block.interact.petrock.stoneiumblock: OP
 ftbutilities.claims.block.interact.petrock.stoneiumore: OP
+ftbutilities.claims.block.interact.poweradapters.mj: OP
 ftbutilities.claims.block.interact.prefab.block_andesite_slab: OP
 ftbutilities.claims.block.interact.prefab.block_andesite_stairs: OP
 ftbutilities.claims.block.interact.prefab.block_boundary: OP
@@ -4845,6 +4937,14 @@ ftbutilities.claims.block.interact.sky_orchards.sapling_signalum: OP
 ftbutilities.claims.block.interact.sky_orchards.sapling_silver: OP
 ftbutilities.claims.block.interact.sky_orchards.sapling_steely: OP
 ftbutilities.claims.block.interact.sky_orchards.sapling_tinium: OP
+ftbutilities.claims.block.interact.solarflux.solar_panel_1: OP
+ftbutilities.claims.block.interact.solarflux.solar_panel_2: OP
+ftbutilities.claims.block.interact.solarflux.solar_panel_3: OP
+ftbutilities.claims.block.interact.solarflux.solar_panel_4: OP
+ftbutilities.claims.block.interact.solarflux.solar_panel_5: OP
+ftbutilities.claims.block.interact.solarflux.solar_panel_6: OP
+ftbutilities.claims.block.interact.solarflux.solar_panel_7: OP
+ftbutilities.claims.block.interact.solarflux.solar_panel_8: OP
 ftbutilities.claims.block.interact.soulus.ash_block: OP
 ftbutilities.claims.block.interact.soulus.bars_endersteel: OP
 ftbutilities.claims.block.interact.soulus.block_endersteel: OP
@@ -5055,6 +5155,12 @@ ftbutilities.claims.block.interact.wirelessutils.positional_vaporizer: OP
 ftbutilities.claims.block.interact.wirelessutils.powered_air: OP
 ftbutilities.claims.block.interact.wirelessutils.powered_redstone_wire: OP
 ftbutilities.claims.bypass_limits: NONE
+ftbutilities.claims.item.advanced_solar_panels.advancedsolarhelmet: ALL
+ftbutilities.claims.item.advanced_solar_panels.crafting: ALL
+ftbutilities.claims.item.advanced_solar_panels.double_stone_slab: ALL
+ftbutilities.claims.item.advanced_solar_panels.hybridsolarhelmet: ALL
+ftbutilities.claims.item.advanced_solar_panels.machines: ALL
+ftbutilities.claims.item.advanced_solar_panels.ultimatesolarhelmet: ALL
 ftbutilities.claims.item.advancedmortars.mortar: ALL
 ftbutilities.claims.item.advgenerators.advanced_pressure_valve: ALL
 ftbutilities.claims.item.advgenerators.capacitor_kit_advanced: ALL
@@ -5366,6 +5472,56 @@ ftbutilities.claims.item.animalnet.npc_net: ALL
 ftbutilities.claims.item.animalnet.spawner_fragmental: ALL
 ftbutilities.claims.item.base.wrench: ALL
 ftbutilities.claims.item.baubles.ring: ALL
+ftbutilities.claims.item.bigreactors.blockblutonium: ALL
+ftbutilities.claims.item.bigreactors.blockcyanite: ALL
+ftbutilities.claims.item.bigreactors.blockgraphite: ALL
+ftbutilities.claims.item.bigreactors.blockludicrite: ALL
+ftbutilities.claims.item.bigreactors.blocksteel: ALL
+ftbutilities.claims.item.bigreactors.blockyellorium: ALL
+ftbutilities.claims.item.bigreactors.dustblutonium: ALL
+ftbutilities.claims.item.bigreactors.dustcyanite: ALL
+ftbutilities.claims.item.bigreactors.dustgraphite: ALL
+ftbutilities.claims.item.bigreactors.dustludicrite: ALL
+ftbutilities.claims.item.bigreactors.duststeel: ALL
+ftbutilities.claims.item.bigreactors.dustyellorium: ALL
+ftbutilities.claims.item.bigreactors.ingotblutonium: ALL
+ftbutilities.claims.item.bigreactors.ingotcyanite: ALL
+ftbutilities.claims.item.bigreactors.ingotgraphite: ALL
+ftbutilities.claims.item.bigreactors.ingotludicrite: ALL
+ftbutilities.claims.item.bigreactors.ingotsteel: ALL
+ftbutilities.claims.item.bigreactors.ingotyellorium: ALL
+ftbutilities.claims.item.bigreactors.mineralanglesite: ALL
+ftbutilities.claims.item.bigreactors.mineralbenitoite: ALL
+ftbutilities.claims.item.bigreactors.oreanglesite: ALL
+ftbutilities.claims.item.bigreactors.orebenitoite: ALL
+ftbutilities.claims.item.bigreactors.oreyellorite: ALL
+ftbutilities.claims.item.bigreactors.reactoraccessport: ALL
+ftbutilities.claims.item.bigreactors.reactorcasing: ALL
+ftbutilities.claims.item.bigreactors.reactorcasingcores: ALL
+ftbutilities.claims.item.bigreactors.reactorcomputerport: ALL
+ftbutilities.claims.item.bigreactors.reactorcontroller: ALL
+ftbutilities.claims.item.bigreactors.reactorcontrolrod: ALL
+ftbutilities.claims.item.bigreactors.reactorcoolantport: ALL
+ftbutilities.claims.item.bigreactors.reactorcreativecoolantport: ALL
+ftbutilities.claims.item.bigreactors.reactorfuelrod: ALL
+ftbutilities.claims.item.bigreactors.reactorglass: ALL
+ftbutilities.claims.item.bigreactors.reactorpowertaprf: ALL
+ftbutilities.claims.item.bigreactors.reactorpowertaptesla: ALL
+ftbutilities.claims.item.bigreactors.reactorrednetport: ALL
+ftbutilities.claims.item.bigreactors.reactorredstoneport: ALL
+ftbutilities.claims.item.bigreactors.turbinebearing: ALL
+ftbutilities.claims.item.bigreactors.turbinecomputerport: ALL
+ftbutilities.claims.item.bigreactors.turbinecontroller: ALL
+ftbutilities.claims.item.bigreactors.turbinecreativesteamgenerator: ALL
+ftbutilities.claims.item.bigreactors.turbinefluidport: ALL
+ftbutilities.claims.item.bigreactors.turbineglass: ALL
+ftbutilities.claims.item.bigreactors.turbinehousing: ALL
+ftbutilities.claims.item.bigreactors.turbinehousingcores: ALL
+ftbutilities.claims.item.bigreactors.turbinepowertaprf: ALL
+ftbutilities.claims.item.bigreactors.turbinepowertaptesla: ALL
+ftbutilities.claims.item.bigreactors.turbinerotorblade: ALL
+ftbutilities.claims.item.bigreactors.turbinerotorshaft: ALL
+ftbutilities.claims.item.bigreactors.wrench: ALL
 ftbutilities.claims.item.blocklings.blockling: ALL
 ftbutilities.claims.item.boneappetit.ender_bone_meal: ALL
 ftbutilities.claims.item.boneappetit.fiery_bone_meal: ALL
@@ -5625,6 +5781,7 @@ ftbutilities.claims.item.compactmachines3.tunnel: ALL
 ftbutilities.claims.item.compactmachines3.tunneltool: ALL
 ftbutilities.claims.item.compactmachines3.wall: ALL
 ftbutilities.claims.item.compactmachines3.wallbreakable: ALL
+ftbutilities.claims.item.contenttweaker.advgenerators: ALL
 ftbutilities.claims.item.contenttweaker.agricraft: ALL
 ftbutilities.claims.item.contenttweaker.airship: ALL
 ftbutilities.claims.item.contenttweaker.aluminium_strip: ALL
@@ -5671,6 +5828,8 @@ ftbutilities.claims.item.contenttweaker.ender_strip: ALL
 ftbutilities.claims.item.contenttweaker.enderio: ALL
 ftbutilities.claims.item.contenttweaker.enderium_strip: ALL
 ftbutilities.claims.item.contenttweaker.eu2: ALL
+ftbutilities.claims.item.contenttweaker.fartgen: ALL
+ftbutilities.claims.item.contenttweaker.flux: ALL
 ftbutilities.claims.item.contenttweaker.furnaces: ALL
 ftbutilities.claims.item.contenttweaker.gemium: ALL
 ftbutilities.claims.item.contenttweaker.glowstone_strip: ALL
@@ -5716,6 +5875,7 @@ ftbutilities.claims.item.contenttweaker.share: ALL
 ftbutilities.claims.item.contenttweaker.shift_kit: ALL
 ftbutilities.claims.item.contenttweaker.signalum_strip: ALL
 ftbutilities.claims.item.contenttweaker.silver_strip: ALL
+ftbutilities.claims.item.contenttweaker.simplegen: ALL
 ftbutilities.claims.item.contenttweaker.sky_orchards: ALL
 ftbutilities.claims.item.contenttweaker.split_bill: ALL
 ftbutilities.claims.item.contenttweaker.steel_strip: ALL
@@ -8271,6 +8431,12 @@ ftbutilities.claims.item.mekanism.teleportationcore: ALL
 ftbutilities.claims.item.mekanism.tierinstaller: ALL
 ftbutilities.claims.item.mekanism.transmitter: ALL
 ftbutilities.claims.item.mekanism.walkietalkie: ALL
+ftbutilities.claims.item.mekanismgenerators.generator: ALL
+ftbutilities.claims.item.mekanismgenerators.hohlraum: ALL
+ftbutilities.claims.item.mekanismgenerators.reactor: ALL
+ftbutilities.claims.item.mekanismgenerators.reactorglass: ALL
+ftbutilities.claims.item.mekanismgenerators.solarpanel: ALL
+ftbutilities.claims.item.mekanismgenerators.turbineblade: ALL
 ftbutilities.claims.item.mekores.mekanismore: ALL
 ftbutilities.claims.item.minecraft.acacia_boat: ALL
 ftbutilities.claims.item.minecraft.acacia_door: ALL
@@ -8802,6 +8968,9 @@ ftbutilities.claims.item.mysticalagriculture.gold_seeds: ALL
 ftbutilities.claims.item.mysticalagriculture.grains_of_infinity_crop: ALL
 ftbutilities.claims.item.mysticalagriculture.grains_of_infinity_essence: ALL
 ftbutilities.claims.item.mysticalagriculture.grains_of_infinity_seeds: ALL
+ftbutilities.claims.item.mysticalagriculture.graphite_crop: ALL
+ftbutilities.claims.item.mysticalagriculture.graphite_essence: ALL
+ftbutilities.claims.item.mysticalagriculture.graphite_seeds: ALL
 ftbutilities.claims.item.mysticalagriculture.growth_accelerator: ALL
 ftbutilities.claims.item.mysticalagriculture.guardian_crop: ALL
 ftbutilities.claims.item.mysticalagriculture.guardian_essence: ALL
@@ -8975,6 +9144,9 @@ ftbutilities.claims.item.mysticalagriculture.watering_can: ALL
 ftbutilities.claims.item.mysticalagriculture.witherproof_block: ALL
 ftbutilities.claims.item.mysticalagriculture.witherproof_glass: ALL
 ftbutilities.claims.item.mysticalagriculture.xp_droplet: ALL
+ftbutilities.claims.item.mysticalagriculture.yellorium_crop: ALL
+ftbutilities.claims.item.mysticalagriculture.yellorium_essence: ALL
+ftbutilities.claims.item.mysticalagriculture.yellorium_seeds: ALL
 ftbutilities.claims.item.mysticalagriculture.zinc_crop: ALL
 ftbutilities.claims.item.mysticalagriculture.zinc_essence: ALL
 ftbutilities.claims.item.mysticalagriculture.zinc_seeds: ALL
@@ -9146,6 +9318,7 @@ ftbutilities.claims.item.powderpower.wandbase: ALL
 ftbutilities.claims.item.powderpower.wandexpert: ALL
 ftbutilities.claims.item.powderpower.wandmaster: ALL
 ftbutilities.claims.item.powderpower.wandnovice: ALL
+ftbutilities.claims.item.poweradapters.mj: ALL
 ftbutilities.claims.item.prefab.block_andesite_stairs: ALL
 ftbutilities.claims.item.prefab.block_boundary: ALL
 ftbutilities.claims.item.prefab.block_compressed_obsidian: ALL
@@ -9713,6 +9886,29 @@ ftbutilities.claims.item.sky_orchards.sapling_signalum: ALL
 ftbutilities.claims.item.sky_orchards.sapling_silver: ALL
 ftbutilities.claims.item.sky_orchards.sapling_steely: ALL
 ftbutilities.claims.item.sky_orchards.sapling_tinium: ALL
+ftbutilities.claims.item.solarflux.blank_upgrade: ALL
+ftbutilities.claims.item.solarflux.block_charging_upgrade: ALL
+ftbutilities.claims.item.solarflux.capacity_upgrade: ALL
+ftbutilities.claims.item.solarflux.dispersive_upgrade: ALL
+ftbutilities.claims.item.solarflux.efficiency_upgrade: ALL
+ftbutilities.claims.item.solarflux.furnace_upgrade: ALL
+ftbutilities.claims.item.solarflux.mirror: ALL
+ftbutilities.claims.item.solarflux.photovoltaic_cell_1: ALL
+ftbutilities.claims.item.solarflux.photovoltaic_cell_2: ALL
+ftbutilities.claims.item.solarflux.photovoltaic_cell_3: ALL
+ftbutilities.claims.item.solarflux.photovoltaic_cell_4: ALL
+ftbutilities.claims.item.solarflux.photovoltaic_cell_5: ALL
+ftbutilities.claims.item.solarflux.photovoltaic_cell_6: ALL
+ftbutilities.claims.item.solarflux.solar_panel_1: ALL
+ftbutilities.claims.item.solarflux.solar_panel_2: ALL
+ftbutilities.claims.item.solarflux.solar_panel_3: ALL
+ftbutilities.claims.item.solarflux.solar_panel_4: ALL
+ftbutilities.claims.item.solarflux.solar_panel_5: ALL
+ftbutilities.claims.item.solarflux.solar_panel_6: ALL
+ftbutilities.claims.item.solarflux.solar_panel_7: ALL
+ftbutilities.claims.item.solarflux.solar_panel_8: ALL
+ftbutilities.claims.item.solarflux.transfer_rate_upgrade: ALL
+ftbutilities.claims.item.solarflux.traversal_upgrade: ALL
 ftbutilities.claims.item.soulus.ash: ALL
 ftbutilities.claims.item.soulus.bark: ALL
 ftbutilities.claims.item.soulus.barket: ALL
@@ -10455,6 +10651,7 @@ ftbutilities.claims.item.wirelessutils.theoretical_slaughter_module: ALL
 ftbutilities.claims.item.wirelessutils.transfer_augment: ALL
 ftbutilities.claims.item.wirelessutils.void_pearl: ALL
 ftbutilities.claims.item.wirelessutils.world_augment: ALL
+ftbutilities.claims.item.zerocore.debugtool: ALL
 ftbutilities.display.admin_info: OP
 ftbutilities.homes.cross_dim: ALL
 ftbutilities.leaderboard.ftbutilities.deaths: ALL
@@ -10671,6 +10868,7 @@ command.seed
 command.setblock
 command.setworldspawn
 command.silentlib.silentlib_datadump
+command.solarflux.solarflux.reload
 command.soulus.soulus
 command.spawnpoint
 command.spreadplayers

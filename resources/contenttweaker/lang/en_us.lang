@@ -96,7 +96,19 @@ item.contenttweaker.immersive.name=Mod Unlock: Immersive Engineering
 item.contenttweaker.flux.name=Mod Unlock: Flux Networks
 item.contenttweaker.advgenerators.name=Mod Unlock: Advanced Generators
 item.contenttweaker.fartgen.name=Mod Unlock: Fart Generator
-item.contenttweaker.simplegen.name=Mod Unlock: Simple Generators
+item.contenttweaker.solarflux.name=Mod Unlock: Solar Flux Reborn
+item.contenttweaker.extremereactors.name=Mod Unlock: Extreme Reactors
+item.contenttweaker.advsolars.name=Mod Unlock: Advanced Solars
+item.contenttweaker.mekgenerators.name=Mod Unlock: Mekanism Generators
+item.contenttweaker.practicallogistics2.name=Mod Unlock: Practical Logistics 2
+item.contenttweaker.refinedrelocation.name=Mod Unlock: Refined Relocation
+item.contenttweaker.storagedrawers.name=Mod Unlock: Storage Drawers
+item.contenttweaker.ironchest.name=Mod Unlock: Iron Chests
+item.contenttweaker.xnet.name=Mod Unlock: XNET
+item.contenttweaker.expandableinventory.name=Mod Unlock: Expandable INventory
+item.contenttweaker.multistorage.name=Mod Unlock: Multi-Storage
+item.contenttweaker.modularrouters.name=Mod Unlock: Modular Routers
+
 
 item.contenttweaker.approval_loan.name=Loan: $5000
 item.contenttweaker.approval_credit.name=Credit: $5000

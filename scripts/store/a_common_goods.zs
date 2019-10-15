@@ -5,7 +5,7 @@ val construction ="Construction";
 val industries = "Industries";
 val warehouse = "Warehouses";
 val manufactories = "Manufactories";
-val power = "Power"
+val power = "Power";
 val utils = "Utilities";
 val special = "Special Equipment";
 

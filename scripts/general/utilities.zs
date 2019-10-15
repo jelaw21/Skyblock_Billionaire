@@ -21,6 +21,8 @@ import crafttweaker.data.IData;
 <contenttweaker:labyrinth>.addTooltip(format.green("Right Click to Create the portal. Right-click top block with a stick."));
 <contenttweaker:labyrinth>.addTooltip(format.green("Blocks CANNOT be broken and replaced."));
 <contenttweaker:virtualmachines>.addTooltip(format.green("REQUIRES THERMAL EXPANSION"));
+<contenttweaker:mekgenerators>.addTooltip(format.green("REQUIRES MEKANISM"));
+<contenttweaker:advsolars>.addTooltip(format.green("REQUIRES IC2"));
 
 
 
