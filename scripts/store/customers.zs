@@ -11,3 +11,4 @@ mods.Delivery.Store.addTrade("GENERAL_MANAGER",<contenttweaker:mobutils>, utils,
 mods.Delivery.Store.addTrade("REGIONAL_MANAGER",<contenttweaker:weapons>, utils, <contenttweaker:bank_item>.withTag({Total: 20000.0 as float, display: {Lore: ["$20,000.0"]}}));
 mods.Delivery.Store.addTrade("GENERAL_MANAGER",<contenttweaker:magnets>, utils, <contenttweaker:bank_item>.withTag({Total: 17500.0 as float, display: {Lore: ["$17,500.0"]}}));
 mods.Delivery.Store.addTrade("REGIONAL_MANAGER",<contenttweaker:sandwich>, utils, <contenttweaker:bank_item>.withTag({Total: 22000.0 as float, display: {Lore: ["$22,000.0"]}}));
+mods.Delivery.Store.addTrade("REGIONAL_MANAGER",<contenttweaker:simplyjetpacks>, utils, <contenttweaker:bank_item>.withTag({Total: 25000.0 as float, display: {Lore: ["$25,000.0"]}}));

@@ -75,7 +75,19 @@ mods.ItemStages.stageModItems("XNET", "xnet");
 mods.ItemStages.stageModItems("EXPANDABLE_INVENTORY", "expandableinventory");
 mods.ItemStages.stageModItems("MULTISTORAGE", "multistorage");
 mods.ItemStages.stageModItems("MODULAR_ROUTERS", "modularrouters");
+mods.ItemStages.stageModItems("SIMPLY_JETPACKS", "simplyjetpacks");
+mods.ItemStages.stageModItems("HOPPER_DUCTS", "hopperducts");
+mods.ItemStages.stageModItems("COMPACT_STORAGE", "compactstorage");
+mods.ItemStages.stageModItems("REAL_FILING", "realfilingcabinet");
+mods.ItemStages.stageModItems("COLOSSAL_CHESTS", "colossalchests");
+mods.ItemStages.stageModItems("SIMPLE_STORAGE", "storagenetwork");
 
+mods.ItemStages.stageModItems("AE2", "ae2stuff");
+mods.ItemStages.stageModItems("AE2", "appliedenergistics2");
+mods.ItemStages.stageModItems("REFINED_STORAGE", "refinedstorage");
+mods.ItemStages.stageModItems("REFINED_STORAGE", "refinedstorageaddons");
+mods.ItemStages.stageModItems("REFINED_STORAGE", "refinedstoragerequestify");
+mods.ItemStages.stageModItems("REFINED_STORAGE", "rebornstorage");
 
 mods.ItemStages.addItemStage("REDIUM_LAPIUM",<powderpower:armorrediumhelmet>);
 mods.ItemStages.addItemStage("REDIUM_LAPIUM",<powderpower:armorrediumlegs>);

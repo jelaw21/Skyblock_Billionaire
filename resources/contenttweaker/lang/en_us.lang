@@ -108,6 +108,15 @@ item.contenttweaker.xnet.name=Mod Unlock: XNET
 item.contenttweaker.expandableinventory.name=Mod Unlock: Expandable INventory
 item.contenttweaker.multistorage.name=Mod Unlock: Multi-Storage
 item.contenttweaker.modularrouters.name=Mod Unlock: Modular Routers
+item.contenttweaker.simplyjetpacks.name=Mod Unlock: Simply Jetpacks
+item.contenttweaker.hopperducts.name=Mod Unlock: Hopper Ducts
+item.contenttweaker.compactstorage.name=Mod Unlock: Compact Storage
+item.contenttweaker.filingcabinet.name=Mod Unlock: Real Filing Cabinet
+item.contenttweaker.colossal.name=Mod Unlock: Colossal Chests
+item.contenttweaker.storagenetwork.name=Mod Unlock: Storage Network
+item.contenttweaker.ae2.name=Mod Unlock: Applied Energistics
+item.contenttweaker.refinedstorage.name=Mod Unlock: Refined Storage
+
 
 
 item.contenttweaker.approval_loan.name=Loan: $5000
