@@ -560,7 +560,7 @@ modbook.maxStackSize = 1;
 modbook.textureLocation = image;
 modbook.rarity = "rare";
 modbook.itemRightClick = function(stack, world, player, hand) {
-    Commands.call("gamestage add @s "MEK_GENERATORS", player, world, false, true);
+    Commands.call("gamestage add @s MEK_GENERATORS", player, world, false, true);
     return "Pass";
 };
 modbook.register();
@@ -570,7 +570,7 @@ modbook.maxStackSize = 1;
 modbook.textureLocation = image;
 modbook.rarity = "rare";
 modbook.itemRightClick = function(stack, world, player, hand) {
-    Commands.call("gamestage add @s "PRACTICAL_LOGISTICS", player, world, false, true);
+    Commands.call("gamestage add @s PRACTICAL_LOGISTICS", player, world, false, true);
     return "Pass";
 };
 modbook.register();
@@ -580,7 +580,7 @@ modbook.maxStackSize = 1;
 modbook.textureLocation = image;
 modbook.rarity = "rare";
 modbook.itemRightClick = function(stack, world, player, hand) {
-    Commands.call("gamestage add @s "REFINED_RELOCATION", player, world, false, true);
+    Commands.call("gamestage add @s REFINED_RELOCATION", player, world, false, true);
     return "Pass";
 };
 modbook.register();
@@ -590,7 +590,7 @@ modbook.maxStackSize = 1;
 modbook.textureLocation = image;
 modbook.rarity = "rare";
 modbook.itemRightClick = function(stack, world, player, hand) {
-    Commands.call("gamestage add @s "STORAGE_DRAWERS", player, world, false, true);
+    Commands.call("gamestage add @s STORAGE_DRAWERS", player, world, false, true);
     return "Pass";
 };
 modbook.register();
@@ -600,7 +600,7 @@ modbook.maxStackSize = 1;
 modbook.textureLocation = image;
 modbook.rarity = "rare";
 modbook.itemRightClick = function(stack, world, player, hand) {
-    Commands.call("gamestage add @s "IRON_CHEST", player, world, false, true);
+    Commands.call("gamestage add @s IRON_CHEST", player, world, false, true);
     return "Pass";
 };
 modbook.register();
@@ -610,7 +610,7 @@ modbook.maxStackSize = 1;
 modbook.textureLocation = image;
 modbook.rarity = "rare";
 modbook.itemRightClick = function(stack, world, player, hand) {
-    Commands.call("gamestage add @s "XNET", player, world, false, true);
+    Commands.call("gamestage add @s XNET", player, world, false, true);
     return "Pass";
 };
 modbook.register();
@@ -620,7 +620,7 @@ modbook.maxStackSize = 1;
 modbook.textureLocation = image;
 modbook.rarity = "rare";
 modbook.itemRightClick = function(stack, world, player, hand) {
-    Commands.call("gamestage add @s "EXPANDABLE_INVENTORY", player, world, false, true);
+    Commands.call("gamestage add @s EXPANDABLE_INVENTORY", player, world, false, true);
     return "Pass";
 };
 modbook.register();
@@ -630,7 +630,7 @@ modbook.maxStackSize = 1;
 modbook.textureLocation = image;
 modbook.rarity = "rare";
 modbook.itemRightClick = function(stack, world, player, hand) {
-    Commands.call("gamestage add @s "MULTISTORAGE", player, world, false, true);
+    Commands.call("gamestage add @s MULTISTORAGE", player, world, false, true);
     return "Pass";
 };
 modbook.register();
@@ -640,7 +640,7 @@ modbook.maxStackSize = 1;
 modbook.textureLocation = image;
 modbook.rarity = "rare";
 modbook.itemRightClick = function(stack, world, player, hand) {
-    Commands.call("gamestage add @s "MODULAR_ROUTERS", player, world, false, true);
+    Commands.call("gamestage add @s MODULAR_ROUTERS", player, world, false, true);
     return "Pass";
 };
 modbook.register();
@@ -650,7 +650,7 @@ modbook.maxStackSize = 1;
 modbook.textureLocation = image;
 modbook.rarity = "rare";
 modbook.itemRightClick = function(stack, world, player, hand) {
-    Commands.call("gamestage add @s "SIMPLY_JETPACKS", player, world, false, true);
+    Commands.call("gamestage add @s SIMPLY_JETPACKS", player, world, false, true);
     return "Pass";
 };
 modbook.register();
@@ -660,7 +660,7 @@ modbook.maxStackSize = 1;
 modbook.textureLocation = image;
 modbook.rarity = "rare";
 modbook.itemRightClick = function(stack, world, player, hand) {
-    Commands.call("gamestage add @s "HOPPER_DUCTS", player, world, false, true);
+    Commands.call("gamestage add @s HOPPER_DUCTS", player, world, false, true);
     return "Pass";
 };
 modbook.register();
@@ -670,7 +670,7 @@ modbook.maxStackSize = 1;
 modbook.textureLocation = image;
 modbook.rarity = "rare";
 modbook.itemRightClick = function(stack, world, player, hand) {
-    Commands.call("gamestage add @s "COMPACT_STORAGE", player, world, false, true);
+    Commands.call("gamestage add @s COMPACT_STORAGE", player, world, false, true);
     return "Pass";
 };
 modbook.register();
@@ -680,7 +680,7 @@ modbook.maxStackSize = 1;
 modbook.textureLocation = image;
 modbook.rarity = "rare";
 modbook.itemRightClick = function(stack, world, player, hand) {
-    Commands.call("gamestage add @s "REAL_FILING", player, world, false, true);
+    Commands.call("gamestage add @s REAL_FILING", player, world, false, true);
     return "Pass";
 };
 modbook.register();
@@ -690,7 +690,7 @@ modbook.maxStackSize = 1;
 modbook.textureLocation = image;
 modbook.rarity = "rare";
 modbook.itemRightClick = function(stack, world, player, hand) {
-    Commands.call("gamestage add @s "COLOSSAL_CHESTS", player, world, false, true);
+    Commands.call("gamestage add @s COLOSSAL_CHESTS", player, world, false, true);
     return "Pass";
 };
 modbook.register();
@@ -700,7 +700,7 @@ modbook.maxStackSize = 1;
 modbook.textureLocation = image;
 modbook.rarity = "rare";
 modbook.itemRightClick = function(stack, world, player, hand) {
-    Commands.call("gamestage add @s "STORAGE_NETWORK", player, world, false, true);
+    Commands.call("gamestage add @s STORAGE_NETWORK", player, world, false, true);
     return "Pass";
 };
 modbook.register();
@@ -710,7 +710,7 @@ modbook.maxStackSize = 1;
 modbook.textureLocation = image;
 modbook.rarity = "rare";
 modbook.itemRightClick = function(stack, world, player, hand) {
-    Commands.call("gamestage add @s "AE2", player, world, false, true);
+    Commands.call("gamestage add @s AE2", player, world, false, true);
     return "Pass";
 };
 modbook.register();
@@ -720,7 +720,7 @@ modbook.maxStackSize = 1;
 modbook.textureLocation = image;
 modbook.rarity = "rare";
 modbook.itemRightClick = function(stack, world, player, hand) {
-    Commands.call("gamestage add @s "REFINED_STORAGE", player, world, false, true);
+    Commands.call("gamestage add @s REFINED_STORAGE", player, world, false, true);
     return "Pass";
 };
 modbook.register();

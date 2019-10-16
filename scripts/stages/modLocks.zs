@@ -38,19 +38,20 @@ mods.ItemStages.stageModItems("SANDWICH", "culinaryconstruct");
 mods.ItemStages.stageModItems("CLAY_SOLDIERS", "claysoldiers");
 mods.ItemStages.stageModItems("PET_ROCK", "petrock");
 mods.ItemStages.stageModItems("PET_DOG", "doggytalents");
-mods.ItemStages.stageModItems("COMPACTOR", "compactor");
+mods.ItemStages.stageModItems("COMPACTOR", "compacter");
 mods.ItemStages.stageModItems("GRINDER", "simplegrinder");
 mods.ItemStages.stageModItems("FURNACES", "morefurnaces");
 mods.ItemStages.stageModItems("VIRTUAL_MACHINES", "virtualmachines");
 mods.ItemStages.stageModItems("WIRELESS_UTILS", "wirelessutils");
 mods.ItemStages.stageModItems("SUPER_FACTORY", "superfactorymanager");
-mods.ItemStages.stageModItems("COMPACT_MACHINES", "compact");
+mods.ItemStages.stageModItems("COMPACT_MACHINES", "compactmachines3");
 mods.ItemStages.stageModItems("INDUSTRIAL_MEAT", "industrialmeat");
 mods.ItemStages.stageModItems("INDUSTRIAL_RENEWAL", "industrialrenewal");
 mods.ItemStages.stageModItems("INDUSTRIAL_FOREGOING", "industrialforegoing");
 mods.ItemStages.stageModItems("IC2", "ic2");
 mods.ItemStages.stageModItems("TECH_REBORN", "techreborn");
 mods.ItemStages.stageModItems("MEKANISM", "mekanism");
+mods.ItemStages.stageModItems("MEKANISM", "mekores");
 mods.ItemStages.stageModItems("ENDERIO", "enderio");
 mods.ItemStages.stageModItems("IMMERSIVE", "immersiveengineering");
 mods.ItemStages.stageModItems("IMMERSIVE", "immersivepetroleum");
@@ -64,8 +65,6 @@ mods.ItemStages.stageModItems("SOLAR_FLUX", "solarflux");
 mods.ItemStages.stageModItems("EXTREME_REACTORS", "bigreactors");
 mods.ItemStages.stageModItems("MEK_GENERATORS", "mekanismgenerators");
 mods.ItemStages.stageModItems("ADVANCED_SOLARS", "advanced_solar_panels");
-
-
 mods.ItemStages.stageModItems("PRACTICAL_LOGISTICS", "practicallogistics2");
 mods.ItemStages.stageModItems("REFINED_RELOCATION", "refinedrelocation");
 mods.ItemStages.stageModItems("STORAGE_DRAWERS", "compactdrawers");
@@ -81,13 +80,32 @@ mods.ItemStages.stageModItems("COMPACT_STORAGE", "compactstorage");
 mods.ItemStages.stageModItems("REAL_FILING", "realfilingcabinet");
 mods.ItemStages.stageModItems("COLOSSAL_CHESTS", "colossalchests");
 mods.ItemStages.stageModItems("SIMPLE_STORAGE", "storagenetwork");
-
 mods.ItemStages.stageModItems("AE2", "ae2stuff");
 mods.ItemStages.stageModItems("AE2", "appliedenergistics2");
 mods.ItemStages.stageModItems("REFINED_STORAGE", "refinedstorage");
 mods.ItemStages.stageModItems("REFINED_STORAGE", "refinedstorageaddons");
 mods.ItemStages.stageModItems("REFINED_STORAGE", "refinedstoragerequestify");
 mods.ItemStages.stageModItems("REFINED_STORAGE", "rebornstorage");
+
+
+mods.ItemStages.stageModItems("ENGINEERS_DECOR", "engineersdecor");
+mods.ItemStages.stageModItems("ENGINEERS_DECOR", "engineersdoors");
+mods.ItemStages.stageModItems("XENCRAFT", "xencraft");
+mods.ItemStages.stageModItems("GARDEN_STUFF", "gardenstuff");
+mods.ItemStages.stageModItems("XTONES", "xtones");
+mods.ItemStages.stageModItems("ARCHITECTURE", "architecturecraft");
+mods.ItemStages.stageModItems("ARCHICRAFT", "archicraft");
+mods.ItemStages.stageModItems("BLOCKCRAFTERY", "blockcraftery");
+mods.ItemStages.stageModItems("ELEVATOR", "elevatorid");
+mods.ItemStages.stageModItems("DECO_BUILD", "decobuild");
+mods.ItemStages.stageModItems("LITERAL_ASCENSION", "literalascension");
+mods.ItemStages.stageModItems("DRAWBRIDGE", "drawbridge");
+mods.ItemStages.stageModItems("SIMPLY_LIGHT", "simplylight");
+mods.ItemStages.stageModItems("CRAFISH_FURNITURE", "cfm");
+mods.ItemStages.stageModItems("BUILDING_GADGETS", "buildinggadgets");
+mods.ItemStages.stageModItems("MALISIS_DOORS", "malisisdoors");
+mods.ItemStages.stageModItems("PAINT_THINGS", "paintatt");
+mods.ItemStages.stageModItems("SONAR_CORE", "sonarcore");
 
 mods.ItemStages.addItemStage("REDIUM_LAPIUM",<powderpower:armorrediumhelmet>);
 mods.ItemStages.addItemStage("REDIUM_LAPIUM",<powderpower:armorrediumlegs>);
