@@ -726,6 +726,60 @@
 			"soulbook_quantity": 16,
 			"spawns": null,
 			"loot": null
+		},
+		{
+			"essence": "thermalfoundation.basalz",
+			"name": null,
+			"colors": null,
+			"bones": {
+				"type": "DRY",
+				"drop_weight": 3.0
+			},
+			"soulbook_quantity": 16,
+			"spawns": null,
+			"loot": {
+				"thermalfoundation.basalz": {
+					"min": 1,
+					"max": 2,
+					"chance": 0.6
+				}
+			}
+		},
+		{
+			"essence": "thermalfoundation.blitz",
+			"name": null,
+			"colors": null,
+			"bones": {
+				"type": "NETHER",
+				"drop_weight": 3.0
+			},
+			"soulbook_quantity": 16,
+			"spawns": null,
+			"loot": {
+				"thermalfoundation.blitz": {
+					"min": 1,
+					"max": 2,
+					"chance": 0.6
+				}
+			}
+		},
+		{
+			"essence": "thermalfoundation.blizz",
+			"name": null,
+			"colors": null,
+			"bones": {
+				"type": "FROZEN",
+				"drop_weight": 3.0
+			},
+			"soulbook_quantity": 16,
+			"spawns": null,
+			"loot": {
+				"thermalfoundation.blizz": {
+					"min": 1,
+					"max": 2,
+					"chance": 0.6
+				}
+			}
 		}
 	]
 }

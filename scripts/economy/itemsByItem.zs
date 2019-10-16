@@ -378,7 +378,7 @@ val tenHundred = [
 for items in onePenny{	
 		
 	items.addTooltip(format.blue("$0.01"));
-	machine.addRecipe({"itemIn":items}, {"moneyOut":<modcurrency:coin>%80}, 200, 5);
+	machine.addRecipe({"itemIn":items}, {"moneyOut":<modcurrency:coin>%80}, 200, 20);
 	
 }
 
@@ -386,34 +386,34 @@ for items in oneNickel{
 	
 	
 	items.addTooltip(format.blue("$0.05"));
-	machine.addRecipe({"itemIn":items}, {"moneyOut":<modcurrency:coin:1>%80}, 200, 5);
+	machine.addRecipe({"itemIn":items}, {"moneyOut":<modcurrency:coin:1>%80}, 200, 20);
 }
 
 for items in oneDime{	
 	
 		items.addTooltip(format.blue("$0.10"));
-		machine.addRecipe({"itemIn":items}, {"moneyOut":<modcurrency:coin:2>%80}, 200, 5);
+		machine.addRecipe({"itemIn":items}, {"moneyOut":<modcurrency:coin:2>%80}, 200, 20);
 }
 
 for items in oneQuarter{	
 	
 	
 	items.addTooltip(format.blue("$0.25"));
-	machine.addRecipe({"itemIn":items}, {"moneyOut":<modcurrency:coin:3>%80}, 200, 5);
+	machine.addRecipe({"itemIn":items}, {"moneyOut":<modcurrency:coin:3>%80}, 200, 20);
 }
 
 for items in twoQuarter{	
 	
 	
 	items.addTooltip(format.blue("$0.50"));
-	machine.addRecipe({"itemIn":items}, {"moneyOut":<modcurrency:coin:3>*2%80}, 200, 5);
+	machine.addRecipe({"itemIn":items}, {"moneyOut":<modcurrency:coin:3>*2%80}, 200, 20);
 }
 
 for items in oneDollar{	
 	
 	
 	items.addTooltip(format.blue("$1"));
-	machine.addRecipe({"itemIn":items}, {"moneyOut":<modcurrency:coin:4>%80}, 200, 5);
+	machine.addRecipe({"itemIn":items}, {"moneyOut":<modcurrency:coin:4>%80}, 200, 20);
 	mods.Delivery.Store.addTrade("ASSISTANT_MANAGER",items*32, <modcurrency:coin:4>*32);
 }
 
@@ -421,7 +421,7 @@ for items in twoDollar{
 	
 	
 	items.addTooltip(format.blue("$2"));
-	machine.addRecipe({"itemIn":items}, {"moneyOut":<modcurrency:coin:4>*2%80}, 200, 5);
+	machine.addRecipe({"itemIn":items}, {"moneyOut":<modcurrency:coin:4>*2%80}, 200, 20);
 	mods.Delivery.Store.addTrade("ASSISTANT_MANAGER",items*16, <modcurrency:coin:4>*32);	
 }
 
@@ -429,7 +429,7 @@ for items in threeDollar{
 	
 	
 	items.addTooltip(format.blue("$3"));
-	machine.addRecipe({"itemIn":items}, {"moneyOut":<modcurrency:coin:4>*3%80}, 200, 5);
+	machine.addRecipe({"itemIn":items}, {"moneyOut":<modcurrency:coin:4>*3%80}, 200, 20);
 	mods.Delivery.Store.addTrade("ASSISTANT_MANAGER",items*16, <modcurrency:coin:4>*48);
 	
 }
@@ -440,7 +440,7 @@ for items in oneFive{
 	
 
 	items.addTooltip(format.blue("$5"));
-	machine.addRecipe({"itemIn":items}, {"moneyOut":<modcurrency:banknote:1>%80}, 200, 5);
+	machine.addRecipe({"itemIn":items}, {"moneyOut":<modcurrency:banknote:1>%80}, 200, 20);
 	mods.Delivery.Store.addTrade("ASSISTANT_MANAGER",items*16, <modcurrency:banknote:1>*16);
 }
 
@@ -448,7 +448,7 @@ for items in sixDollar{
 	
 	
 	items.addTooltip(format.blue("$6"));
-	machine.addRecipe({"itemIn":items}, {"moneyOut":<modcurrency:coin:4>*6%80}, 200, 5);
+	machine.addRecipe({"itemIn":items}, {"moneyOut":<modcurrency:coin:4>*6%80}, 200, 20);
 	mods.Delivery.Store.addTrade("ASSISTANT_MANAGER",items*10, <modcurrency:coin:4>*60);
 	
 }
@@ -457,7 +457,7 @@ for items in oneTen{
 	
 	
 	items.addTooltip(format.blue("$10"));
-	machine.addRecipe({"itemIn":items}, {"moneyOut":<modcurrency:banknote:2>%80}, 200, 5);	
+	machine.addRecipe({"itemIn":items}, {"moneyOut":<modcurrency:banknote:2>%80}, 200, 20);
 	mods.Delivery.Store.addTrade("ASSISTANT_MANAGER",items*8, <modcurrency:banknote:2>*8);
 }
 
@@ -465,7 +465,7 @@ for items in oneTwenty{
 	
 	
 	items.addTooltip(format.blue("$20"));
-	machine.addRecipe({"itemIn":items}, {"moneyOut":<modcurrency:banknote:3>%80}, 200, 5);
+	machine.addRecipe({"itemIn":items}, {"moneyOut":<modcurrency:banknote:3>%80}, 200, 20);
 	mods.Delivery.Store.addTrade("ASSISTANT_MANAGER",items*8, <modcurrency:banknote:3>*8);
 	
 }
@@ -474,7 +474,7 @@ for items in threeTen{
 	
 	
 	items.addTooltip(format.blue("$30"));
-	machine.addRecipe({"itemIn":items}, {"moneyOut":<modcurrency:banknote:2>*3%80}, 200, 5);
+	machine.addRecipe({"itemIn":items}, {"moneyOut":<modcurrency:banknote:2>*3%80}, 200, 20);
 	mods.Delivery.Store.addTrade("ASSISTANT_MANAGER",items*8, <modcurrency:banknote:2>*24);
 }
 
@@ -482,7 +482,7 @@ for items in oneFifty{
 	
 	
 	items.addTooltip(format.blue("$50"));
-	machine.addRecipe({"itemIn":items}, {"moneyOut":<modcurrency:banknote:4>%90}, 200, 5);
+	machine.addRecipe({"itemIn":items}, {"moneyOut":<modcurrency:banknote:4>%90}, 200, 20);
 	mods.Delivery.Store.addTrade("ASSISTANT_MANAGER",items*4, <modcurrency:banknote:1>*4);	
 }
 
@@ -490,7 +490,7 @@ for items in oneHundred{
 	
 	
 	items.addTooltip(format.blue("$100"));
-	machine.addRecipe({"itemIn":items}, {"moneyOut":<modcurrency:banknote:5>%90}, 200, 5);
+	machine.addRecipe({"itemIn":items}, {"moneyOut":<modcurrency:banknote:5>%90}, 200, 20);
 	mods.Delivery.Store.addTrade("ASSISTANT_MANAGER",items*2, <modcurrency:banknote:1>*2);
 }
 
@@ -498,18 +498,20 @@ for items in twoHundred{
 	
 	
 	items.addTooltip(format.blue("$200"));
-	machine.addRecipe({"itemIn":items}, {"moneyOut":<modcurrency:banknote:5>*2%90}, 200, 5);
+	machine.addRecipe({"itemIn":items}, {"moneyOut":<modcurrency:banknote:5>*2%90}, 200, 20);
 	mods.Delivery.Store.addTrade("ASSISTANT_MANAGER",items*2,<modcurrency:banknote:5>*2);
 }
 
 for items in fiveHundred{
 	
 		items.addTooltip(format.blue("$500"));
-		machine.addRecipe({"itemIn":items}, {"moneyOut":<modcurrency:banknote:5>*5%90}, 200, 5);	
+		machine.addRecipe({"itemIn":items}, {"moneyOut":<modcurrency:banknote:5>*5%90}, 200, 20);
+		mods.Delivery.Store.addTrade("ASSISTANT_MANAGER",items,<modcurrency:banknote:5>*5);
 }
 
 for items in tenHundred{
 	
 		items.addTooltip(format.blue("$1000"));
-		machine.addRecipe({"itemIn":items}, {"moneyOut":<modcurrency:banknote:5>*10%95}, 200, 5);	
+		machine.addRecipe({"itemIn":items}, {"moneyOut":<modcurrency:banknote:5>*10%95}, 200, 20);
+		mods.Delivery.Store.addTrade("ASSISTANT_MANAGER",items,<modcurrency:banknote:5>*10);
 }

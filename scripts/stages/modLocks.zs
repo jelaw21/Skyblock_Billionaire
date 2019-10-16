@@ -101,7 +101,7 @@ mods.ItemStages.stageModItems("DECO_BUILD", "decobuild");
 mods.ItemStages.stageModItems("LITERAL_ASCENSION", "literalascension");
 mods.ItemStages.stageModItems("DRAWBRIDGE", "drawbridge");
 mods.ItemStages.stageModItems("SIMPLY_LIGHT", "simplylight");
-mods.ItemStages.stageModItems("CRAFISH_FURNITURE", "cfm");
+mods.ItemStages.stageModItems("CRAYFISH_FURNITURE", "cfm");
 mods.ItemStages.stageModItems("BUILDING_GADGETS", "buildinggadgets");
 mods.ItemStages.stageModItems("MALISIS_DOORS", "malisisdoors");
 mods.ItemStages.stageModItems("PAINT_THINGS", "paintatt");

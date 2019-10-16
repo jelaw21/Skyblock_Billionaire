@@ -116,9 +116,21 @@ item.contenttweaker.colossal.name=Mod Unlock: Colossal Chests
 item.contenttweaker.storagenetwork.name=Mod Unlock: Storage Network
 item.contenttweaker.ae2.name=Mod Unlock: Applied Energistics
 item.contenttweaker.refinedstorage.name=Mod Unlock: Refined Storage
-
-
-
+item.contenttweaker.architecture.name=Mod Unlock: Architecture Craft
+item.contenttweaker.blockcraft.name=Mod Unlock: Blockcraftery
+item.contenttweaker.elevator.name=Mod Unlock: Open Blocks Elevator
+item.contenttweaker.literalascension.name=Mod Unlock: Literal Ascension
+item.contenttweaker.paint.name=Mod Unlock: Paint All the Things
+item.contenttweaker.sonar.name=Mod Unlock: SonarCore Deco Blocks
+item.contenttweaker.engineerdecor.name=Mod Unlock: Engineer's Decor and Doors
+item.contenttweaker.xencraft.name=Mod Unlock: Xencraft
+item.contenttweaker.garden.name=Mod Unlock: Garden Stuffs
+item.contenttweaker.deco.name=Mod Unlock: Deco Build
+item.contenttweaker.drawbridge.name=Mod Unlock: Drawbridge
+item.contenttweaker.light.name=Mod Unlock: Simply Light
+item.contenttweaker.cfm.name=Mod Unlock: Crayfish Furniture Mod
+item.contenttweaker.gadgets.name=Mod Unlock: Building Gadgets
+item.contenttweaker.malisis.name=Mod Unlock: Malisis Doors
 item.contenttweaker.approval_loan.name=Loan: $5000
 item.contenttweaker.approval_credit.name=Credit: $5000
 item.contenttweaker.approval_investment.name=Investment: $5000
@@ -131,3 +143,4 @@ item.contenttweaker.vote_6.name=Board Vote #6
 item.contenttweaker.charity_1.name=Charity #1
 item.contenttweaker.charity_2.name=Charity #2
 item.contenttweaker.charity_3.name=Charity #3
+item.contenttweaker.share.name=10,000 Shares
