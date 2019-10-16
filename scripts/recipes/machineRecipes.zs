@@ -20,7 +20,7 @@ val outputE = {
 	
 } as WeightedItemStack[string];
 
-energy.addRecipe(inputE, outputE, 10000, 5);
+energy.addRecipe(inputE, outputE, 10000, 20);
 
 val inputF = {
 
@@ -34,18 +34,4 @@ val outputF = {
 	
 } as WeightedItemStack[string];
 
-liquid.addRecipe(inputF, outputF, 200, 5);
-
-val inputI = {	
-
-	itemIn:<minecraft:wheat>*5
-	
-} as IIngredient[string];
-
-val outputI = {
-	
-	moneyOut:<modcurrency:coin>%90
-	
-} as WeightedItemStack[string];
-
-items.addRecipe(inputI, outputI, 200, 5);
+liquid.addRecipe(inputF, outputF, 200, 20);

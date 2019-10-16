@@ -19,7 +19,13 @@ mods.Delivery.Store.addTrade("EXECUTIVE_DIRECTOR",<extrautils2:machine>.withTag(
 mods.Delivery.Store.addTrade("EXECUTIVE_DIRECTOR",<extrautils2:machine>.withTag({Type: "crafttweaker:global_items"}), special, <contenttweaker:bank_item>.withTag({Total: 15000.0 as float, display: {Lore: ["$15000.0"]}}));
 
 mods.Delivery.Store.addTrade("CEO",<contenttweaker:share>, special, <contenttweaker:bank_item>.withTag({Total: 20000.0 as float, display: {Lore: ["$20000.0"]}}));
+mods.Delivery.Store.addTrade("CEO",<contenttweaker:gemium>, special, <contenttweaker:bank_item>.withTag({Total: 75000.0 as float, display: {Lore: ["$75000.0"]}}));
 
-mods.Delivery.Store.addTrade("REGIONAL_MANAGER",<contenttweaker:gemium>, special, <contenttweaker:bank_item>.withTag({Total: 80000.0 as float, display: {Lore: ["$80000.0"]}}));
+mods.Delivery.Store.addTrade("BOARD_MEMBER",<contenttweaker:vote_1>, special, <contenttweaker:bank_item>.withTag({Total: 30000.0 as float, display: {Lore: ["$30000.0"]}}));
+mods.Delivery.Store.addTrade("BOARD_MEMBER",<contenttweaker:vote_2>, special, <contenttweaker:bank_item>.withTag({Total: 40000.0 as float, display: {Lore: ["$40000.0"]}}));
+mods.Delivery.Store.addTrade("BOARD_MEMBER",<contenttweaker:vote_3>, special, <contenttweaker:bank_item>.withTag({Total: 50000.0 as float, display: {Lore: ["$50000.0"]}}));
+mods.Delivery.Store.addTrade("BOARD_MEMBER",<contenttweaker:vote_4>, special, <minecraft:diamond_block>);
+mods.Delivery.Store.addTrade("BOARD_MEMBER",<contenttweaker:vote_5>, special, <minecraft:bread>);
+mods.Delivery.Store.addTrade("BOARD_MEMBER",<contenttweaker:vote_6>, special, <minecraft:bone>);
 
 mods.Delivery.Store.addTrade("CHAIRMAN",<contenttweaker:trilium>, special, <contenttweaker:bank_item>.withTag({Total: 90000.0 as float, display: {Lore: ["$90000.0"]}}));
