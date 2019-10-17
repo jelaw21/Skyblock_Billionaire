@@ -5,7 +5,7 @@ setIcon(<contenttweaker:bank_item>)
 setDescription("Collect EXACTLY $250,000")
 
 addParent("triumph:billionaire/ceo/root")
-
+setRequiresParents()
 
 //Criteria
 criteria = addCriteria("promotion", "minecraft:inventory_changed")

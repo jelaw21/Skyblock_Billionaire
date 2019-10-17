@@ -5,6 +5,7 @@ setIcon(<silentgems:gem>)
 setDescription("Collect 4 Rubies")
 
 addParent("triumph:billionaire/employee/root")
+setRequiresParents()
 
 
 //Criteria

@@ -5,7 +5,7 @@ setIcon(<minecraft:diamond>)
 setDescription("Collect 16 Diamonds")
 
 addParent("triumph:billionaire/assistantmanager/root")
-
+setRequiresParents()
 
 //Criteria
 criteria = addCriteria("promotion", "minecraft:inventory_changed")

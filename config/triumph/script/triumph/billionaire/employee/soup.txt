@@ -5,6 +5,7 @@ setIcon(<harvestcraft:vegetablesoupitem>)
 setDescription("Collect 4 Vegetable Soup")
 
 addParent("triumph:billionaire/employee/root")
+setRequiresParents()
 
 
 //Criteria

@@ -5,7 +5,7 @@ setIcon(<contenttweaker:share>)
 setDescription("Purchase Global Market: Energy")
 
 addParent("triumph:billionaire/ceo/root")
-
+setRequiresParents()
 
 //Criteria
 criteria = addCriteria("promotion", "minecraft:inventory_changed")

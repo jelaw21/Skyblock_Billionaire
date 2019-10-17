@@ -5,6 +5,7 @@ setIcon(<minecraft:cobblestone>)
 setDescription("Collect 64 Cobblestone")
 
 addParent("triumph:billionaire/employee/root")
+setRequiresParents()
 
 
 //Criteria

@@ -5,7 +5,7 @@ setIcon(<modcurrency:banknote:5>)
 setDescription("Collect $2500")
 
 addParent("triumph:billionaire/assistantmanager/root")
-
+setRequiresParents()
 
 //Criteria
 criteria = addCriteria("promotion", "minecraft:inventory_changed")

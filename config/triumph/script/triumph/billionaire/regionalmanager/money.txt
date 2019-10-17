@@ -5,6 +5,7 @@ setIcon(<contenttweaker:bank_item>)
 setDescription("Collect EXACTLY $25,000")
 
 addParent("triumph:billionaire/generalmanager/root")
+setRequiresParents()
 
 
 //Criteria

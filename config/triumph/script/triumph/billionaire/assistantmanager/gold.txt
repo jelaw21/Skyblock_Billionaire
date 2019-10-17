@@ -5,7 +5,7 @@ setIcon(<minecraft:gold_ingot>)
 setDescription("Collect 32 Gold Ingots")
 
 addParent("triumph:billionaire/assistantmanager/root")
-
+setRequiresParents()
 
 //Criteria
 criteria = addCriteria("promotion", "minecraft:inventory_changed")

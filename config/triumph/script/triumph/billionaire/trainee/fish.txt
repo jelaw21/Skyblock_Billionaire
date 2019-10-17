@@ -5,6 +5,7 @@ setIcon(<minecraft:fish>)
 setDescription("Collect 4 Fish")
 
 addParent("triumph:billionaire/trainee/root")
+setRequiresParents()
 
 //Criteria
 fish = addCriteria("promotionEmployee", "minecraft:inventory_changed")

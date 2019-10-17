@@ -5,6 +5,7 @@ setIcon(<extrautils2:machine>)
 setDescription("Purchase Global Market: Items")
 
 addParent("triumph:billionaire/executivedirector/root")
+setRequiresParents()
 
 
 //Criteria

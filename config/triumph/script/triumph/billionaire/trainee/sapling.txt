@@ -5,6 +5,7 @@ setIcon(<minecraft:sapling>)
 setDescription("Collect 2 Saplings")
 
 addParent("triumph:billionaire/trainee/root")
+setRequiresParents()
 
 //Criteria
 apple = addCriteria("promotionEmployee", "minecraft:inventory_changed")

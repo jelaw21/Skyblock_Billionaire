@@ -5,6 +5,7 @@ setIcon(<contenttweaker:item_water>)
 setDescription("Collect 4 Water Droplets")
 
 addParent("triumph:billionaire/trainee/root")
+setRequiresParents()
 
 //Criteria
 apple = addCriteria("promotionEmployee", "minecraft:inventory_changed")

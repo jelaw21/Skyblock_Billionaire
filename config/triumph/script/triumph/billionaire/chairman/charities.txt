@@ -5,6 +5,7 @@ setIcon(<contenttweaker:charity_1>)
 setDescription("Donate to A Charity")
 
 addParent("triumph:billionaire/chairman/root")
+setRequiresParents()
 
 //Criteria
 criteria = addCriteria("promotion", "minecraft:inventory_changed")

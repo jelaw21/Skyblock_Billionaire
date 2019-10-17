@@ -5,6 +5,7 @@ setIcon(<minecraft:apple>)
 setDescription("Collect 8 Apples")
 
 addParent("triumph:billionaire/trainee/root")
+setRequiresParents()
 
 
 //Criteria

@@ -5,7 +5,7 @@ setIcon(<minecraft:emerald>)
 setDescription("Collect 16 Emeralds")
 
 addParent("triumph:billionaire/assistantmanager/root")
-
+setRequiresParents()
 
 //Criteria
 criteria = addCriteria("promotion", "minecraft:inventory_changed")

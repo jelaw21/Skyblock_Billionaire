@@ -5,6 +5,7 @@ setIcon(<minecraft:bread>)
 setDescription("Collect 8 Bread")
 
 addParent("triumph:billionaire/employee/root")
+setRequiresParents()
 
 criteria = addCriteria("promotionEmployee", "minecraft:inventory_changed")
 criteria.addItem(<minecraft:bread, count:8~>);

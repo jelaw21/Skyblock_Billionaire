@@ -5,6 +5,7 @@ setIcon(<minecraft:dirt>)
 setDescription("Collect 16 Dirt")
 
 addParent("triumph:billionaire/trainee/root")
+setRequiresParents()
 
 //Criteria
 dirt = addCriteria("promotionEmployee", "minecraft:inventory_changed")
