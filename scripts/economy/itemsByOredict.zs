@@ -355,7 +355,7 @@ for items in onePenny{
 	
 	for entry in items.items{
 		entry.addTooltip(format.blue("$0.01"));
-		machine.addRecipe({"itemIn":entry}, {"moneyOut":<modcurrency:coin>%80}, 200, 20);
+		machine.addRecipe({"itemIn":entry}, {"moneyOut":<modcurrency:coin>%80}, 200, 60);
 	}	
 }
 
@@ -363,7 +363,7 @@ for items in oneNickel{
 	
 	for entry in items.items{
 		entry.addTooltip(format.blue("$0.05"));
-		machine.addRecipe({"itemIn":entry}, {"moneyOut":<modcurrency:coin:1>%80}, 200, 20);
+		machine.addRecipe({"itemIn":entry}, {"moneyOut":<modcurrency:coin:1>%80}, 200, 60);
 	}	
 }
 
@@ -371,7 +371,7 @@ for items in oneDime{
 	
 	for entry in items.items{
 		entry.addTooltip(format.blue("$0.10"));
-		machine.addRecipe({"itemIn":entry}, {"moneyOut":<modcurrency:coin:2>%80}, 200, 20);
+		machine.addRecipe({"itemIn":entry}, {"moneyOut":<modcurrency:coin:2>%80}, 200, 60);
 	}	
 }
 
@@ -379,7 +379,7 @@ for items in oneQuarter{
 	
 	for entry in items.items{
 		entry.addTooltip(format.blue("$0.25"));
-		machine.addRecipe({"itemIn":entry}, {"moneyOut":<modcurrency:coin:3>%80}, 200, 20);
+		machine.addRecipe({"itemIn":entry}, {"moneyOut":<modcurrency:coin:3>%80}, 200, 60);
 	}	
 }
 
@@ -387,7 +387,7 @@ for items in twoQuarter{
 	
 	for entry in items.items{
 		entry.addTooltip(format.blue("$0.50"));
-		machine.addRecipe({"itemIn":entry}, {"moneyOut":<modcurrency:coin:3>*2%80}, 200, 20);
+		machine.addRecipe({"itemIn":entry}, {"moneyOut":<modcurrency:coin:3>*2%80}, 200, 60);
 	}	
 }
 
@@ -395,7 +395,7 @@ for items in oneDollar{
 	
 	for entry in items.items{
 		entry.addTooltip(format.blue("$1"));
-		machine.addRecipe({"itemIn":entry}, {"moneyOut":<modcurrency:coin:4>%80}, 200, 20);
+		machine.addRecipe({"itemIn":entry}, {"moneyOut":<modcurrency:coin:4>%80}, 200, 60);
 		mods.Delivery.Store.addTrade("ASSISTANT_MANAGER",entry*32, <modcurrency:banknote:1>*32);
 	}	
 }
@@ -404,7 +404,7 @@ for items in threeDollar{
 	
 	for entry in items.items{
 		entry.addTooltip(format.blue("$3"));
-		machine.addRecipe({"itemIn":entry}, {"moneyOut":<modcurrency:coin:4>*3%80}, 200, 20);
+		machine.addRecipe({"itemIn":entry}, {"moneyOut":<modcurrency:coin:4>*3%80}, 200, 60);
 		mods.Delivery.Store.addTrade("ASSISTANT_MANAGER",entry*16, <modcurrency:banknote:1>*48);
 	}	
 }
@@ -413,7 +413,7 @@ for items in oneFive{
 	
 	for entry in items.items{
 		entry.addTooltip(format.blue("$5"));
-		machine.addRecipe({"itemIn":entry}, {"moneyOut":<modcurrency:banknote:1>%80}, 200, 20);
+		machine.addRecipe({"itemIn":entry}, {"moneyOut":<modcurrency:banknote:1>%80}, 200, 60);
 		mods.Delivery.Store.addTrade("ASSISTANT_MANAGER",entry*16, <modcurrency:banknote:1>*16);
 	}	
 }
@@ -422,7 +422,7 @@ for items in oneTen{
 	
 	for entry in items.items{
 		entry.addTooltip(format.blue("$10"));
-		machine.addRecipe({"itemIn":entry}, {"moneyOut":<modcurrency:banknote:2>%80}, 200, 20);
+		machine.addRecipe({"itemIn":entry}, {"moneyOut":<modcurrency:banknote:2>%80}, 200, 60);
 		mods.Delivery.Store.addTrade("ASSISTANT_MANAGER",entry*8, <modcurrency:banknote:1>*8);
 	}	
 }
@@ -431,7 +431,7 @@ for items in oneTwenty{
 	
 	for entry in items.items{
 		entry.addTooltip(format.blue("$20"));
-		machine.addRecipe({"itemIn":entry}, {"moneyOut":<modcurrency:banknote:3>%80}, 200, 20);
+		machine.addRecipe({"itemIn":entry}, {"moneyOut":<modcurrency:banknote:3>%80}, 200, 60);
 		mods.Delivery.Store.addTrade("ASSISTANT_MANAGER",entry*8, <modcurrency:banknote:1>*8);
 	}	
 }
@@ -440,7 +440,7 @@ for items in oneFifty{
 	
 	for entry in items.items{
 		entry.addTooltip(format.blue("$50"));
-		machine.addRecipe({"itemIn":entry}, {"moneyOut":<modcurrency:banknote:4>%90}, 200, 20);
+		machine.addRecipe({"itemIn":entry}, {"moneyOut":<modcurrency:banknote:4>%90}, 200, 60);
 		mods.Delivery.Store.addTrade("ASSISTANT_MANAGER",entry*4, <modcurrency:banknote:1>*4);
 	}	
 }
@@ -449,7 +449,7 @@ for items in oneHundred{
 	
 	for entry in items.items{
 		entry.addTooltip(format.blue("$100"));
-		machine.addRecipe({"itemIn":entry}, {"moneyOut":<modcurrency:banknote:5>%90}, 200, 20);
+		machine.addRecipe({"itemIn":entry}, {"moneyOut":<modcurrency:banknote:5>%90}, 200, 60);
 		mods.Delivery.Store.addTrade("ASSISTANT_MANAGER",entry*2, <modcurrency:banknote:1>*2);
 	}	
 }
@@ -458,6 +458,6 @@ for items in fiveHundred{
 	
 	for entry in items.items{
 		entry.addTooltip(format.blue("$500"));
-		machine.addRecipe({"itemIn":entry}, {"moneyOut":<modcurrency:banknote:5>*5%90}, 200, 20);
+		machine.addRecipe({"itemIn":entry}, {"moneyOut":<modcurrency:banknote:5>*5%90}, 200, 60);
 	}	
 }

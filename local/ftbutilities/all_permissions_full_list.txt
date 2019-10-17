@@ -1,4 +1,4 @@
-13742 nodes in total
+13756 nodes in total
 Modifying this file won't have any effect, edit ranks.txt!
 
 admin_panel.ftbutilities.crash_reports.delete: OP
@@ -584,6 +584,9 @@ ftbutilities.claims.block.edit.archicraft.stallweaver: OP
 ftbutilities.claims.block.edit.archicraft.stonepath: OP
 ftbutilities.claims.block.edit.architecturecraft.sawbench: OP
 ftbutilities.claims.block.edit.architecturecraft.shape: OP
+ftbutilities.claims.block.edit.aroma1997sdimension.miningore: OP
+ftbutilities.claims.block.edit.aroma1997sdimension.miningportal: OP
+ftbutilities.claims.block.edit.aroma1997sdimension.portalframe: OP
 ftbutilities.claims.block.edit.bigreactors.blockblutonium: OP
 ftbutilities.claims.block.edit.bigreactors.blockcyanite: OP
 ftbutilities.claims.block.edit.bigreactors.blockgraphite: OP
@@ -1639,6 +1642,7 @@ ftbutilities.claims.block.edit.enderio.block_wireless_charger: OP
 ftbutilities.claims.block.edit.enderio.block_wireless_charger_extension: OP
 ftbutilities.claims.block.edit.enderio.block_xp_vacuum: OP
 ftbutilities.claims.block.edit.enderio.block_zombie_generator: OP
+ftbutilities.claims.block.edit.energeticsheep.energetic_wool: OP
 ftbutilities.claims.block.edit.engineersdecor.clinker_brick_block: OP
 ftbutilities.claims.block.edit.engineersdecor.clinker_brick_slab: OP
 ftbutilities.claims.block.edit.engineersdecor.clinker_brick_stained_block: OP
@@ -3984,6 +3988,9 @@ ftbutilities.claims.block.interact.archicraft.stallweaver: OP
 ftbutilities.claims.block.interact.archicraft.stonepath: OP
 ftbutilities.claims.block.interact.architecturecraft.sawbench: OP
 ftbutilities.claims.block.interact.architecturecraft.shape: OP
+ftbutilities.claims.block.interact.aroma1997sdimension.miningore: OP
+ftbutilities.claims.block.interact.aroma1997sdimension.miningportal: OP
+ftbutilities.claims.block.interact.aroma1997sdimension.portalframe: OP
 ftbutilities.claims.block.interact.bigreactors.blockblutonium: OP
 ftbutilities.claims.block.interact.bigreactors.blockcyanite: OP
 ftbutilities.claims.block.interact.bigreactors.blockgraphite: OP
@@ -5039,6 +5046,7 @@ ftbutilities.claims.block.interact.enderio.block_wireless_charger: OP
 ftbutilities.claims.block.interact.enderio.block_wireless_charger_extension: OP
 ftbutilities.claims.block.interact.enderio.block_xp_vacuum: OP
 ftbutilities.claims.block.interact.enderio.block_zombie_generator: OP
+ftbutilities.claims.block.interact.energeticsheep.energetic_wool: OP
 ftbutilities.claims.block.interact.engineersdecor.clinker_brick_block: OP
 ftbutilities.claims.block.interact.engineersdecor.clinker_brick_slab: OP
 ftbutilities.claims.block.interact.engineersdecor.clinker_brick_stained_block: OP
@@ -7636,6 +7644,10 @@ ftbutilities.claims.item.architecturecraft.largepulley: ALL
 ftbutilities.claims.item.architecturecraft.sawbench: ALL
 ftbutilities.claims.item.architecturecraft.sawblade: ALL
 ftbutilities.claims.item.architecturecraft.shape: ALL
+ftbutilities.claims.item.aroma1997sdimension.dimensionchanger: ALL
+ftbutilities.claims.item.aroma1997sdimension.miningmultitool: ALL
+ftbutilities.claims.item.aroma1997sdimension.miningore: ALL
+ftbutilities.claims.item.aroma1997sdimension.portalframe: ALL
 ftbutilities.claims.item.base.wrench: ALL
 ftbutilities.claims.item.baubles.ring: ALL
 ftbutilities.claims.item.bigreactors.blockblutonium: ALL
@@ -8983,6 +8995,8 @@ ftbutilities.claims.item.enderio.item_stellar_alloy_sword: ALL
 ftbutilities.claims.item.enderio.item_travel_staff: ALL
 ftbutilities.claims.item.enderio.item_xp_transfer: ALL
 ftbutilities.claims.item.enderio.item_yeta_wrench: ALL
+ftbutilities.claims.item.energeticsheep.energetic_shears: ALL
+ftbutilities.claims.item.energeticsheep.energetic_wool: ALL
 ftbutilities.claims.item.engineersdecor.clinker_brick_block: ALL
 ftbutilities.claims.item.engineersdecor.clinker_brick_slab: ALL
 ftbutilities.claims.item.engineersdecor.clinker_brick_stained_block: ALL
@@ -13754,6 +13768,9 @@ command.ancientwarfare.awstructure
 command.ancientwarfare.awutils
 command.ancientwarfare.awwarehouse
 command.appliedenergistics2.ae2
+command.aroma1997core.aroma1997
+command.aroma1997core.sleep
+command.aroma1997sdimension.dimensionalworld
 command.base.base.recipes.reload
 command.baubles.baubles
 command.bdlib.dumpregistry
@@ -13773,6 +13790,7 @@ command.crafttweaker.crafttweaker
 command.crafttweaker.ctgui
 command.cyclopscore.colossalchests
 command.cyclopscore.cyclopscore
+command.cyclopscore.energeticsheep
 command.debug
 command.defaultgamemode
 command.difficulty
