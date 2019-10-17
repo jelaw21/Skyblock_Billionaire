@@ -5,6 +5,7 @@ setIcon(<soulus:bone_normal>)
 setDescription("Collect 4 Normal Bones")
 
 addParent("triumph:billionaire/shiftmanager/root")
+setRequiresParents()
 
 
 //Criteria

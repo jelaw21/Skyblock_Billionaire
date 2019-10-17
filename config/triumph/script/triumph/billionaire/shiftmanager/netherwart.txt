@@ -5,6 +5,7 @@ setIcon(<minecraft:nether_wart>)
 setDescription("Collect 16 Nether Wart")
 
 addParent("triumph:billionaire/shiftmanager/root")
+setRequiresParents()
 
 
 //Criteria

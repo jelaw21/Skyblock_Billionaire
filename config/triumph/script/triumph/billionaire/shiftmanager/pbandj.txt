@@ -5,6 +5,7 @@ setIcon(<harvestcraft:pbandjitem>)
 setDescription("Collect 16 PB & J")
 
 addParent("triumph:billionaire/shiftmanager/root")
+setRequiresParents()
 
 
 //Criteria

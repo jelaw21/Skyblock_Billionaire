@@ -5,6 +5,7 @@ setIcon(<ancientwarfarenpc:food_bundle>)
 setDescription("Collect 8 Food Bundles")
 
 addParent("triumph:billionaire/shiftmanager/root")
+setRequiresParents()
 
 
 //Criteria

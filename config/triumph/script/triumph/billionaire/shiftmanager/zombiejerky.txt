@@ -5,6 +5,7 @@ setIcon(<harvestcraft:zombiejerkyitem>)
 setDescription("Collect 8 Zombie Jerky")
 
 addParent("triumph:billionaire/shiftmanager/root")
+setRequiresParents()
 
 
 //Criteria
