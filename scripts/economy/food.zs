@@ -96,6 +96,6 @@ for item in loadedMods["minecraft"].items {
 
 	if(item.healAmount > 0 & item.healAmount < 1){
 		item.addTooltip(format.blue("$0.05"));
-		machine.addRecipe({"itemIn":item}, {"moneyOut":<modcurrency:coin:1>%80}, 200, 60);		
+		machine.addRecipe({"itemIn":item}, {"moneyOut":<modcurrency:coin:1>%80}, 200, 60);
 	}	
 }
