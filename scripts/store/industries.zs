@@ -26,3 +26,4 @@ mods.Delivery.Store.addTrade("GENERAL_MANAGER",<contenttweaker:superfactory>, in
 mods.Delivery.Store.addTrade("REGIONAL_MANAGER",<contenttweaker:compact>, industries, <contenttweaker:bank_item>.withTag({Total: 20000.0 as float, display: {Lore: ["$20000.0"]}}));
 mods.Delivery.Store.addTrade("REGIONAL_MANAGER",<contenttweaker:industmeat>, industries, <contenttweaker:bank_item>.withTag({Total: 20000.0 as float, display: {Lore: ["$20000.0"]}}));
 mods.Delivery.Store.addTrade("REGIONAL_MANAGER",<contenttweaker:industrenew>, industries, <contenttweaker:bank_item>.withTag({Total: 20000.0 as float, display: {Lore: ["$20000.0"]}}));
+mods.Delivery.Store.addTrade("CHAIRMAN",<contenttweaker:moo_fluids>, industries, <contenttweaker:bank_item>.withTag({Total: 20000.0 as float, display: {Lore: ["$20000.0"]}}));

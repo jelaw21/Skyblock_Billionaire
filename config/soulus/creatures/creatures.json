@@ -50,6 +50,16 @@
 			"insert_strategy": "merge",
 			"insert_path": [],
 			"from": "mob_stages/dog"
+		},
+		{
+			"conditions": {
+				"type": "gamestage",
+				"player": "any",
+				"stages": ["RF_SHEEP"]
+			},
+			"insert_strategy": "merge",
+			"insert_path": [],
+			"from": "mob_stages/sheep"
 		}
 	]
 }

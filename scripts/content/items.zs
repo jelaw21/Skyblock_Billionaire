@@ -120,7 +120,8 @@ modbook.textureLocation = image;
 modbook.rarity = "rare";
 modbook.itemRightClick = function(stack, world, player, hand) {
     Commands.call("gamestage add @s MOO", player, world, false, true);
-	stack.shrink(1);
+    Commands.call("tellraw @s {\"text\":\"Moo Fluids Cows now have a chance to spawn on grassy areas.\", \"color\":\"gold\"}", player, world);
+    stack.shrink(1);
     return "Pass";
 };
 modbook.register();
@@ -895,6 +896,18 @@ modbook.itemRightClick = function(stack, world, player, hand) {
 };
 modbook.register();
 
+modbook = VanillaFactory.createItem("rfsheep");
+modbook.maxStackSize = 1;
+modbook.textureLocation = image;
+modbook.rarity = "rare";
+modbook.itemRightClick = function(stack, world, player, hand) {
+    Commands.call("gamestage add @s RF_SHEEP", player, world, false, true);
+    Commands.call("tellraw @s {\"text\":\"Energetic Sheep now have a chance to spawn on grassy areas.\", \"color\":\"gold\"}", player, world);
+
+    return "Pass";
+};
+modbook.register();
+
 
 var bank = VanillaFactory.createItem("bank_item");
 bank.maxStackSize = 1;
@@ -1119,18 +1132,41 @@ var charityItem = VanillaFactory.createItem("charity_1");
 charityItem.maxStackSize = 1;
 charityItem.textureLocation = charity;
 charityItem.rarity = "rare";
+charityItem.itemRightClick = function(stack, world, player, hand) {
+    Commands.call("give @s contenttweaker:moo_fluids", player, world, false, true);
+    Commands.call("gamestage silentremove @s CHAIRMAN_STORE", player, world, false, true);
+    Commands.call("tellraw @s {\"text\":\"We here at Bovine Enhancements, thank you for you generous support. We work hard to find alternative uses for cows other than the dinner table. Maybe, if cows become more vital to our culture, they will stop being slaughtered for food. We thank you for joining us in this endeavor and we have offered you a gift of one of our many breakthroughs. \", \"color\":\"gold\"}", player, world);
+
+	stack.shrink(1);
+    return "Pass";
+};
 charityItem.register();
 
 charityItem = VanillaFactory.createItem("charity_2");
 charityItem.maxStackSize = 1;
 charityItem.textureLocation = charity;
 charityItem.rarity = "rare";
+charityItem.itemRightClick = function(stack, world, player, hand) {
+    Commands.call("give @s contenttweaker:rfsheep", player, world, false, true);
+    Commands.call("gamestage silentremove @s CHAIRMAN_STORE", player, world, false, true);
+    Commands.call("tellraw @s {\"text\":\"Have you ever rubbed a balloon on your head and got shocked? HAve you ever wondered if that electricity could be harnessed and used. We here at Static Electric Research do just that. Our dream is to provide an even more eco-friendly solution to the power crisis. WIth your help, we have succeeded. Enjoy! \", \"color\":\"gold\"}", player, world);
+
+	stack.shrink(1);
+    return "Pass";
+};
 charityItem.register();
 
 charityItem = VanillaFactory.createItem("charity_3");
 charityItem.maxStackSize = 1;
 charityItem.textureLocation = charity;
 charityItem.rarity = "rare";
+charityItem.itemRightClick = function(stack, world, player, hand) {
+    Commands.call("give @s contenttweaker:simplyjetpacks", player, world, false, true);
+    Commands.call("gamestage silentremove @s CHAIRMAN_STORE", player, world, false, true);
+    Commands.call("tellraw @s {\"text\":\"The power of a rocket strapped to your back and distributed to anyone willing to give it a try. What could go wrong?  Try one yourself! \", \"color\":\"gold\"}", player, world);
+	stack.shrink(1);
+    return "Pass";
+};
 charityItem.register();
 
 var share = VanillaFactory.createItem("share");

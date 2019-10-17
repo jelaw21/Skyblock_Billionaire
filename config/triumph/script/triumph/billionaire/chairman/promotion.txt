@@ -5,6 +5,7 @@ setIcon(<minecraft:skull:3>)
 setDescription("Please consult the employee handbook for further instructions.")
 
 addParent("triumph:billionaire/chairman/money")
+addParent("triumph:billionaire/chairman/charities")
 setRequiresParents()
 
 //Criteria

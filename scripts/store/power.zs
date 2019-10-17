@@ -8,3 +8,4 @@ mods.Delivery.Store.addTrade("REGIONAL_MANAGER",<contenttweaker:solarflux>, powe
 mods.Delivery.Store.addTrade("REGIONAL_MANAGER",<contenttweaker:extremereactors>, power, <contenttweaker:bank_item>.withTag({Total: 50000.0 as float, display: {Lore: ["$50000.0"]}}));
 mods.Delivery.Store.addTrade("REGIONAL_MANAGER",<contenttweaker:advsolars>, power, <contenttweaker:bank_item>.withTag({Total: 25000.0 as float, display: {Lore: ["$25000.0"]}}));
 mods.Delivery.Store.addTrade("REGIONAL_MANAGER",<contenttweaker:mekgenerators>, power, <contenttweaker:bank_item>.withTag({Total: 25000.0 as float, display: {Lore: ["$25000.0"]}}));
+mods.Delivery.Store.addTrade("CHAIRMAN",<contenttweaker:rfsheep>, power, <contenttweaker:bank_item>.withTag({Total: 25000.0 as float, display: {Lore: ["$25000.0"]}}));
