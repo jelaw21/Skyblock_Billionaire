@@ -1035,10 +1035,23 @@ assistant.rarity="uncommon";
 assistant.textureLocation = backpack;
 assistant.itemRightClick = function(stack, world, player, hand) {
     Commands.call("give @s contenttweaker:coupon", player, world, false, true);
+    Commands.call("give @s modcurrency:wallet", player, world, false, true);
+    Commands.call("give @s delivery:shipping_crate", player, world, false, true);
 	stack.shrink(1);
     return "Pass";
 };
 assistant.register();
+
+var general = VanillaFactory.createItem("general_kit");
+general.rarity="uncommon";
+general.textureLocation = backpack;
+general.itemRightClick = function(stack, world, player, hand) {
+    Commands.call("give @s contenttweaker:bank_item", player, world, false, true);
+    Commands.call("give @s contenttweaker:split_bill", player, world, false, true);
+	stack.shrink(1);
+    return "Pass";
+};
+general.register();
 
 var block = VanillaFactory.createBlock("chaos_endstone", <blockmaterial:rock>);
 block.setBlockHardness(3.0);

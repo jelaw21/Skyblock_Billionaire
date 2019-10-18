@@ -4,7 +4,7 @@ mods.Delivery.Store.addTrade("SHIFT_MANAGER",<thermalfoundation:tool.fishing_rod
 
 mods.Delivery.Store.addTrade("SHIFT_MANAGER",<soulus:gear_oscillating>, special, <soulus:ingot_endersteel>*2);
 
-mods.Delivery.Store.addTrade("GENERAL_MANAGER",<aroma1997dimension:dimensionchanger>, special, <contenttweaker:bank_item>.withTag({Total: 7000.0 as float, display: {Lore: ["$7000.0"]}}));
+mods.Delivery.Store.addTrade("GENERAL_MANAGER",<aroma1997sdimension:dimensionchanger>, special, <contenttweaker:bank_item>.withTag({Total: 7000.0 as float, display: {Lore: ["$7000.0"]}}));
 
 mods.Delivery.Store.addTrade("REGIONAL_MANAGER",<contenttweaker:redium_lapium>, special, <contenttweaker:bank_item>.withTag({Total: 60000.0 as float, display: {Lore: ["$60000.0"]}}));
 
@@ -26,9 +26,9 @@ mods.Delivery.Store.addTrade("CEO",<contenttweaker:gemium>, special, <contenttwe
 mods.Delivery.Store.addTrade("BOARD_MEMBER",<contenttweaker:vote_1>, special, <contenttweaker:bank_item>.withTag({Total: 30000.0 as float, display: {Lore: ["$30000.0"]}}));
 mods.Delivery.Store.addTrade("BOARD_MEMBER",<contenttweaker:vote_2>, special, <contenttweaker:bank_item>.withTag({Total: 40000.0 as float, display: {Lore: ["$40000.0"]}}));
 mods.Delivery.Store.addTrade("BOARD_MEMBER",<contenttweaker:vote_3>, special, <contenttweaker:bank_item>.withTag({Total: 50000.0 as float, display: {Lore: ["$50000.0"]}}));
-mods.Delivery.Store.addTrade("BOARD_MEMBER",<contenttweaker:vote_4>, special, <minecraft:diamond_block>);
-mods.Delivery.Store.addTrade("BOARD_MEMBER",<contenttweaker:vote_5>, special, <minecraft:bread>);
-mods.Delivery.Store.addTrade("BOARD_MEMBER",<contenttweaker:vote_6>, special, <minecraft:bone>);
+mods.Delivery.Store.addTrade("BOARD_MEMBER",<contenttweaker:vote_4>, special, <minecraft:diamond_block>*32, <minecraft:emerald_block>*16);
+mods.Delivery.Store.addTrade("BOARD_MEMBER",<contenttweaker:vote_5>, special, <harvestcraft:southernstylebreakfastitem>*2, <harvestcraft:meatfeastpizzaitem>*2, <harvestcraft:thankfuldinneritem>*2);
+mods.Delivery.Store.addTrade("BOARD_MEMBER",<contenttweaker:vote_6>, special, <minecraft:rotten_flesh>*32, <minecraft:spider_eye>*8, <minecraft:ender_pearl>*16);
 
 
 mods.Delivery.Store.addTrade("CHAIRMAN_STORE",<contenttweaker:charity_1>, special, <contenttweaker:bank_item>.withTag({Total: 200000.0 as float, display: {Lore: ["$200000.0"]}}));

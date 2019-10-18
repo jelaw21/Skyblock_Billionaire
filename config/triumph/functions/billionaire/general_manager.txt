@@ -1,4 +1,5 @@
 execute @s ~ ~ ~ gamestage silentadd @p GENERAL_MANAGER
 title @s subtitle "PROMOTION EARNED - SEE HANDBOOK"
 title @s title "GENERAL MANAGER"
+give @s contenttweaker:general_kit
 ranks set @s general
