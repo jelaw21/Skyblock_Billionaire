@@ -7,10 +7,10 @@ val onePenny = [
 	
 	<minecraft:dirt:*>
 	
-	
 ] as IItemStack[];
 
 val oneNickel = [
+
 	<minecraft:stone:*>,
 	<minecraft:stonebrick:*>,
 	<minecraft:carpet:*>,
@@ -87,12 +87,10 @@ val oneDime = [
 	<minecraft:clay_ball>,
 	<silentgems:gemshard:*>
 	
-	
-	
-	
 ] as IItemStack[];
 
 val oneQuarter = [
+
 	<minecraft:nether_brick:*>,
 	<chisel:netherbrick:*>,
 	<extrautils2:decorativesolid:4>,
@@ -108,11 +106,8 @@ val oneQuarter = [
 	<silentgems:gembrickcoatedlight:*>,
 	<silentgems:craftingmaterial:6>,
 	<powderpower:nuggetredium>,
-	<powderpower:nuggetlapium>
-	
-	
-	
-	
+	<powderpower:nuggetlapium>,
+	<mekanism:biofuel>
 	
 ] as IItemStack[];
 
@@ -138,9 +133,9 @@ val twoQuarter=[
 	<powderpower:powdernetherquartz>,
 	<powderpower:powderendstone>,
 	<powderpower:powderpurpur>,
-	<powderpower:powderprismarine>
-	
-	
+	<powderpower:powderprismarine>,
+	<mekanism:balloon>,
+	<mekanism:ingot:1>
 	
 ] as IItemStack[];
 
@@ -154,9 +149,19 @@ val oneDollar = [
 	<minecraft:enchanted_book>,
 	<prefab:item_pile_of_bricks>,
 	<silentgems:gem:*>,
-	<silentgems:craftingmaterial:19>
-	
-	
+	<silentgems:craftingmaterial:19>,
+	<industrialmeat:raw_meat_ingot>,
+	<mekanism:dirtydust:3>,
+    <mekanism:dirtydust:4>,
+    <mekores:mekanismore:33>,
+    <mekanism:dirtydust:6>,
+    <mekores:mekanismore:13>,
+    <mekanism:dirtydust>,
+    <mekanism:dirtydust:2>,
+    <mekanism:dirtydust:5>,
+    <mekanism:dirtydust:1>,
+    <mekanism:ingot:3>,
+    <mekanism:oreblock>
 	
 ] as IItemStack[];
 
@@ -172,8 +177,15 @@ val twoDollar = [
 	<silentgems:dagger>,
 	<silentgems:shovel>,
 	<powderpower:blendredstone>,
-	<powderpower:blendlapis>
-	
+	<powderpower:blendlapis>,
+	<industrialmeat:cooked_meat_ingot>,
+	<mekanism:plasticblock>,
+	<mekanism:slickplasticblock>,
+	<mekanism:glowplasticblock>,
+	<mekanism:reinforcedplasticblock>,
+    <mekanism:roadplasticblock>
+
+
 	
 ] as IItemStack[];
 
@@ -196,10 +208,15 @@ val threeDollar=[
 	<powderpower:ingotredium>,
 	<powderpower:ingotlapium>,
 	<powderpower:gemgemium>,
-	<powderpower:nuggettrilium>
-	
-	
-	
+	<powderpower:nuggettrilium>,
+	<mekores:mekanismore:3>,
+    <mekores:mekanismore:8>,
+    <mekores:mekanismore:18>,
+    <mekores:mekanismore:28>,
+    <mekores:mekanismore:108>,
+    <mekanism:plasticfence>,
+    <mekanism:glowpanel>,
+    <mekanism:ingot>
 	
 ]as IItemStack[];
 
@@ -222,7 +239,12 @@ val oneFive = [
 	<silentgems:helmet>,
 	<silentgems:chestplate>,
 	<silentgems:leggings>,
-	<silentgems:boots>
+	<silentgems:boots>,
+	<seltaks_weapon_pack:bladeofchaos>,
+    <seltaks_weapon_pack:bladeofgaia>,
+    <seltaks_weapon_pack:bladeoferos>,
+    <seltaks_weapon_pack:bladeofaither>,
+    <mekanism:basicblock>
 	
 	
 ] as IItemStack[];
@@ -263,10 +285,10 @@ val oneTen = [
 	<powderpower:pickaxegemium>,
 	<powderpower:axeredium>,
 	<powderpower:axelapium>,
-	<powderpower:axegemium>
-	
-	
-	
+	<powderpower:axegemium>,
+	<industrialmeat:raw_meat_block>,
+	<seltaks_weapon_pack:bladeofapate>,
+    <mekanism:basicblock:4>
 	
 ] as IItemStack[];
 
@@ -288,13 +310,14 @@ val oneTwenty = [
 	<powderpower:armorgemiumlegs>,
 	<powderpower:armorrediumboots>,
 	<powderpower:armorlapiumboots>,
-	<powderpower:armorgemiumboots>	
-	
+	<powderpower:armorgemiumboots>,
+	<industrialmeat:cooked_meat_block>,
+	<seltaks_weapon_pack:bladeoftartaros>,
+	<seltaks_weapon_pack:axeofmoros>
 	
 ] as IItemStack[];
 
 val threeTen = [
-
 	
 	<silentgems:gemblocksuper:*>,
 	<silentgems:gemblocksuperdark:*>,
@@ -304,8 +327,9 @@ val threeTen = [
 	<powderpower:ingottrilium>,
 	<powderpower:armorrediumbody>,
 	<powderpower:armorlapiumbody>,
-	<powderpower:armorgemiumbody>
-	
+	<powderpower:armorgemiumbody>,
+	<seltaks_weapon_pack:bladeofhemera>,
+	<mekanism:basicblock:2>
 	
 ] as IItemStack[];
 
@@ -322,9 +346,7 @@ val oneFifty = [
 	<silentgems:teleporterredstonelight:*>,
 	<silentgems:chaosgem:*>,
 	<powderpower:shoveltrilium>,
-	
-	
-	
+<seltaks_weapon_pack:bladeofmoiren>
 	
 ] as IItemStack[];
 
@@ -336,9 +358,7 @@ val oneHundred = [
 	<extrautils2:opinium:6>,
 	<powderpower:swordtrilium>,
 	<powderpower:pickaxetrilium>,
-	<powderpower:axetrilium>,
-	
-	
+	<powderpower:axetrilium>
 	
 ] as IItemStack[];
 
@@ -350,7 +370,6 @@ val twoHundred = [
 	<powderpower:armortriliumhelmet>,
 	<powderpower:armortriliumlegs>,
 	<powderpower:armortriliumboots>
-	
 	
 ] as IItemStack[];
 

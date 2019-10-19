@@ -61,6 +61,7 @@ recipes.addShapeless(<contenttweaker:steel_strip>*2, [<resourcehogs:bacon>.withT
 
 
 //SHAPED
+recipes.addShaped(<superfactorymanager:cable>*8, [[<ore:blockGlass>, <minecraft:light_weighted_pressure_plate>, <ore:blockGlass>],[<ore:ingotIron>, <minecraft:redstone>, <ore:ingotIron>], [<ore:blockGlass>, <minecraft:light_weighted_pressure_plate>, <ore:blockGlass>]]);
 recipes.addShaped(<petrock:stoneium>, [[null, <minecraft:stone>, null],[<minecraft:stone>, <minecraft:iron_ingot>, <minecraft:stone>], [null, <minecraft:stone>, null]]);
 recipes.addShaped("soulus/bars_endersteel_ender", <soulus:bars_endersteel:3> * 8, [[<soulus:dust_ender:*>,
 <soulus:bars_endersteel> | <soulus:bars_endersteel:1> | <soulus:bars_endersteel:2> | <soulus:bars_endersteel:4> |

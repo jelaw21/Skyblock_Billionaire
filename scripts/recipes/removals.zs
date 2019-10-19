@@ -1,5 +1,5 @@
 #priority 10
-
+recipes.remove(<superfactorymanager:cable>);
 recipes.remove(<extrautils2:teleporter:1>);
 recipes.remove(<boneappetit:fiery_bone_meal>);
 recipes.remove(<earthworks:block_rammed_earth>);

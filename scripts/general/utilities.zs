@@ -1,7 +1,8 @@
 import crafttweaker.data.IData;
 
 <contenttweaker:shift_kit>.addTooltip("Gives 4 items. Make room!");
-<contenttweaker:assistant_kit>.addTooltip("Gives 4 items. Make room!");
+<contenttweaker:assistant_kit>.addTooltip("Gives 3 items. Make room!");
+<contenttweaker:general_kit>.addTooltip("Gives 2 items. Make room!");
 <contenttweaker:agricraft>.addTooltip(format.green("Right Click to Use"));
 <contenttweaker:chisel>.addTooltip(format.green("Right Click to Use"));
 <contenttweaker:kitchen>.addTooltip(format.green("Right Click to Use"));
@@ -23,7 +24,7 @@ import crafttweaker.data.IData;
 <contenttweaker:virtualmachines>.addTooltip(format.green("REQUIRES THERMAL EXPANSION"));
 <contenttweaker:mekgenerators>.addTooltip(format.green("REQUIRES MEKANISM"));
 <contenttweaker:advsolars>.addTooltip(format.green("REQUIRES IC2"));
-
+<fartgen:generator>.addTooltip(format.green("REQUIRES CHICKENS NEARBY"));
 
 
 //ORE DICT
