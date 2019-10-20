@@ -172,6 +172,9 @@ val twoQuarter=[
 	<ore:essenceTier2>,
 	<ore:compressedStone1>,
 	<ore:chestWood>,
+	<immersiveengineering:sheetmetal:*>,
+    <immersiveengineering:sheetmetal_slab:*>
+
 	
 ] as IIngredient[];
 
@@ -218,7 +221,9 @@ val oneDollar = [
 	<ore:blockLapis>,
 	<ore:essenceTier3>,
 	<ore:blockRedstone>,
-	<ore:compressedDirt2>
+	<ore:compressedDirt2>,
+	<ore:ingotRefinedIron>,
+	<ore:ingotZinc>
 	
 ] as IIngredient[];
 
@@ -261,6 +266,7 @@ val threeDollar=[
 	<ore:blockPrismarine>,
 	<ore:blockPrismarineBrick>,
 	<ore:blockPrismarineDark>,
+	<ore:blockUranium>
 	
 ]as IIngredient[];
 
@@ -304,7 +310,8 @@ val oneTen = [
 	<ore:blockSoulium>,
 	<ore:blockDiamond>,
 	<ore:blockEmerald>,
-	<ore:ingotSupremium>
+	<ore:ingotSupremium>,
+    <techreborn:storage:8>
 	
 	
 ] as IIngredient[];

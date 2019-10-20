@@ -95,8 +95,7 @@
             <p color="#4f5f98" space='10'>Next, is the gems. Those things are your ticket to greatness. Take some time
                 and learn how they work, or you are gonna regret it.</p>
             <p color="#4f5f98" space='10'>Lastly, you're gonna be working in the dirt, making food to fill our bellies,
-                and later, line our pockets.</p>
-            <p color="#4f5f98" space='10'>Better get going, you're getting behind.</p>
+                and later, line our pockets. I suggest crafting a Dirt Smasher and a Stone Smasher</p>
         </page>
         <page>
             <title space='20'>GATHER</title>
@@ -105,7 +104,7 @@
                 <stack item="harvestcraft:vegetablesoupitem" count="4"/>
                 <stack item="minecraft:bread" count="8"/>
                 <stack item="silentgems:gem" count="4"/>
-                <span>(any 4 of the same type)</span>
+                <span>(4 of the same type)</span>
             </p>
             <title space='20'>UNLOCKS</title>
             <p space="20">
@@ -175,15 +174,19 @@
             <p space="10">You don't have to spend the cash on employees, you can always save it and use the automation
                 tools provided by Ancient Warefare. All the machines run on RF as well.</p>
         </page>
+        <page>
+            <p space="10">Farmers can work many different stations when provided appropriate work orders. See the Ancient Warefare book for more details.</p>
+        </page>
+
     </chapter>
     <chapter id="assistant" condition="assistant">
         <page>
             <title space='20'>Assistant Manager</title>
-            <p color="#4f5f98" space='10'>Well, that wasn't so hard. You've kept your employee fed and dealt with the angry customers. But that's not
-                going to be enough. The landscape is money, you are have a long way to go if you want to be a
+            <p color="#4f5f98" space='10'>Well, that wasn't so hard. You've kept your employees fed and dealt with the angry customers. But that's not
+                going to be enough. The landscape is money, you have a long way to go if you want to be a
                 Billionaire.</p>
             <p color="#4f5f98" space='10'>You are going to need to ramp up resource production and learn to interact
-                more fully with the local markets.For this purpose, I've given you a coupon to purchase a resource
+                more fully with the local markets. For this purpose, I've given you a coupon to purchase a resource
                 industry. Choose wisely, as these are more expensive to unlock later. Each one has its pros and cons,
                 but they all produce the same resources.</p>
             <p  color="#4f5f98" space='10'> I've also given you a shipping bin, which you can use to
@@ -241,11 +244,11 @@
         </page>
         <page>
             <title space='20'>GATHER</title>
-                <stack item="contenttweaker:bank_item"/><span> with EXACTLY $10,000</span>
+                <p space="10"><stack item="contenttweaker:bank_item"/><span> with EXACTLY $10,000</span></p>
             <title space='20'>UNLOCKS</title>
             <p space="10">Access to the Mining Dimension. Look in Utilities tab in the store.</p>
             <p space="10">More mods are now available for purchase. You need a Piggy Bank with the EXACT amount.</p>
-            <p space="10">Access to a simple autocrafter. Search up autorafter in the JEI.</p>
+            <p space="10">Access to a simple autocrafter. Search up Better Crafting Table in the JEI.</p>
         </page>
         <page>
             <title space='20'>HINTS</title>
@@ -276,7 +279,7 @@
         </page>
         <page>
             <title space='20'>GATHER</title>
-                <stack item="contenttweaker:bank_item"/><span> with EXACTLY $25,000</span>
+            <p space="10"><stack item="contenttweaker:bank_item"/><span> with EXACTLY $25,000</span></p>
             <title space='20'>UNLOCKS</title>
             <p space="10">All other mods are available for purchase.</p>
             <p space="10">The other systems you didn't choose will be available in their respective categories in the shop.</p>
@@ -293,12 +296,12 @@
             <p color="#4f5f98" space='10'>Well, kid, things are really getitng going now. But it takes a lot of work to sell goods to the local market. I think our infrastruture is at a point where we can make use of the Global Markets and sell goods and services there. However, there is an entry price into those markets, its not a bad price, but you're going to want a few of those machines. </p>
             <p color="#4f5f98" space='10'>Other than the obvious advantage of the Global Markets, another benefit is that you can sell ALL ITEMS, no matter their price. And you can sell them one at a time. It may take some time to find an appropriate buyer, but with more efficient traders and brokers, you should be able to speed those devices up. In the future, you can even dedicate yourself to one market and rank in even more profit.</p>
             <p color="#4f5f98" space='10'>I never compliment anyone. It lets their guard down. Many others are already trading on the Global Markets, so the more we stand here, the less money you are making!</p>
-            <title space='20'>REQUIREMENTS</title>
-            <p space="10">Purchase at least one of each Global Markets and earn an income of $100,000.</p>
         </page>
         <page>
+            <title space='20'>REQUIREMENTS</title>
+            <p space="10">Purchase at least one of each Global Markets and earn an income of $100,000.</p>
             <title space='20'>GATHER</title>
-            <stack item="contenttweaker:bank_item"/><span> with EXACTLY $100,000</span>
+            <p space="10"><stack item="contenttweaker:bank_item"/><span> with EXACTLY $100,000</span></p>
             <p space="20">Purchase 1 of EACH Global Markets</p>
             <title space='20'>UNLOCKS</title>
             <p space="10">Access to the Global Markets via the Special Equipment tab in the store.</p>
@@ -319,7 +322,7 @@
         </page>
         <page>
             <title space='20'>GATHER</title>
-            <stack item="contenttweaker:bank_item"/><span> with EXACTLY $250,000</span>
+            <p space="10"><stack item="contenttweaker:bank_item"/><span> with EXACTLY $250,000</span></p>
             <title space='20'>UNLOCKS</title>
         </page>
         <page>
@@ -336,7 +339,7 @@
         </page>
         <page>
             <title space='20'>GATHER</title>
-            <stack item="contenttweaker:bank_item"/><span> with EXACTLY $500,000</span>
+            <p space="10"><stack item="contenttweaker:bank_item"/><span> with EXACTLY $500,000</span></p>
             <p space="10">6 Board Member Votes</p>
             <title space='20'>UNLOCKS</title>
         </page>
@@ -354,7 +357,7 @@
         </page>
         <page>
             <title space='20'>GATHER</title>
-            <stack item="contenttweaker:bank_item"/><span> with EXACTLY $1,000,000</span>
+            <p space="10"><stack item="contenttweaker:bank_item"/><span> with EXACTLY $1,000,000</span></p>
             <title space='20'>UNLOCKS</title>
         </page>
         <page>
@@ -370,7 +373,7 @@
         </page>
         <page>
             <title space='20'>GATHER</title>
-            <stack item="contenttweaker:bank_item"/><span> with EXACTLY $25,000,000</span>
+            <p space="10"><stack item="contenttweaker:bank_item"/><span> with EXACTLY $25,000,000</span></p>
             <title space='20'>UNLOCKS</title>
         </page>
         <page>
@@ -386,7 +389,7 @@
         </page>
         <page>
             <title space='20'>GATHER</title>
-            <stack item="contenttweaker:bank_item"/><span> with EXACTLY $150,000,000</span>
+            <p space="10"><stack item="contenttweaker:bank_item"/><span> with EXACTLY $150,000,000</span></p>
             <title space='20'>UNLOCKS</title>
         </page>
         <page>
@@ -402,7 +405,7 @@
         </page>
         <page>
             <title space='20'>GATHER</title>
-            <stack item="contenttweaker:bank_item"/><span> with EXACTLY $250,000,000</span>
+            <p space="10"><stack item="contenttweaker:bank_item"/><span> with EXACTLY $250,000,000</span></p>
             <title space='20'>UNLOCKS</title>
         </page>
         <page>
@@ -418,7 +421,7 @@
         </page>
         <page>
             <title space='20'>GATHER</title>
-            <stack item="contenttweaker:bank_item"/><span> with EXACTLY $500,000,000</span>
+            <p space="10"><stack item="contenttweaker:bank_item"/><span> with EXACTLY $500,000,000</span></p>
             <title space='20'>UNLOCKS</title>
         </page>
         <page>
@@ -434,7 +437,7 @@
         </page>
         <page>
             <title space='20'>GATHER</title>
-            <stack item="contenttweaker:bank_item"/><span> with EXACTLY $1,000,000,000</span>
+            <p space="10"><stack item="contenttweaker:bank_item"/><span> with EXACTLY $1,000,000,000</span></p>
             <title space='20'>UNLOCKS</title>
         </page>
         <page>

@@ -33,6 +33,22 @@
     "particleCount": "10:30"                                     
   },
   {
+    "targetBlock": "extrautils2:ironwood_sapling:0",
+    "heldItem": "boneappetit:wet_bone_meal:0",
+    "replacementBlock": "techreborn:rubbersapling:0",
+    "damage": "1",
+    "particleType": "splash",
+    "particleCount": "10:30"
+  },
+  {
+    "targetBlock": "techreborn:rubbersapling:0",
+    "heldItem": "boneappetit:wet_bone_meal:0",
+    "replacementBlock": "ic2:sapling:0",
+    "damage": "1",
+    "particleType": "splash",
+    "particleCount": "10:30"
+  },
+  {
     "targetBlock": "minecraft:sapling:3",                   
     "heldItem": "boneappetit:wet_bone_meal:0",          
     "replacementBlock": "minecraft:sapling:4",                              

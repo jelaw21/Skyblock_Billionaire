@@ -85,7 +85,10 @@ val oneDime = [
 	<silentgems:gembrickspeckledlight:*>,
 	<silentgems:glowrose:*>,
 	<minecraft:clay_ball>,
-	<silentgems:gemshard:*>
+	<silentgems:gemshard:*>,
+	<immersiveengineering:material:4>,
+	<immersiveengineering:seed>,
+	<industrialforegoing:tinydryrubber>
 	
 ] as IItemStack[];
 
@@ -107,7 +110,20 @@ val oneQuarter = [
 	<silentgems:craftingmaterial:6>,
 	<powderpower:nuggetredium>,
 	<powderpower:nuggetlapium>,
-	<mekanism:biofuel>
+	<mekanism:biofuel>,
+	<ic2:misc_resource:5>,
+	<ic2:crafting:23>,
+    <ic2:crafting:20>,
+    <ic2:crafting:21>,
+    <techreborn:dust:3>,
+    <techreborn:dust:4>,
+    <techreborn:dust:8>,
+    <techreborn:dust:15>,
+    <techreborn:dust:37>,
+    <immersiveengineering:material:5>,
+    <immersivepetroleum:material>,
+    <enderio:item_material:46>
+    <enderio:item_material:47>
 	
 ] as IItemStack[];
 
@@ -135,7 +151,14 @@ val twoQuarter=[
 	<powderpower:powderpurpur>,
 	<powderpower:powderprismarine>,
 	<mekanism:balloon>,
-	<mekanism:ingot:1>
+	<mekanism:ingot:1>,
+	<immersiveengineering:metal_decoration2:4>,
+	<immersiveengineering:coresample>,
+	<industrialforegoing:fertilizer>,
+	<enderio:item_material:20>,
+	<enderio:item_material:38>,
+	<enderio:item_material:72>
+
 	
 ] as IItemStack[];
 
@@ -161,8 +184,45 @@ val oneDollar = [
     <mekanism:dirtydust:5>,
     <mekanism:dirtydust:1>,
     <mekanism:ingot:3>,
-    <mekanism:oreblock>
-	
+    <mekanism:oreblock>,
+    <ic2:foam>,
+    <ic2:wall:*>,
+    <ic2:bronze_boots>,
+    <ic2:bronze_chestplate>,
+    <ic2:bronze_helmet>,
+    <ic2:bronze_leggings>,
+    <ic2:ingot>,
+    <ic2:refractory_bricks>,
+    <techreborn:dust:36>,
+    <techreborn:dust:58>,
+    <techreborn:dust:45>,
+    <techreborn:dust:41>,
+    <techreborn:dust:43>,
+    <techreborn:ingot:1>,
+    <techreborn:dust:31>,
+    <techreborn:dust:30>,
+    <immersiveengineering:metal_decoration0>,
+    <immersiveengineering:metal_device1:9>,
+    <immersiveengineering:stone_decoration:4>,
+    <immersiveengineering:stone_decoration:5>,
+    <industrialforegoing:pink_slime>,
+    <industrialforegoing:dryrubber>,
+    <enderio:item_alloy_ingot>,
+    <enderio:item_alloy_ingot:1>,
+    <enderio:item_alloy_ingot:2>,
+    <enderio:item_alloy_ingot:3>,
+    <enderio:item_alloy_ingot:4>,
+    <enderio:item_alloy_ingot:5>,
+    <enderio:item_alloy_ingot:6>,
+    <enderio:item_alloy_ingot:7>,
+    <enderio:item_alloy_ingot:8>,
+    <enderio:item_alloy_ingot:9>,
+    <enderio:item_basic_capacitor>,
+    <enderio:item_capacitor_silver>,
+    <enderio:item_material:41>,
+    <enderio:item_material:45>,
+    <enderio:item_capacitor_grainy>
+
 ] as IItemStack[];
 
 val twoDollar = [
@@ -179,13 +239,38 @@ val twoDollar = [
 	<powderpower:blendredstone>,
 	<powderpower:blendlapis>,
 	<industrialmeat:cooked_meat_ingot>,
-	<mekanism:plasticblock>,
-	<mekanism:slickplasticblock>,
-	<mekanism:glowplasticblock>,
-	<mekanism:reinforcedplasticblock>,
-    <mekanism:roadplasticblock>
-
-
+	<mekanism:plasticblock:*>,
+	<mekanism:slickplasticblock:*>,
+	<mekanism:glowplasticblock:*>,
+	<mekanism:reinforcedplasticblock:*>,
+    <mekanism:roadplasticblock:*>,
+    <ic2:misc_resource:3>,
+    <techreborn:dust:48>,
+    <techreborn:dust:39>,
+    <techreborn:dust:40>,
+    <techreborn:dust:49>,
+    <techreborn:dust:25>,
+    <techreborn:dust>,
+    <techreborn:dust:2>,
+    <techreborn:dust:56>,
+    <techreborn:dust:50>,
+    <techreborn:ingot:15>,
+    <immersiveengineering:metal_decoration0:3>,
+    <immersiveengineering:metal_decoration0:6>,
+    <immersiveengineering:metal_decoration0:7>,
+    <immersiveengineering:metal_decoration0:1>,
+    <immersiveengineering:stone_decoration:7>,
+    <immersiveengineering:faraday_suit_feet>,
+    <immersiveengineering:faraday_suit_legs>,
+    <immersiveengineering:faraday_suit_chest>,
+    <immersiveengineering:faraday_suit_head>,
+    <enderio:item_alloy_endergy_ingot>,
+    <enderio:item_alloy_endergy_ingot:1>,
+    <enderio:item_alloy_endergy_ingot:2>,
+    <enderio:item_alloy_endergy_ingot:3>,
+    <enderio:item_alloy_endergy_ingot:4>,
+    <enderio:item_alloy_endergy_ingot:5>,
+    <enderio:item_alloy_endergy_ingot:6>
 	
 ] as IItemStack[];
 
@@ -214,9 +299,18 @@ val threeDollar=[
     <mekores:mekanismore:18>,
     <mekores:mekanismore:28>,
     <mekores:mekanismore:108>,
-    <mekanism:plasticfence>,
-    <mekanism:glowpanel>,
-    <mekanism:ingot>
+    <mekanism:plasticfence:*>,
+    <mekanism:glowpanel:*>,
+    <mekanism:ingot>,
+    <ic2:hazmat_chestplate>,
+    <ic2:hazmat_helmet>,
+    <ic2:hazmat_leggings>,
+    <techreborn:ingot:17>,
+    <techreborn:ingot:14>,
+    <immersiveengineering:metal_decoration0:4>,
+    <immersiveengineering:metal_decoration0:2>,
+    <industrialforegoing:conveyor:*>,
+    <industrialforegoing:pink_slime_ingot>
 	
 ]as IItemStack[];
 
@@ -244,7 +338,24 @@ val oneFive = [
     <seltaks_weapon_pack:bladeofgaia>,
     <seltaks_weapon_pack:bladeoferos>,
     <seltaks_weapon_pack:bladeofaither>,
-    <mekanism:basicblock>
+    <mekanism:basicblock>,
+    <ic2:alloy_chestplate>,
+    <techreborn:storage:3>,
+    <immersiveengineering:metal_decoration0:5>,
+    <immersiveengineering:shield>,
+    <immersiveengineering:steel_armor_feet>,
+    <immersiveengineering:steel_armor_legs>,
+    <immersiveengineering:steel_armor_chest>,
+    <immersiveengineering:steel_armor_head>,
+    <immersiveengineering:metal_device1:4>,
+    <immersiveengineering:powerpack>,
+    <industrialforegoing:plastic>,
+    <enderio:item_basic_capacitor:1>,
+    <enderio:item_capacitor_energetic_silver>,
+    <enderio:item_material:36>,
+    <enderio:item_material:35>,
+    <enderio:item_material:40>,
+    <enderio:item_material:43>
 	
 	
 ] as IItemStack[];
@@ -255,7 +366,10 @@ val sixDollar=[
 	<silentgems:scepter>,
 	<powderpower:shovelredium>,
 	<powderpower:shovellapium>,
-	<powderpower:shovelgemium>
+	<powderpower:shovelgemium>,
+	<ic2:advanced_batpack>.withTag({charge: 600000.0}),
+	<ic2:batpack>.withTag({charge: 60000.0}),
+	<enderio:item_ender_food>
 	
 ]as IItemStack[];
 
@@ -288,7 +402,29 @@ val oneTen = [
 	<powderpower:axegemium>,
 	<industrialmeat:raw_meat_block>,
 	<seltaks_weapon_pack:bladeofapate>,
-    <mekanism:basicblock:4>
+    <mekanism:basicblock:4>,
+    <ic2:energy_pack>.withTag({charge: 2000000.0}),
+    <ic2:nano_boots>.withTag({charge: 1000000.0}),
+    <ic2:nano_leggings>.withTag({charge: 1000000.0}),
+    <ic2:nano_chestplate>.withTag({charge: 1000000.0}),
+    <ic2:nano_helmet>.withTag({charge: 1000000.0}),
+    <techreborn:storage2:10>,
+    <techreborn:ingot:21>,
+    <techreborn:storage:5>,
+    <immersiveengineering:material:6>,
+    <enderio:block_alloy:4>,
+    <enderio:block_alloy:5>,
+    <enderio:block_alloy:6>,
+    <enderio:block_alloy:7>,
+    <enderio:block_alloy:8>,
+    <enderio:block_alloy:9>,
+    <enderio:block_alloy:3>,
+    <enderio:block_alloy>,
+    <enderio:block_alloy:1>,
+    <enderio:block_alloy:2>,
+    <enderio:item_material:56>,
+    <enderio:item_material:42>,
+    <enderio:item_material:44>
 	
 ] as IItemStack[];
 
@@ -313,7 +449,27 @@ val oneTwenty = [
 	<powderpower:armorgemiumboots>,
 	<industrialmeat:cooked_meat_block>,
 	<seltaks_weapon_pack:bladeoftartaros>,
-	<seltaks_weapon_pack:axeofmoros>
+	<seltaks_weapon_pack:axeofmoros>,
+	<ic2:jetpack_electric>.withTag({charge: 30000.0}),
+	<ic2:quantum_boots>.withTag({charge: 1.0E7}),
+    <ic2:quantum_chestplate>.withTag({charge: 1.0E7}),
+    <ic2:quantum_helmet>.withTag({charge: 1.0E7}),
+    <ic2:quantum_leggings>.withTag({charge: 1.0E7}),
+    <ic2:nightvision_goggles>.withTag({charge: 200000.0}),
+    <techreborn:ingot:22>,
+    <techreborn:storage:10>,
+    <immersiveengineering:metal_device1:13>,
+    <immersiveengineering:material:7>,
+    <enderio:block_alloy_endergy>,
+    <enderio:block_alloy_endergy:1>,
+    <enderio:block_alloy_endergy:2>,
+    <enderio:block_alloy_endergy:3>,
+    <enderio:block_alloy_endergy:4>,
+    <enderio:block_alloy_endergy:5>,
+    <enderio:block_alloy_endergy:6>,
+    <enderio:item_basic_capacitor:2>,
+    <enderio:item_capacitor_vivid>,
+    <enderio:item_material:37>
 	
 ] as IItemStack[];
 
@@ -329,7 +485,11 @@ val threeTen = [
 	<powderpower:armorlapiumbody>,
 	<powderpower:armorgemiumbody>,
 	<seltaks_weapon_pack:bladeofhemera>,
-	<mekanism:basicblock:2>
+	<mekanism:basicblock:2>,
+    <ic2:nuclear:10>,
+    <techreborn:uumatter>,
+    <techreborn:storage2>,
+    <techreborn:storage:2>
 	
 ] as IItemStack[];
 
@@ -346,7 +506,11 @@ val oneFifty = [
 	<silentgems:teleporterredstonelight:*>,
 	<silentgems:chaosgem:*>,
 	<powderpower:shoveltrilium>,
-<seltaks_weapon_pack:bladeofmoiren>
+    <seltaks_weapon_pack:bladeofmoiren>,
+    <ic2:nuclear:11>,
+    <techreborn:depletedsinglethoriumfuelrod>,
+    <enderio:item_capacitor_crystalline>,
+    <enderio:item_material:34>
 	
 ] as IItemStack[];
 
@@ -358,7 +522,10 @@ val oneHundred = [
 	<extrautils2:opinium:6>,
 	<powderpower:swordtrilium>,
 	<powderpower:pickaxetrilium>,
-	<powderpower:axetrilium>
+	<powderpower:axetrilium>,
+    <ic2:nuclear:12>,
+    <techreborn:depleteddualthoriumfuelrod>,
+    <techreborn:dust:67>
 	
 ] as IItemStack[];
 
@@ -369,7 +536,11 @@ val twoHundred = [
 	<silentgems:miscblock:2>,
 	<powderpower:armortriliumhelmet>,
 	<powderpower:armortriliumlegs>,
-	<powderpower:armortriliumboots>
+	<powderpower:armortriliumboots>,
+	<ic2:nuclear:13>,
+	<techreborn:depletedquadthoriumfuelrod>,
+	<enderio:item_capacitor_melodic>,
+	<enderio:item_capacitor_totemic>
 	
 ] as IItemStack[];
 
@@ -378,7 +549,8 @@ val fiveHundred = [
 	<extrautils2:rainbowgenerator:1>,
 	<extrautils2:rainbowgenerator:2>,
 	<extrautils2:opinium:8>,
-	<powderpower:armortriliumbody>
+	<powderpower:armortriliumbody>,
+	<enderio:item_capacitor_stellar>
 	
 	
 ] as IItemStack[];

@@ -1,4 +1,4 @@
-setTitle("10K Shares")
+setTitle("100K Shares")
 
 setIcon(<contenttweaker:share>)
 
