@@ -1,4 +1,0 @@
-execute @s ~ ~ ~ gamestage silentadd @p BOARD_MEMBER
-title @s subtitle "PROMOTION EARNED - SEE HANDBOOK"
-title @s title "BOARD MEMBER"
-ranks set @s board

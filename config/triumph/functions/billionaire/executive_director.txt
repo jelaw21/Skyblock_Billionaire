@@ -1,4 +1,0 @@
-execute @s ~ ~ ~ gamestage silentadd @p EXECUTIVE_DIRECTOR
-title @s subtitle "PROMOTION EARNED - SEE HANDBOOK"
-title @s title "EXECUTIVE DIRECTOR"
-ranks set @s director

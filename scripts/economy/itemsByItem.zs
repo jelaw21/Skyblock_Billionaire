@@ -122,7 +122,7 @@ val oneQuarter = [
     <techreborn:dust:37>,
     <immersiveengineering:material:5>,
     <immersivepetroleum:material>,
-    <enderio:item_material:46>
+    <enderio:item_material:46>,
     <enderio:item_material:47>
 	
 ] as IItemStack[];

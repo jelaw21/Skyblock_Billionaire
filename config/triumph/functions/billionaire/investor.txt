@@ -1,4 +1,0 @@
-execute @s ~ ~ ~ gamestage silentadd @p GLOBAL_INVESTOR
-title @s subtitle "PROMOTION EARNED - SEE HANDBOOK"
-title @s title "GLOBAL INVESTOR"
-ranks set @s investor

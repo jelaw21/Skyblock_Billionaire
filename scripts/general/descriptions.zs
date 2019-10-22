@@ -1,7 +1,7 @@
 mods.jei.JEI.addDescription(<minecraft:dirt>,"Dirt can be made by adding dirt balls to sand.", " ", "Just right-click the sand with a dirt ball and voila!  Dirt!");
 
 mods.jei.JEI.addDescription(<ore:treeSapling>,"Various species of tree saplings can be made by right-clicking saplings
-with wet bone meal.", "Oak -> Dark Oak", "Birch -> Ferrous - Juniper", "Jungle -> Acacia","Ferrous - Juniper -> Rubber Sapling (Tech Reborn)", "Rubber Sapling(Tech Reborn) -> "Rubber Sapling (IC2)","You can cycle through all
+with wet bone meal.", "Oak -> Dark Oak", "Birch -> Ferrous - Juniper", "Jungle -> Acacia","Ferrous - Juniper -> Rubber Sapling (Tech Reborn)", "Rubber Sapling(Tech Reborn) -> Rubber Sapling (IC2)","You can cycle through all
 the Pam's Fruit Tree Saplings");
 
 mods.jei.JEI.addDescription(<minecraft:lava_bucket>,"Lava is made by applying blaze powder to a cobblestone block.", " ", "It may not work the first time, but keep trying and you'll get it!");
