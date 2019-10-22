@@ -1,0 +1,44 @@
+{
+  "rules": [
+    {
+      "match": {
+        "blocks": {
+          "blocks": [
+            "minecraft:leaves:*"
+          ]
+        },
+        "harvester": {
+
+          "type": "REAL_PLAYER"
+        }
+      },
+	  "replaceStrategy": "ADD",
+      "drops": [
+        {
+          "selector": {
+            "weight": {
+              "value": 60
+            }
+          },
+          "item": {
+            "items": [
+              "minecraft:apple",
+              "minecraft:stick"
+            ]
+          }
+        },
+        {
+          "selector": {
+            "weight": {
+              "value": 40
+            }
+          },
+          "item": {
+            "items": [
+            ]
+          }
+        }
+	  ]
+    }
+  ]
+}

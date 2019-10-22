@@ -1,0 +1,19 @@
+{
+	"id": "tin",
+	"inputs": [
+		"ore:oreTin"
+	],
+	"output": "thermalfoundation:material:129",
+	"diggableBlocks": [
+		"earthworks:block_rammed_earth"
+	],
+	"renderBlock": "chisel:blocktin:2",
+	"validDimensions": [-1,
+		0,
+		1
+	],
+	"maxHealth": 15.0,
+	"movementSpeed": 0.30,
+	"armorAmount": 6,
+	"digTickDelay": 2400
+}

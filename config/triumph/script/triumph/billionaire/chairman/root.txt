@@ -1,0 +1,22 @@
+setTitle("CHAIRMAN OF THE BOARD")
+//setTranslatedTitle("advancements.stage0.root.title")
+
+setIcon(<minecraft:skull:3>)
+
+setDescription("Now give it away!")
+//setTranslatedDescription("advancements.stage0.root.description")
+
+setBackground("minecraft:textures/blocks/emerald_block.png")
+
+setShowToast(false)
+
+setAnnounceToChat(false)
+
+setRequirements("any")
+
+//Criteria
+criteria = addCriteria("completedAssistant", "triumph:completed_advancement")
+criteria.setString("triumph:billionaire/boardmember/promotion")
+
+//Rewards
+setRewardFunction("billionaire:chairman")

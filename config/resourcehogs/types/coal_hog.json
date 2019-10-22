@@ -1,0 +1,19 @@
+{
+	"id": "coal",
+	"inputs": [
+		"ore:oreCoal"
+	],
+	"output": "minecraft:coal:0",
+	"diggableBlocks": [
+		"earthworks:block_rammed_earth"
+	],
+	"renderBlock": "minecraft:coal_block",
+	"validDimensions": [-1,
+		0,
+		1
+	],
+	"maxHealth": 10.0,
+	"movementSpeed": 0.30,
+	"armorAmount": 3,
+	"digTickDelay": 2400
+}

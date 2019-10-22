@@ -1,0 +1,20 @@
+setTitle("Soup")
+
+setIcon(<harvestcraft:vegetablesoupitem>)
+
+setDescription("Collect 4 Vegetable Soup")
+
+addParent("triumph:billionaire/employee/root")
+setRequiresParents()
+
+
+//Criteria
+criteria = addCriteria("promotionEmployee", "minecraft:inventory_changed")
+criteria.addItem(<harvestcraft:vegetablesoupitem, count:4~>);
+
+setShowToast(true)
+setAnnounceToChat(false)
+
+//Rewards
+
+visibleIf("triumph:billionaire/employee/root")

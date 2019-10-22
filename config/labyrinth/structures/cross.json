@@ -1,0 +1,12 @@
+{
+  "weight": 5,
+  "up": 6,
+  "size": [
+    "SINGLE"
+  ],
+  "transformations": [
+    {
+      "rotation": "any"
+    }
+  ]
+}

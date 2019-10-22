@@ -1,0 +1,19 @@
+setTitle("Saplings")
+
+setIcon(<minecraft:sapling>)
+
+setDescription("Collect 2 Saplings")
+
+addParent("triumph:billionaire/trainee/root")
+setRequiresParents()
+
+//Criteria
+apple = addCriteria("promotionEmployee", "minecraft:inventory_changed")
+apple.addItem(<minecraft:sapling, meta:0~4, count:2~>)
+
+setShowToast(true)
+setAnnounceToChat(false)
+
+//Rewards
+
+visibleIf("triumph:billionaire/trainee/root")

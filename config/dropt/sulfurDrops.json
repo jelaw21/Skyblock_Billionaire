@@ -1,0 +1,60 @@
+{
+  "rules": [
+    {
+      "match": {
+        "blocks": {
+          "blocks": [
+            "minecraft:netherrack"
+          ]
+        },
+		"harvester":{
+			"gamestages":{
+				"require":"ALL",
+				"stages":[
+					"THERMAL"				
+				]
+			}			
+		}
+      },
+	  "replaceStrategy": "ADD",
+      "drops": [
+        {
+          "selector": {
+            "weight": {
+              "value": 20
+            }
+          },
+          "item": {
+            "items": [
+              "thermalfoundation:material:771"
+            ]
+          }
+        },
+		{
+          "selector": {
+            "weight": {
+              "value": 20
+            }
+          },
+          "item": {
+            "items": [			
+				"thermalfoundation:material:772"			
+            ]
+          }
+        },
+		{
+          "selector": {
+            "weight": {
+              "value": 60
+            }
+          },
+          "item": {
+            "items": [			
+							
+            ]
+          }
+        }
+	  ]
+    }
+  ]
+}

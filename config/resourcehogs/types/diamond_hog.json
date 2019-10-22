@@ -1,0 +1,19 @@
+{
+	"id": "diamond",
+	"inputs": [
+		"ore:oreDiamond"
+	],
+	"output": "minecraft:diamond",
+	"diggableBlocks": [
+		"earthworks:block_rammed_earth"
+	],
+	"renderBlock": "minecraft:diamond_block",
+	"validDimensions": [-1,
+		0,
+		1
+	],
+	"maxHealth": 15.0,
+	"movementSpeed": 0.20,
+	"armorAmount": 6,
+	"digTickDelay": 2400
+}

@@ -1,0 +1,19 @@
+setTitle("PROMOTION: Board Member")
+
+setIcon(<minecraft:skull:3>)
+
+setDescription("Please consult the employee handbook for further instructions.")
+
+addParent("triumph:billionaire/ceo/money")
+addParent("triumph:billionaire/ceo/shares")
+setRequiresParents()
+
+//Criteria
+
+
+setShowToast(true)
+setAnnounceToChat(true)
+
+//Rewards
+
+setHidden(true)

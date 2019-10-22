@@ -1,0 +1,22 @@
+setTitle("CHIEF EXECUTIVE OFFICER")
+//setTranslatedTitle("advancements.stage0.root.title")
+
+setIcon(<minecraft:skull:3>)
+
+setDescription("Own the company!  Buy the Shares!")
+//setTranslatedDescription("advancements.stage0.root.description")
+
+setBackground("minecraft:textures/blocks/redstone_block.png")
+
+setShowToast(false)
+
+setAnnounceToChat(false)
+
+setRequirements("any")
+
+//Criteria
+criteria = addCriteria("completedAssistant", "triumph:completed_advancement")
+criteria.setString("triumph:billionaire/executivedirector/promotion")
+
+//Rewards
+setRewardFunction("billionaire:ceo")

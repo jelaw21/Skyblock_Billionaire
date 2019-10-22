@@ -1,0 +1,5 @@
+execute @p ~ ~ ~ gamestage silentadd @p SHIFT_MANAGER
+title @p subtitle "PROMOTION EARNED - SEE HANDBOOK"
+title @p title "SHIFT MANAGER"
+ranks set @p shift_manager
+give @p contenttweaker:shift_kit

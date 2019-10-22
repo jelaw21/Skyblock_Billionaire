@@ -1,0 +1,20 @@
+setTitle("PB & J")
+
+setIcon(<harvestcraft:pbandjitem>)
+
+setDescription("Collect 16 PB & J")
+
+addParent("triumph:billionaire/shiftmanager/root")
+setRequiresParents()
+
+
+//Criteria
+criteria = addCriteria("promotion", "minecraft:inventory_changed")
+criteria.addItem(<harvestcraft:pbandjitem, count:16~>);
+
+setShowToast(true)
+setAnnounceToChat(false)
+
+//Rewards
+
+visibleIf("triumph:billionaire/shiftmanager/root")

@@ -1,0 +1,22 @@
+setTitle("EMPLOYEE")
+//setTranslatedTitle("advancements.stage0.root.title")
+
+setIcon(<minecraft:skull:3>)
+
+setDescription("Time to get your nose dirty.")
+//setTranslatedDescription("advancements.stage0.root.description")
+
+setBackground("minecraft:textures/blocks/cobblestone.png")
+
+setShowToast(false)
+
+setAnnounceToChat(false)
+
+setRequirements("any")
+
+//Criteria
+criteria = addCriteria("completedTrainee", "triumph:completed_advancement")
+criteria.setString("triumph:billionaire/trainee/promotion")
+
+//Rewards
+setRewardFunction("billionaire:employee")

@@ -1,0 +1,19 @@
+{
+	"id": "obsidian",
+	"inputs": [
+		"ore:obsidian"
+	],
+	"output": "minecraft:obsidian",
+	"diggableBlocks": [
+		"earthworks:block_rammed_earth"
+	],
+	"renderBlock": "minecraft:obsidian",
+	"validDimensions": [-1,
+		0,
+		1
+	],
+	"maxHealth": 15.0,
+	"movementSpeed": 0.30,
+	"armorAmount": 6,
+	"digTickDelay": 2400
+}

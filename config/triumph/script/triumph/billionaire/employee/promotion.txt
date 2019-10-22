@@ -1,0 +1,21 @@
+setTitle("PROMOTION: Shift Manager")
+
+setIcon(<minecraft:skull:3>)
+
+setDescription("Please consult the employee handbook for further instructions.")
+
+addParent("triumph:billionaire/employee/bread")
+addParent("triumph:billionaire/employee/cobblestone")
+addParent("triumph:billionaire/employee/rubies")
+addParent("triumph:billionaire/employee/soup")
+setRequiresParents()
+
+//Criteria
+
+
+setShowToast(true)
+setAnnounceToChat(true)
+
+//Rewards
+
+setHidden(true)

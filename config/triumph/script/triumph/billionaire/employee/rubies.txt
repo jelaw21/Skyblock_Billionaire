@@ -1,0 +1,20 @@
+setTitle("Gems")
+
+setIcon(<silentgems:gem>)
+
+setDescription("Collect 4 Rubies")
+
+addParent("triumph:billionaire/employee/root")
+setRequiresParents()
+
+
+//Criteria
+criteria = addCriteria("promotionEmployee", "minecraft:inventory_changed")
+criteria.addItem(<silentgems:gem, count:4~>);
+
+setShowToast(true)
+setAnnounceToChat(false)
+
+//Rewards
+
+visibleIf("triumph:billionaire/employee/root")

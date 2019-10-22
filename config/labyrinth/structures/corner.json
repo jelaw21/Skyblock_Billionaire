@@ -1,0 +1,24 @@
+{
+  "weight": 2,
+  "up": 6,
+  "size": [
+    "SINGLE"
+  ],
+  "transformations": [
+    {
+      "exitNorth": true,
+      "exitWest": true,
+      "rotation": "COUNTERCLOCKWISE_90"
+    },
+    {
+      "exitEast": true,
+      "exitSouth": true,
+      "rotation": "CLOCKWISE_90"
+    },
+    {
+      "exitSouth": true,
+      "exitWest": true,
+      "rotation": "CLOCKWISE_180"
+    }
+  ]
+}

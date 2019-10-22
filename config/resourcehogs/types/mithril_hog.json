@@ -1,0 +1,19 @@
+{
+	"id": "mithril",
+	"inputs": [
+		"ore:blockMithril"
+	],
+	"output": "thermalfoundation:material:136",
+	"diggableBlocks": [
+		"earthworks:block_rammed_earth"
+	],
+	"renderBlock": "thermalfoundation:storage:8",
+	"validDimensions": [-1,
+		0,
+		1
+	],
+	"maxHealth": 15.0,
+	"movementSpeed": 0.30,
+	"armorAmount": 6,
+	"digTickDelay": 2400
+}

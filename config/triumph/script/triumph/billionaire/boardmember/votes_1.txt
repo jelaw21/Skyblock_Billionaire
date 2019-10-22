@@ -1,0 +1,19 @@
+setTitle("Board Vote 1")
+
+setIcon(<contenttweaker:vote_1>)
+
+setDescription("Get the Board Member's Vote")
+
+addParent("triumph:billionaire/boardmember/root")
+setRequiresParents()
+
+//Criteria
+criteria = addCriteria("promotion", "minecraft:inventory_changed")
+criteria.addItem(<contenttweaker:vote_1>)
+
+setShowToast(true)
+setAnnounceToChat(false)
+
+//Rewards
+
+visibleIf("triumph:billionaire/boardmember/root")
