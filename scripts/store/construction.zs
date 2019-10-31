@@ -8,7 +8,7 @@ mods.Delivery.Store.addTrade("GENERAL_MANAGER",<contenttweaker:architecture>, co
 mods.Delivery.Store.addTrade("GENERAL_MANAGER",<contenttweaker:blockcraft>, construction, <contenttweaker:bank_item>.withTag({Total: 5000.0 as float, display: {Lore: ["$5000.0"]}}));
 mods.Delivery.Store.addTrade("GENERAL_MANAGER",<contenttweaker:elevator>, construction, <contenttweaker:bank_item>.withTag({Total: 3000.0 as float, display: {Lore: ["$3000.0"]}}));
 mods.Delivery.Store.addTrade("GENERAL_MANAGER",<contenttweaker:literalascension>, construction, <contenttweaker:bank_item>.withTag({Total: 2000.0 as float, display: {Lore: ["$2000.0"]}}));
-mods.Delivery.Store.addTrade("GENERAL_MANAGER",<contenttweaker:paint>, construction, <contenttweaker:bank_item>.withTag({Total: 5000.0 as float, display: {Lore: ["$5000.0"]}}));
+//mods.Delivery.Store.addTrade("GENERAL_MANAGER",<contenttweaker:paint>, construction, <contenttweaker:bank_item>.withTag({Total: 5000.0 as float, display: {Lore: ["$5000.0"]}}));
 mods.Delivery.Store.addTrade("GENERAL_MANAGER",<contenttweaker:sonar>, construction, <contenttweaker:bank_item>.withTag({Total: 3000.0 as float, display: {Lore: ["$3000.0"]}}));
 mods.Delivery.Store.addTrade("REGIONAL_MANAGER",<contenttweaker:engineersdecor>, construction, <contenttweaker:bank_item>.withTag({Total: 15000.0 as float, display: {Lore: ["$15000.0"]}}));
 mods.Delivery.Store.addTrade("REGIONAL_MANAGER",<contenttweaker:xencraft>, construction, <contenttweaker:bank_item>.withTag({Total: 7000.0 as float, display: {Lore: ["$7000.0"]}}));

@@ -78,7 +78,7 @@
             <title space='10'>HINTS</title>
             <p space="10">You can keep track of your progress from the Advancement Menu. And probably should keybind
                 that to 'L' or something.</p>
-            <p space="10">YOu can hold down shift to help plants and saplings grow. But be careful not to have an
+            <p space="10">You can hold down shift to help plants and saplings grow. But be careful not to have an
                 accident!</p>
         </page>
 
@@ -87,7 +87,7 @@
         <page>
             <title space='20'>Employee</title>
             <p color="#4f5f98" space='10'>Well done, kid. But that was just the beginning. The hard work begins.</p>
-            <p color="#4f5f98" space='20'>Now that you're an employee, you are going to have learn to work. Grease those
+            <p color="#4f5f98" space='20'>Now that you're an employee, you are going to have to learn to work. Grease those
                 elbows.</p>
             <title space='20'>REQUIREMENTS</title>
             <p color="#4f5f98" space='10'>First off, you're gonna need one of them cobble gens, which is just lava and
@@ -104,7 +104,7 @@
                 <stack item="harvestcraft:vegetablesoupitem" count="4"/>
                 <stack item="minecraft:bread" count="8"/>
                 <stack item="silentgems:gem" count="4"/>
-                <span>(4 of the same type)</span>
+                <span>(4 of the same gem)</span>
             </p>
             <title space='20'>UNLOCKS</title>
             <p space="20">

@@ -60,6 +60,16 @@
 			"insert_strategy": "merge",
 			"insert_path": [],
 			"from": "mob_stages/sheep"
+		},
+		{
+			"conditions": {
+				"type": "gamestage",
+				"player": "any",
+				"stages": ["SHIFT_MANAGER"]
+			},
+			"insert_strategy": "merge",
+			"insert_path": [],
+			"from": "mob_stages/aw"
 		}
 	]
 }

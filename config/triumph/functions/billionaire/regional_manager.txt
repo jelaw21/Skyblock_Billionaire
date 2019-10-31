@@ -1,5 +1,5 @@
 execute @s ~ ~ ~ gamestage silentadd @p REGIONAL_MANAGER
-execute @s ~ ~ ~ gamestage silentadd @p REGIONAL_MANAGER_STORE
+execute @s ~ ~ ~ gamestage silentadd @p REGIONAL_STORE
 title @s subtitle "PROMOTION EARNED - SEE HANDBOOK"
 title @s title "REGIONAL MANAGER"
 give @s contenttweaker:coupon

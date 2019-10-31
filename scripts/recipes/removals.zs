@@ -1,4 +1,10 @@
 #priority 10
+recipes.remove(<ancientwarfareautomation:tree_farm>);
+recipes.remove(<ancientwarfareautomation:crop_farm>);
+recipes.remove(<ancientwarfareautomation:fruit_farm>);
+recipes.remove(<ancientwarfareautomation:animal_farm>);
+recipes.remove(<ancientwarfareautomation:fish_farm>);
+recipes.remove(<ancientwarfareautomation:quarry>);
 recipes.remove(<superfactorymanager:cable>);
 recipes.remove(<extrautils2:teleporter:1>);
 recipes.remove(<boneappetit:fiery_bone_meal>);

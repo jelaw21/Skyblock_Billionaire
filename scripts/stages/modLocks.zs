@@ -15,18 +15,17 @@ mods.ItemStages.stageModItems("THERMAL", "thermalexpansion");
 mods.ItemStages.addItemStage("THERMAL",<forge:bucketfilled:*>);
 mods.ItemStages.stageModItems("ANCIENT_WARFARE", "ancientwarfarestructure");
 mods.ItemStages.stageModItems("ANCIENT_WARFARE", "ancientwarfarevehicle");
-mods.ItemStages.stageModItems("ANCIENT_WAREFARE", "ancientwarfareautomation:warehouse_control");
-mods.ItemStages.stageModItems("ANCIENT_WAREFARE", "ancientwarfareautomation:warehouse_storage:*");
-mods.ItemStages.stageModItems("ANCIENT_WAREFARE", "ancientwarfareautomation:warehouse_interface");
-mods.ItemStages.stageModItems("ANCIENT_WAREFARE", "ancientwarfareautomation:warehouse_crafting");
-mods.ItemStages.stageModItems("ANCIENT_WAREFARE", "ancientwarfareautomation:warehouse_stock_viewer");
+mods.ItemStages.addItemStage("ANCIENT_WAREFARE", <ancientwarfareautomation:warehouse_control>);
+mods.ItemStages.addItemStage("ANCIENT_WAREFARE", <ancientwarfareautomation:warehouse_storage:*>);
+mods.ItemStages.addItemStage("ANCIENT_WAREFARE", <ancientwarfareautomation:warehouse_interface>);
+mods.ItemStages.addItemStage("ANCIENT_WAREFARE", <ancientwarfareautomation:warehouse_crafting>);
+mods.ItemStages.addItemStage("ANCIENT_WAREFARE", <ancientwarfareautomation:warehouse_stock_viewer>);
 mods.recipestages.Recipes.setRecipeStage("RESOURCE_HOGS", <resourcehogs:mud_bucket>);
 mods.ItemStages.stageModItems("RESOURCE_TREES", "sky_orchards");
 mods.ItemStages.stageModItems("MYSTICAL_AG", "mysticalagriculture");
 mods.ItemStages.stageModItems("KITCHEN", "cookingforblockheads");
 mods.ItemStages.stageModItems("AGRICRAFT", "agricraft");
 mods.ItemStages.stageModItems("MOO", "moofluids");
-mods.ItemStages.stageModItems("BACKPACKS", "v0idssmartbackpacks");
 mods.ItemStages.stageModItems("PROGRESSIVE", "progressiveautomation");
 mods.ItemStages.stageModItems("AIRSHIP", "vc");
 mods.ItemStages.stageModItems("TINY_MOB_FARM", "tinymobfarm");
@@ -86,8 +85,6 @@ mods.ItemStages.stageModItems("REFINED_STORAGE", "refinedstorage");
 mods.ItemStages.stageModItems("REFINED_STORAGE", "refinedstorageaddons");
 mods.ItemStages.stageModItems("REFINED_STORAGE", "refinedstoragerequestify");
 mods.ItemStages.stageModItems("REFINED_STORAGE", "rebornstorage");
-
-
 mods.ItemStages.stageModItems("ENGINEERS_DECOR", "engineersdecor");
 mods.ItemStages.stageModItems("ENGINEERS_DECOR", "engineersdoors");
 mods.ItemStages.stageModItems("XENCRAFT", "xencraft");
@@ -104,7 +101,7 @@ mods.ItemStages.stageModItems("SIMPLY_LIGHT", "simplylight");
 mods.ItemStages.stageModItems("CRAYFISH_FURNITURE", "cfm");
 mods.ItemStages.stageModItems("BUILDING_GADGETS", "buildinggadgets");
 mods.ItemStages.stageModItems("MALISIS_DOORS", "malisisdoors");
-mods.ItemStages.stageModItems("PAINT_THINGS", "paintatt");
+//mods.ItemStages.stageModItems("PAINT_THINGS", "paintatt");
 mods.ItemStages.stageModItems("SONAR_CORE", "sonarcore");
 
 mods.ItemStages.addItemStage("REDIUM_LAPIUM",<powderpower:armorrediumhelmet>);
@@ -139,5 +136,7 @@ mods.ItemStages.addItemStage("TRILIUM",<powderpower:swordtrilium>);
 mods.ItemStages.addItemStage("TRILIUM",<powderpower:pickaxetrilium>);
 mods.ItemStages.addItemStage("TRILIUM",<powderpower:axetrilium>);
 mods.ItemStages.addItemStage("TRILIUM",<powderpower:shoveltrilium>);
+
+mods.ItemStages.stageModItems("BACKPACKS", "v0idssmartbackpacks");
 
 

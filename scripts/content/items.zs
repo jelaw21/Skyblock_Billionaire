@@ -876,7 +876,7 @@ modbook.itemRightClick = function(stack, world, player, hand) {
 };
 modbook.register();
 
-modbook = VanillaFactory.createItem("paint");
+/*modbook = VanillaFactory.createItem("paint");
 modbook.maxStackSize = 1;
 modbook.textureLocation = image;
 modbook.rarity = "rare";
@@ -884,7 +884,7 @@ modbook.itemRightClick = function(stack, world, player, hand) {
     Commands.call("gamestage add @s PAINT_THINGS", player, world, false, true);
     return "Pass";
 };
-modbook.register();
+modbook.register();*/
 
 modbook = VanillaFactory.createItem("sonar");
 modbook.maxStackSize = 1;

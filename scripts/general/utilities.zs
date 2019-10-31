@@ -25,6 +25,11 @@ import crafttweaker.data.IData;
 <contenttweaker:mekgenerators>.addTooltip(format.green("REQUIRES MEKANISM"));
 <contenttweaker:advsolars>.addTooltip(format.green("REQUIRES IC2"));
 <fartgen:generator>.addTooltip(format.green("REQUIRES CHICKENS NEARBY"));
+<contenttweaker:serverinfo1>.addTooltip(format.green("Right Click to Use"));
+<contenttweaker:serverinfo2>.addTooltip(format.green("Right Click to Use"));
+<contenttweaker:serverinfo3>.addTooltip(format.green("Right Click to Use"));
+<contenttweaker:serverinfo4>.addTooltip(format.green("Right Click to Use"));
+<contenttweaker:serverinfo5>.addTooltip(format.green("Right Click to Use"));
 
 
 //ORE DICT

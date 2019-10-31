@@ -8,11 +8,11 @@ mods.Delivery.Store.addTrade("GENERAL_MANAGER",<aroma1997sdimension:dimensioncha
 
 mods.Delivery.Store.addTrade("REGIONAL_MANAGER",<contenttweaker:redium_lapium>, special, <contenttweaker:bank_item>.withTag({Total: 60000.0 as float, display: {Lore: ["$60000.0"]}}));
 
-mods.Delivery.Store.addTrade("REGIONAL_MANAGER_STORE",<contenttweaker:agricraft>, special, <contenttweaker:coupon>);
+mods.Delivery.Store.addTrade("REGIONAL_STORE",<contenttweaker:agricraft>, special, <contenttweaker:coupon>);
 
-mods.Delivery.Store.addTrade("REGIONAL_MANAGER_STORE",<contenttweaker:progressive>, special, <contenttweaker:coupon>);
+mods.Delivery.Store.addTrade("REGIONAL_STORE",<contenttweaker:progressive>, special, <contenttweaker:coupon>);
 
-mods.Delivery.Store.addTrade("REGIONAL_MANAGER_STORE",<contenttweaker:backpacks>, special, <contenttweaker:coupon>);
+mods.Delivery.Store.addTrade("REGIONAL_STORE",<contenttweaker:backpacks>, special, <contenttweaker:coupon>);
 
 mods.Delivery.Store.addTrade("EXECUTIVE_DIRECTOR",<extrautils2:machine>.withTag({Type: "crafttweaker:global_energy"}), special, <contenttweaker:bank_item>.withTag({Total: 15000.0 as float, display: {Lore: ["$15000.0"]}}));
 
