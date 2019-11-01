@@ -1,6 +1,5 @@
 mods.ItemStages.addItemStage("EMPLOYEE", <silentgems:glowrosefertilizer>);
 mods.ItemStages.stageModItems("EMPLOYEE", "flintmod");
-mods.ItemStages.stageModItems("SHIFT_MANAGER", "harvestcraft");
 mods.ItemStages.addItemStage("EMPLOYEE",<harvestcraft:bakewareitem>);
 mods.ItemStages.addItemStage("EMPLOYEE",<harvestcraft:mixingbowlitem>);
 mods.ItemStages.addItemStage("EMPLOYEE",<harvestcraft:potitem>);
