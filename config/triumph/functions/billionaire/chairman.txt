@@ -2,4 +2,4 @@ execute @s ~ ~ ~ gamestage silentadd @p CHAIRMAN
 execute @s ~ ~ ~ gamestage silentadd @p CHAIRMAN_STORE
 title @s subtitle "PROMOTION EARNED - SEE HANDBOOK"
 title @s title "CHAIRMAN OF THE BOARD"
-ranks set @s chairman
+ranks add @s chairman

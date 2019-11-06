@@ -41,6 +41,7 @@ recipes.remove(<mysticalagriculture:water_seeds>);
 recipes.remove(<mysticalagriculture:nature_seeds>);
 recipes.remove(<mysticalagriculture:dirt_seeds>);
 recipes.remove(<mysticalagriculture:stone_seeds>);
+recipes.remove(<aroma1997sdimension:dimensionchanger>);
 
 mods.jei.JEI.removeAndHide(<earthworks:tool_diamond_hammer>);
 mods.jei.JEI.removeAndHide(<earthworks:tool_gold_hammer>);
@@ -60,6 +61,9 @@ mods.jei.JEI.removeAndHide(<powderpower:wandexpert>);
 mods.jei.JEI.removeAndHide(<powderpower:wandmaster>);
 mods.jei.JEI.removeAndHide(<powderpower:mortarandpestle>);
 mods.jei.JEI.removeAndHide(<powderpower:hammeralchemist>);
+mods.jei.JEI.removeAndHide(<aroma1997sdimension:portalframe>);
+mods.jei.JEI.removeAndHide(<aroma1997sdimension:miningmultitool>);
+mods.jei.JEI.removeAndHide(<ancientwarfarenpc:npc_spawner>);
 mods.jei.JEI.removeAndHide(<ancientwarfarenpc:npc_spawner>);
 
 

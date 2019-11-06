@@ -2,4 +2,4 @@ execute @p ~ ~ ~ gamestage silentadd @p EMPLOYEE
 title @p subtitle "PROMOTION EARNED - SEE HANDBOOK"
 title @p title "EMPLOYEE"
 give @p silentgems:guide_book
-ranks set @p employee
+ranks add @p employee

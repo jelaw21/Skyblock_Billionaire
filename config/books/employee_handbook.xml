@@ -118,12 +118,13 @@
                 <stack item="harvestcraft:potitem"/>
                 <stack item="harvestcraft:mixingbowlitem"/>
             </p>
-            <title space='20'>HINTS</title>
+            <title space='10'>HINTS</title>
             <p space="10">There are a few ways to get dirt, be sure to read the information tab in the JEI when you look
                 at the dirt recipe.</p>
             <p space="10">Glowrose flowers can be grown with Glow Rose Fertilizer used on Grass. Check the JEI on how to
                 make grass!</p>
             <p space="10">Mortars take a lot of work. You may not be able to operate them if you are too hungry.</p>
+            <p space="10">Bonemealing sand is like bonemealing grass. One piece will work on a small area.</p>
         </page>
 
     </chapter>

@@ -3,4 +3,4 @@ execute @s ~ ~ ~ gamestage silentadd @p ASSISTANT_STORE
 title @s subtitle "PROMOTION EARNED - SEE HANDBOOK"
 title @s title "ASSISTANT MANAGER"
 give @s contenttweaker:assistant_kit
-ranks set @s assistant
+ranks add @s assistant
