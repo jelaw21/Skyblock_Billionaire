@@ -1,4 +1,5 @@
 //SHAPELESS
+recipes.addShapeless(<minecraft:dye>, [<silentgems:dye>]);
 recipes.addShapeless(<silentgems:craftingmaterial:3>, [<mysticalagriculture:chrome_essence>, <mysticalagriculture:chrome_essence>, <mysticalagriculture:chrome_essence>, <mysticalagriculture:chrome_essence>]);
 recipes.addShapeless(<contenttweaker:item_water> * 4, [<minecraft:water_bucket>]);
 recipes.addShapeless(<contenttweaker:item_water> * 4, [<minecraft:potion>.withTag({Potion: "minecraft:water"})]);
