@@ -118,6 +118,14 @@
 		"damage": "1",
 		"particleType": "largesmoke",
 		"particleCount": "5:10"
+	},
+	{
+		"targetBlock": "silentgems:essenceore:1",
+		"heldItem": "silentgems:craftingmaterial:3",
+		"replacementBlock": "mysticalagriculture:end_inferium_ore",
+		"damage": "1",
+		"particleType": "largesmoke",
+		"particleCount": "5:10"
 	}
 	
   

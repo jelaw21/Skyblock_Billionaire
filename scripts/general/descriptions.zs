@@ -54,6 +54,8 @@ mods.jei.JEI.addDescription([<silentgems:craftingmaterial:4>, <silentgems:essenc
 
 mods.jei.JEI.addDescription([<thermalfoundation:material:771>, <thermalfoundation:material:772>],"Niter and Sulfur are dropped when harvesting netherrack.");
 
+mods.jei.JEI.addDescription([<mysticalagriculture:inferium_ore>, <mysticalagriculture:end_inferium_ore>, <mysticalagriculture:crafting>],"Minicio Essence can be made by applying a chaos essence shard to an Ender Essence Ore to get an End Minicio Ore. Harvest it to the get the essence.");
+
 
 
 

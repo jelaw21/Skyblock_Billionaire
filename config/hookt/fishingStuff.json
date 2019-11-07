@@ -24,7 +24,8 @@
 			  "minecraft:leaves:1",
 			  "minecraft:leaves:2",
 			  "minecraft:leaves:3",
-			  "minecraft:fish"
+			  "minecraft:fish",
+
             ]
           }
         },
@@ -50,7 +51,8 @@
           },
           "item": {
             "items": [
-              "minecraft:dirt:0"		  
+              "minecraft:dirt:0",
+              "soulus:fossil_dirt"
             ]
           }
         },
