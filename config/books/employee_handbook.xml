@@ -205,7 +205,7 @@
                 <stack item="minecraft:gold_ingot" count="32"/>
                 <stack item="modcurrency:banknote" meta="5" count="25"/>
             </p>
-            <title space='20'>UNLOCKS</title>
+            <title space='10'>UNLOCKS</title>
             <p space='10'>Choice of Resource Gathering Industry in Industries Market</p>
             <p space='10'>Use of Shipping Bin to ship goods and recieve payment. Right-click the bin with the
                 correct amount of items and wait for your payment. The table below gives stack-size per price:</p>
@@ -220,6 +220,7 @@
         </page>
         <page>
             <title space='10'>MORE UNLOCKS</title>
+			<p space='5'>Nether unlocked!</p>
             <p space="5">Full Access to the Local Market.</p>
             <p space="5">Access to the Warehouse Market.</p>
             <p space="20">Access to The Labyrinth, a mob dimension with awesome loot and terrifying mobs.</p>
@@ -285,16 +286,17 @@
             <p space="10">All other mods are available for purchase.</p>
             <p space="10">The other systems you didn't choose will be available in their respective categories in the shop.</p>
             <p space="10">The ability to make Redium and Lapium Armor and Weapons.</p>
+			<p space="10">END unlocked!</p>
         </page>
         <page>
             <title space='20'>HINTS</title>
-            <p space ="10">Some mods require bedrock. This can be found in abundance in the Laabyrinth or at the bottom of the mining world.</p>
+            <p space ="10">Some mods require bedrock. This can be found in abundance in the Labyrinth or at the bottom of the mining world.</p>
         </page>
     </chapter>
     <chapter id="executive" condition="executive">
         <page>
             <title space='20'>Executive Director</title>
-            <p color="#4f5f98" space='10'>Well, kid, things are really getitng going now. But it takes a lot of work to sell goods to the local market. I think our infrastruture is at a point where we can make use of the Global Markets and sell goods and services there. However, there is an entry price into those markets, its not a bad price, but you're going to want a few of those machines. </p>
+            <p color="#4f5f98" space='10'>Well, kid, things are really getting going now. But it takes a lot of work to sell goods to the local market. I think our infrastruture is at a point where we can make use of the Global Markets and sell goods and services there. However, there is an entry price into those markets, its not a bad price, but you're going to want a few of those machines. </p>
             <p color="#4f5f98" space='10'>Other than the obvious advantage of the Global Markets, another benefit is that you can sell ALL ITEMS, no matter their price. And you can sell them one at a time. It may take some time to find an appropriate buyer, but with more efficient traders and brokers, you should be able to speed those devices up. In the future, you can even dedicate yourself to one market and rank in even more profit.</p>
             <p color="#4f5f98" space='10'>I never compliment anyone. It lets their guard down. Many others are already trading on the Global Markets, so the more we stand here, the less money you are making!</p>
         </page>

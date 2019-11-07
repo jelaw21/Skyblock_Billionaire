@@ -182,7 +182,7 @@ mods.ItemStages.addItemStage("TRILIUM",<powderpower:axetrilium>);
 mods.ItemStages.addItemStage("TRILIUM",<powderpower:shoveltrilium>);
 
 mods.ItemStages.addItemStage("BACKPACKS", <v0idssmartbackpacks:reinforced_leather>);
-mods.ItemStages.addItemStage("BACKPACKS", <v0idssmartbackpacks:drragon_scales>);
+mods.ItemStages.addItemStage("BACKPACKS", <v0idssmartbackpacks:dragon_scales>);
 mods.ItemStages.addItemStage("BACKPACKS", <v0idssmartbackpacks:upgrade_base>);
 mods.recipestages.Recipes.setRecipeStage("BACKPACKS", <v0idssmartbackpacks:backpack>);
 
