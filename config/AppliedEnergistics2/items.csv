@@ -10198,6 +10198,8 @@ appliedenergistics2:part:220, ME Storage Bus
 appliedenergistics2:part:400, ME Storage Monitor
 appliedenergistics2:part:380, ME Terminal
 appliedenergistics2:part:80, ME Toggle Bus
+ancientwarfare:engineering_station, tile.engineering_station.name
+ancientwarfare:research_station, tile.research_station.name
 ancientwarfare:info_tool, Info Tool
 ancientwarfare:research_book, Research Book
 ancientwarfare:research_note, Research Note
@@ -10226,8 +10228,22 @@ ancientwarfare:component:6, Wooden Torque Shaft
 ancientwarfare:component:7, Iron Torque Shaft
 ancientwarfare:component:8, Steel Torque Shaft
 ancientwarfare:steel_ingot, Steel Ingot
-ancientwarfare:engineering_station, tile.engineering_station.name
-ancientwarfare:research_station, tile.research_station.name
+ancientwarfarestructure:structure_scanner, Structure Scanner
+ancientwarfarestructure:structure_builder, Structure Builder
+ancientwarfarestructure:structure_builder_world_gen, WorldGen Structure Builder
+ancientwarfarestructure:town_builder, Instant Town Building Tool
+ancientwarfarestructure:spawner_placer, Mob Spawner Placement Tool
+ancientwarfarestructure:gate_spawner:0, Wooden Gate (vert. open)
+ancientwarfarestructure:gate_spawner:1, Iron Gate (vert. open)
+ancientwarfarestructure:gate_spawner:4, Wooden Gate (slide open)
+ancientwarfarestructure:gate_spawner:5, Iron Gate (slide open)
+ancientwarfarestructure:gate_spawner:8, Wooden Gate (split open)
+ancientwarfarestructure:gate_spawner:9, Iron Gate (split open)
+ancientwarfarestructure:gate_spawner:12, Drawbridge (rotate open)
+ancientwarfarestructure:construction_tool, Construction Tool
+ancientwarfarestructure:construction_tool_lakes, Lake Construction Tool
+ancientwarfarestructure:block_info_clicker, Block Info Tool
+ancientwarfarestructure:loot_chest_placer, Loot Chest Placer
 ancientwarfarestructure:advanced_spawner, Advanced Monster Spawner
 ancientwarfarestructure:gate_proxy, Gate Proxy Block
 ancientwarfarestructure:drafting_station, Drafting Station
@@ -10267,22 +10283,6 @@ ancientwarfarestructure:bench, Outdoor Bench
 ancientwarfarestructure:tribal_chair, Tribal Chair
 ancientwarfarestructure:scissor_seat, Scissor Seat
 ancientwarfarestructure:statue, tile.statue.name
-ancientwarfarestructure:structure_scanner, Structure Scanner
-ancientwarfarestructure:structure_builder, Structure Builder
-ancientwarfarestructure:structure_builder_world_gen, WorldGen Structure Builder
-ancientwarfarestructure:town_builder, Instant Town Building Tool
-ancientwarfarestructure:spawner_placer, Mob Spawner Placement Tool
-ancientwarfarestructure:gate_spawner:0, Wooden Gate (vert. open)
-ancientwarfarestructure:gate_spawner:1, Iron Gate (vert. open)
-ancientwarfarestructure:gate_spawner:4, Wooden Gate (slide open)
-ancientwarfarestructure:gate_spawner:5, Iron Gate (slide open)
-ancientwarfarestructure:gate_spawner:8, Wooden Gate (split open)
-ancientwarfarestructure:gate_spawner:9, Iron Gate (split open)
-ancientwarfarestructure:gate_spawner:12, Drawbridge (rotate open)
-ancientwarfarestructure:construction_tool, Construction Tool
-ancientwarfarestructure:construction_tool_lakes, Lake Construction Tool
-ancientwarfarestructure:block_info_clicker, Block Info Tool
-ancientwarfarestructure:loot_chest_placer, Loot Chest Placer
 ancientwarfarevehicle:spawner:0, Catapult Stand Fixed
 ancientwarfarevehicle:spawner:0, Catapult Stand Fixed
 ancientwarfarevehicle:spawner:0, Catapult Stand Fixed
@@ -10568,6 +10568,11 @@ ancientwarfareautomation:windmill_blade, Windmill Blade
 ancientwarfareautomation:windmill_generator, tile.windmill_generator.name
 ancientwarfareautomation:chunk_loader_simple, Simple Chunk Loader
 ancientwarfareautomation:chunk_loader_deluxe, Deluxe Chunk Loader
+archicraft:biotoken, Bio token
+archicraft:archtoken, Arch token
+archicraft:okeanostoken, Okeanos token
+archicraft:luxarktoken, Luxark token
+archicraft:alqaztoken, Alqaz token
 archicraft:biohouse, Bio house
 archicraft:scanner, Scanner
 archicraft:biobase, Bio base
@@ -10708,11 +10713,6 @@ archicraft:luxarksquare, Luxark square
 archicraft:luxarkgarden, Luxark garden
 archicraft:luxarkduplex, Luxark duplex
 archicraft:luxarkmarket, Luxark market
-archicraft:biotoken, Bio token
-archicraft:archtoken, Arch token
-archicraft:okeanostoken, Okeanos token
-archicraft:luxarktoken, Luxark token
-archicraft:alqaztoken, Alqaz token
 baubles:ring:0, Miner's Ring
 blocklings:blockling, Blockling
 boneappetit:wet_bone_meal, Wet Bone Meal
@@ -10923,6 +10923,29 @@ doggytalents:big_bone, Big Bone
 doggytalents:owner_change, Change Dog Owner
 dungeonmobs:lavarock, tile.dungeonmobs.lavarock.name
 dungeonmobs:bladetrap, Blade Trap
+earthworks:item_adobe, Adobe Brick
+earthworks:item_chalk, Chalk Dust
+earthworks:item_cob, Cob Ball
+earthworks:item_lime_plaster, Lime Plaster
+earthworks:item_mud, Mud Ball
+earthworks:item_quicklime, Quicklime
+earthworks:item_slaked_lime, Slaked Lime
+earthworks:item_timber, Timber Framing
+earthworks:tool_square, Square
+earthworks:tool_hand_axe, Handaxe
+earthworks:tool_adz, Adz
+earthworks:tool_compass, Compass
+earthworks:tool_froe, Froe
+earthworks:tool_hand_planer, Planer
+earthworks:tool_level, Level
+earthworks:tool_saw, Saw
+earthworks:tool_wood_hammer, Wood Hammer
+earthworks:tool_stone_hammer, Stone Hammer
+earthworks:tool_iron_hammer, Iron Hammer
+earthworks:tool_gold_hammer, Gold Hammer
+earthworks:tool_diamond_hammer, Diamond Hammer
+earthworks:item_dirt, Dirt Ball
+earthworks:item_sand, Sand
 earthworks:block_adobe, Adobe
 earthworks:block_chalk, Chalk
 earthworks:block_cinder, Cinder Blocks
@@ -11189,29 +11212,6 @@ earthworks:plaster_xleft, Timber Framed Lath and Plaster
 earthworks:plaster_x, Timber Framed Lath and Plaster
 earthworks:plaster_xright, Timber Framed Lath and Plaster
 earthworks:plaster_xtop, Timber Framed Lath and Plaster
-earthworks:item_adobe, Adobe Brick
-earthworks:item_chalk, Chalk Dust
-earthworks:item_cob, Cob Ball
-earthworks:item_lime_plaster, Lime Plaster
-earthworks:item_mud, Mud Ball
-earthworks:item_quicklime, Quicklime
-earthworks:item_slaked_lime, Slaked Lime
-earthworks:item_timber, Timber Framing
-earthworks:tool_square, Square
-earthworks:tool_hand_axe, Handaxe
-earthworks:tool_adz, Adz
-earthworks:tool_compass, Compass
-earthworks:tool_froe, Froe
-earthworks:tool_hand_planer, Planer
-earthworks:tool_level, Level
-earthworks:tool_saw, Saw
-earthworks:tool_wood_hammer, Wood Hammer
-earthworks:tool_stone_hammer, Stone Hammer
-earthworks:tool_iron_hammer, Iron Hammer
-earthworks:tool_gold_hammer, Gold Hammer
-earthworks:tool_diamond_hammer, Diamond Hammer
-earthworks:item_dirt, Dirt Ball
-earthworks:item_sand, Sand
 elevatorid:elevator_white, White Elevator
 elevatorid:elevator_orange, Orange Elevator
 elevatorid:elevator_magenta, Magenta Elevator
@@ -12232,6 +12232,9 @@ immersiveengineering:steel_armor_feet, Steel Boots
 immersiveengineering:steel_armor_legs, Steel Leggings
 immersiveengineering:steel_armor_chest, Steel Chestplate
 immersiveengineering:steel_armor_head, Steel Helmet
+engineersdoors:fencegate_aluminium, Aluminum Fence Gate
+engineersdoors:fencegate_steel, Steel Fence Gate
+engineersdoors:fencegate_treated, Treated Wood Fence Gate
 engineersdoors:door_concrete, Concrete Door
 engineersdoors:door_concrete_ornate, Concrete Door
 engineersdoors:door_concrete_reinforced, Concrete Door
@@ -12243,9 +12246,6 @@ engineersdoors:door_treated_ornate, Treated Wood Door
 engineersdoors:door_treated_reinforced, Treated Wood Door
 engineersdoors:trapdoor_steel, Steel Trapdoor
 engineersdoors:trapdoor_treated, Treated Wood Trapdoor
-engineersdoors:fencegate_aluminium, Aluminum Fence Gate
-engineersdoors:fencegate_steel, Steel Fence Gate
-engineersdoors:fencegate_treated, Treated Wood Fence Gate
 extendeddays:pocket_watch, Pocket Watch
 zerocore:debugtool, Debug Tool
 bigreactors:ingotyellorium, Yellorium Ingot
@@ -14359,24 +14359,6 @@ silentgems:leggings, Gem Leggings
 silentgems:boots, Gem Boots
 silentgems:toolrenderhelper, item.silentgems.toolrenderhelper.name
 silentgems:guide_book, Silent's Gems Manual
-ironchest:iron_gold_chest_upgrade, Iron to Gold Chest Upgrade
-ironchest:gold_diamond_chest_upgrade, Gold to Diamond Chest Upgrade
-ironchest:copper_silver_chest_upgrade, Copper to Silver Chest Upgrade
-ironchest:silver_gold_chest_upgrade, Silver to Gold Chest Upgrade
-ironchest:copper_iron_chest_upgrade, Copper to Iron Chest Upgrade
-ironchest:diamond_crystal_chest_upgrade, Diamond to Crystal Chest Upgrade
-ironchest:wood_iron_chest_upgrade, Wood to Iron Chest Upgrade
-ironchest:wood_copper_chest_upgrade, Wood to Copper Chest Upgrade
-ironchest:diamond_obsidian_chest_upgrade, Diamond to Obsidian Chest Upgrade
-ironchest:iron_gold_shulker_upgrade, Iron to Gold Shulker Box Upgrade
-ironchest:gold_diamond_shulker_upgrade, Gold to Diamond Shulker Box Upgrade
-ironchest:copper_silver_shulker_upgrade, Copper to Silver Shulker Box Upgrade
-ironchest:silver_gold_shulker_upgrade, Silver to Gold Shulker Box Upgrade
-ironchest:copper_iron_shulker_upgrade, Copper to Iron Shulker Box Upgrade
-ironchest:diamond_crystal_shulker_upgrade, Diamond to Crystal Shulker Box Upgrade
-ironchest:vanilla_iron_shulker_upgrade, Vanilla to Iron Shulker Box Upgrade
-ironchest:vanilla_copper_shulker_upgrade, Vanilla to Copper Shulker Box Upgrade
-ironchest:diamond_obsidian_shulker_upgrade, Diamond to Obsidian Shulker Box Upgrade
 ironchest:iron_chest:0, Iron Chest
 ironchest:iron_chest:1, Gold Chest
 ironchest:iron_chest:2, Diamond Chest
@@ -14497,6 +14479,24 @@ ironchest:iron_shulker_box_black:3, Black Copper Shulker Box
 ironchest:iron_shulker_box_black:4, Black Silver Shulker Box
 ironchest:iron_shulker_box_black:5, Black Crystal Shulker Box
 ironchest:iron_shulker_box_black:6, Black Obsidian Shulker Box
+ironchest:iron_gold_chest_upgrade, Iron to Gold Chest Upgrade
+ironchest:gold_diamond_chest_upgrade, Gold to Diamond Chest Upgrade
+ironchest:copper_silver_chest_upgrade, Copper to Silver Chest Upgrade
+ironchest:silver_gold_chest_upgrade, Silver to Gold Chest Upgrade
+ironchest:copper_iron_chest_upgrade, Copper to Iron Chest Upgrade
+ironchest:diamond_crystal_chest_upgrade, Diamond to Crystal Chest Upgrade
+ironchest:wood_iron_chest_upgrade, Wood to Iron Chest Upgrade
+ironchest:wood_copper_chest_upgrade, Wood to Copper Chest Upgrade
+ironchest:diamond_obsidian_chest_upgrade, Diamond to Obsidian Chest Upgrade
+ironchest:iron_gold_shulker_upgrade, Iron to Gold Shulker Box Upgrade
+ironchest:gold_diamond_shulker_upgrade, Gold to Diamond Shulker Box Upgrade
+ironchest:copper_silver_shulker_upgrade, Copper to Silver Shulker Box Upgrade
+ironchest:silver_gold_shulker_upgrade, Silver to Gold Shulker Box Upgrade
+ironchest:copper_iron_shulker_upgrade, Copper to Iron Shulker Box Upgrade
+ironchest:diamond_crystal_shulker_upgrade, Diamond to Crystal Shulker Box Upgrade
+ironchest:vanilla_iron_shulker_upgrade, Vanilla to Iron Shulker Box Upgrade
+ironchest:vanilla_copper_shulker_upgrade, Vanilla to Copper Shulker Box Upgrade
+ironchest:diamond_obsidian_shulker_upgrade, Diamond to Obsidian Shulker Box Upgrade
 labyrinth:daedalus, Daedalus Block
 lowtechcrafting:crafting_table, Better Crafting Table
 mekanismgenerators:solarpanel, Solar Panel
@@ -14521,19 +14521,6 @@ mekanismgenerators:reactor:2, Reactor Port
 mekanismgenerators:reactor:3, Reactor Logic Adapter
 mekanismgenerators:reactorglass:0, Reactor Glass
 mekanismgenerators:reactorglass:1, Laser Focus Matrix
-mob_grinding_utils:fan_upgrade:0, Mob Fan Upgrade
-mob_grinding_utils:fan_upgrade:1, Mob Fan Upgrade
-mob_grinding_utils:fan_upgrade:2, Mob Fan Upgrade
-mob_grinding_utils:absorption_upgrade:0, Absorption Radius Upgrade
-mob_grinding_utils:saw_upgrade:0, Mob Masher Upgrade
-mob_grinding_utils:saw_upgrade:1, Mob Masher Upgrade
-mob_grinding_utils:saw_upgrade:2, Mob Masher Upgrade
-mob_grinding_utils:saw_upgrade:3, Mob Masher Upgrade
-mob_grinding_utils:saw_upgrade:4, Mob Masher Upgrade
-mob_grinding_utils:saw_upgrade:5, Mob Masher Upgrade
-mob_grinding_utils:mob_swab, Mob Swab
-mob_grinding_utils:gm_chicken_feed, GM Chicken Feed
-mob_grinding_utils:null_sword, Imaginary Not Here Sword
 mob_grinding_utils:fan, Mob Fan
 mob_grinding_utils:saw, Mob Masher
 mob_grinding_utils:absorption_hopper, Absorption Hopper
@@ -14547,6 +14534,19 @@ mob_grinding_utils:dark_oak_stone, Dark Oak Stone
 mob_grinding_utils:entity_conveyor, Entity Conveyor
 mob_grinding_utils:ender_inhibitor_on, Ender Inhibitor Active
 mob_grinding_utils:ender_inhibitor_off, Ender Inhibitor Inactive
+mob_grinding_utils:fan_upgrade:0, Mob Fan Upgrade
+mob_grinding_utils:fan_upgrade:1, Mob Fan Upgrade
+mob_grinding_utils:fan_upgrade:2, Mob Fan Upgrade
+mob_grinding_utils:absorption_upgrade:0, Absorption Radius Upgrade
+mob_grinding_utils:saw_upgrade:0, Mob Masher Upgrade
+mob_grinding_utils:saw_upgrade:1, Mob Masher Upgrade
+mob_grinding_utils:saw_upgrade:2, Mob Masher Upgrade
+mob_grinding_utils:saw_upgrade:3, Mob Masher Upgrade
+mob_grinding_utils:saw_upgrade:4, Mob Masher Upgrade
+mob_grinding_utils:saw_upgrade:5, Mob Masher Upgrade
+mob_grinding_utils:mob_swab, Mob Swab
+mob_grinding_utils:gm_chicken_feed, GM Chicken Feed
+mob_grinding_utils:null_sword, Imaginary Not Here Sword
 morefurnaces:upgrade:0, Furnace Upgrade: Stone To Iron
 morefurnaces:upgrade:1, Furnace Upgrade: Stone To Netherrack
 morefurnaces:upgrade:2, Furnace Upgrade: Iron To Gold
@@ -15309,7 +15309,6 @@ v0idssmartbackpacks:upgrade_sharing, Sharing Upgrade
 v0idssmartbackpacks:upgrade_lighting, Lightg Upgrade
 v0idssmartbackpacks:upgrade_crafting, Crafting Upgrade
 v0idssmartbackpacks:upgrade_filter_regex, Regular Expression Filter
-vc:airship_workbench, Airship Workbench
 vc:item_guidebook_main, The 'Vies' Craft, vol.1
 vc:item_dismounter_normal, Dismounter
 vc:item_dismounter_player, Dismounter Player
@@ -15414,6 +15413,7 @@ vc:symbols/item_display_symbol:18, Bell
 vc:symbols/item_display_symbol:19, Anchor
 vc:symbols/item_display_symbol:20, Barrel
 vc:symbols/item_display_symbol:21, Gears
+vc:airship_workbench, Airship Workbench
 wirelessutils:directional_charger:0, Directional Charger (Tier 1)
 wirelessutils:directional_charger:1, Directional Charger (Tier 2)
 wirelessutils:directional_charger:2, Directional Charger (Tier 3)
