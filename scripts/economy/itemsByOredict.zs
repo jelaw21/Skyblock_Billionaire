@@ -266,7 +266,8 @@ val threeDollar=[
 	<ore:blockPrismarine>,
 	<ore:blockPrismarineBrick>,
 	<ore:blockPrismarineDark>,
-	<ore:blockUranium>
+	<ore:blockUranium>,
+	<ore:foodAcorn>
 	
 ]as IIngredient[];
 

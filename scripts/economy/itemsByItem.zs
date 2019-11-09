@@ -270,7 +270,8 @@ val twoDollar = [
     <enderio:item_alloy_endergy_ingot:3>,
     <enderio:item_alloy_endergy_ingot:4>,
     <enderio:item_alloy_endergy_ingot:5>,
-    <enderio:item_alloy_endergy_ingot:6>
+    <enderio:item_alloy_endergy_ingot:6>,
+    <ichunutil:compact_porkchop>
 	
 ] as IItemStack[];
 
@@ -424,7 +425,8 @@ val oneTen = [
     <enderio:block_alloy:2>,
     <enderio:item_material:56>,
     <enderio:item_material:42>,
-    <enderio:item_material:44>
+    <enderio:item_material:44>,
+    <resourcehogs:truffle>
 	
 ] as IItemStack[];
 

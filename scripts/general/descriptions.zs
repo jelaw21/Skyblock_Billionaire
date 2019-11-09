@@ -56,6 +56,7 @@ mods.jei.JEI.addDescription([<thermalfoundation:material:771>, <thermalfoundatio
 
 mods.jei.JEI.addDescription([<mysticalagriculture:inferium_ore>, <mysticalagriculture:end_inferium_ore>, <mysticalagriculture:crafting>],"Minicio Essence can be made by applying a chaos essence shard to an Ender Essence Ore to get an End Minicio Ore. Harvest it to the get the essence.");
 
+mods.jei.JEI.addDescription([<silentgems:glowrose:*>],"Glowrose flowers are made by applying Glow Rose Fertilizer on grass.", "You can apply Wet Bone Meal to any rose to cycle through all types of roses.");
 
 
 

@@ -1,4 +1,7 @@
 //SHAPELESS
+recipes.addShapeless(<gardenstuff:stone_block>,[<chisel:block_charcoal2:1>]);
+recipes.addShapeless(<mekanism:basicblock:3>,[<gardenstuff:stone_block>]);
+recipes.addShapeless(<thermalfoundation:storage_resource>,[<mekanism:basicblock:3>]);
 recipes.addShapeless(<minecraft:dye>, [<silentgems:dye>]);
 recipes.addShapeless(<silentgems:craftingmaterial:3>, [<mysticalagriculture:chrome_essence>, <mysticalagriculture:chrome_essence>, <mysticalagriculture:chrome_essence>, <mysticalagriculture:chrome_essence>]);
 recipes.addShapeless(<contenttweaker:item_water> * 4, [<minecraft:water_bucket>]);
@@ -62,6 +65,8 @@ recipes.addShapeless(<contenttweaker:steel_strip>*2, [<resourcehogs:bacon>.withT
 
 
 //SHAPED
+recipes.addShaped(<mysticalagriculture:emerald_seeds>, [[<minecraft:emerald_ore>, <mysticalagriculture:crafting:2>, <minecraft:emerald_ore>],[<mysticalagriculture:crafting:2>, <mysticalagriculture:crafting:19>, <mysticalagriculture:crafting:2>], [<minecraft:emerald_ore>, <mysticalagriculture:crafting:2>, <minecraft:emerald_ore>]]);
+recipes.addShaped(<mysticalagriculture:diamond_seeds>, [[<minecraft:diamond_ore>, <mysticalagriculture:crafting:2>, <minecraft:diamond_ore>],[<mysticalagriculture:crafting:2>, <mysticalagriculture:crafting:19>, <mysticalagriculture:crafting:2>], [<minecraft:diamond_ore>, <mysticalagriculture:crafting:2>, <minecraft:diamond_ore>]]);
 recipes.addShaped(<superfactorymanager:cable>*8, [[<ore:blockGlass>, <minecraft:light_weighted_pressure_plate>, <ore:blockGlass>],[<ore:ingotIron>, <minecraft:redstone>, <ore:ingotIron>], [<ore:blockGlass>, <minecraft:light_weighted_pressure_plate>, <ore:blockGlass>]]);
 recipes.addShaped(<petrock:stoneium>, [[null, <minecraft:stone>, null],[<minecraft:stone>, <minecraft:iron_ingot>, <minecraft:stone>], [null, <minecraft:stone>, null]]);
 recipes.addShaped("soulus/bars_endersteel_ender", <soulus:bars_endersteel:3> * 8, [[<soulus:dust_ender:*>,

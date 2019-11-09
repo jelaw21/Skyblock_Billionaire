@@ -74,7 +74,3 @@ ftbutilities.chat.name_format: "[&6WORLD LEADER&r]<{name}>:"
 [president]
 power: 18
 ftbutilities.chat.name_format: "[&kPRESIDENT OF THE WORLD&r]<{name}>:"
-
-// The_Law_21
-[01cd9ade82df4023b7a32b19a88fc1d7]
-parent: chairman

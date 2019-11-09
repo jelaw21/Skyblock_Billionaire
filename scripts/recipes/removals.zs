@@ -42,6 +42,10 @@ recipes.remove(<mysticalagriculture:nature_seeds>);
 recipes.remove(<mysticalagriculture:dirt_seeds>);
 recipes.remove(<mysticalagriculture:stone_seeds>);
 recipes.remove(<aroma1997sdimension:dimensionchanger>);
+recipes.remove(<gardenstuff:stone_block>);
+recipes.remove(<mekanism:basicblock:3>);
+recipes.remove(<thermalfoundation:storage_resource>);
+
 
 mods.jei.JEI.removeAndHide(<earthworks:tool_diamond_hammer>);
 mods.jei.JEI.removeAndHide(<earthworks:tool_gold_hammer>);
