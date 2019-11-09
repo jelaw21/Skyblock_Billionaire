@@ -9,7 +9,7 @@ setRequiresParents()
 
 //Criteria
 criteria = addCriteria("promotion", "minecraft:inventory_changed")
-criteria.addItem(<contenttweaker:bank_item, nbt:{Total:250000}>)
+criteria.addItem(<contenttweaker:bank_item, nbt:{Total: 250000.0 as float, display: {Lore: ["$250000.0"]}}>)
 
 setShowToast(true)
 setAnnounceToChat(false)
