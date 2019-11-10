@@ -772,7 +772,7 @@
 			"loot": null
 		},
 		{
-			"essence": "thermalfoundation.basalz",
+			"essence": "thermalfoundation:basalz",
 			"name": null,
 			"spawn_names": null,
 			"colors": null,
@@ -783,7 +783,7 @@
 			"soulbook_quantity": 16,
 			"spawns": null,
 			"loot": {
-				"thermalfoundation.basalz": {
+				"thermalfoundation:basalz": {
 					"min": 1,
 					"max": 2,
 					"chance": 0.6
@@ -791,7 +791,7 @@
 			}
 		},
 		{
-			"essence": "thermalfoundation.blitz",
+			"essence": "thermalfoundation:blitz",
 			"name": null,
 			"spawn_names": null,
 			"colors": null,
@@ -802,7 +802,7 @@
 			"soulbook_quantity": 16,
 			"spawns": null,
 			"loot": {
-				"thermalfoundation.blitz": {
+				"thermalfoundation:blitz": {
 					"min": 1,
 					"max": 2,
 					"chance": 0.6
@@ -810,7 +810,7 @@
 			}
 		},
 		{
-			"essence": "thermalfoundation.blizz",
+			"essence": "thermalfoundation:blizz",
 			"name": null,
 			"spawn_names": null,
 			"colors": null,
@@ -821,7 +821,7 @@
 			"soulbook_quantity": 16,
 			"spawns": null,
 			"loot": {
-				"thermalfoundation.blizz": {
+				"thermalfoundation:blizz": {
 					"min": 1,
 					"max": 2,
 					"chance": 0.6

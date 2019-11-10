@@ -16,7 +16,7 @@ mods.Delivery.Store.addTrade("REGIONAL_STORE",<contenttweaker:backpacks>, specia
 
 mods.Delivery.Store.addTrade("EXECUTIVE_DIRECTOR",<extrautils2:machine>.withTag({Type: "crafttweaker:global_energy"}), special, <contenttweaker:bank_item>.withTag({Total: 15000.0 as float, display: {Lore: ["$15000.0"]}}));
 
-mods.Delivery.Store.addTrade("EXECUTIVE_DIRECTOR",<extrautils2:machine>.withTag({Type: "crafttweaker:global_fluids"}), special, <contenttweaker:bank_item>.withTag({Total: 15000.0 as float, display: {Lore: ["$15000.0"]}}));
+mods.Delivery.Store.addTrade("EXECUTIVE_DIRECTOR",<extrautils2:machine>.withTag({Type: "crafttweaker:global_liquid"}), special, <contenttweaker:bank_item>.withTag({Total: 15000.0 as float, display: {Lore: ["$15000.0"]}}));
 
 mods.Delivery.Store.addTrade("EXECUTIVE_DIRECTOR",<extrautils2:machine>.withTag({Type: "crafttweaker:global_items"}), special, <contenttweaker:bank_item>.withTag({Total: 15000.0 as float, display: {Lore: ["$15000.0"]}}));
 

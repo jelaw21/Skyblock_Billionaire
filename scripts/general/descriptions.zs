@@ -46,9 +46,7 @@ mods.jei.JEI.addDescription([<minecraft:iron_ore>, <minecraft:gold_ore>, <minecr
 
 mods.jei.JEI.addDescription([<silentgems:essenceore>],"Chaos Essence Ores are created by applying Chaos Essence to cobblestone.");
 
-mods.jei.JEI.addDescription([<silentgems:multi_gem_ore_classic>, <silentgems:multi_gem_ore_dark>, <silentgems:multi_gem_ore_light>],"Multi-gem Ores will drop a random gem of the dim they represent.", "Classic Ores are made by applying Glowrose Fertilizer to Chaos Ore", "Dark Ores are made by applying blaze powder to Classic Ore", "Light Ores are made by applying ender bone meal to Dark Ores.");
-
-mods.jei.JEI.addDescription([<thermalfoundation:ore>,<thermalfoundation:ore:5>,<thermalfoundation:ore:3>,<thermalfoundation:ore:1>, <thermalfoundation:ore:6>, <thermalfoundation:ore:2>, <thermalfoundation:ore:8>, <thermalfoundation:ore:4>, <thermalfoundation:ore:7>],"Thermal Ores can be made by applying Pyrotheum Dust to normal ores. ", " ", "Iron -> Copper", "Gold -> Nickel", "Lapis -> Lead","Coal -> Tin", "Diamond -> Platinum","Chaos -> Silver","Emerald -> Mithril","Redstone -> Aluminium","Prosperity -> Iridium");
+mods.jei.JEI.addDescription([<silentgems:multi_gem_ore_classic>, <silentgems:multi_gem_ore_dark>, <silentgems:multi_gem_ore_light>],"Multi-gem Ores will drop a random gem of the dim they represent.", "Classic Ores are made by applying Glowrose Fertilizer to Chaos Ore", "Dark Ores are made by applying Blazestone to Classic Ore", "Light Ores are made by applying ender bone meal to Dark Ores.");
 
 mods.jei.JEI.addDescription([<silentgems:craftingmaterial:4>, <silentgems:essenceore:1>],"Ender Essence comes from Ender Essence Ore.", " ", "To get Ender Essence Ore, you must first apply Chaos Essence to End Stone to turn it to Chaotic Essence Endstone, then apply Ender Powder to transform it into Ender Essence Ore.");
 
