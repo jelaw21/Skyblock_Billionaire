@@ -165,3 +165,5 @@ item.contenttweaker.high_income_proposal.name=Purchase Proposal: High Income
 item.contenttweaker.low_income.name=Low Income Businesses
 item.contenttweaker.mid_income.name=Mid Income Businesses
 item.contenttweaker.high_income.name=High Income Businesses
+tile.contenttweaker.romeo_stonebrick.name=LMR Industries Brick
+tile.contenttweaker.romeo_stone_mossy.name=LMR Industries Mossy Brick
