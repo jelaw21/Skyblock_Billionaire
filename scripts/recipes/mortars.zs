@@ -6,7 +6,7 @@ mods.advancedmortars.Mortar.addRecipe(["wood", "stone", "iron", "diamond"], <sil
 
 mods.advancedmortars.Mortar.addRecipe(["wood", "stone", "iron", "diamond"], <powderpower:powderiron>*2, 4, [<silentgems:gem:3>, <minecraft:coal:1>, <minecraft:dye:15>, <earthworks:item_adobe>]);
 
-mods.advancedmortars.Mortar.addRecipe(["wood", "stone", "iron", "diamond"], <soulus:bone_meal_nether>, 4, [<soulus:bone_chunk_nether>]);
+mods.advancedmortars.Mortar.addRecipe(["wood", "stone", "iron", "diamond"], <soulus:bone_meal_nether>*4, 4, [<soulus:bone_chunk_nether>]);
 
 mods.advancedmortars.Mortar.addRecipe(["wood", "stone", "iron", "diamond"], <minecraft:dye:15>*4, 4, [<ore:boneChunk>]);
 

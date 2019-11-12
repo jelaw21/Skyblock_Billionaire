@@ -357,7 +357,7 @@
             <title space='20'>Chairman of the Board</title>
             <p color="#4f5f98" space='10'>Congratulations, you've made it. This is as far as I can take you. You have now just replaced me as Chairman of the Board and the company is yours. Where you go from here, the skies the limit. But it would be cool to be a Billionaire. I just ask that you do one thing, something I do frequently. Donate to charities. There are three charities I would like you to consider, and if you support them, you may find they give back to you!</p>
             <title space='20'>REQUIREMENTS</title>
-            <p color="#4f5f98" space='10'>Select a charity from the Special Equipment tab to support. You can support all three, but the price will increase for the other two. Each charity will provide a bonus to YOUR company.</p>
+            <p color="#4f5f98" space='10'>Select a charity from the Special Equipment tab to support. You can support all three, if you have the funds. Each charity will provide a bonus to YOUR company.</p>
         </page>
         <page>
             <title space='20'>GATHER</title>
@@ -372,15 +372,23 @@
     <chapter id="philanthropist" condition="philanthropist">
         <page>
             <title space='20'>Philanthropist</title>
-            <p color="#4f5f98" space='10'>I'm back kid, cause frankly, you need me. You need a good advisor. Listen kid, money is where its at. If you have money, you have power. And those with the most of both are banks. They control the wealth. And if we control the banks, we control the wealth. There are a number of banks I have contacted with are open for a merger. It's not going to be cheap, but the pay-off will be immense. We will have the potential to earn more on the global market and even on local markets. Not to mention, a chance to earn interest on loans. Its quite a great thing here.</p>
-            <title space='20'>REQUIREMENTS</title>
+            <p color="#4f5f98" space='10'>I'm back kid, cause frankly, you need me. You need a good advisor. Listen kid, money is where its at. If you have money, you have power. We got a good thing here but we are going to need to expand. Get our fingers in a whole lot more honey pots.</p>
+
+            <p color="#4f5f98" space='10'>To make more money, we're going to buy companies and business and sell their goods to our global markets. But there's always a risk, and some companies don't want to merge. Here's how this works. We're going to propose a merger, and if its succssful, we can apply that business to our global markets. There are three categories of businesses, low-risk/ low-income, normal risk/normal income, and high risk/high income.</p>
+
         </page>
         <page>
+            <title space='20'>REQUIREMENTS</title>
+            <p color="#4f5f98" space='10'>Purchase the Global Market: Businesses from the store and put any level proposal into it. After a bit of time, companies will accept your offer and you can apply those directly to any of the Global Markets. The high income businesses are risky, and many don't want to be bought out, while the low income businesses are more willing. This will effect the number of businesses that accept your proposal</p>
             <title space='20'>GATHER</title>
             <p space="10"><stack item="contenttweaker:bank_item"/><span> with EXACTLY $25,000,000</span></p>
-            <title space='20'>UNLOCKS</title>
+            <p space="10"> <stack item="contenttweaker:low_income" count="64"/>
+                <stack item="contenttweaker:mid_income" count="64"/>
+                <stack item="contenttweaker:high_income" count="64"/></p>
+
         </page>
         <page>
+            <title space='20'>UNLOCKS</title>
             <title space='20'>HINTS</title>
 
         </page>

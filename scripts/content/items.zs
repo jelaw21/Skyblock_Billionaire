@@ -11,6 +11,7 @@ var image = mods.contenttweaker.ResourceLocation.create("contenttweaker:items/mo
 var backpack = mods.contenttweaker.ResourceLocation.create("contenttweaker:items/backpack");
 var vote = mods.contenttweaker.ResourceLocation.create("contenttweaker:items/vote");
 var charity = mods.contenttweaker.ResourceLocation.create("contenttweaker:items/charity");
+var upgradeImage = mods.contenttweaker.ResourceLocation.create("contenttweaker:items/proposal");
 
 var modbook = VanillaFactory.createItem("agricraft");
 modbook.maxStackSize = 1;
@@ -63,7 +64,7 @@ modbook.textureLocation = image;
 modbook.rarity = "rare";
 modbook.itemRightClick = function(stack, world, player, hand) {
     Commands.call("gamestage add @s MYSTICAL_AG", player, world, false, true);
-    Commands.call("gamestage remove @s ASSISTANT_MANAGER_STORE", player, world, false, true);
+    Commands.call("gamestage remove @s ASSISTANT_STORE", player, world, false, true);
 	stack.shrink(1);
     return "Pass";
 };
@@ -86,7 +87,7 @@ modbook.textureLocation = image;
 modbook.rarity = "rare";
 modbook.itemRightClick = function(stack, world, player, hand) {
     Commands.call("gamestage add @s RESOURCE_HOGS", player, world, false, true);
-    Commands.call("gamestage remove @s ASSISTANT_MANAGER_STORE", player, world, false, true);
+    Commands.call("gamestage remove @s ASSISTANT_STORE", player, world, false, true);
 	stack.shrink(1);
     return "Pass";
 };
@@ -132,7 +133,7 @@ modbook.textureLocation = image;
 modbook.rarity = "rare";
 modbook.itemRightClick = function(stack, world, player, hand) {
     Commands.call("gamestage add @s RESOURCE_TREES", player, world, false, true);
-    Commands.call("gamestage remove @s ASSISTANT_MANAGER_STORE", player, world, false, true);
+    Commands.call("gamestage remove @s ASSISTANT_STORE", player, world, false, true);
 	stack.shrink(1);
     return "Pass";
 };
@@ -1232,7 +1233,7 @@ charityItem.rarity = "rare";
 charityItem.itemRightClick = function(stack, world, player, hand) {
     Commands.call("give @s contenttweaker:rfsheep", player, world, false, true);
     Commands.call("gamestage silentremove @s CHAIRMAN_STORE", player, world, false, true);
-    Commands.call("tellraw @s {\"text\":\"Have you ever rubbed a balloon on your head and got shocked? HAve you ever wondered if that electricity could be harnessed and used. We here at Static Electric Research do just that. Our dream is to provide an even more eco-friendly solution to the power crisis. WIth your help, we have succeeded. Enjoy! \", \"color\":\"gold\"}", player, world);
+    Commands.call("tellraw @s {\"text\":\"Have you ever rubbed a balloon on your head and got shocked? HAve you ever wondered if that electricity could be harnessed and used. We here at Static Electric Research do just that. Our dream is to provide an even more eco-friendly solution to the power crisis. With your help, we have succeeded. Enjoy! \", \"color\":\"gold\"}", player, world);
 
 	stack.shrink(1);
     return "Pass";
@@ -1256,3 +1257,55 @@ var share = VanillaFactory.createItem("share");
 share.maxStackSize = 10;
 share.rarity = "epic";
 share.register();
+
+var upgrade = VanillaFactory.createItem("low_income");
+upgrade.maxStackSize = 64;
+upgrade.rarity = "epic";
+upgrade.register();
+
+upgrade = VanillaFactory.createItem("mid_income");
+upgrade.maxStackSize = 64;
+upgrade.rarity = "epic";
+upgrade.register();
+
+upgrade = VanillaFactory.createItem("high_income");
+upgrade.maxStackSize = 64;
+upgrade.rarity = "epic";
+upgrade.register();
+
+upgrade = VanillaFactory.createItem("low_income_proposal");
+upgrade.maxStackSize = 64;
+upgrade.textureLocation = upgradeImage;
+upgrade.rarity = "epic";
+upgrade.register();
+
+upgrade = VanillaFactory.createItem("mid_income_proposal");
+upgrade.maxStackSize = 64;
+upgrade.textureLocation = upgradeImage;
+upgrade.rarity = "epic";
+upgrade.register();
+
+upgrade = VanillaFactory.createItem("high_income_proposal");
+upgrade.maxStackSize = 64;
+upgrade.textureLocation = upgradeImage;
+upgrade.rarity = "epic";
+upgrade.register();
+
+var romeo = VanillaFactory.createBlock("romeo_stonebrick", <blockmaterial:rock>);
+romeo.setLightValue(15);
+romeo.setBlockHardness(2.0);
+romeo.setBlockResistance(6000.0);
+romeo.setToolClass("pickaxe");
+romeo.setToolLevel(0);
+romeo.setBlockSoundType(<soundtype:stone>);
+romeo.register();
+
+romeo = VanillaFactory.createBlock("romeo_stone_mossy", <blockmaterial:rock>);
+romeo.setLightValue(15);
+romeo.setBlockHardness(2.0);
+romeo.setBlockResistance(6000.0);
+romeo.setToolClass("pickaxe");
+romeo.setToolLevel(0);
+romeo.setBlockSoundType(<soundtype:stone>);
+romeo.register();
+

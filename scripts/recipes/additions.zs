@@ -65,6 +65,9 @@ recipes.addShapeless(<contenttweaker:steel_strip>*2, [<resourcehogs:bacon>.withT
 
 
 //SHAPED
+recipes.addShaped(<contenttweaker:high_income_proposal>, [[<powderpower:ingottrilium>, <soulus:ingot_niobium>, <powderpower:ingottrilium>],[<soulus:ingot_niobium>, <silentgems:craftingmaterial:18>, <soulus:ingot_niobium>], [<powderpower:ingottrilium>, <soulus:ingot_niobium>, <powderpower:ingottrilium>]]);
+recipes.addShaped(<contenttweaker:mid_income_proposal>, [[<powderpower:gemgemium>, <soulus:ingot_endersteel_dark>, <powderpower:ingotlapium>],[<soulus:ingot_endersteel_dark>, <silentgems:miscblock:1>, <soulus:ingot_endersteel_dark>], [<powderpower:ingotlapium>, <soulus:ingot_endersteel_dark>, <powderpower:gemgemium>]]);
+recipes.addShaped(<contenttweaker:low_income_proposal>, [[<minecraft:gold_ingot>, <minecraft:iron_ingot>, <powderpower:ingotredium>],[<minecraft:iron_ingot>, <minecraft:diamond_block>, <minecraft:iron_ingot>], [<powderpower:ingotredium>, <minecraft:iron_ingot>, <minecraft:gold_ingot>]]);
 recipes.addShaped(<mysticalagriculture:emerald_seeds>, [[<minecraft:emerald_ore>, <mysticalagriculture:crafting:2>, <minecraft:emerald_ore>],[<mysticalagriculture:crafting:2>, <mysticalagriculture:crafting:19>, <mysticalagriculture:crafting:2>], [<minecraft:emerald_ore>, <mysticalagriculture:crafting:2>, <minecraft:emerald_ore>]]);
 recipes.addShaped(<mysticalagriculture:diamond_seeds>, [[<minecraft:diamond_ore>, <mysticalagriculture:crafting:2>, <minecraft:diamond_ore>],[<mysticalagriculture:crafting:2>, <mysticalagriculture:crafting:19>, <mysticalagriculture:crafting:2>], [<minecraft:diamond_ore>, <mysticalagriculture:crafting:2>, <minecraft:diamond_ore>]]);
 recipes.addShaped(<superfactorymanager:cable>*8, [[<ore:blockGlass>, <minecraft:light_weighted_pressure_plate>, <ore:blockGlass>],[<ore:ingotIron>, <minecraft:redstone>, <ore:ingotIron>], [<ore:blockGlass>, <minecraft:light_weighted_pressure_plate>, <ore:blockGlass>]]);

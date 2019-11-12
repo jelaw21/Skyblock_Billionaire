@@ -6,6 +6,7 @@ mods.ItemStages.removeItemStage(<extrautils2:machine>.withTag({Type: "crafttweak
 mods.ItemStages.addItemStage("EXECUTIVE_DIRECTOR", <extrautils2:machine>.withTag({Type: "crafttweaker:global_energy"}));
 mods.ItemStages.addItemStage("EXECUTIVE_DIRECTOR", <extrautils2:machine>.withTag({Type: "crafttweaker:global_liquid"}));
 mods.ItemStages.addItemStage("EXECUTIVE_DIRECTOR", <extrautils2:machine>.withTag({Type: "crafttweaker:global_items"}));
+mods.ItemStages.addItemStage("PHILANTHROPIST", <extrautils2:machine>.withTag({Type: "crafttweaker:global_upgrade"}));
 mods.ItemStages.stageModItems("CHISEL", "chisel");
 mods.ItemStages.removeItemStage(<chisel:block_charcoal2:1>);
 mods.ItemStages.stageModItems("PREFAB", "prefab");

@@ -6,7 +6,7 @@ setIcon(<minecraft:skull:3>)
 setDescription("TOP OF THE WORLD!")
 //setTranslatedDescription("advancements.stage0.root.description")
 
-setBackground("minecraft:textures/blocks/dirt.png")
+setBackground("minecraft:textures/blocks/diamond_block.png")
 
 setShowToast(false)
 

@@ -20,6 +20,8 @@ mods.Delivery.Store.addTrade("EXECUTIVE_DIRECTOR",<extrautils2:machine>.withTag(
 
 mods.Delivery.Store.addTrade("EXECUTIVE_DIRECTOR",<extrautils2:machine>.withTag({Type: "crafttweaker:global_items"}), special, <contenttweaker:bank_item>.withTag({Total: 15000.0 as float, display: {Lore: ["$15000.0"]}}));
 
+mods.Delivery.Store.addTrade("EXECUTIVE_DIRECTOR",<extrautils2:machine>.withTag({Type: "crafttweaker:global_upgrade"}), special, <contenttweaker:bank_item>.withTag({Total: 300000.0 as float, display: {Lore: ["$300000.0"]}}));
+
 mods.Delivery.Store.addTrade("CEO",<contenttweaker:share>, special, <contenttweaker:bank_item>.withTag({Total: 20000.0 as float, display: {Lore: ["$20000.0"]}}));
 mods.Delivery.Store.addTrade("CEO",<contenttweaker:gemium>, special, <contenttweaker:bank_item>.withTag({Total: 75000.0 as float, display: {Lore: ["$75000.0"]}}));
 

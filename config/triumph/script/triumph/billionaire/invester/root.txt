@@ -6,7 +6,7 @@ setIcon(<minecraft:skull:3>)
 setDescription("Spread the Wealth!")
 //setTranslatedDescription("advancements.stage0.root.description")
 
-setBackground("minecraft:textures/blocks/endstone.png")
+setBackground("minecraft:textures/blocks/lapis_block.png")
 
 setShowToast(false)
 

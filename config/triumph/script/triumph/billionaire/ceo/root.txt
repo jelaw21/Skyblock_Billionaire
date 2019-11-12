@@ -6,7 +6,7 @@ setIcon(<minecraft:skull:3>)
 setDescription("Own the company!  Buy the Shares!")
 //setTranslatedDescription("advancements.stage0.root.description")
 
-setBackground("minecraft:textures/blocks/redstone_block.png")
+setBackground("minecraft:textures/blocks/stonebrick.png")
 
 setShowToast(false)
 

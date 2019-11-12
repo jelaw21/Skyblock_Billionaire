@@ -69,8 +69,7 @@ val oneNickel = [
 	<ore:stoneLimestone>,
 	<ore:stoneMarble>,
 	<ore:nuggetChaos>,
-	<ore:nuggetEnderEssence>,
-	<ore:essenceInferium>
+	<ore:nuggetEnderEssence>
 	
 ] as IIngredient[];
 
@@ -89,10 +88,7 @@ val oneDime = [
 	<ore:compressed1xDirt>,
 	<ore:compressed2xDirt>,
 	<ore:nuggetBaseEssence>,
-	<ore:nuggetPrudentium>,
-	<ore:nuggetSuperium>,
 	<ore:nuggetSupremium>,
-	<ore:nuggetInferium>,
 	<ore:compressedDirt1>
 	
 ] as IIngredient[];
@@ -146,9 +142,7 @@ val oneQuarter = [
 	<ore:ingotInferium>,
 	<ore:ingotSoulium>,
 	<ore:nuggetSoulium>,
-	<ore:nuggetIntermedium>,
 	<ore:essenceTier1>
-	
 ] as IIngredient[];
 
 val twoQuarter=[
@@ -168,14 +162,11 @@ val twoQuarter=[
 	<ore:materialPressedwax>,
 	<ore:gemChaos>,
 	<ore:gemEnderEssence>,
-	<ore:essencePrudentium>,
 	<ore:essenceTier2>,
 	<ore:compressedStone1>,
 	<ore:chestWood>,
 	<immersiveengineering:sheetmetal:*>,
     <immersiveengineering:sheetmetal_slab:*>
-
-	
 ] as IIngredient[];
 
 val oneDollar = [
@@ -211,9 +202,7 @@ val oneDollar = [
 	<ore:coinNickel>,		
 	<ore:coinBronze>,
 	<ore:coinConstantan>,
-	<ore:blockInferiumEssence>,
 	<ore:seedsTier1>,
-	<ore:essenceIntermedium>,
 	<ore:ingotPrudentium>,
 	<ore:oreCopper>,
 	<ore:oreTin>,
@@ -224,11 +213,10 @@ val oneDollar = [
 	<ore:compressedDirt2>,
 	<ore:ingotRefinedIron>,
 	<ore:ingotZinc>
-	
+
 ] as IIngredient[];
 
 val threeDollar=[
-
 	<ore:coinSteel>,
 	<ore:coinElectrum>,
 	<ore:coinInvar>,
@@ -256,7 +244,6 @@ val threeDollar=[
 	<ore:ingotIntermedium>,
 	<ore:blockProsperity>,
 	<ore:blockBaseEssence>,
-	<ore:essenceSuperium>,	
 	<ore:oreSilver>,
 	<ore:oreNickel>,
 	<ore:orePlatinum>,
@@ -267,13 +254,13 @@ val threeDollar=[
 	<ore:blockPrismarineBrick>,
 	<ore:blockPrismarineDark>,
 	<ore:blockUranium>,
-	<ore:foodAcorn>
-	
+	<ore:foodAcorn>,
+	<ore:essenceSupremium>
+
 ]as IIngredient[];
 
 val oneFive = [
 	<ore:seedsTier2>,
-	<ore:blockPrudentiumEssence>,
 	<ore:cofh:potion>,
 	<ore:compressed4xDirt>,
 	<ore:blockSteel>,
@@ -284,7 +271,6 @@ val oneFive = [
 	<ore:blockEnderium>,
 	<ore:blockInferium>,
 	<ore:ingotSuperium>,
-	<ore:essenceSupremium>,
 	<ore:blockAluminum>,
 	<ore:blockNickel>,	
 	<ore:blockBronze>,
@@ -293,7 +279,7 @@ val oneFive = [
 	<ore:compressedGlowstone1>,
 	<ore:compressedObsidian1>,
 	<ore:chestEnder>
-	
+
 ] as IIngredient[];
 
 val oneTen = [
@@ -306,27 +292,25 @@ val oneTen = [
 	<ore:blockPlatinum>,
 	<ore:blockIridium>,
 	<ore:blockMithril>,
-	<ore:blockIntermediumEssence>,
 	<ore:blockPrudentium>,
 	<ore:blockSoulium>,
 	<ore:blockDiamond>,
 	<ore:blockEmerald>,
 	<ore:ingotSupremium>,
-    <techreborn:storage:8>
-	
+    <techreborn:storage:8>,
+	<ore:blockIntermedium>
 	
 ] as IIngredient[];
 
 val oneTwenty = [
 
-	<ore:blockIntermedium>,
 	<ore:compressed4xNetherrack>,
-	<ore:blockSuperiumEssence>,
 	<ore:seedsTier3>
 	
 ] as IIngredient[];
 
 val oneFifty = [
+
 	<ore:blockSuperium>,
 	<ore:compressed5xNetherrack>,
 	<ore:dropofevil>,	
@@ -334,19 +318,20 @@ val oneFifty = [
 	<ore:oreDimensionalShard>,
 	<ore:compressedStone3>,
 	<ore:compressedGlowstone2>,
-	<ore:compressedObsidian2>
-	
+	<ore:compressedObsidian2>,
+	<ore:blockSupremiumEssence>
 ] as IIngredient[];
 
 val oneHundred = [
+
 	<ore:blockSupremium>,
 	<ore:magic_snow_globe>,<ore:ingotUnstable>,
 	<ore:compressed8xCobblestone>,
 	<ore:compressed6xNetherrack>,
 	<ore:ingotEvilMetal>,
 	<ore:ingotDemonicMetal>,
-	<ore:ingotEnchantedMetal>,
-	<ore:blockSupremiumEssence>
+	<ore:ingotEnchantedMetal>
+
 	
 ] as IIngredient[];
 
@@ -364,6 +349,9 @@ for items in onePenny{
 	for entry in items.items{
 		entry.addTooltip(format.blue("$0.01"));
 		machine.addRecipe({"itemIn":entry}, {"moneyOut":<modcurrency:coin>%80}, 200, 60);
+		machine.addRecipe({"itemIn":entry, "upgrade":<contenttweaker:low_income>}, {"moneyOut":<modcurrency:coin>*2%80}, 200, 30);
+		machine.addRecipe({"itemIn":entry, "upgrade":<contenttweaker:mid_income>}, {"moneyOut":<modcurrency:coin>*3%80}, 200, 40);
+		machine.addRecipe({"itemIn":entry, "upgrade":<contenttweaker:high_income>}, {"moneyOut":<modcurrency:coin>*5%80}, 200, 50);
 	}	
 }
 
@@ -372,6 +360,9 @@ for items in oneNickel{
 	for entry in items.items{
 		entry.addTooltip(format.blue("$0.05"));
 		machine.addRecipe({"itemIn":entry}, {"moneyOut":<modcurrency:coin:1>%80}, 200, 60);
+		machine.addRecipe({"itemIn":entry, "upgrade":<contenttweaker:low_income>}, {"moneyOut":<modcurrency:coin:1>*2%80}, 200, 30);
+		machine.addRecipe({"itemIn":entry, "upgrade":<contenttweaker:mid_income>}, {"moneyOut":<modcurrency:coin:1>*3%80}, 200, 40);
+		machine.addRecipe({"itemIn":entry, "upgrade":<contenttweaker:high_income>}, {"moneyOut":<modcurrency:coin:1>*5%80}, 200, 50);
 	}	
 }
 
@@ -380,6 +371,9 @@ for items in oneDime{
 	for entry in items.items{
 		entry.addTooltip(format.blue("$0.10"));
 		machine.addRecipe({"itemIn":entry}, {"moneyOut":<modcurrency:coin:2>%80}, 200, 60);
+		machine.addRecipe({"itemIn":entry, "upgrade":<contenttweaker:low_income>}, {"moneyOut":<modcurrency:coin:2>*2%80}, 200, 30);
+		machine.addRecipe({"itemIn":entry, "upgrade":<contenttweaker:mid_income>}, {"moneyOut":<modcurrency:coin:2>*3%80}, 200, 40);
+		machine.addRecipe({"itemIn":entry, "upgrade":<contenttweaker:high_income>}, {"moneyOut":<modcurrency:coin:2>*5%80}, 200, 50);
 	}	
 }
 
@@ -388,6 +382,9 @@ for items in oneQuarter{
 	for entry in items.items{
 		entry.addTooltip(format.blue("$0.25"));
 		machine.addRecipe({"itemIn":entry}, {"moneyOut":<modcurrency:coin:3>%80}, 200, 60);
+		machine.addRecipe({"itemIn":entry, "upgrade":<contenttweaker:low_income>}, {"moneyOut":<modcurrency:coin:3>*2%80}, 200, 30);
+		machine.addRecipe({"itemIn":entry, "upgrade":<contenttweaker:mid_income>}, {"moneyOut":<modcurrency:coin:3>*3%80}, 200, 40);
+		machine.addRecipe({"itemIn":entry, "upgrade":<contenttweaker:high_income>}, {"moneyOut":<modcurrency:coin:3>*5%80}, 200, 50);
 	}	
 }
 
@@ -396,6 +393,9 @@ for items in twoQuarter{
 	for entry in items.items{
 		entry.addTooltip(format.blue("$0.50"));
 		machine.addRecipe({"itemIn":entry}, {"moneyOut":<modcurrency:coin:3>*2%80}, 200, 60);
+		machine.addRecipe({"itemIn":entry, "upgrade":<contenttweaker:low_income>}, {"moneyOut":<modcurrency:coin:3>*4%80}, 200, 30);
+		machine.addRecipe({"itemIn":entry, "upgrade":<contenttweaker:mid_income>}, {"moneyOut":<modcurrency:coin:3>*6%80}, 200, 40);
+		machine.addRecipe({"itemIn":entry, "upgrade":<contenttweaker:high_income>}, {"moneyOut":<modcurrency:coin:3>*10%80}, 200, 50);
 	}	
 }
 
@@ -404,7 +404,10 @@ for items in oneDollar{
 	for entry in items.items{
 		entry.addTooltip(format.blue("$1"));
 		machine.addRecipe({"itemIn":entry}, {"moneyOut":<modcurrency:coin:4>%80}, 200, 60);
-		mods.Delivery.Store.addTrade("ASSISTANT_MANAGER",entry*32, <modcurrency:banknote:1>*32);
+		machine.addRecipe({"itemIn":entry, "upgrade":<contenttweaker:low_income>}, {"moneyOut":<modcurrency:coin:4>*2%80}, 200, 30);
+		machine.addRecipe({"itemIn":entry, "upgrade":<contenttweaker:mid_income>}, {"moneyOut":<modcurrency:coin:4>*3%80}, 200, 40);
+		machine.addRecipe({"itemIn":entry, "upgrade":<contenttweaker:high_income>}, {"moneyOut":<modcurrency:coin:4>*5%80}, 200, 50);
+		mods.Delivery.Store.addTrade("ASSISTANT_MANAGER",entry*32, <modcurrency:coin:4>*32);
 	}	
 }
 
@@ -413,7 +416,10 @@ for items in threeDollar{
 	for entry in items.items{
 		entry.addTooltip(format.blue("$3"));
 		machine.addRecipe({"itemIn":entry}, {"moneyOut":<modcurrency:coin:4>*3%80}, 200, 60);
-		mods.Delivery.Store.addTrade("ASSISTANT_MANAGER",entry*16, <modcurrency:banknote:1>*48);
+		machine.addRecipe({"itemIn":entry, "upgrade":<contenttweaker:low_income>}, {"moneyOut":<modcurrency:coin:4>*6%80}, 200, 30);
+		machine.addRecipe({"itemIn":entry, "upgrade":<contenttweaker:mid_income>}, {"moneyOut":<modcurrency:coin:4>*9%80}, 200, 40);
+		machine.addRecipe({"itemIn":entry, "upgrade":<contenttweaker:high_income>}, {"moneyOut":<modcurrency:coin:4>*15%80}, 200, 50);
+		mods.Delivery.Store.addTrade("ASSISTANT_MANAGER",entry*16, <modcurrency:coin:4>*48);
 	}	
 }
 
@@ -422,6 +428,9 @@ for items in oneFive{
 	for entry in items.items{
 		entry.addTooltip(format.blue("$5"));
 		machine.addRecipe({"itemIn":entry}, {"moneyOut":<modcurrency:banknote:1>%80}, 200, 60);
+		machine.addRecipe({"itemIn":entry, "upgrade":<contenttweaker:low_income>}, {"moneyOut":<modcurrency:banknote:1>*2%80}, 200, 30);
+		machine.addRecipe({"itemIn":entry, "upgrade":<contenttweaker:mid_income>}, {"moneyOut":<modcurrency:banknote:1>*3%80}, 200, 40);
+		machine.addRecipe({"itemIn":entry, "upgrade":<contenttweaker:high_income>}, {"moneyOut":<modcurrency:banknote:1>*5%80}, 200, 50);
 		mods.Delivery.Store.addTrade("ASSISTANT_MANAGER",entry*16, <modcurrency:banknote:1>*16);
 	}	
 }
@@ -431,7 +440,10 @@ for items in oneTen{
 	for entry in items.items{
 		entry.addTooltip(format.blue("$10"));
 		machine.addRecipe({"itemIn":entry}, {"moneyOut":<modcurrency:banknote:2>%80}, 200, 60);
-		mods.Delivery.Store.addTrade("ASSISTANT_MANAGER",entry*8, <modcurrency:banknote:1>*8);
+		machine.addRecipe({"itemIn":entry, "upgrade":<contenttweaker:low_income>}, {"moneyOut":<modcurrency:banknote:2>*2%80}, 200, 30);
+		machine.addRecipe({"itemIn":entry, "upgrade":<contenttweaker:mid_income>}, {"moneyOut":<modcurrency:banknote:2>*3%80}, 200, 40);
+		machine.addRecipe({"itemIn":entry, "upgrade":<contenttweaker:high_income>}, {"moneyOut":<modcurrency:banknote:2>*5%80}, 200, 50);
+		mods.Delivery.Store.addTrade("ASSISTANT_MANAGER",entry*8, <modcurrency:banknote:2>*8);
 	}	
 }
 
@@ -440,7 +452,10 @@ for items in oneTwenty{
 	for entry in items.items{
 		entry.addTooltip(format.blue("$20"));
 		machine.addRecipe({"itemIn":entry}, {"moneyOut":<modcurrency:banknote:3>%80}, 200, 60);
-		mods.Delivery.Store.addTrade("ASSISTANT_MANAGER",entry*8, <modcurrency:banknote:1>*8);
+		machine.addRecipe({"itemIn":entry, "upgrade":<contenttweaker:low_income>}, {"moneyOut":<modcurrency:banknote:3>*2%80}, 200, 30);
+		machine.addRecipe({"itemIn":entry, "upgrade":<contenttweaker:mid_income>}, {"moneyOut":<modcurrency:banknote:3>*3%80}, 200, 40);
+		machine.addRecipe({"itemIn":entry, "upgrade":<contenttweaker:high_income>}, {"moneyOut":<modcurrency:banknote:3>*5%80}, 200, 50);
+		mods.Delivery.Store.addTrade("ASSISTANT_MANAGER",entry*8, <modcurrency:banknote:3>*8);
 	}	
 }
 
@@ -449,7 +464,10 @@ for items in oneFifty{
 	for entry in items.items{
 		entry.addTooltip(format.blue("$50"));
 		machine.addRecipe({"itemIn":entry}, {"moneyOut":<modcurrency:banknote:4>%90}, 200, 60);
-		mods.Delivery.Store.addTrade("ASSISTANT_MANAGER",entry*4, <modcurrency:banknote:1>*4);
+		machine.addRecipe({"itemIn":entry, "upgrade":<contenttweaker:low_income>}, {"moneyOut":<modcurrency:banknote:4>*2%90}, 200, 30);
+		machine.addRecipe({"itemIn":entry, "upgrade":<contenttweaker:mid_income>}, {"moneyOut":<modcurrency:banknote:4>*3%90}, 200, 40);
+		machine.addRecipe({"itemIn":entry, "upgrade":<contenttweaker:high_income>}, {"moneyOut":<modcurrency:banknote:4>*5%90}, 200, 50);
+		mods.Delivery.Store.addTrade("ASSISTANT_MANAGER",entry*4, <modcurrency:banknote:4>*4);
 	}	
 }
 
@@ -458,7 +476,10 @@ for items in oneHundred{
 	for entry in items.items{
 		entry.addTooltip(format.blue("$100"));
 		machine.addRecipe({"itemIn":entry}, {"moneyOut":<modcurrency:banknote:5>%90}, 200, 60);
-		mods.Delivery.Store.addTrade("ASSISTANT_MANAGER",entry*2, <modcurrency:banknote:1>*2);
+		machine.addRecipe({"itemIn":entry, "upgrade":<contenttweaker:low_income>}, {"moneyOut":<modcurrency:banknote:5>*2%90}, 200, 30);
+		machine.addRecipe({"itemIn":entry, "upgrade":<contenttweaker:mid_income>}, {"moneyOut":<modcurrency:banknote:5>*3%90}, 200, 40);
+		machine.addRecipe({"itemIn":entry, "upgrade":<contenttweaker:high_income>}, {"moneyOut":<modcurrency:banknote:5>*5%90}, 200, 50);
+		mods.Delivery.Store.addTrade("ASSISTANT_MANAGER",entry*2, <modcurrency:banknote:5>*2);
 	}	
 }
 
@@ -467,5 +488,8 @@ for items in fiveHundred{
 	for entry in items.items{
 		entry.addTooltip(format.blue("$500"));
 		machine.addRecipe({"itemIn":entry}, {"moneyOut":<modcurrency:banknote:5>*5%90}, 200, 60);
+		machine.addRecipe({"itemIn":entry, "upgrade":<contenttweaker:low_income>}, {"moneyOut":<modcurrency:banknote:5>*10%90}, 200, 30);
+		machine.addRecipe({"itemIn":entry, "upgrade":<contenttweaker:mid_income>}, {"moneyOut":<modcurrency:banknote:5>*15%90}, 200, 40);
+		machine.addRecipe({"itemIn":entry, "upgrade":<contenttweaker:high_income>}, {"moneyOut":<modcurrency:banknote:5>*25%90}, 200, 50);
 	}	
 }

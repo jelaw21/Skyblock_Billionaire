@@ -6,7 +6,7 @@ setIcon(<minecraft:skull:3>)
 setDescription("Now give it away!")
 //setTranslatedDescription("advancements.stage0.root.description")
 
-setBackground("minecraft:textures/blocks/emerald_block.png")
+setBackground("minecraft:textures/blocks/prismarine_dark.png")
 
 setShowToast(false)
 

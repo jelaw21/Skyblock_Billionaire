@@ -6,7 +6,7 @@ setIcon(<minecraft:skull:3>)
 setDescription("Money is Power.")
 //setTranslatedDescription("advancements.stage0.root.description")
 
-setBackground("minecraft:textures/blocks/obsidian_block.png")
+setBackground("minecraft:textures/blocks/gold_block.png")
 
 setShowToast(false)
 

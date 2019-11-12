@@ -6,7 +6,7 @@ setIcon(<minecraft:skull:3>)
 setDescription("Get Those Votes!")
 //setTranslatedDescription("advancements.stage0.root.description")
 
-setBackground("minecraft:textures/blocks/diamond_block.png")
+setBackground("minecraft:textures/blocks/quartz_block_top.png")
 
 setShowToast(false)
 

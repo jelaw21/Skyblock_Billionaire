@@ -1,0 +1,20 @@
+setTitle("Risky Business")
+
+setIcon(<contenttweaker:high_income>)
+
+setDescription("Acquire High Income Businesses")
+
+addParent("triumph:billionaire/philanthropist/root")
+setRequiresParents()
+
+//Criteria
+criteria = addCriteria("promotion", "minecraft:inventory_changed")
+criteria.addItem(<contenttweaker:high_income, count:64~>)
+
+
+setShowToast(true)
+setAnnounceToChat(false)
+
+//Rewards
+
+visibleIf("triumph:billionaire/philanthropist/root")

@@ -6,7 +6,7 @@ setIcon(<minecraft:skull:3>)
 setDescription("Making Dat Money!")
 //setTranslatedDescription("advancements.stage0.root.description")
 
-setBackground("minecraft:textures/blocks/iron_block.png")
+setBackground("minecraft:textures/blocks/concrete_powder_blue.png")
 
 setShowToast(false)
 

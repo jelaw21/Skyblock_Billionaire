@@ -6,7 +6,7 @@ setIcon(<minecraft:skull:3>)
 setDescription("Increase Production!")
 //setTranslatedDescription("advancements.stage0.root.description")
 
-setBackground("minecraft:textures/blocks/gravel.png")
+setBackground("minecraft:textures/blocks/cobblestone.png")
 
 setShowToast(false)
 

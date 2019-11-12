@@ -6,7 +6,7 @@ setIcon(<minecraft:skull:3>)
 setDescription("Wealth for Everyone")
 //setTranslatedDescription("advancements.stage0.root.description")
 
-setBackground("minecraft:textures/blocks/obsidian_block.png")
+setBackground("minecraft:textures/blocks/redstone_block.png")
 
 setShowToast(false)
 

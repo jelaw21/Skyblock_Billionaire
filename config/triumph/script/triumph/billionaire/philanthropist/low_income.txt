@@ -1,0 +1,20 @@
+setTitle("Cheap Business")
+
+setIcon(<contenttweaker:low_income>)
+
+setDescription("Acquire Low Income Businesses")
+
+addParent("triumph:billionaire/philanthropist/root")
+setRequiresParents()
+
+//Criteria
+criteria = addCriteria("promotion", "minecraft:inventory_changed")
+criteria.addItem(<contenttweaker:low_income, count:64~>)
+
+
+setShowToast(true)
+setAnnounceToChat(false)
+
+//Rewards
+
+visibleIf("triumph:billionaire/philanthropist/root")

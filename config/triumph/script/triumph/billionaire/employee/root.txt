@@ -6,7 +6,7 @@ setIcon(<minecraft:skull:3>)
 setDescription("Time to get your nose dirty.")
 //setTranslatedDescription("advancements.stage0.root.description")
 
-setBackground("minecraft:textures/blocks/cobblestone.png")
+setBackground("minecraft:textures/blocks/gravel.png")
 
 setShowToast(false)
 

@@ -2157,6 +2157,10 @@ extrautils2:drum:2, Reinforced Large Drum
 extrautils2:drum:3, Demonically Gargantuan Drum
 extrautils2:drum:4, Creative Drum
 extrautils2:machine:0, Machine Block
+extrautils2:machine:0, Global_energy
+extrautils2:machine:0, Global_liquid
+extrautils2:machine:0, Global_items
+extrautils2:machine:0, Global_upgrade
 extrautils2:machine:0, Furnace
 extrautils2:machine:0, Crusher
 extrautils2:machine:0, Enchanter
@@ -8657,84 +8661,6 @@ appliedenergistics2:facade:0, Cable Facade - Compact Machine Wall
 appliedenergistics2:facade:0, Cable Facade - Kitchen Floor
 appliedenergistics2:facade:0, Cable Facade - Fertile Dirt
 appliedenergistics2:facade:0, Cable Facade - tile.dungeonmobs.lavarock.name
-appliedenergistics2:facade:0, Cable Facade - Timber Framed Wattle and Daub
-appliedenergistics2:facade:0, Cable Facade - Timber Framed Wattle and Daub
-appliedenergistics2:facade:0, Cable Facade - Timber Framed Wattle and Daub
-appliedenergistics2:facade:0, Cable Facade - Timber Framed Wattle and Daub
-appliedenergistics2:facade:0, Cable Facade - Timber Framed Wattle and Daub
-appliedenergistics2:facade:0, Cable Facade - Timber Framed Wattle and Daub
-appliedenergistics2:facade:0, Cable Facade - Timber Framed Wattle and Daub
-appliedenergistics2:facade:0, Cable Facade - Timber Framed Wattle and Daub
-appliedenergistics2:facade:0, Cable Facade - Timber Framed Wattle and Daub
-appliedenergistics2:facade:0, Cable Facade - Timber Framed Wattle and Daub
-appliedenergistics2:facade:0, Cable Facade - Timber Framed Wattle and Daub
-appliedenergistics2:facade:0, Cable Facade - Timber Framed Wattle and Daub
-appliedenergistics2:facade:0, Cable Facade - Timber Framed Wattle and Daub
-appliedenergistics2:facade:0, Cable Facade - Timber Framed Wattle and Daub
-appliedenergistics2:facade:0, Cable Facade - Timber Framed Wattle and Daub
-appliedenergistics2:facade:0, Cable Facade - Timber Framed Wattle and Daub
-appliedenergistics2:facade:0, Cable Facade - Timber Framed Wattle and Daub
-appliedenergistics2:facade:0, Cable Facade - Timber Framed Wattle and Daub
-appliedenergistics2:facade:0, Cable Facade - Timber Framed Wattle and Daub
-appliedenergistics2:facade:0, Cable Facade - Timber Framed Wattle and Daub
-appliedenergistics2:facade:0, Cable Facade - Timber Framed Wattle and Daub
-appliedenergistics2:facade:0, Cable Facade - Timber Framed Wattle and Daub
-appliedenergistics2:facade:0, Cable Facade - Timber Framed Wattle and Daub
-appliedenergistics2:facade:0, Cable Facade - Timber Framed Wattle and Daub
-appliedenergistics2:facade:0, Cable Facade - Timber Framed Wattle and Daub
-appliedenergistics2:facade:0, Cable Facade - Timber Framed Wattle and Daub
-appliedenergistics2:facade:0, Cable Facade - Timber Framed Wattle and Daub
-appliedenergistics2:facade:0, Cable Facade - Timber Framed Wattle and Daub
-appliedenergistics2:facade:0, Cable Facade - Timber Framed Wattle and Daub
-appliedenergistics2:facade:0, Cable Facade - Timber Framed Wattle and Daub
-appliedenergistics2:facade:0, Cable Facade - Timber Framed Wattle and Daub
-appliedenergistics2:facade:0, Cable Facade - Timber Framed Wattle and Daub
-appliedenergistics2:facade:0, Cable Facade - Timber Framed Wattle and Daub
-appliedenergistics2:facade:0, Cable Facade - Timber Framed Wattle and Daub
-appliedenergistics2:facade:0, Cable Facade - Timber Framed Wattle and Daub
-appliedenergistics2:facade:0, Cable Facade - Timber Framed Wattle and Daub
-appliedenergistics2:facade:0, Cable Facade - Timber Framed Wattle and Daub
-appliedenergistics2:facade:0, Cable Facade - Timber Framed Wattle and Daub
-appliedenergistics2:facade:0, Cable Facade - Timber Framed Wattle and Daub
-appliedenergistics2:facade:0, Cable Facade - Timber Framed Lath and Plaster
-appliedenergistics2:facade:0, Cable Facade - Timber Framed Lath and Plaster
-appliedenergistics2:facade:0, Cable Facade - Timber Framed Lath and Plaster
-appliedenergistics2:facade:0, Cable Facade - Timber Framed Lath and Plaster
-appliedenergistics2:facade:0, Cable Facade - Timber Framed Lath and Plaster
-appliedenergistics2:facade:0, Cable Facade - Timber Framed Lath and Plaster
-appliedenergistics2:facade:0, Cable Facade - Timber Framed Lath and Plaster
-appliedenergistics2:facade:0, Cable Facade - Timber Framed Lath and Plaster
-appliedenergistics2:facade:0, Cable Facade - Timber Framed Lath and Plaster
-appliedenergistics2:facade:0, Cable Facade - Timber Framed Lath and Plaster
-appliedenergistics2:facade:0, Cable Facade - Timber Framed Lath and Plaster
-appliedenergistics2:facade:0, Cable Facade - Timber Framed Lath and Plaster
-appliedenergistics2:facade:0, Cable Facade - Timber Framed Lath and Plaster
-appliedenergistics2:facade:0, Cable Facade - Timber Framed Lath and Plaster
-appliedenergistics2:facade:0, Cable Facade - Timber Framed Lath and Plaster
-appliedenergistics2:facade:0, Cable Facade - Timber Framed Lath and Plaster
-appliedenergistics2:facade:0, Cable Facade - Timber Framed Lath and Plaster
-appliedenergistics2:facade:0, Cable Facade - Timber Framed Lath and Plaster
-appliedenergistics2:facade:0, Cable Facade - Timber Framed Lath and Plaster
-appliedenergistics2:facade:0, Cable Facade - Timber Framed Lath and Plaster
-appliedenergistics2:facade:0, Cable Facade - Timber Framed Lath and Plaster
-appliedenergistics2:facade:0, Cable Facade - Timber Framed Lath and Plaster
-appliedenergistics2:facade:0, Cable Facade - Timber Framed Lath and Plaster
-appliedenergistics2:facade:0, Cable Facade - Timber Framed Lath and Plaster
-appliedenergistics2:facade:0, Cable Facade - Timber Framed Lath and Plaster
-appliedenergistics2:facade:0, Cable Facade - Timber Framed Lath and Plaster
-appliedenergistics2:facade:0, Cable Facade - Timber Framed Lath and Plaster
-appliedenergistics2:facade:0, Cable Facade - Timber Framed Lath and Plaster
-appliedenergistics2:facade:0, Cable Facade - Timber Framed Lath and Plaster
-appliedenergistics2:facade:0, Cable Facade - Timber Framed Lath and Plaster
-appliedenergistics2:facade:0, Cable Facade - Timber Framed Lath and Plaster
-appliedenergistics2:facade:0, Cable Facade - Timber Framed Lath and Plaster
-appliedenergistics2:facade:0, Cable Facade - Timber Framed Lath and Plaster
-appliedenergistics2:facade:0, Cable Facade - Timber Framed Lath and Plaster
-appliedenergistics2:facade:0, Cable Facade - Timber Framed Lath and Plaster
-appliedenergistics2:facade:0, Cable Facade - Timber Framed Lath and Plaster
-appliedenergistics2:facade:0, Cable Facade - Timber Framed Lath and Plaster
-appliedenergistics2:facade:0, Cable Facade - Timber Framed Lath and Plaster
-appliedenergistics2:facade:0, Cable Facade - Timber Framed Lath and Plaster
 appliedenergistics2:facade:0, Cable Facade - Adobe
 appliedenergistics2:facade:0, Cable Facade - Chalk
 appliedenergistics2:facade:0, Cable Facade - Cinder Blocks
@@ -8781,6 +8707,84 @@ appliedenergistics2:facade:0, Cable Facade - Vertical Acacia Wood Planks
 appliedenergistics2:facade:0, Cable Facade - Vertical Dark Oak Wood Planks
 appliedenergistics2:facade:0, Cable Facade - Reed
 appliedenergistics2:facade:0, Cable Facade - Thatch
+appliedenergistics2:facade:0, Cable Facade - Timber Framed Wattle and Daub
+appliedenergistics2:facade:0, Cable Facade - Timber Framed Wattle and Daub
+appliedenergistics2:facade:0, Cable Facade - Timber Framed Wattle and Daub
+appliedenergistics2:facade:0, Cable Facade - Timber Framed Wattle and Daub
+appliedenergistics2:facade:0, Cable Facade - Timber Framed Wattle and Daub
+appliedenergistics2:facade:0, Cable Facade - Timber Framed Wattle and Daub
+appliedenergistics2:facade:0, Cable Facade - Timber Framed Wattle and Daub
+appliedenergistics2:facade:0, Cable Facade - Timber Framed Wattle and Daub
+appliedenergistics2:facade:0, Cable Facade - Timber Framed Wattle and Daub
+appliedenergistics2:facade:0, Cable Facade - Timber Framed Wattle and Daub
+appliedenergistics2:facade:0, Cable Facade - Timber Framed Wattle and Daub
+appliedenergistics2:facade:0, Cable Facade - Timber Framed Wattle and Daub
+appliedenergistics2:facade:0, Cable Facade - Timber Framed Wattle and Daub
+appliedenergistics2:facade:0, Cable Facade - Timber Framed Wattle and Daub
+appliedenergistics2:facade:0, Cable Facade - Timber Framed Wattle and Daub
+appliedenergistics2:facade:0, Cable Facade - Timber Framed Wattle and Daub
+appliedenergistics2:facade:0, Cable Facade - Timber Framed Wattle and Daub
+appliedenergistics2:facade:0, Cable Facade - Timber Framed Wattle and Daub
+appliedenergistics2:facade:0, Cable Facade - Timber Framed Wattle and Daub
+appliedenergistics2:facade:0, Cable Facade - Timber Framed Wattle and Daub
+appliedenergistics2:facade:0, Cable Facade - Timber Framed Wattle and Daub
+appliedenergistics2:facade:0, Cable Facade - Timber Framed Wattle and Daub
+appliedenergistics2:facade:0, Cable Facade - Timber Framed Wattle and Daub
+appliedenergistics2:facade:0, Cable Facade - Timber Framed Wattle and Daub
+appliedenergistics2:facade:0, Cable Facade - Timber Framed Wattle and Daub
+appliedenergistics2:facade:0, Cable Facade - Timber Framed Wattle and Daub
+appliedenergistics2:facade:0, Cable Facade - Timber Framed Wattle and Daub
+appliedenergistics2:facade:0, Cable Facade - Timber Framed Wattle and Daub
+appliedenergistics2:facade:0, Cable Facade - Timber Framed Wattle and Daub
+appliedenergistics2:facade:0, Cable Facade - Timber Framed Wattle and Daub
+appliedenergistics2:facade:0, Cable Facade - Timber Framed Wattle and Daub
+appliedenergistics2:facade:0, Cable Facade - Timber Framed Wattle and Daub
+appliedenergistics2:facade:0, Cable Facade - Timber Framed Wattle and Daub
+appliedenergistics2:facade:0, Cable Facade - Timber Framed Wattle and Daub
+appliedenergistics2:facade:0, Cable Facade - Timber Framed Wattle and Daub
+appliedenergistics2:facade:0, Cable Facade - Timber Framed Wattle and Daub
+appliedenergistics2:facade:0, Cable Facade - Timber Framed Wattle and Daub
+appliedenergistics2:facade:0, Cable Facade - Timber Framed Wattle and Daub
+appliedenergistics2:facade:0, Cable Facade - Timber Framed Wattle and Daub
+appliedenergistics2:facade:0, Cable Facade - Timber Framed Lath and Plaster
+appliedenergistics2:facade:0, Cable Facade - Timber Framed Lath and Plaster
+appliedenergistics2:facade:0, Cable Facade - Timber Framed Lath and Plaster
+appliedenergistics2:facade:0, Cable Facade - Timber Framed Lath and Plaster
+appliedenergistics2:facade:0, Cable Facade - Timber Framed Lath and Plaster
+appliedenergistics2:facade:0, Cable Facade - Timber Framed Lath and Plaster
+appliedenergistics2:facade:0, Cable Facade - Timber Framed Lath and Plaster
+appliedenergistics2:facade:0, Cable Facade - Timber Framed Lath and Plaster
+appliedenergistics2:facade:0, Cable Facade - Timber Framed Lath and Plaster
+appliedenergistics2:facade:0, Cable Facade - Timber Framed Lath and Plaster
+appliedenergistics2:facade:0, Cable Facade - Timber Framed Lath and Plaster
+appliedenergistics2:facade:0, Cable Facade - Timber Framed Lath and Plaster
+appliedenergistics2:facade:0, Cable Facade - Timber Framed Lath and Plaster
+appliedenergistics2:facade:0, Cable Facade - Timber Framed Lath and Plaster
+appliedenergistics2:facade:0, Cable Facade - Timber Framed Lath and Plaster
+appliedenergistics2:facade:0, Cable Facade - Timber Framed Lath and Plaster
+appliedenergistics2:facade:0, Cable Facade - Timber Framed Lath and Plaster
+appliedenergistics2:facade:0, Cable Facade - Timber Framed Lath and Plaster
+appliedenergistics2:facade:0, Cable Facade - Timber Framed Lath and Plaster
+appliedenergistics2:facade:0, Cable Facade - Timber Framed Lath and Plaster
+appliedenergistics2:facade:0, Cable Facade - Timber Framed Lath and Plaster
+appliedenergistics2:facade:0, Cable Facade - Timber Framed Lath and Plaster
+appliedenergistics2:facade:0, Cable Facade - Timber Framed Lath and Plaster
+appliedenergistics2:facade:0, Cable Facade - Timber Framed Lath and Plaster
+appliedenergistics2:facade:0, Cable Facade - Timber Framed Lath and Plaster
+appliedenergistics2:facade:0, Cable Facade - Timber Framed Lath and Plaster
+appliedenergistics2:facade:0, Cable Facade - Timber Framed Lath and Plaster
+appliedenergistics2:facade:0, Cable Facade - Timber Framed Lath and Plaster
+appliedenergistics2:facade:0, Cable Facade - Timber Framed Lath and Plaster
+appliedenergistics2:facade:0, Cable Facade - Timber Framed Lath and Plaster
+appliedenergistics2:facade:0, Cable Facade - Timber Framed Lath and Plaster
+appliedenergistics2:facade:0, Cable Facade - Timber Framed Lath and Plaster
+appliedenergistics2:facade:0, Cable Facade - Timber Framed Lath and Plaster
+appliedenergistics2:facade:0, Cable Facade - Timber Framed Lath and Plaster
+appliedenergistics2:facade:0, Cable Facade - Timber Framed Lath and Plaster
+appliedenergistics2:facade:0, Cable Facade - Timber Framed Lath and Plaster
+appliedenergistics2:facade:0, Cable Facade - Timber Framed Lath and Plaster
+appliedenergistics2:facade:0, Cable Facade - Timber Framed Lath and Plaster
+appliedenergistics2:facade:0, Cable Facade - Timber Framed Lath and Plaster
 appliedenergistics2:facade:0, Cable Facade - White Elevator
 appliedenergistics2:facade:0, Cable Facade - Orange Elevator
 appliedenergistics2:facade:0, Cable Facade - Magenta Elevator
@@ -9931,6 +9935,9 @@ appliedenergistics2:facade:0, Cable Facade - Sticky Ore
 appliedenergistics2:facade:0, Cable Facade - Clay Ore
 appliedenergistics2:facade:0, Cable Facade - Machine Casing
 appliedenergistics2:facade:0, Cable Facade - Block of Quartz Enriched Iron
+appliedenergistics2:facade:0, Cable Facade - Chaos Infused Endstone
+appliedenergistics2:facade:0, Cable Facade - tile.contenttweaker.romeo_stone_mossy.name
+appliedenergistics2:facade:0, Cable Facade - tile.contenttweaker.romeo_stonebrick.name
 appliedenergistics2:facade:0, Cable Facade - yellow-brown brick
 appliedenergistics2:facade:0, Cable Facade - dark-blue brick
 appliedenergistics2:facade:0, Cable Facade - bright-brown brick
@@ -10194,8 +10201,6 @@ appliedenergistics2:part:220, ME Storage Bus
 appliedenergistics2:part:400, ME Storage Monitor
 appliedenergistics2:part:380, ME Terminal
 appliedenergistics2:part:80, ME Toggle Bus
-ancientwarfare:engineering_station, tile.engineering_station.name
-ancientwarfare:research_station, tile.research_station.name
 ancientwarfare:info_tool, Info Tool
 ancientwarfare:research_book, Research Book
 ancientwarfare:research_note, Research Note
@@ -10224,22 +10229,8 @@ ancientwarfare:component:6, Wooden Torque Shaft
 ancientwarfare:component:7, Iron Torque Shaft
 ancientwarfare:component:8, Steel Torque Shaft
 ancientwarfare:steel_ingot, Steel Ingot
-ancientwarfarestructure:structure_scanner, Structure Scanner
-ancientwarfarestructure:structure_builder, Structure Builder
-ancientwarfarestructure:structure_builder_world_gen, WorldGen Structure Builder
-ancientwarfarestructure:town_builder, Instant Town Building Tool
-ancientwarfarestructure:spawner_placer, Mob Spawner Placement Tool
-ancientwarfarestructure:gate_spawner:0, Wooden Gate (vert. open)
-ancientwarfarestructure:gate_spawner:1, Iron Gate (vert. open)
-ancientwarfarestructure:gate_spawner:4, Wooden Gate (slide open)
-ancientwarfarestructure:gate_spawner:5, Iron Gate (slide open)
-ancientwarfarestructure:gate_spawner:8, Wooden Gate (split open)
-ancientwarfarestructure:gate_spawner:9, Iron Gate (split open)
-ancientwarfarestructure:gate_spawner:12, Drawbridge (rotate open)
-ancientwarfarestructure:construction_tool, Construction Tool
-ancientwarfarestructure:construction_tool_lakes, Lake Construction Tool
-ancientwarfarestructure:block_info_clicker, Block Info Tool
-ancientwarfarestructure:loot_chest_placer, Loot Chest Placer
+ancientwarfare:engineering_station, tile.engineering_station.name
+ancientwarfare:research_station, tile.research_station.name
 ancientwarfarestructure:advanced_spawner, Advanced Monster Spawner
 ancientwarfarestructure:gate_proxy, Gate Proxy Block
 ancientwarfarestructure:drafting_station, Drafting Station
@@ -10279,6 +10270,22 @@ ancientwarfarestructure:bench, Outdoor Bench
 ancientwarfarestructure:tribal_chair, Tribal Chair
 ancientwarfarestructure:scissor_seat, Scissor Seat
 ancientwarfarestructure:statue, tile.statue.name
+ancientwarfarestructure:structure_scanner, Structure Scanner
+ancientwarfarestructure:structure_builder, Structure Builder
+ancientwarfarestructure:structure_builder_world_gen, WorldGen Structure Builder
+ancientwarfarestructure:town_builder, Instant Town Building Tool
+ancientwarfarestructure:spawner_placer, Mob Spawner Placement Tool
+ancientwarfarestructure:gate_spawner:0, Wooden Gate (vert. open)
+ancientwarfarestructure:gate_spawner:1, Iron Gate (vert. open)
+ancientwarfarestructure:gate_spawner:4, Wooden Gate (slide open)
+ancientwarfarestructure:gate_spawner:5, Iron Gate (slide open)
+ancientwarfarestructure:gate_spawner:8, Wooden Gate (split open)
+ancientwarfarestructure:gate_spawner:9, Iron Gate (split open)
+ancientwarfarestructure:gate_spawner:12, Drawbridge (rotate open)
+ancientwarfarestructure:construction_tool, Construction Tool
+ancientwarfarestructure:construction_tool_lakes, Lake Construction Tool
+ancientwarfarestructure:block_info_clicker, Block Info Tool
+ancientwarfarestructure:loot_chest_placer, Loot Chest Placer
 ancientwarfarevehicle:spawner:0, Catapult Stand Fixed
 ancientwarfarevehicle:spawner:0, Catapult Stand Fixed
 ancientwarfarevehicle:spawner:0, Catapult Stand Fixed
@@ -10478,6 +10485,7 @@ ancientwarfarevehicle:vehicle_upgrade_power, Power Upgrade
 ancientwarfarevehicle:vehicle_upgrade_turret_pitch, Pitch Extension
 ancientwarfarevehicle:vehicle_upgrade_pitch_up, Turret Wedge: +3'
 ancientwarfarevehicle:vehicle_upgrade_pitch_down, Turret Wedge: -3'
+ancientwarfarenpc:town_hall, Break Room
 ancientwarfarenpc:wooden_command_baton, Wooden Command Baton
 ancientwarfarenpc:stone_command_baton, Stone Command Baton
 ancientwarfarenpc:iron_command_baton, Iron Command Baton
@@ -10515,7 +10523,6 @@ ancientwarfarenpc:stone_lance, Stone Lance
 ancientwarfarenpc:iron_lance, Iron Lance
 ancientwarfarenpc:golden_lance, Golden Lance
 ancientwarfarenpc:diamond_lance, Diamond Lance
-ancientwarfarenpc:town_hall, Break Room
 ancientwarfareautomation:worksite_upgrade:0, Medium Bounds Upgrade
 ancientwarfareautomation:worksite_upgrade:1, Large Bounds Upgrade
 ancientwarfareautomation:worksite_upgrade:2, Medium Quarry Upgrade
@@ -10564,11 +10571,6 @@ ancientwarfareautomation:windmill_blade, Windmill Blade
 ancientwarfareautomation:windmill_generator, tile.windmill_generator.name
 ancientwarfareautomation:chunk_loader_simple, Simple Chunk Loader
 ancientwarfareautomation:chunk_loader_deluxe, Deluxe Chunk Loader
-archicraft:biotoken, Bio token
-archicraft:archtoken, Arch token
-archicraft:okeanostoken, Okeanos token
-archicraft:luxarktoken, Luxark token
-archicraft:alqaztoken, Alqaz token
 archicraft:biohouse, Bio house
 archicraft:scanner, Scanner
 archicraft:biobase, Bio base
@@ -10709,6 +10711,11 @@ archicraft:luxarksquare, Luxark square
 archicraft:luxarkgarden, Luxark garden
 archicraft:luxarkduplex, Luxark duplex
 archicraft:luxarkmarket, Luxark market
+archicraft:biotoken, Bio token
+archicraft:archtoken, Arch token
+archicraft:okeanostoken, Okeanos token
+archicraft:luxarktoken, Luxark token
+archicraft:alqaztoken, Alqaz token
 baubles:ring:0, Miner's Ring
 blocklings:blockling, Blockling
 boneappetit:wet_bone_meal, Wet Bone Meal
@@ -10919,84 +10926,29 @@ doggytalents:dog_bath, Dog Bath
 doggytalents:food_bowl, Food Bowl
 dungeonmobs:lavarock, tile.dungeonmobs.lavarock.name
 dungeonmobs:bladetrap, Blade Trap
-earthworks:daub_cob_arrow0, Timber Framed Wattle and Daub
-earthworks:daub_cob_arrow1, Timber Framed Wattle and Daub
-earthworks:daub_cob_arrow2, Timber Framed Wattle and Daub
-earthworks:daub_cob_arrow3, Timber Framed Wattle and Daub
-earthworks:daub_cob_barndoor0, Timber Framed Wattle and Daub
-earthworks:daub_cob_barndoor1, Timber Framed Wattle and Daub
-earthworks:daub_cob_barndoor2, Timber Framed Wattle and Daub
-earthworks:daub_cob_barndoor3, Timber Framed Wattle and Daub
-earthworks:daub_cob_barndoor4, Timber Framed Wattle and Daub
-earthworks:daub_cob_barndoor5, Timber Framed Wattle and Daub
-earthworks:daub_cob_barndoor6, Timber Framed Wattle and Daub
-earthworks:daub_cob_barndoor7, Timber Framed Wattle and Daub
-earthworks:daub_cob_bottom_l, Timber Framed Wattle and Daub
-earthworks:daub_cob_bottom, Timber Framed Wattle and Daub
-earthworks:daub_cob_bottom_r, Timber Framed Wattle and Daub
-earthworks:daub_cob_left, Timber Framed Wattle and Daub
-earthworks:daub_cob_parallel_hor, Timber Framed Wattle and Daub
-earthworks:daub_cob_parallel_vert, Timber Framed Wattle and Daub
-earthworks:daub_cob_right, Timber Framed Wattle and Daub
-earthworks:daub_cob_slash_back, Timber Framed Wattle and Daub
-earthworks:daub_cob_slash, Timber Framed Wattle and Daub
-earthworks:daub_cob_square, Timber Framed Wattle and Daub
-earthworks:daub_cob_square_x, Timber Framed Wattle and Daub
-earthworks:daub_cob_top_l, Timber Framed Wattle and Daub
-earthworks:daub_cob_top, Timber Framed Wattle and Daub
-earthworks:daub_cob_top_r, Timber Framed Wattle and Daub
-earthworks:daub_cob_triangle0, Timber Framed Wattle and Daub
-earthworks:daub_cob_triangle1, Timber Framed Wattle and Daub
-earthworks:daub_cob_triangle2, Timber Framed Wattle and Daub
-earthworks:daub_cob_triangle3, Timber Framed Wattle and Daub
-earthworks:daub_cob_xbottom, Timber Framed Wattle and Daub
-earthworks:daub_cob_xdoor0, Timber Framed Wattle and Daub
-earthworks:daub_cob_xdoor1, Timber Framed Wattle and Daub
-earthworks:daub_cob_xdoor2, Timber Framed Wattle and Daub
-earthworks:daub_cob_xdoor3, Timber Framed Wattle and Daub
-earthworks:daub_cob_xleft, Timber Framed Wattle and Daub
-earthworks:daub_cob_x, Timber Framed Wattle and Daub
-earthworks:daub_cob_xright, Timber Framed Wattle and Daub
-earthworks:daub_cob_xtop, Timber Framed Wattle and Daub
-earthworks:plaster_arrow0, Timber Framed Lath and Plaster
-earthworks:plaster_arrow1, Timber Framed Lath and Plaster
-earthworks:plaster_arrow2, Timber Framed Lath and Plaster
-earthworks:plaster_arrow3, Timber Framed Lath and Plaster
-earthworks:plaster_barndoor0, Timber Framed Lath and Plaster
-earthworks:plaster_barndoor1, Timber Framed Lath and Plaster
-earthworks:plaster_barndoor2, Timber Framed Lath and Plaster
-earthworks:plaster_barndoor3, Timber Framed Lath and Plaster
-earthworks:plaster_barndoor4, Timber Framed Lath and Plaster
-earthworks:plaster_barndoor5, Timber Framed Lath and Plaster
-earthworks:plaster_barndoor6, Timber Framed Lath and Plaster
-earthworks:plaster_barndoor7, Timber Framed Lath and Plaster
-earthworks:plaster_bottom_l, Timber Framed Lath and Plaster
-earthworks:plaster_bottom, Timber Framed Lath and Plaster
-earthworks:plaster_bottom_r, Timber Framed Lath and Plaster
-earthworks:plaster_left, Timber Framed Lath and Plaster
-earthworks:plaster_parallel_hor, Timber Framed Lath and Plaster
-earthworks:plaster_parallel_vert, Timber Framed Lath and Plaster
-earthworks:plaster_right, Timber Framed Lath and Plaster
-earthworks:plaster_slash_back, Timber Framed Lath and Plaster
-earthworks:plaster_slash, Timber Framed Lath and Plaster
-earthworks:plaster_square, Timber Framed Lath and Plaster
-earthworks:plaster_square_x, Timber Framed Lath and Plaster
-earthworks:plaster_top_l, Timber Framed Lath and Plaster
-earthworks:plaster_top, Timber Framed Lath and Plaster
-earthworks:plaster_top_r, Timber Framed Lath and Plaster
-earthworks:plaster_triangle0, Timber Framed Lath and Plaster
-earthworks:plaster_triangle1, Timber Framed Lath and Plaster
-earthworks:plaster_triangle2, Timber Framed Lath and Plaster
-earthworks:plaster_triangle3, Timber Framed Lath and Plaster
-earthworks:plaster_xbottom, Timber Framed Lath and Plaster
-earthworks:plaster_xdoor0, Timber Framed Lath and Plaster
-earthworks:plaster_xdoor1, Timber Framed Lath and Plaster
-earthworks:plaster_xdoor2, Timber Framed Lath and Plaster
-earthworks:plaster_xdoor3, Timber Framed Lath and Plaster
-earthworks:plaster_xleft, Timber Framed Lath and Plaster
-earthworks:plaster_x, Timber Framed Lath and Plaster
-earthworks:plaster_xright, Timber Framed Lath and Plaster
-earthworks:plaster_xtop, Timber Framed Lath and Plaster
+earthworks:item_adobe, Adobe Brick
+earthworks:item_chalk, Chalk Dust
+earthworks:item_cob, Cob Ball
+earthworks:item_lime_plaster, Lime Plaster
+earthworks:item_mud, Mud Ball
+earthworks:item_quicklime, Quicklime
+earthworks:item_slaked_lime, Slaked Lime
+earthworks:item_timber, Timber Framing
+earthworks:tool_square, Square
+earthworks:tool_hand_axe, Handaxe
+earthworks:tool_adz, Adz
+earthworks:tool_compass, Compass
+earthworks:tool_froe, Froe
+earthworks:tool_hand_planer, Planer
+earthworks:tool_level, Level
+earthworks:tool_saw, Saw
+earthworks:tool_wood_hammer, Wood Hammer
+earthworks:tool_stone_hammer, Stone Hammer
+earthworks:tool_iron_hammer, Iron Hammer
+earthworks:tool_gold_hammer, Gold Hammer
+earthworks:tool_diamond_hammer, Diamond Hammer
+earthworks:item_dirt, Dirt Ball
+earthworks:item_sand, Sand
 earthworks:block_adobe, Adobe
 earthworks:block_chalk, Chalk
 earthworks:block_cinder, Cinder Blocks
@@ -11185,29 +11137,84 @@ earthworks:stair_reed, Reed Stairs
 earthworks:stair_thatch, Thatch Stairs
 earthworks:wall_reed, Reed Wall
 earthworks:wall_thatch, Thatch Wall
-earthworks:item_adobe, Adobe Brick
-earthworks:item_chalk, Chalk Dust
-earthworks:item_cob, Cob Ball
-earthworks:item_lime_plaster, Lime Plaster
-earthworks:item_mud, Mud Ball
-earthworks:item_quicklime, Quicklime
-earthworks:item_slaked_lime, Slaked Lime
-earthworks:item_timber, Timber Framing
-earthworks:tool_square, Square
-earthworks:tool_hand_axe, Handaxe
-earthworks:tool_adz, Adz
-earthworks:tool_compass, Compass
-earthworks:tool_froe, Froe
-earthworks:tool_hand_planer, Planer
-earthworks:tool_level, Level
-earthworks:tool_saw, Saw
-earthworks:tool_wood_hammer, Wood Hammer
-earthworks:tool_stone_hammer, Stone Hammer
-earthworks:tool_iron_hammer, Iron Hammer
-earthworks:tool_gold_hammer, Gold Hammer
-earthworks:tool_diamond_hammer, Diamond Hammer
-earthworks:item_dirt, Dirt Ball
-earthworks:item_sand, Sand
+earthworks:daub_cob_arrow0, Timber Framed Wattle and Daub
+earthworks:daub_cob_arrow1, Timber Framed Wattle and Daub
+earthworks:daub_cob_arrow2, Timber Framed Wattle and Daub
+earthworks:daub_cob_arrow3, Timber Framed Wattle and Daub
+earthworks:daub_cob_barndoor0, Timber Framed Wattle and Daub
+earthworks:daub_cob_barndoor1, Timber Framed Wattle and Daub
+earthworks:daub_cob_barndoor2, Timber Framed Wattle and Daub
+earthworks:daub_cob_barndoor3, Timber Framed Wattle and Daub
+earthworks:daub_cob_barndoor4, Timber Framed Wattle and Daub
+earthworks:daub_cob_barndoor5, Timber Framed Wattle and Daub
+earthworks:daub_cob_barndoor6, Timber Framed Wattle and Daub
+earthworks:daub_cob_barndoor7, Timber Framed Wattle and Daub
+earthworks:daub_cob_bottom_l, Timber Framed Wattle and Daub
+earthworks:daub_cob_bottom, Timber Framed Wattle and Daub
+earthworks:daub_cob_bottom_r, Timber Framed Wattle and Daub
+earthworks:daub_cob_left, Timber Framed Wattle and Daub
+earthworks:daub_cob_parallel_hor, Timber Framed Wattle and Daub
+earthworks:daub_cob_parallel_vert, Timber Framed Wattle and Daub
+earthworks:daub_cob_right, Timber Framed Wattle and Daub
+earthworks:daub_cob_slash_back, Timber Framed Wattle and Daub
+earthworks:daub_cob_slash, Timber Framed Wattle and Daub
+earthworks:daub_cob_square, Timber Framed Wattle and Daub
+earthworks:daub_cob_square_x, Timber Framed Wattle and Daub
+earthworks:daub_cob_top_l, Timber Framed Wattle and Daub
+earthworks:daub_cob_top, Timber Framed Wattle and Daub
+earthworks:daub_cob_top_r, Timber Framed Wattle and Daub
+earthworks:daub_cob_triangle0, Timber Framed Wattle and Daub
+earthworks:daub_cob_triangle1, Timber Framed Wattle and Daub
+earthworks:daub_cob_triangle2, Timber Framed Wattle and Daub
+earthworks:daub_cob_triangle3, Timber Framed Wattle and Daub
+earthworks:daub_cob_xbottom, Timber Framed Wattle and Daub
+earthworks:daub_cob_xdoor0, Timber Framed Wattle and Daub
+earthworks:daub_cob_xdoor1, Timber Framed Wattle and Daub
+earthworks:daub_cob_xdoor2, Timber Framed Wattle and Daub
+earthworks:daub_cob_xdoor3, Timber Framed Wattle and Daub
+earthworks:daub_cob_xleft, Timber Framed Wattle and Daub
+earthworks:daub_cob_x, Timber Framed Wattle and Daub
+earthworks:daub_cob_xright, Timber Framed Wattle and Daub
+earthworks:daub_cob_xtop, Timber Framed Wattle and Daub
+earthworks:plaster_arrow0, Timber Framed Lath and Plaster
+earthworks:plaster_arrow1, Timber Framed Lath and Plaster
+earthworks:plaster_arrow2, Timber Framed Lath and Plaster
+earthworks:plaster_arrow3, Timber Framed Lath and Plaster
+earthworks:plaster_barndoor0, Timber Framed Lath and Plaster
+earthworks:plaster_barndoor1, Timber Framed Lath and Plaster
+earthworks:plaster_barndoor2, Timber Framed Lath and Plaster
+earthworks:plaster_barndoor3, Timber Framed Lath and Plaster
+earthworks:plaster_barndoor4, Timber Framed Lath and Plaster
+earthworks:plaster_barndoor5, Timber Framed Lath and Plaster
+earthworks:plaster_barndoor6, Timber Framed Lath and Plaster
+earthworks:plaster_barndoor7, Timber Framed Lath and Plaster
+earthworks:plaster_bottom_l, Timber Framed Lath and Plaster
+earthworks:plaster_bottom, Timber Framed Lath and Plaster
+earthworks:plaster_bottom_r, Timber Framed Lath and Plaster
+earthworks:plaster_left, Timber Framed Lath and Plaster
+earthworks:plaster_parallel_hor, Timber Framed Lath and Plaster
+earthworks:plaster_parallel_vert, Timber Framed Lath and Plaster
+earthworks:plaster_right, Timber Framed Lath and Plaster
+earthworks:plaster_slash_back, Timber Framed Lath and Plaster
+earthworks:plaster_slash, Timber Framed Lath and Plaster
+earthworks:plaster_square, Timber Framed Lath and Plaster
+earthworks:plaster_square_x, Timber Framed Lath and Plaster
+earthworks:plaster_top_l, Timber Framed Lath and Plaster
+earthworks:plaster_top, Timber Framed Lath and Plaster
+earthworks:plaster_top_r, Timber Framed Lath and Plaster
+earthworks:plaster_triangle0, Timber Framed Lath and Plaster
+earthworks:plaster_triangle1, Timber Framed Lath and Plaster
+earthworks:plaster_triangle2, Timber Framed Lath and Plaster
+earthworks:plaster_triangle3, Timber Framed Lath and Plaster
+earthworks:plaster_xbottom, Timber Framed Lath and Plaster
+earthworks:plaster_xdoor0, Timber Framed Lath and Plaster
+earthworks:plaster_xdoor1, Timber Framed Lath and Plaster
+earthworks:plaster_xdoor2, Timber Framed Lath and Plaster
+earthworks:plaster_xdoor3, Timber Framed Lath and Plaster
+earthworks:plaster_xleft, Timber Framed Lath and Plaster
+earthworks:plaster_x, Timber Framed Lath and Plaster
+earthworks:plaster_xright, Timber Framed Lath and Plaster
+earthworks:plaster_xtop, Timber Framed Lath and Plaster
 elevatorid:elevator_white, White Elevator
 elevatorid:elevator_orange, Orange Elevator
 elevatorid:elevator_magenta, Magenta Elevator
@@ -12237,11 +12244,11 @@ engineersdoors:door_steel_reinforced, Steel Door
 engineersdoors:door_treated, Treated Wood Door
 engineersdoors:door_treated_ornate, Treated Wood Door
 engineersdoors:door_treated_reinforced, Treated Wood Door
+engineersdoors:trapdoor_steel, Steel Trapdoor
+engineersdoors:trapdoor_treated, Treated Wood Trapdoor
 engineersdoors:fencegate_aluminium, Aluminum Fence Gate
 engineersdoors:fencegate_steel, Steel Fence Gate
 engineersdoors:fencegate_treated, Treated Wood Fence Gate
-engineersdoors:trapdoor_steel, Steel Trapdoor
-engineersdoors:trapdoor_treated, Treated Wood Trapdoor
 extendeddays:pocket_watch, Pocket Watch
 zerocore:debugtool, Debug Tool
 bigreactors:ingotyellorium, Yellorium Ingot
@@ -13169,15 +13176,6 @@ cfm:item_kebab_cooked, Cooked Kebab
 cfm:item_crow_bar, Crow Bar
 cfm:ceiling_fan_fans, item.ceiling_fan_fans.name
 cfm:tv_remote, TV Remote
-gardenstuff:material:0, Iron Nugget
-gardenstuff:material:1, Iron Link
-gardenstuff:material:2, Gold Link
-gardenstuff:material:3, Wrought Iron Nugget
-gardenstuff:material:4, Wrought Iron Ingot
-gardenstuff:material:5, Wrought Iron Link
-gardenstuff:material:6, Candelilla
-gardenstuff:material:7, Wax
-gardenstuff:candelilla_seeds, Candelilla Seeds
 gardenstuff:stone_block:0, Block of Charcoal
 gardenstuff:metal_block:0, Block of Wrought Iron
 gardenstuff:bloomery_furnace, Bloomery Furnace
@@ -13194,6 +13192,15 @@ gardenstuff:candelabra:0, Candle
 gardenstuff:candelabra:1, Candelabra
 gardenstuff:candelabra:2, Candelabra
 gardenstuff:candelabra:3, Candelabra
+gardenstuff:material:0, Iron Nugget
+gardenstuff:material:1, Iron Link
+gardenstuff:material:2, Gold Link
+gardenstuff:material:3, Wrought Iron Nugget
+gardenstuff:material:4, Wrought Iron Ingot
+gardenstuff:material:5, Wrought Iron Link
+gardenstuff:material:6, Candelilla
+gardenstuff:material:7, Wax
+gardenstuff:candelilla_seeds, Candelilla Seeds
 modularrouters:item_router, Item Router
 modularrouters:template_frame, Template Frame
 modularrouters:blank_module, Blank Module
@@ -14355,6 +14362,24 @@ silentgems:leggings, Gem Leggings
 silentgems:boots, Gem Boots
 silentgems:toolrenderhelper, item.silentgems.toolrenderhelper.name
 silentgems:guide_book, Silent's Gems Manual
+ironchest:iron_gold_chest_upgrade, Iron to Gold Chest Upgrade
+ironchest:gold_diamond_chest_upgrade, Gold to Diamond Chest Upgrade
+ironchest:copper_silver_chest_upgrade, Copper to Silver Chest Upgrade
+ironchest:silver_gold_chest_upgrade, Silver to Gold Chest Upgrade
+ironchest:copper_iron_chest_upgrade, Copper to Iron Chest Upgrade
+ironchest:diamond_crystal_chest_upgrade, Diamond to Crystal Chest Upgrade
+ironchest:wood_iron_chest_upgrade, Wood to Iron Chest Upgrade
+ironchest:wood_copper_chest_upgrade, Wood to Copper Chest Upgrade
+ironchest:diamond_obsidian_chest_upgrade, Diamond to Obsidian Chest Upgrade
+ironchest:iron_gold_shulker_upgrade, Iron to Gold Shulker Box Upgrade
+ironchest:gold_diamond_shulker_upgrade, Gold to Diamond Shulker Box Upgrade
+ironchest:copper_silver_shulker_upgrade, Copper to Silver Shulker Box Upgrade
+ironchest:silver_gold_shulker_upgrade, Silver to Gold Shulker Box Upgrade
+ironchest:copper_iron_shulker_upgrade, Copper to Iron Shulker Box Upgrade
+ironchest:diamond_crystal_shulker_upgrade, Diamond to Crystal Shulker Box Upgrade
+ironchest:vanilla_iron_shulker_upgrade, Vanilla to Iron Shulker Box Upgrade
+ironchest:vanilla_copper_shulker_upgrade, Vanilla to Copper Shulker Box Upgrade
+ironchest:diamond_obsidian_shulker_upgrade, Diamond to Obsidian Shulker Box Upgrade
 ironchest:iron_chest:0, Iron Chest
 ironchest:iron_chest:1, Gold Chest
 ironchest:iron_chest:2, Diamond Chest
@@ -14475,24 +14500,6 @@ ironchest:iron_shulker_box_black:3, Black Copper Shulker Box
 ironchest:iron_shulker_box_black:4, Black Silver Shulker Box
 ironchest:iron_shulker_box_black:5, Black Crystal Shulker Box
 ironchest:iron_shulker_box_black:6, Black Obsidian Shulker Box
-ironchest:iron_gold_chest_upgrade, Iron to Gold Chest Upgrade
-ironchest:gold_diamond_chest_upgrade, Gold to Diamond Chest Upgrade
-ironchest:copper_silver_chest_upgrade, Copper to Silver Chest Upgrade
-ironchest:silver_gold_chest_upgrade, Silver to Gold Chest Upgrade
-ironchest:copper_iron_chest_upgrade, Copper to Iron Chest Upgrade
-ironchest:diamond_crystal_chest_upgrade, Diamond to Crystal Chest Upgrade
-ironchest:wood_iron_chest_upgrade, Wood to Iron Chest Upgrade
-ironchest:wood_copper_chest_upgrade, Wood to Copper Chest Upgrade
-ironchest:diamond_obsidian_chest_upgrade, Diamond to Obsidian Chest Upgrade
-ironchest:iron_gold_shulker_upgrade, Iron to Gold Shulker Box Upgrade
-ironchest:gold_diamond_shulker_upgrade, Gold to Diamond Shulker Box Upgrade
-ironchest:copper_silver_shulker_upgrade, Copper to Silver Shulker Box Upgrade
-ironchest:silver_gold_shulker_upgrade, Silver to Gold Shulker Box Upgrade
-ironchest:copper_iron_shulker_upgrade, Copper to Iron Shulker Box Upgrade
-ironchest:diamond_crystal_shulker_upgrade, Diamond to Crystal Shulker Box Upgrade
-ironchest:vanilla_iron_shulker_upgrade, Vanilla to Iron Shulker Box Upgrade
-ironchest:vanilla_copper_shulker_upgrade, Vanilla to Copper Shulker Box Upgrade
-ironchest:diamond_obsidian_shulker_upgrade, Diamond to Obsidian Shulker Box Upgrade
 labyrinth:daedalus, Daedalus Block
 lowtechcrafting:crafting_table, Better Crafting Table
 mekanismgenerators:solarpanel, Solar Panel
@@ -16694,38 +16701,6 @@ agricraft:debugger, Debugger
 agricraft:rake:0, Wooden Hand Rake
 agricraft:rake:1, Iron Hand Rake
 agricraft:clipping, Clipping
-agricraft:agri_seed:0, Generic Seeds
-agricraft:agri_seed:0, Generic Seeds
-agricraft:agri_seed:0, Generic Seeds
-agricraft:agri_seed:0, Generic Seeds
-agricraft:agri_seed:0, Generic Seeds
-agricraft:agri_seed:0, Generic Seeds
-agricraft:agri_seed:0, Generic Seeds
-agricraft:agri_seed:0, Generic Seeds
-agricraft:agri_seed:0, Generic Seeds
-agricraft:agri_seed:0, Generic Seeds
-agricraft:agri_seed:0, Generic Seeds
-agricraft:agri_seed:0, Generic Seeds
-agricraft:agri_seed:0, Generic Seeds
-agricraft:agri_seed:0, Generic Seeds
-agricraft:agri_seed:0, Generic Seeds
-agricraft:agri_seed:0, Generic Seeds
-agricraft:agri_seed:0, Generic Seeds
-agricraft:agri_seed:0, Generic Seeds
-agricraft:agri_seed:0, Generic Seeds
-agricraft:agri_seed:0, Generic Seeds
-agricraft:agri_seed:0, Generic Seeds
-agricraft:agri_seed:0, Generic Seeds
-agricraft:agri_seed:0, Generic Seeds
-agricraft:agri_seed:0, Generic Seeds
-agricraft:agri_seed:0, Generic Seeds
-agricraft:agri_seed:0, Generic Seeds
-agricraft:agri_seed:0, Generic Seeds
-agricraft:agri_seed:0, Generic Seeds
-agricraft:agri_seed:0, Generic Seeds
-agricraft:agri_seed:0, Generic Seeds
-agricraft:agri_seed:0, Generic Seeds
-agricraft:agri_seed:0, Generic Seeds
 agricraft:agri_nugget:0, Emerald Nugget
 agricraft:agri_nugget:1, Diamond Nugget
 agricraft:agri_nugget:2, Quartz Shard
@@ -16860,37 +16835,171 @@ refinedstorage:security_card, Security Card
 refinedstorage:cover, Cover
 refinedstorage:hollow_cover, Hollow Cover
 refinedstorage:wrench, Wrench
-contenttweaker:bronze_strip, Bronze Bacon Strip
+contenttweaker:rfsheep, Mod Unlock: Energetic Sheep
+contenttweaker:gemium, Equipment Unlock: Gemium
+contenttweaker:ae2, Mod Unlock: Applied Energistics
 contenttweaker:enderium_strip, Enderium Bacon Strip
-contenttweaker:quartz_strip, Nether Quartz Bacon Strip
 contenttweaker:lead_strip, Lead Bacon Strip
-contenttweaker:electrum_strip, Electrum Bacon Strip
-contenttweaker:coal_strip, Coal Bacon Strip
-contenttweaker:invar_strip, Invar Bacon Strip
-contenttweaker:steel_strip, Steel Bacon Strip
-contenttweaker:tin_strip, Tin Bacon Strip
+contenttweaker:simplyjetpacks, Mod Unlock: Simply Jetpacks
+contenttweaker:charity_1, Bovine Enhancements
+contenttweaker:redium_lapium, Equipment Unlock: Redium & Lapium
+contenttweaker:charity_2, Static Electric Research
+contenttweaker:general_kit, General Manager Survival Pack
+contenttweaker:charity_3, Eco-friendly Self-Propulsion Systems
 contenttweaker:copper_strip, Copper Bacon Strip
-contenttweaker:silver_strip, Silver Bacon Strip
+contenttweaker:agricraft, Mod Unlock: Agricraft
+contenttweaker:eu2, Mod Unlock: Extra Utils
+contenttweaker:compact, Mod Unlock: Compact Machines
+contenttweaker:malisis, Mod Unlock: Malisis Doors
+contenttweaker:animalnet, Mod Unlock: Animal Net
+contenttweaker:chaos_endstone:0, Chaos Infused Endstone
 contenttweaker:obsidian_strip, Obsidian Bacon Strip
-contenttweaker:luminum_strip, Luminum Bacon Strip
+contenttweaker:deco, Mod Unlock: Deco Build
+contenttweaker:compactor, Mod Unlock: Compactor
 contenttweaker:mithril_strip, Mithril Bacon Strip
 contenttweaker:iridium_strip, Iridium Bacon Strip
-contenttweaker:redstone_strip, Redstone Bacon Strip
+contenttweaker:vote_5, Board Vote #5
+contenttweaker:vote_6, Board Vote #6
+contenttweaker:superfactory, Mod Unlock: Super Factory Manager
+contenttweaker:kitchen, Mod Unlock: Cooking for Blockheads
+contenttweaker:mekanism, Mod Unlock: Mekanism
+contenttweaker:xtones, Mod Unlock: Xtones
 contenttweaker:gold_strip, Gold Bacon Strip
-contenttweaker:diamond_strip, Diamond Bacon Strip
+contenttweaker:solarflux, Mod Unlock: Solar Flux Reborn
+contenttweaker:vote_3, Board Vote #3
+contenttweaker:vote_4, Board Vote #4
+contenttweaker:vote_1, Board Vote #1
+contenttweaker:vote_2, Board Vote #2
+contenttweaker:mekgenerators, Mod Unlock: Mekanism Generators
+contenttweaker:romeo_stone_mossy:0, tile.contenttweaker.romeo_stone_mossy.name
+contenttweaker:enderio, Mod Unlock: Ender IO
+contenttweaker:ironchest, Mod Unlock: Iron Chests
+contenttweaker:mid_income_proposal, Purchase Proposal: Mid Income
+contenttweaker:storagenetwork, Mod Unlock: Storage Network
+contenttweaker:compactstorage, Mod Unlock: Compact Storage
+contenttweaker:resource_hogs, Mod Unlock: Resource Hogs
+contenttweaker:mid_income, Mid Income Businesses
+contenttweaker:prismarine_strip, Prismarine Bacon Strip
+contenttweaker:petrock, Mod Unlock: Pet Rock
+contenttweaker:bank_item, Piggy Bank
+contenttweaker:serverinfo5, Server Token 5
+contenttweaker:serverinfo4, Server Token 4
+contenttweaker:serverinfo3, Server Token 3
+contenttweaker:serverinfo2, Server Token 2
+contenttweaker:serverinfo1, Server Token 1
+contenttweaker:bronze_strip, Bronze Bacon Strip
+contenttweaker:quartz_strip, Nether Quartz Bacon Strip
+contenttweaker:electrum_strip, Electrum Bacon Strip
+contenttweaker:shift_kit, Shift Manager Survival Pack
+contenttweaker:anti_coin_2, Dime Withdraw (-)
+contenttweaker:claysoldiers, Mod Unlock: Clay Soldiers
+contenttweaker:anti_coin_1, Nickel Withdraw (-)
+contenttweaker:low_income, Low Income Businesses
+contenttweaker:anti_coin_4, Dollar Withdraw (-)
+contenttweaker:split_bill, Money Switcher
+contenttweaker:approval_investment, Investment: $5000
+contenttweaker:anti_coin_3, Quarter Withdraw (-)
+contenttweaker:chisel, Mod Unlock: Chisel
+contenttweaker:diamond_hammer, Best Stone Smasher
+contenttweaker:flux, Mod Unlock: Flux Networks
+contenttweaker:sonar, Mod Unlock: SonarCore Deco Blocks
+contenttweaker:luminum_strip, Luminum Bacon Strip
+contenttweaker:furnaces, Mod Unlock: More Furnaces
+contenttweaker:advsolars, Mod Unlock: Advanced Solars
+contenttweaker:wood_hammer, Dirt Smasher
+contenttweaker:trilium, Equipment Unlock: Trilium
+contenttweaker:refinedrelocation, Mod Unlock: Refined Relocation
+contenttweaker:stone_hammer, Stone Smasher
+contenttweaker:mystical_ag, Mod Unlock: Mystical Agriculture
+contenttweaker:storagedrawers, Mod Unlock: Storage Drawers
 contenttweaker:lapis_strip, Lapis Lazuli Bacon Strip
+contenttweaker:sandwich, Mod Unlock: Culinary Construct
+contenttweaker:archicraft, Mod Unlock: Archicraft
+contenttweaker:elevator, Mod Unlock: Open Blocks Elevator
+contenttweaker:sky_orchards, Mod Unlock: Sky Orchards
+contenttweaker:emerald_strip, Emerald Bacon Strip
+contenttweaker:labyrinth, Mod Unlock: The Labyrinth
+contenttweaker:aw2_suite, Mod Unlock: Ancient Warfare
+contenttweaker:grinder, Mod Unlock: Simple Grinder
+contenttweaker:drawbridge, Mod Unlock: Drawbridge
+contenttweaker:approval_loan, Loan: $5000
+contenttweaker:progressive, Mod Unlock: Progressive Automation
+contenttweaker:engineersdecor, Mod Unlock: Engineer's Decor
+contenttweaker:aluminium_strip, Aluminium Bacon Strip
+contenttweaker:practicallogistics2, Mod Unlock: Practical Logistics 2
+contenttweaker:modularrouters, Mod Unlock: Modular Routers
+contenttweaker:literalascension, Mod Unlock: Literal Ascension
+contenttweaker:anti_dollarten, Ten Withdraw(-)
+contenttweaker:invar_strip, Invar Bacon Strip
+contenttweaker:item_water, Water Droplet
+contenttweaker:low_income_proposal, Purchase Proposal: Low Income
+contenttweaker:steel_strip, Steel Bacon Strip
+contenttweaker:tin_strip, Tin Bacon Strip
+contenttweaker:thermal, Mod Unlock: Thermal
+contenttweaker:rftools, Mod Unlock: RF Tools
+contenttweaker:mobutils, Mod Unlock: Mob Grinding Utils
+contenttweaker:blockling, Mod Unlock: Blocklings
+contenttweaker:high_income, High Income Businesses
+contenttweaker:approval_credit, Credit: $5000
+contenttweaker:multistorage, Mod Unlock: Multi-Storage
+contenttweaker:moo_fluids, Mod Unlock: Moo Fluids
+contenttweaker:aw2_warehouse, Mod Unlock: Ancient Warfare Warehouse
+contenttweaker:weapons, Mod Unlock: Too Many Weapons
+contenttweaker:filingcabinet, Mod Unlock: Real Filing Cabinet
+contenttweaker:prefab, Mod Unlock: Prefab
+contenttweaker:mobfarm, Mod Unlock: Tiny Mob Farm
 contenttweaker:glowstone_strip, Glowstone Bacon Strip
+contenttweaker:industforegoing, Mod Unlock: Industrial Foregoing
+contenttweaker:techreborn, Mod Unlock: Tech Reborn
 contenttweaker:nickel_strip, Nickel Bacon Strip
 contenttweaker:signalum_strip, Signalum Bacon Strip
+contenttweaker:platinum_strip, Platinum Bacon Strip
+contenttweaker:magnets, Mod Unlock: Tiered Magnets
+contenttweaker:simplegen, Mod Unlock: Simple Generators
+contenttweaker:anti_coin_0, Penny Withdraw (-)
+contenttweaker:industmeat, Mod Unlock: Industrial Meat
+contenttweaker:virtualmachines, Mod Unlock: Virtual Machines
+contenttweaker:fartgen, Mod Unlock: Fart Generator
+contenttweaker:light, Mod Unlock: Simply Light
+contenttweaker:high_income_proposal, Purchase Proposal: High Income
+contenttweaker:expandableinventory, Mod Unlock: Expandable INventory
+contenttweaker:iron_strip, Iron Bacon Strip
+contenttweaker:anti_dollaronehundred, item.contenttweaker.anti_dollaronehundred.name
+contenttweaker:blockcraft, Mod Unlock: Blockcraftery
+contenttweaker:gadgets, Mod Unlock: Building Gadgets
+contenttweaker:coal_strip, Coal Bacon Strip
+contenttweaker:advgenerators, Mod Unlock: Advanced Generators
+contenttweaker:architecture, Mod Unlock: Architecture Craft
+contenttweaker:romeo_stonebrick:0, tile.contenttweaker.romeo_stonebrick.name
+contenttweaker:petdog, Mod Unlock: Doggy Talents
+contenttweaker:refinedstorage, Mod Unlock: Refined Storage
+contenttweaker:anti_dollarfifty, Fifty Withdraw (-)
+contenttweaker:share, 10,000 Shares
+contenttweaker:silver_strip, Silver Bacon Strip
+contenttweaker:xencraft, Mod Unlock: Xencraft
+contenttweaker:assistant_kit, Assistant Manager Survival Pack
+contenttweaker:ic2, Mod Unlock: Industrial Craft 2
+contenttweaker:redstone_strip, Redstone Bacon Strip
+contenttweaker:immersive, Mod Unlock: Immersive Engineering
+contenttweaker:xnet, Mod Unlock: XNET
+contenttweaker:anti_dollartwenty, Twenty Withdraw (-)
+contenttweaker:diamond_strip, Diamond Bacon Strip
+contenttweaker:extremereactors, Mod Unlock: Extreme Reactors
+contenttweaker:anti_dollarfive, Five Withdraw (-)
+contenttweaker:cfm, Mod Unlock: Crayfish Furniture Mod
+contenttweaker:coupon, Free Purchase
+contenttweaker:hopperducts, Mod Unlock: Hopper Ducts
+contenttweaker:colossal, Mod Unlock: Colossal Chests
 contenttweaker:chaos_strip, Chaos Bacon Strip
 contenttweaker:dirt_strip, Dirt Bacon Strip
-contenttweaker:emerald_strip, Emerald Bacon Strip
-contenttweaker:platinum_strip, Platinum Bacon Strip
-contenttweaker:prismarine_strip, Prismarine Bacon Strip
+contenttweaker:garden, Mod Unlock: Garden Stuffs
+contenttweaker:iron_hammer, Better Stone Smasher
 contenttweaker:ender_strip, Ender Bacon Strip
 contenttweaker:constantan_strip, Constantan Bacon Strip
-contenttweaker:aluminium_strip, Aluminium Bacon Strip
-contenttweaker:iron_strip, Iron Bacon Strip
+contenttweaker:backpacks, Mod Unlock: Smart Backpacks
+contenttweaker:airship, Mod Unlock: Viescraft Airships
+contenttweaker:industrenew, Mod Unlock: Industrial Renewal
+contenttweaker:wirelessutils, Mod Unlock: Wireless Utilities
 modcurrency:blockexchanger, Exchange Machine
 modcurrency:blockvending, Vending Machine
 modcurrency:guidebook, Currency for Blockheads
