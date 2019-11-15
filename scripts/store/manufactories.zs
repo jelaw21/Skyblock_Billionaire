@@ -6,4 +6,5 @@ mods.Delivery.Store.addTrade("REGIONAL_MANAGER",<contenttweaker:industforegoing>
 mods.Delivery.Store.addTrade("REGIONAL_MANAGER",<contenttweaker:ic2>, manufactories, <contenttweaker:bank_item>.withTag({Total: 55000.0 as float, display: {Lore: ["$55000.0"]}}));
 mods.Delivery.Store.addTrade("REGIONAL_MANAGER",<contenttweaker:techreborn>, manufactories, <contenttweaker:bank_item>.withTag({Total: 50000.0 as float, display: {Lore: ["$50000.0"]}}));
 mods.Delivery.Store.addTrade("REGIONAL_MANAGER",<contenttweaker:enderio>, manufactories, <contenttweaker:bank_item>.withTag({Total: 60000.0 as float, display: {Lore: ["$60000.0"]}}));
-mods.Delivery.Store.addTrade("REGIONAL_MANAGER",<contenttweaker:immersive>, manufactories, <contenttweaker:bank_item>.withTag({Total: 65000.0 as float, display: {Lore: ["$65000.0"]}}));
+mods.Delivery.Store.addTrade("REGIONAL_MANAGER",<contenttweaker:immersive>, manufactories, <contenttweaker:bank_item>.withTag({Total: 50000.0 as float, display: {Lore: ["$65000.0"]}}));
+mods.Delivery.Store.addTrade("REGIONAL_MANAGER",<contenttweaker:mekanism>, manufactories, <contenttweaker:bank_item>.withTag({Total: 65000.0 as float, display: {Lore: ["$65000.0"]}}));

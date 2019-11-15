@@ -1,0 +1,9 @@
+{
+  "overworld": {
+    "*": {
+      "resourcehogs:resourcehog": {
+        "spawn_chance": 1.0
+      }
+    }
+  }
+}

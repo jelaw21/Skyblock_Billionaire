@@ -1309,3 +1309,10 @@ romeo.setToolLevel(0);
 romeo.setBlockSoundType(<soundtype:stone>);
 romeo.register();
 
+var bundle = VanillaFactory.createItem("hundredBundle");
+bundle.maxStackSize = 64;
+bundle.register();
+
+bundle = VanillaFactory.createItem("hundredBundleBundle");
+bundle.maxStackSize = 64;
+bundle.register();

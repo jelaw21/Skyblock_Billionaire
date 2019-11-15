@@ -42,7 +42,7 @@ mods.jei.JEI.addDescription([<soulus:bone_chunk_nether>],"To reveal the bones hi
 
 mods.jei.JEI.addDescription([<minecraft:nether_wart>],"Trapped in the soul sand is the beginnings of new life.", "Apply fiery bone meal to pull these out of the soul sand.", " ","It may not work the first time, but keep trying and you'll get it!");
 
-mods.jei.JEI.addDescription([<minecraft:iron_ore>, <minecraft:gold_ore>, <minecraft:lapis_ore>, <minecraft:diamond_ore>, <minecraft:redstone_ore>, <minecraft:emerald_ore>, <minecraft:quartz_ore>,<minecraft:coal_ore>, <mysticalagriculture:prosperity_ore>],"Ores are made by applying its powdered form on Chaos Ore.", "Exceptions: ", "Charcoal Block -> Coal Ore", "Chaos Essence -> Properity Ore");
+mods.jei.JEI.addDescription([<minecraft:iron_ore>, <minecraft:gold_ore>, <minecraft:lapis_ore>, <minecraft:diamond_ore>, <minecraft:redstone_ore>, <minecraft:emerald_ore>, <minecraft:quartz_ore>,<minecraft:coal_ore>, <mysticalagriculture:prosperity_ore>, <mysticalagriculture:crafting:5>],"Ores are made by applying its powdered form on Chaos Ore.", "Exceptions: ", "Charcoal Block -> Coal Ore", "Chaos Essence -> Properity Ore");
 
 mods.jei.JEI.addDescription([<silentgems:essenceore>],"Chaos Essence Ores are created by applying Chaos Essence to cobblestone.");
 

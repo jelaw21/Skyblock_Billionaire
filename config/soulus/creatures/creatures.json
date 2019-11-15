@@ -70,6 +70,16 @@
 			"insert_strategy": "merge",
 			"insert_path": [],
 			"from": "mob_stages/aw"
+		},
+		{
+			"conditions": {
+				"type": "gamestage",
+				"player": "any",
+				"stages": ["RESOURCE_HOGS"]
+			},
+			"insert_strategy": "merge",
+			"insert_path": [],
+			"from": "mob_stages/hogs"
 		}
 	]
 }

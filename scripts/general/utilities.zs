@@ -1,5 +1,7 @@
 import crafttweaker.data.IData;
 
+<contenttweaker:hundredbundle>.addTooltip(format.blue("$900"));
+<contenttweaker:hundredbundlebundle>.addTooltip(format.blue("$8100"));
 <contenttweaker:shift_kit>.addTooltip("Gives 4 items. Make room!");
 <contenttweaker:assistant_kit>.addTooltip("Gives 3 items. Make room!");
 <contenttweaker:general_kit>.addTooltip("Gives 2 items. Make room!");

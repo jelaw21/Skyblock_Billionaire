@@ -66,7 +66,7 @@ recipes.addShapeless("add_five", bank, [bank.marked("bag"),<modcurrency:banknote
 			var bagTag = ins.bag.tag.Total.asFloat();
 			var sum = bagTag + 5.0;
 			sum = round(sum);
-			return out.updateTag({Total: sum}).withLore(["$"+ sum]);	
+			return out.updateTag({Total: sum}).withLore(["$"+ sum]);
 		
 	}, null);
 
@@ -117,6 +117,30 @@ recipes.addShapeless("add_hundred", bank, [bank.marked("bag"),<modcurrency:bankn
 			return out.updateTag({Total: sum}).withLore(["$"+ sum]);	
 		
 	}, null);
+
+	recipes.addShapeless("add_hundred_bundle", bank, [bank.marked("bag"),<contenttweaker:hundredbundle>],
+
+    		function(out, ins, cInfo){
+
+
+    			var bagTag = ins.bag.tag.Total.asFloat();
+    			var sum = bagTag + 900.0;
+    			sum = round(sum);
+    			return out.updateTag({Total: sum}).withLore(["$"+ sum]);
+
+    	}, null);
+
+    	recipes.addShapeless("add_bundle_bundle", bank, [bank.marked("bag"),<contenttweaker:hundredbundlebundle>],
+
+        		function(out, ins, cInfo){
+
+
+        			var bagTag = ins.bag.tag.Total.asFloat();
+        			var sum = bagTag + 8100.0;
+        			sum = round(sum);
+        			return out.updateTag({Total: sum}).withLore(["$"+ sum]);
+
+        	}, null);
 	
 recipes.addShapeless("subtract_pennies", bank, [bank.marked("bag").transformReplace(<modcurrency:coin:0>),<contenttweaker:anti_coin_0>.reuse()],
 	

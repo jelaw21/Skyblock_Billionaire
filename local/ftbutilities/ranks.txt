@@ -13,64 +13,64 @@ example.other_permission: true
 [trainee]
 power: 3
 default_player_rank: true
-ftbutilities.chat.name_format: "[&8TRAINEE&r]<{name}>:"
+ftbutilities.chat.name_format: [&8TRAINEE&r]<{name}>:
 
 [employee]
 power: 4
-ftbutilities.chat.name_format: "[&7EMPLOYEE&r]<{name}>:"
+ftbutilities.chat.name_format: [&7EMPLOYEE&r]<{name}>:
 
 [shift_manager]
 power: 5
-ftbutilities.chat.name_format: "[SHIFT MANAGER]<{name}>:"
+ftbutilities.chat.name_format: [SHIFT MANAGER]<{name}>:
 
 [assistant]
 power: 6
-ftbutilities.chat.name_format: "[&3ASSISTANT MANAGER&r]<{name}>:"
+ftbutilities.chat.name_format: [&3ASSISTANT MANAGER&r]<{name}>:
 
 [general]
 power: 7
-ftbutilities.chat.name_format: "[&4GENERAL MANAGER&r]<{name}>:"
+ftbutilities.chat.name_format: [&4GENERAL MANAGER&r]<{name}>:
 
 [regional]
 power: 8
-ftbutilities.chat.name_format: "[&1REGIONAL MANAGER&r]<{name}>:"
+ftbutilities.chat.name_format: [&1REGIONAL MANAGER&r]<{name}>:
 
 [director]
 power: 9
-ftbutilities.chat.name_format: "[&5EXECUTIVE DIRECTOR&r]<{name}>:"
+ftbutilities.chat.name_format: [&5EXECUTIVE DIRECTOR&r]<{name}>:
 
 [ceo]
 power: 10
-ftbutilities.chat.name_format: "[&2CEO&r]<{name}>:"
+ftbutilities.chat.name_format: [&2CEO&r]<{name}>:
 
 [board]
 power: 11
-ftbutilities.chat.name_format: "[&bBOARD MEMBER&r]<{name}>:"
+ftbutilities.chat.name_format: [&bBOARD MEMBER&r]<{name}>:
 
 [chairman]
 power: 12
-ftbutilities.chat.name_format: "[&cCHAIRMAN OF THE BOARD&r]<{name}>:"
+ftbutilities.chat.name_format: [&cCHAIRMAN OF THE BOARD&r]<{name}>:
 
 [philanthropist]
 power: 13
-ftbutilities.chat.name_format: "[&9PHILANTHROPIST&r]<{name}>:"
+ftbutilities.chat.name_format: [&9PHILANTHROPIST&r]<{name}>:
 
 [tycoon]
 power: 14
-ftbutilities.chat.name_format: "[&dFINANCIAL TYCOON&r]<{name}>:"
+ftbutilities.chat.name_format: [&dFINANCIAL TYCOON&r]<{name}>:
 
 [investor]
 power: 15
-ftbutilities.chat.name_format: "[&aGLOBAL INVESTOR&r]<{name}>:"
+ftbutilities.chat.name_format: [&aGLOBAL INVESTOR&r]<{name}>:
 
 [un]
 power: 16
-ftbutilities.chat.name_format: "[&eSECRETARY GENERAL&r]<{name}>:"
+ftbutilities.chat.name_format: [&eSECRETARY GENERAL&r]<{name}>:
 
 [world]
 power: 17
-ftbutilities.chat.name_format: "[&6WORLD LEADER&r]<{name}>:"
+ftbutilities.chat.name_format: [&6WORLD LEADER&r]<{name}>:
 
 [president]
 power: 18
-ftbutilities.chat.name_format: "[&kPRESIDENT OF THE WORLD&r]<{name}>:"
+ftbutilities.chat.name_format: [&kPRESIDENT OF THE WORLD&r]<{name}>:

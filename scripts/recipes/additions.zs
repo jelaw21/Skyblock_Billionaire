@@ -1,4 +1,5 @@
 //SHAPELESS
+recipes.addShapeless(<contenttweaker:romeo_stone_mossy> * 2, [<contenttweaker:romeo_stonebrick>, <minecraft:vine>, <minecraft:vine>]);
 recipes.addShapeless(<gardenstuff:stone_block>,[<chisel:block_charcoal2:1>]);
 recipes.addShapeless(<mekanism:basicblock:3>,[<gardenstuff:stone_block>]);
 recipes.addShapeless(<thermalfoundation:storage_resource>,[<mekanism:basicblock:3>]);
@@ -65,6 +66,9 @@ recipes.addShapeless(<contenttweaker:steel_strip>*2, [<resourcehogs:bacon>.withT
 
 
 //SHAPED
+recipes.addShaped(<contenttweaker:hundredbundlebundle>, [[<contenttweaker:hundredbundle>, <contenttweaker:hundredbundle>, <contenttweaker:hundredbundle>],[<contenttweaker:hundredbundle>, <contenttweaker:hundredbundle>, <contenttweaker:hundredbundle>], [<contenttweaker:hundredbundle>, <contenttweaker:hundredbundle>, <contenttweaker:hundredbundle>]]);
+recipes.addShaped(<contenttweaker:hundredbundle>, [[<modcurrency:banknote:5>, <modcurrency:banknote:5>, <modcurrency:banknote:5>],[<modcurrency:banknote:5>, <modcurrency:banknote:5>, <modcurrency:banknote:5>], [<modcurrency:banknote:5>, <modcurrency:banknote:5>, <modcurrency:banknote:5>]]);
+recipes.addShaped(<contenttweaker:romeo_stonebrick> * 16, [[<minecraft:stonebrick>, <minecraft:stonebrick>, <minecraft:stonebrick>],[<minecraft:stonebrick>, <minecraft:dye:4>, <minecraft:stonebrick>], [<minecraft:stonebrick>, <minecraft:stonebrick>, <minecraft:stonebrick>]]);
 recipes.addShaped(<contenttweaker:high_income_proposal>, [[<powderpower:ingottrilium>, <soulus:ingot_niobium>, <powderpower:ingottrilium>],[<soulus:ingot_niobium>, <silentgems:craftingmaterial:18>, <soulus:ingot_niobium>], [<powderpower:ingottrilium>, <soulus:ingot_niobium>, <powderpower:ingottrilium>]]);
 recipes.addShaped(<contenttweaker:mid_income_proposal>, [[<powderpower:gemgemium>, <soulus:ingot_endersteel_dark>, <powderpower:ingotlapium>],[<soulus:ingot_endersteel_dark>, <silentgems:miscblock:1>, <soulus:ingot_endersteel_dark>], [<powderpower:ingotlapium>, <soulus:ingot_endersteel_dark>, <powderpower:gemgemium>]]);
 recipes.addShaped(<contenttweaker:low_income_proposal>, [[<minecraft:gold_ingot>, <minecraft:iron_ingot>, <powderpower:ingotredium>],[<minecraft:iron_ingot>, <minecraft:diamond_block>, <minecraft:iron_ingot>], [<powderpower:ingotredium>, <minecraft:iron_ingot>, <minecraft:gold_ingot>]]);

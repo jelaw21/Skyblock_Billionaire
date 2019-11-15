@@ -31,8 +31,6 @@ mods.ItemStages.addItemStage("GENERAL_MANAGER",<contenttweaker:anti_dollartwenty
 mods.ItemStages.addItemStage("GENERAL_MANAGER",<contenttweaker:anti_dollarfifty>);
 mods.ItemStages.addItemStage("GENERAL_MANAGER",<contenttweaker:anti_dollaronehundred>);
 mods.ItemStages.addItemStage("GENERAL_MANAGER",<contenttweaker:split_bill>);
-mods.ItemStages.addItemStage("GENERAL_MANAGER",<lowtechcrafting:crafting_table>);
-
 
 
 
