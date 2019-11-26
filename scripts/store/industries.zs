@@ -21,7 +21,6 @@ mods.Delivery.Store.addTrade("GENERAL_MANAGER",<contenttweaker:compactor>, indus
 mods.Delivery.Store.addTrade("GENERAL_MANAGER",<contenttweaker:grinder>, industries, <contenttweaker:bank_item>.withTag({Total: 25000.0 as float, display: {Lore: ["$25000.0"]}}));
 mods.Delivery.Store.addTrade("REGIONAL_MANAGER",<contenttweaker:furnaces>, industries, <contenttweaker:bank_item>.withTag({Total: 15000.0 as float, display: {Lore: ["$15000.0"]}}));
 mods.Delivery.Store.addTrade("REGIONAL_MANAGER",<contenttweaker:virtualmachines>, industries, <contenttweaker:bank_item>.withTag({Total: 30000.0 as float, display: {Lore: ["$30000.0"]}}));
-mods.Delivery.Store.addTrade("REGIONAL_MANAGER",<contenttweaker:wirelessutils>, industries, <contenttweaker:bank_item>.withTag({Total: 25000.0 as float, display: {Lore: ["$25000.0"]}}));
 mods.Delivery.Store.addTrade("GENERAL_MANAGER",<contenttweaker:superfactory>, industries, <contenttweaker:bank_item>.withTag({Total: 20000.0 as float, display: {Lore: ["$20000.0"]}}));
 mods.Delivery.Store.addTrade("REGIONAL_MANAGER",<contenttweaker:compact>, industries, <contenttweaker:bank_item>.withTag({Total: 20000.0 as float, display: {Lore: ["$20000.0"]}}));
 mods.Delivery.Store.addTrade("REGIONAL_MANAGER",<contenttweaker:industmeat>, industries, <contenttweaker:bank_item>.withTag({Total: 20000.0 as float, display: {Lore: ["$20000.0"]}}));

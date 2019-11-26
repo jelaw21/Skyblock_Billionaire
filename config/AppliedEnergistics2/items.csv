@@ -10201,8 +10201,6 @@ appliedenergistics2:part:220, ME Storage Bus
 appliedenergistics2:part:400, ME Storage Monitor
 appliedenergistics2:part:380, ME Terminal
 appliedenergistics2:part:80, ME Toggle Bus
-ancientwarfare:engineering_station, tile.engineering_station.name
-ancientwarfare:research_station, tile.research_station.name
 ancientwarfare:info_tool, Info Tool
 ancientwarfare:research_book, Research Book
 ancientwarfare:research_note, Research Note
@@ -10231,22 +10229,8 @@ ancientwarfare:component:6, Wooden Torque Shaft
 ancientwarfare:component:7, Iron Torque Shaft
 ancientwarfare:component:8, Steel Torque Shaft
 ancientwarfare:steel_ingot, Steel Ingot
-ancientwarfarestructure:structure_scanner, Structure Scanner
-ancientwarfarestructure:structure_builder, Structure Builder
-ancientwarfarestructure:structure_builder_world_gen, WorldGen Structure Builder
-ancientwarfarestructure:town_builder, Instant Town Building Tool
-ancientwarfarestructure:spawner_placer, Mob Spawner Placement Tool
-ancientwarfarestructure:gate_spawner:0, Wooden Gate (vert. open)
-ancientwarfarestructure:gate_spawner:1, Iron Gate (vert. open)
-ancientwarfarestructure:gate_spawner:4, Wooden Gate (slide open)
-ancientwarfarestructure:gate_spawner:5, Iron Gate (slide open)
-ancientwarfarestructure:gate_spawner:8, Wooden Gate (split open)
-ancientwarfarestructure:gate_spawner:9, Iron Gate (split open)
-ancientwarfarestructure:gate_spawner:12, Drawbridge (rotate open)
-ancientwarfarestructure:construction_tool, Construction Tool
-ancientwarfarestructure:construction_tool_lakes, Lake Construction Tool
-ancientwarfarestructure:block_info_clicker, Block Info Tool
-ancientwarfarestructure:loot_chest_placer, Loot Chest Placer
+ancientwarfare:engineering_station, tile.engineering_station.name
+ancientwarfare:research_station, tile.research_station.name
 ancientwarfarestructure:advanced_spawner, Advanced Monster Spawner
 ancientwarfarestructure:gate_proxy, Gate Proxy Block
 ancientwarfarestructure:drafting_station, Drafting Station
@@ -10286,6 +10270,22 @@ ancientwarfarestructure:bench, Outdoor Bench
 ancientwarfarestructure:tribal_chair, Tribal Chair
 ancientwarfarestructure:scissor_seat, Scissor Seat
 ancientwarfarestructure:statue, tile.statue.name
+ancientwarfarestructure:structure_scanner, Structure Scanner
+ancientwarfarestructure:structure_builder, Structure Builder
+ancientwarfarestructure:structure_builder_world_gen, WorldGen Structure Builder
+ancientwarfarestructure:town_builder, Instant Town Building Tool
+ancientwarfarestructure:spawner_placer, Mob Spawner Placement Tool
+ancientwarfarestructure:gate_spawner:0, Wooden Gate (vert. open)
+ancientwarfarestructure:gate_spawner:1, Iron Gate (vert. open)
+ancientwarfarestructure:gate_spawner:4, Wooden Gate (slide open)
+ancientwarfarestructure:gate_spawner:5, Iron Gate (slide open)
+ancientwarfarestructure:gate_spawner:8, Wooden Gate (split open)
+ancientwarfarestructure:gate_spawner:9, Iron Gate (split open)
+ancientwarfarestructure:gate_spawner:12, Drawbridge (rotate open)
+ancientwarfarestructure:construction_tool, Construction Tool
+ancientwarfarestructure:construction_tool_lakes, Lake Construction Tool
+ancientwarfarestructure:block_info_clicker, Block Info Tool
+ancientwarfarestructure:loot_chest_placer, Loot Chest Placer
 ancientwarfarevehicle:spawner:0, Catapult Stand Fixed
 ancientwarfarevehicle:spawner:0, Catapult Stand Fixed
 ancientwarfarevehicle:spawner:0, Catapult Stand Fixed
@@ -10485,7 +10485,6 @@ ancientwarfarevehicle:vehicle_upgrade_power, Power Upgrade
 ancientwarfarevehicle:vehicle_upgrade_turret_pitch, Pitch Extension
 ancientwarfarevehicle:vehicle_upgrade_pitch_up, Turret Wedge: +3'
 ancientwarfarevehicle:vehicle_upgrade_pitch_down, Turret Wedge: -3'
-ancientwarfarenpc:town_hall, Break Room
 ancientwarfarenpc:wooden_command_baton, Wooden Command Baton
 ancientwarfarenpc:stone_command_baton, Stone Command Baton
 ancientwarfarenpc:iron_command_baton, Iron Command Baton
@@ -10523,6 +10522,7 @@ ancientwarfarenpc:stone_lance, Stone Lance
 ancientwarfarenpc:iron_lance, Iron Lance
 ancientwarfarenpc:golden_lance, Golden Lance
 ancientwarfarenpc:diamond_lance, Diamond Lance
+ancientwarfarenpc:town_hall, Break Room
 ancientwarfareautomation:quarry, Quarry
 ancientwarfareautomation:tree_farm, Tree Farm
 ancientwarfareautomation:crop_farm, Crop Farm
@@ -10571,6 +10571,11 @@ ancientwarfareautomation:worksite_upgrade:7, Intermediate Tool Quality Upgrade
 ancientwarfareautomation:worksite_upgrade:8, Advanced Tool Quality Upgrade
 ancientwarfareautomation:worksite_upgrade:9, Basic Chunkloader Upgrade
 ancientwarfareautomation:worksite_upgrade:10, Quarry Chunkloader Upgrade
+archicraft:biotoken, Bio token
+archicraft:archtoken, Arch token
+archicraft:okeanostoken, Okeanos token
+archicraft:luxarktoken, Luxark token
+archicraft:alqaztoken, Alqaz token
 archicraft:biohouse, Bio house
 archicraft:scanner, Scanner
 archicraft:biobase, Bio base
@@ -10711,11 +10716,6 @@ archicraft:luxarksquare, Luxark square
 archicraft:luxarkgarden, Luxark garden
 archicraft:luxarkduplex, Luxark duplex
 archicraft:luxarkmarket, Luxark market
-archicraft:biotoken, Bio token
-archicraft:archtoken, Arch token
-archicraft:okeanostoken, Okeanos token
-archicraft:luxarktoken, Luxark token
-archicraft:alqaztoken, Alqaz token
 baubles:ring:0, Miner's Ring
 blocklings:blockling, Blockling
 boneappetit:wet_bone_meal, Wet Bone Meal
@@ -10775,27 +10775,6 @@ colossalchests:interface:6, Colossal Chest Interface
 colossalchests:uncolossal_chest:0, Uncolossal Chest
 colossalchests:upgrade_tool:0, Chest Upgrade Tool
 colossalchests:upgrade_tool:1, Chest Downgrade Tool
-storagedrawers:upgrade_template, Upgrade Template
-storagedrawers:upgrade_storage:0, Storage Upgrade (I)
-storagedrawers:upgrade_storage:1, Storage Upgrade (II)
-storagedrawers:upgrade_storage:2, Storage Upgrade (III)
-storagedrawers:upgrade_storage:3, Storage Upgrade (IV)
-storagedrawers:upgrade_storage:4, Storage Upgrade (V)
-storagedrawers:upgrade_one_stack, Storage Downgrade
-storagedrawers:upgrade_status:0, Status Upgrade (I)
-storagedrawers:upgrade_status:1, Status Upgrade (II)
-storagedrawers:upgrade_void, Void Upgrade
-storagedrawers:upgrade_conversion, Conversion Upgrade
-storagedrawers:upgrade_creative:0, Creative Storage Upgrade
-storagedrawers:upgrade_creative:1, Creative Vending Upgrade
-storagedrawers:upgrade_redstone:0, Redstone Upgrade
-storagedrawers:upgrade_redstone:1, Redstone Max Upgrade
-storagedrawers:upgrade_redstone:2, Redstone Min Upgrade
-storagedrawers:drawer_key, Drawer Key
-storagedrawers:shroud_key, Concealment Key
-storagedrawers:personal_key, Personal Key
-storagedrawers:quantify_key, Quantify Key
-storagedrawers:tape, Packing Tape
 storagedrawers:basicdrawers:0, Basic Drawer
 storagedrawers:basicdrawers:0, Basic Drawer
 storagedrawers:basicdrawers:0, Basic Drawer
@@ -10846,6 +10825,27 @@ storagedrawers:customdrawers:2, Framed Drawers 2x2
 storagedrawers:customdrawers:3, Framed Half Drawers 1x2
 storagedrawers:customdrawers:4, Framed Half Drawers 2x2
 storagedrawers:customtrim, Framed Trim
+storagedrawers:upgrade_template, Upgrade Template
+storagedrawers:upgrade_storage:0, Storage Upgrade (I)
+storagedrawers:upgrade_storage:1, Storage Upgrade (II)
+storagedrawers:upgrade_storage:2, Storage Upgrade (III)
+storagedrawers:upgrade_storage:3, Storage Upgrade (IV)
+storagedrawers:upgrade_storage:4, Storage Upgrade (V)
+storagedrawers:upgrade_one_stack, Storage Downgrade
+storagedrawers:upgrade_status:0, Status Upgrade (I)
+storagedrawers:upgrade_status:1, Status Upgrade (II)
+storagedrawers:upgrade_void, Void Upgrade
+storagedrawers:upgrade_conversion, Conversion Upgrade
+storagedrawers:upgrade_creative:0, Creative Storage Upgrade
+storagedrawers:upgrade_creative:1, Creative Vending Upgrade
+storagedrawers:upgrade_redstone:0, Redstone Upgrade
+storagedrawers:upgrade_redstone:1, Redstone Max Upgrade
+storagedrawers:upgrade_redstone:2, Redstone Min Upgrade
+storagedrawers:drawer_key, Drawer Key
+storagedrawers:shroud_key, Concealment Key
+storagedrawers:personal_key, Personal Key
+storagedrawers:quantify_key, Quantify Key
+storagedrawers:tape, Packing Tape
 compactdrawers:compact_drawer_2by1, Compacting Drawers 1x2
 compactdrawers:compact_drawer_2by1_half, Compacting Drawers 1x2 Half
 compactdrawers:compact_drawer_half, Compacting Drawers Half
@@ -10894,8 +10894,6 @@ cropdusting:poop, Poop
 cropdusting:fertile_dirt, Fertile Dirt
 culinaryconstruct:sandwich_station, Sandwich Station
 culinaryconstruct:sandwich, Sandwich
-doggytalents:dog_bath, Dog Bath
-doggytalents:food_bowl, Food Bowl
 doggytalents:throw_bone, Throw Bone
 doggytalents:throw_bone_wet, Drool Throw Bone
 doggytalents:throw_stick, Throw Stick
@@ -10924,8 +10922,33 @@ doggytalents:leather_jacket, Leather Jacket
 doggytalents:tiny_bone, Tiny Bone
 doggytalents:big_bone, Big Bone
 doggytalents:owner_change, Change Dog Owner
+doggytalents:dog_bath, Dog Bath
+doggytalents:food_bowl, Food Bowl
 dungeonmobs:lavarock, tile.dungeonmobs.lavarock.name
 dungeonmobs:bladetrap, Blade Trap
+earthworks:item_adobe, Adobe Brick
+earthworks:item_chalk, Chalk Dust
+earthworks:item_cob, Cob Ball
+earthworks:item_lime_plaster, Lime Plaster
+earthworks:item_mud, Mud Ball
+earthworks:item_quicklime, Quicklime
+earthworks:item_slaked_lime, Slaked Lime
+earthworks:item_timber, Timber Framing
+earthworks:tool_square, Square
+earthworks:tool_hand_axe, Handaxe
+earthworks:tool_adz, Adz
+earthworks:tool_compass, Compass
+earthworks:tool_froe, Froe
+earthworks:tool_hand_planer, Planer
+earthworks:tool_level, Level
+earthworks:tool_saw, Saw
+earthworks:tool_wood_hammer, Wood Hammer
+earthworks:tool_stone_hammer, Stone Hammer
+earthworks:tool_iron_hammer, Iron Hammer
+earthworks:tool_gold_hammer, Gold Hammer
+earthworks:tool_diamond_hammer, Diamond Hammer
+earthworks:item_dirt, Dirt Ball
+earthworks:item_sand, Sand
 earthworks:daub_cob_arrow0, Timber Framed Wattle and Daub
 earthworks:daub_cob_arrow1, Timber Framed Wattle and Daub
 earthworks:daub_cob_arrow2, Timber Framed Wattle and Daub
@@ -11192,29 +11215,6 @@ earthworks:stair_reed, Reed Stairs
 earthworks:stair_thatch, Thatch Stairs
 earthworks:wall_reed, Reed Wall
 earthworks:wall_thatch, Thatch Wall
-earthworks:item_adobe, Adobe Brick
-earthworks:item_chalk, Chalk Dust
-earthworks:item_cob, Cob Ball
-earthworks:item_lime_plaster, Lime Plaster
-earthworks:item_mud, Mud Ball
-earthworks:item_quicklime, Quicklime
-earthworks:item_slaked_lime, Slaked Lime
-earthworks:item_timber, Timber Framing
-earthworks:tool_square, Square
-earthworks:tool_hand_axe, Handaxe
-earthworks:tool_adz, Adz
-earthworks:tool_compass, Compass
-earthworks:tool_froe, Froe
-earthworks:tool_hand_planer, Planer
-earthworks:tool_level, Level
-earthworks:tool_saw, Saw
-earthworks:tool_wood_hammer, Wood Hammer
-earthworks:tool_stone_hammer, Stone Hammer
-earthworks:tool_iron_hammer, Iron Hammer
-earthworks:tool_gold_hammer, Gold Hammer
-earthworks:tool_diamond_hammer, Diamond Hammer
-earthworks:item_dirt, Dirt Ball
-earthworks:item_sand, Sand
 elevatorid:elevator_white, White Elevator
 elevatorid:elevator_orange, Orange Elevator
 elevatorid:elevator_magenta, Magenta Elevator
@@ -12235,9 +12235,6 @@ immersiveengineering:steel_armor_feet, Steel Boots
 immersiveengineering:steel_armor_legs, Steel Leggings
 immersiveengineering:steel_armor_chest, Steel Chestplate
 immersiveengineering:steel_armor_head, Steel Helmet
-engineersdoors:fencegate_aluminium, Aluminum Fence Gate
-engineersdoors:fencegate_steel, Steel Fence Gate
-engineersdoors:fencegate_treated, Treated Wood Fence Gate
 engineersdoors:door_concrete, Concrete Door
 engineersdoors:door_concrete_ornate, Concrete Door
 engineersdoors:door_concrete_reinforced, Concrete Door
@@ -12249,6 +12246,9 @@ engineersdoors:door_treated_ornate, Treated Wood Door
 engineersdoors:door_treated_reinforced, Treated Wood Door
 engineersdoors:trapdoor_steel, Steel Trapdoor
 engineersdoors:trapdoor_treated, Treated Wood Trapdoor
+engineersdoors:fencegate_aluminium, Aluminum Fence Gate
+engineersdoors:fencegate_steel, Steel Fence Gate
+engineersdoors:fencegate_treated, Treated Wood Fence Gate
 extendeddays:pocket_watch, Pocket Watch
 zerocore:debugtool, Debug Tool
 bigreactors:ingotyellorium, Yellorium Ingot
@@ -13176,6 +13176,15 @@ cfm:item_kebab_cooked, Cooked Kebab
 cfm:item_crow_bar, Crow Bar
 cfm:ceiling_fan_fans, item.ceiling_fan_fans.name
 cfm:tv_remote, TV Remote
+gardenstuff:material:0, Iron Nugget
+gardenstuff:material:1, Iron Link
+gardenstuff:material:2, Gold Link
+gardenstuff:material:3, Wrought Iron Nugget
+gardenstuff:material:4, Wrought Iron Ingot
+gardenstuff:material:5, Wrought Iron Link
+gardenstuff:material:6, Candelilla
+gardenstuff:material:7, Wax
+gardenstuff:candelilla_seeds, Candelilla Seeds
 gardenstuff:stone_block:0, Block of Charcoal
 gardenstuff:metal_block:0, Block of Wrought Iron
 gardenstuff:bloomery_furnace, Bloomery Furnace
@@ -13192,15 +13201,6 @@ gardenstuff:candelabra:0, Candle
 gardenstuff:candelabra:1, Candelabra
 gardenstuff:candelabra:2, Candelabra
 gardenstuff:candelabra:3, Candelabra
-gardenstuff:material:0, Iron Nugget
-gardenstuff:material:1, Iron Link
-gardenstuff:material:2, Gold Link
-gardenstuff:material:3, Wrought Iron Nugget
-gardenstuff:material:4, Wrought Iron Ingot
-gardenstuff:material:5, Wrought Iron Link
-gardenstuff:material:6, Candelilla
-gardenstuff:material:7, Wax
-gardenstuff:candelilla_seeds, Candelilla Seeds
 modularrouters:item_router, Item Router
 modularrouters:template_frame, Template Frame
 modularrouters:blank_module, Blank Module
@@ -14549,6 +14549,62 @@ mob_grinding_utils:saw_upgrade:5, Mob Masher Upgrade
 mob_grinding_utils:mob_swab, Mob Swab
 mob_grinding_utils:gm_chicken_feed, GM Chicken Feed
 mob_grinding_utils:null_sword, Imaginary Not Here Sword
+modularmachinery:itemblueprint, Machine Blueprint
+modularmachinery:itemmodularium, Modularium
+modularmachinery:itemconstructtool, Construct Selection Tool
+modularmachinery:blockcontroller, Machine Controller
+modularmachinery:blockcasing:0, Machine Casing
+modularmachinery:blockcasing:1, Machine Vent
+modularmachinery:blockcasing:2, Firebox Casing
+modularmachinery:blockcasing:3, Machine Gearbox
+modularmachinery:blockcasing:4, Reinforced Machine Casing
+modularmachinery:blockcasing:5, Machine Circuitry
+modularmachinery:blockinputbus:0, Tiny Item Input
+modularmachinery:blockinputbus:1, Small Item Input
+modularmachinery:blockinputbus:2, Normal Item Input
+modularmachinery:blockinputbus:3, Reinforced Item Input
+modularmachinery:blockinputbus:4, Big Item Input
+modularmachinery:blockinputbus:5, Huge Item Input
+modularmachinery:blockinputbus:6, Ludicrous Item Input
+modularmachinery:blockoutputbus:0, Tiny Item Output
+modularmachinery:blockoutputbus:1, Small Item Output
+modularmachinery:blockoutputbus:2, Normal Item Output
+modularmachinery:blockoutputbus:3, Reinforced Item Output
+modularmachinery:blockoutputbus:4, Big Item Output
+modularmachinery:blockoutputbus:5, Huge Item Output
+modularmachinery:blockoutputbus:6, Ludicrous Item Output
+modularmachinery:blockfluidinputhatch:0, Tiny Fluid Input Hatch
+modularmachinery:blockfluidinputhatch:1, Small Fluid Input Hatch
+modularmachinery:blockfluidinputhatch:2, Normal Fluid Input Hatch
+modularmachinery:blockfluidinputhatch:3, Reinforced Fluid Input Hatch
+modularmachinery:blockfluidinputhatch:4, Big Fluid Input Hatch
+modularmachinery:blockfluidinputhatch:5, Huge Fluid Input Hatch
+modularmachinery:blockfluidinputhatch:6, Ludicrous Fluid Input Hatch
+modularmachinery:blockfluidinputhatch:7, Vacuum Fluid Input Hatch
+modularmachinery:blockfluidoutputhatch:0, Tiny Fluid Output Hatch
+modularmachinery:blockfluidoutputhatch:1, Small Fluid Output Hatch
+modularmachinery:blockfluidoutputhatch:2, Normal Fluid Output Hatch
+modularmachinery:blockfluidoutputhatch:3, Reinforced Fluid Output Hatch
+modularmachinery:blockfluidoutputhatch:4, Big Fluid Output Hatch
+modularmachinery:blockfluidoutputhatch:5, Huge Fluid Output Hatch
+modularmachinery:blockfluidoutputhatch:6, Ludicrous Fluid Output Hatch
+modularmachinery:blockfluidoutputhatch:7, Vacuum Fluid Output Hatch
+modularmachinery:blockenergyinputhatch:0, Tiny Energy Input Hatch
+modularmachinery:blockenergyinputhatch:1, Small Energy Input Hatch
+modularmachinery:blockenergyinputhatch:2, Normal Energy Input Hatch
+modularmachinery:blockenergyinputhatch:3, Reinforced Energy Input Hatch
+modularmachinery:blockenergyinputhatch:4, Big Energy Input Hatch
+modularmachinery:blockenergyinputhatch:5, Huge Energy Input Hatch
+modularmachinery:blockenergyinputhatch:6, Ludicrous Energy Input Hatch
+modularmachinery:blockenergyinputhatch:7, Ultimate Energy Input Hatch
+modularmachinery:blockenergyoutputhatch:0, Tiny Energy Output Hatch
+modularmachinery:blockenergyoutputhatch:1, Small Energy Output Hatch
+modularmachinery:blockenergyoutputhatch:2, Normal Energy Output Hatch
+modularmachinery:blockenergyoutputhatch:3, Reinforced Energy Output Hatch
+modularmachinery:blockenergyoutputhatch:4, Big Energy Output Hatch
+modularmachinery:blockenergyoutputhatch:5, Huge Energy Output Hatch
+modularmachinery:blockenergyoutputhatch:6, Ludicrous Energy Output Hatch
+modularmachinery:blockenergyoutputhatch:7, Ultimate Energy Output Hatch
 morefurnaces:upgrade:0, Furnace Upgrade: Stone To Iron
 morefurnaces:upgrade:1, Furnace Upgrade: Stone To Netherrack
 morefurnaces:upgrade:2, Furnace Upgrade: Iron To Gold
@@ -15196,15 +15252,6 @@ superfactorymanager:cable_bud, Block Detector
 superfactorymanager:cable_breaker, Block Gate
 superfactorymanager:cable_sign, Sign Updater
 superfactorymanager:disk, Memory Disc
-tinymobfarm:lasso, Lasso
-tinymobfarm:wood_farm, Wooden Mob Farm
-tinymobfarm:stone_farm, Stone Mob Farm
-tinymobfarm:iron_farm, Iron Mob Farm
-tinymobfarm:gold_farm, Golden Mob Farm
-tinymobfarm:diamond_farm, Diamond Mob Farm
-tinymobfarm:emerald_farm, Emerald Mob Farm
-tinymobfarm:inferno_farm, Inferno Mob Farm
-tinymobfarm:ultimate_farm, Ultimate Mob Farm
 v0idssmartbackpacks:backpack:0, Basic Backpack
 v0idssmartbackpacks:backpack:0, Basic Backpack
 v0idssmartbackpacks:backpack:0, Basic Backpack
@@ -15311,7 +15358,6 @@ v0idssmartbackpacks:upgrade_sharing, Sharing Upgrade
 v0idssmartbackpacks:upgrade_lighting, Lightg Upgrade
 v0idssmartbackpacks:upgrade_crafting, Crafting Upgrade
 v0idssmartbackpacks:upgrade_filter_regex, Regular Expression Filter
-vc:airship_workbench, Airship Workbench
 vc:item_guidebook_main, The 'Vies' Craft, vol.1
 vc:item_dismounter_normal, Dismounter
 vc:item_dismounter_player, Dismounter Player
@@ -15416,151 +15462,7 @@ vc:symbols/item_display_symbol:18, Bell
 vc:symbols/item_display_symbol:19, Anchor
 vc:symbols/item_display_symbol:20, Barrel
 vc:symbols/item_display_symbol:21, Gears
-wirelessutils:directional_charger:0, Directional Charger (Tier 1)
-wirelessutils:directional_charger:1, Directional Charger (Tier 2)
-wirelessutils:directional_charger:2, Directional Charger (Tier 3)
-wirelessutils:directional_charger:3, Directional Charger (Tier 4)
-wirelessutils:directional_charger:4, Directional Charger (Tier 5)
-wirelessutils:directional_charger:5, Directional Charger (Creative)
-wirelessutils:positional_charger:0, Positional Charger (Tier 1)
-wirelessutils:positional_charger:1, Positional Charger (Tier 2)
-wirelessutils:positional_charger:2, Positional Charger (Tier 3)
-wirelessutils:positional_charger:3, Positional Charger (Tier 4)
-wirelessutils:positional_charger:4, Positional Charger (Tier 5)
-wirelessutils:positional_charger:5, Positional Charger (Creative)
-wirelessutils:directional_condenser:0, Directional Condenser (Tier 1)
-wirelessutils:directional_condenser:1, Directional Condenser (Tier 2)
-wirelessutils:directional_condenser:2, Directional Condenser (Tier 3)
-wirelessutils:directional_condenser:3, Directional Condenser (Tier 4)
-wirelessutils:directional_condenser:4, Directional Condenser (Tier 5)
-wirelessutils:directional_condenser:5, Directional Condenser (Creative)
-wirelessutils:positional_condenser:0, Positional Condenser (Tier 1)
-wirelessutils:positional_condenser:1, Positional Condenser (Tier 2)
-wirelessutils:positional_condenser:2, Positional Condenser (Tier 3)
-wirelessutils:positional_condenser:3, Positional Condenser (Tier 4)
-wirelessutils:positional_condenser:4, Positional Condenser (Tier 5)
-wirelessutils:positional_condenser:5, Positional Condenser (Creative)
-wirelessutils:directional_desublimator:0, Directional Desublimator (Tier 1)
-wirelessutils:directional_desublimator:1, Directional Desublimator (Tier 2)
-wirelessutils:directional_desublimator:2, Directional Desublimator (Tier 3)
-wirelessutils:directional_desublimator:3, Directional Desublimator (Tier 4)
-wirelessutils:directional_desublimator:4, Directional Desublimator (Tier 5)
-wirelessutils:directional_desublimator:5, Directional Desublimator (Creative)
-wirelessutils:positional_desublimator:0, Positional Desublimator (Tier 1)
-wirelessutils:positional_desublimator:1, Positional Desublimator (Tier 2)
-wirelessutils:positional_desublimator:2, Positional Desublimator (Tier 3)
-wirelessutils:positional_desublimator:3, Positional Desublimator (Tier 4)
-wirelessutils:positional_desublimator:4, Positional Desublimator (Tier 5)
-wirelessutils:positional_desublimator:5, Positional Desublimator (Creative)
-wirelessutils:directional_vaporizer:0, Directional Vaporizer (Tier 1)
-wirelessutils:directional_vaporizer:1, Directional Vaporizer (Tier 2)
-wirelessutils:directional_vaporizer:2, Directional Vaporizer (Tier 3)
-wirelessutils:directional_vaporizer:3, Directional Vaporizer (Tier 4)
-wirelessutils:directional_vaporizer:4, Directional Vaporizer (Tier 5)
-wirelessutils:directional_vaporizer:5, Directional Vaporizer (Creative)
-wirelessutils:positional_vaporizer:0, Positional Vaporizer (Tier 1)
-wirelessutils:positional_vaporizer:1, Positional Vaporizer (Tier 2)
-wirelessutils:positional_vaporizer:2, Positional Vaporizer (Tier 3)
-wirelessutils:positional_vaporizer:3, Positional Vaporizer (Tier 4)
-wirelessutils:positional_vaporizer:4, Positional Vaporizer (Tier 5)
-wirelessutils:positional_vaporizer:5, Positional Vaporizer (Creative)
-wirelessutils:angled_slime:0, Angled Slime
-wirelessutils:fluxed_pearl:0, Fluxed Pearl
-wirelessutils:fluxed_pearl:1, Stabilized Fluxed Pearl
-wirelessutils:charged_pearl:0, Charged Pearl
-wirelessutils:charged_pearl:1, Stabilized Charged Pearl
-wirelessutils:quenched_pearl:0, Quenched Pearl
-wirelessutils:quenched_pearl:1, Stabilized Quenched Pearl
-wirelessutils:scorched_pearl:0, Scorched Pearl
-wirelessutils:scorched_pearl:1, Stabilized Scorched Pearl
-wirelessutils:stabilized_ender_pearl:0, Stabilized Ender Pearl
-wirelessutils:void_pearl:0, Void Pearl
-wirelessutils:crystallized_void_pearl:0, Crystallized Void Pearl
-wirelessutils:positional_card, Absolute Positional Card
-wirelessutils:relative_positional_card, Relative Positional Card
-wirelessutils:player_positional_card, Player Positional Card
-wirelessutils:area_card:0, Absolute Area Card (Tier 1)
-wirelessutils:area_card:1, Absolute Area Card (Tier 2)
-wirelessutils:relative_area_card:0, Relative Area Card (Tier 1)
-wirelessutils:relative_area_card:1, Relative Area Card (Tier 2)
-wirelessutils:glasses, Work Glasses
-wirelessutils:ender_coil, Ender Coil
-wirelessutils:machine_panel, Machine Panel
-wirelessutils:level_upgrade:1, Upgrade Kit (Tier 2)
-wirelessutils:level_upgrade:2, Upgrade Kit (Tier 3)
-wirelessutils:level_upgrade:3, Upgrade Kit (Tier 4)
-wirelessutils:level_upgrade:4, Upgrade Kit (Tier 5)
-wirelessutils:level_upgrade:5, Upgrade Kit (Creative)
-wirelessutils:conversion_upgrade:2, Conversion Kit (Tier 3)
-wirelessutils:conversion_upgrade:3, Conversion Kit (Tier 4)
-wirelessutils:conversion_upgrade:4, Conversion Kit (Tier 5)
-wirelessutils:conversion_upgrade:5, Conversion Kit (Creative)
-wirelessutils:base_augment, Augment Base
-wirelessutils:range_augment:0, Range Augment (Tier 1)
-wirelessutils:range_augment:1, Range Augment (Tier 2)
-wirelessutils:range_augment:2, Range Augment (Tier 3)
-wirelessutils:range_augment:3, Range Augment (Tier 4)
-wirelessutils:range_augment:4, Range Augment (Tier 5)
-wirelessutils:range_augment:32766, Range Augment (Interdimensional)
-wirelessutils:inventory_augment, Inventory Augment
-wirelessutils:slot_augment:0, Target Slot Augment (Tier 1)
-wirelessutils:slot_augment:1, Target Slot Augment (Tier 2)
-wirelessutils:slot_augment:2, Target Slot Augment (Tier 3)
-wirelessutils:capacity_augment:0, Capacity Augment (Tier 1)
-wirelessutils:capacity_augment:1, Capacity Augment (Tier 2)
-wirelessutils:capacity_augment:2, Capacity Augment (Tier 3)
-wirelessutils:capacity_augment:3, Capacity Augment (Tier 4)
-wirelessutils:capacity_augment:4, Capacity Augment (Tier 5)
-wirelessutils:transfer_augment:0, Transfer Augment (Tier 1)
-wirelessutils:transfer_augment:1, Transfer Augment (Tier 2)
-wirelessutils:transfer_augment:2, Transfer Augment (Tier 3)
-wirelessutils:transfer_augment:3, Transfer Augment (Tier 4)
-wirelessutils:transfer_augment:4, Transfer Augment (Tier 5)
-wirelessutils:world_augment, World Augment
-wirelessutils:block_augment, Block Augment
-wirelessutils:invert_augment, Invert Augment
-wirelessutils:crop_augment, Crop Augment
-wirelessutils:chunk_load_augment, Chunk Loading Augment
-wirelessutils:fluid_gen_augment, Auxiliary Condenser Augment
-wirelessutils:sided_transfer_augment, Sided I/O Control Augment
-wirelessutils:dispenser_augment, Dispenser Augment
-wirelessutils:filter_augment:0, Filter Augment (Tier 1)
-wirelessutils:filter_augment:1, Filter Augment (Tier 2)
-wirelessutils:filter_augment:2, Filter Augment (Tier 3)
-wirelessutils:facing_augment, Remote Side Augment
-wirelessutils:base_module, Module Base
-wirelessutils:slaughter_module, Slaughter Module
-wirelessutils:teleport_module, Teleportation Module
-wirelessutils:capture_module, Capture Module
-wirelessutils:clone_module, Duplication Module
-wirelessutils:launch_module, Launch Module
-wirelessutils:theoretical_slaughter_module, Theoretical Slaughter Module
-wirelessutils:animal_slaughter_module, Animal Slaughter Module
-wirelessutils:infinite_wireless_transmitter, Infinite Wireless Transmitter
-wirelessutils:directional_rs_network:0, Directional RS Network (Tier 1)
-wirelessutils:directional_rs_network:1, Directional RS Network (Tier 2)
-wirelessutils:directional_rs_network:2, Directional RS Network (Tier 3)
-wirelessutils:directional_rs_network:3, Directional RS Network (Tier 4)
-wirelessutils:directional_rs_network:4, Directional RS Network (Tier 5)
-wirelessutils:directional_rs_network:5, Directional RS Network (Creative)
-wirelessutils:positional_rs_network:0, Positional RS Network (Tier 1)
-wirelessutils:positional_rs_network:1, Positional RS Network (Tier 2)
-wirelessutils:positional_rs_network:2, Positional RS Network (Tier 3)
-wirelessutils:positional_rs_network:3, Positional RS Network (Tier 4)
-wirelessutils:positional_rs_network:4, Positional RS Network (Tier 5)
-wirelessutils:positional_rs_network:5, Positional RS Network (Creative)
-wirelessutils:directional_ae_network:0, Directional AE Network (Tier 1)
-wirelessutils:directional_ae_network:1, Directional AE Network (Tier 2)
-wirelessutils:directional_ae_network:2, Directional AE Network (Tier 3)
-wirelessutils:directional_ae_network:3, Directional AE Network (Tier 4)
-wirelessutils:directional_ae_network:4, Directional AE Network (Tier 5)
-wirelessutils:directional_ae_network:5, Directional AE Network (Creative)
-wirelessutils:positional_ae_network:0, Positional AE Network (Tier 1)
-wirelessutils:positional_ae_network:1, Positional AE Network (Tier 2)
-wirelessutils:positional_ae_network:2, Positional AE Network (Tier 3)
-wirelessutils:positional_ae_network:3, Positional AE Network (Tier 4)
-wirelessutils:positional_ae_network:4, Positional AE Network (Tier 5)
-wirelessutils:positional_ae_network:5, Positional AE Network (Creative)
+vc:airship_workbench, Airship Workbench
 xencraft:xen_gem, Xen
 xencraft:xen_ingot, Xen Ingot
 xencraft:tablet, Xen Crafting Tablet
@@ -16276,99 +16178,6 @@ delivery:store_book, Store
 delivery:store_tech, Store
 gbook:guidebook:0, Employee Handbook
 gbook:guidebook:0, Guidebook Manual
-sky_orchards:acorn_ferrous:0, Ferrous§r Acorn§r
-sky_orchards:acorn_ferrous:1, Ferrous§r Acorn Roasted§r
-sky_orchards:resin_ferrous, item.sky_orchards.resin_ferrous.name
-sky_orchards:acorn_marigold:0, Marigold§r Acorn§r
-sky_orchards:acorn_marigold:1, Marigold§r Acorn Roasted§r
-sky_orchards:resin_marigold, item.sky_orchards.resin_marigold.name
-sky_orchards:acorn_lazuli:0, Lazuli§r Acorn§r
-sky_orchards:acorn_lazuli:1, Lazuli§r Acorn Roasted§r
-sky_orchards:resin_lazuli, item.sky_orchards.resin_lazuli.name
-sky_orchards:acorn_reddening:0, Reddening§r Acorn§r
-sky_orchards:acorn_reddening:1, Reddening§r Acorn Roasted§r
-sky_orchards:resin_reddening, item.sky_orchards.resin_reddening.name
-sky_orchards:acorn_brilliant:0, Brilliant§r Acorn§r
-sky_orchards:acorn_brilliant:1, Brilliant§r Acorn Roasted§r
-sky_orchards:resin_brilliant, item.sky_orchards.resin_brilliant.name
-sky_orchards:acorn_netherwood:0, Netherwood§r Acorn§r
-sky_orchards:acorn_netherwood:1, Netherwood§r Acorn Roasted§r
-sky_orchards:resin_netherwood, item.sky_orchards.resin_netherwood.name
-sky_orchards:acorn_enderwood:0, Enderwood§r Acorn§r
-sky_orchards:acorn_enderwood:1, Enderwood§r Acorn Roasted§r
-sky_orchards:resin_enderwood, item.sky_orchards.resin_enderwood.name
-sky_orchards:acorn_emeraldic:0, Emeraldic§r Acorn§r
-sky_orchards:acorn_emeraldic:1, Emeraldic§r Acorn Roasted§r
-sky_orchards:resin_emeraldic, item.sky_orchards.resin_emeraldic.name
-sky_orchards:acorn_carbon:0, Carbon§r Acorn§r
-sky_orchards:acorn_carbon:1, Carbon§r Acorn Roasted§r
-sky_orchards:resin_carbon, item.sky_orchards.resin_carbon.name
-sky_orchards:acorn_illuminatree:0, Illuminatree§r Acorn§r
-sky_orchards:acorn_illuminatree:1, Illuminatree§r Acorn Roasted§r
-sky_orchards:resin_illuminatree, item.sky_orchards.resin_illuminatree.name
-sky_orchards:acorn_chaotic:0, Chaotic§r Acorn§r
-sky_orchards:acorn_chaotic:1, Chaotic§r Acorn Roasted§r
-sky_orchards:resin_chaotic, item.sky_orchards.resin_chaotic.name
-sky_orchards:acorn_dirty:0, Dirty§r Acorn§r
-sky_orchards:acorn_dirty:1, Dirty§r Acorn Roasted§r
-sky_orchards:resin_dirty, item.sky_orchards.resin_dirty.name
-sky_orchards:acorn_prismatic:0, Prismatic§r Acorn§r
-sky_orchards:acorn_prismatic:1, Prismatic§r Acorn Roasted§r
-sky_orchards:resin_prismatic, item.sky_orchards.resin_prismatic.name
-sky_orchards:acorn_obsidic:0, Obsidic§r Acorn§r
-sky_orchards:acorn_obsidic:1, Obsidic§r Acorn Roasted§r
-sky_orchards:resin_obsidic, item.sky_orchards.resin_obsidic.name
-sky_orchards:acorn_alumina:0, Alumina§r Acorn§r
-sky_orchards:acorn_alumina:1, Alumina§r Acorn Roasted§r
-sky_orchards:resin_alumina, item.sky_orchards.resin_alumina.name
-sky_orchards:acorn_bronze:0, Bronze§r Acorn§r
-sky_orchards:acorn_bronze:1, Bronze§r Acorn Roasted§r
-sky_orchards:resin_bronze, item.sky_orchards.resin_bronze.name
-sky_orchards:acorn_constantan:0, Constantan§r Acorn§r
-sky_orchards:acorn_constantan:1, Constantan§r Acorn Roasted§r
-sky_orchards:resin_constantan, item.sky_orchards.resin_constantan.name
-sky_orchards:acorn_copperina:0, Copperina§r Acorn§r
-sky_orchards:acorn_copperina:1, Copperina§r Acorn Roasted§r
-sky_orchards:resin_copperina, item.sky_orchards.resin_copperina.name
-sky_orchards:acorn_electru:0, Electru§r Acorn§r
-sky_orchards:acorn_electru:1, Electru§r Acorn Roasted§r
-sky_orchards:resin_electru, item.sky_orchards.resin_electru.name
-sky_orchards:acorn_enderium:0, Enderium§r Acorn§r
-sky_orchards:acorn_enderium:1, Enderium§r Acorn Roasted§r
-sky_orchards:resin_enderium, item.sky_orchards.resin_enderium.name
-sky_orchards:acorn_invaric:0, Invaric§r Acorn§r
-sky_orchards:acorn_invaric:1, Invaric§r Acorn Roasted§r
-sky_orchards:resin_invaric, item.sky_orchards.resin_invaric.name
-sky_orchards:acorn_iridic:0, Iridic§r Acorn§r
-sky_orchards:acorn_iridic:1, Iridic§r Acorn Roasted§r
-sky_orchards:resin_iridic, item.sky_orchards.resin_iridic.name
-sky_orchards:acorn_leaden:0, Leaden§r Acorn§r
-sky_orchards:acorn_leaden:1, Leaden§r Acorn Roasted§r
-sky_orchards:resin_leaden, item.sky_orchards.resin_leaden.name
-sky_orchards:acorn_lumium:0, Lumium§r Acorn§r
-sky_orchards:acorn_lumium:1, Lumium§r Acorn Roasted§r
-sky_orchards:resin_lumium, item.sky_orchards.resin_lumium.name
-sky_orchards:acorn_mithril:0, Mithril§r Acorn§r
-sky_orchards:acorn_mithril:1, Mithril§r Acorn Roasted§r
-sky_orchards:resin_mithril, item.sky_orchards.resin_mithril.name
-sky_orchards:acorn_nicklic:0, Nicklic§r Acorn§r
-sky_orchards:acorn_nicklic:1, Nicklic§r Acorn Roasted§r
-sky_orchards:resin_nicklic, item.sky_orchards.resin_nicklic.name
-sky_orchards:acorn_platinic:0, Platinic§r Acorn§r
-sky_orchards:acorn_platinic:1, Platinic§r Acorn Roasted§r
-sky_orchards:resin_platinic, item.sky_orchards.resin_platinic.name
-sky_orchards:acorn_signalum:0, Signalum§r Acorn§r
-sky_orchards:acorn_signalum:1, Signalum§r Acorn Roasted§r
-sky_orchards:resin_signalum, item.sky_orchards.resin_signalum.name
-sky_orchards:acorn_silver:0, Silver§r Acorn§r
-sky_orchards:acorn_silver:1, Silver§r Acorn Roasted§r
-sky_orchards:resin_silver, item.sky_orchards.resin_silver.name
-sky_orchards:acorn_steely:0, Steely§r Acorn§r
-sky_orchards:acorn_steely:1, Steely§r Acorn Roasted§r
-sky_orchards:resin_steely, item.sky_orchards.resin_steely.name
-sky_orchards:acorn_tinium:0, Tinium§r Acorn§r
-sky_orchards:acorn_tinium:1, Tinium§r Acorn Roasted§r
-sky_orchards:resin_tinium, item.sky_orchards.resin_tinium.name
 sky_orchards:log_ferrous, Ferrous§r Log§r.name
 sky_orchards:sapling_ferrous, Ferrous§r Sapling§r.name
 sky_orchards:leaves_ferrous, Ferrous§r Leaves§r.name
@@ -16493,206 +16302,101 @@ sky_orchards:log_tinium, Tinium§r Log§r.name
 sky_orchards:sapling_tinium, Tinium§r Sapling§r.name
 sky_orchards:leaves_tinium, Tinium§r Leaves§r.name
 sky_orchards:amber_tinium, Tinium§r Amber§r.name
+sky_orchards:acorn_ferrous:0, Ferrous§r Acorn§r
+sky_orchards:acorn_ferrous:1, Ferrous§r Acorn Roasted§r
+sky_orchards:resin_ferrous, item.sky_orchards.resin_ferrous.name
+sky_orchards:acorn_marigold:0, Marigold§r Acorn§r
+sky_orchards:acorn_marigold:1, Marigold§r Acorn Roasted§r
+sky_orchards:resin_marigold, item.sky_orchards.resin_marigold.name
+sky_orchards:acorn_lazuli:0, Lazuli§r Acorn§r
+sky_orchards:acorn_lazuli:1, Lazuli§r Acorn Roasted§r
+sky_orchards:resin_lazuli, item.sky_orchards.resin_lazuli.name
+sky_orchards:acorn_reddening:0, Reddening§r Acorn§r
+sky_orchards:acorn_reddening:1, Reddening§r Acorn Roasted§r
+sky_orchards:resin_reddening, item.sky_orchards.resin_reddening.name
+sky_orchards:acorn_brilliant:0, Brilliant§r Acorn§r
+sky_orchards:acorn_brilliant:1, Brilliant§r Acorn Roasted§r
+sky_orchards:resin_brilliant, item.sky_orchards.resin_brilliant.name
+sky_orchards:acorn_netherwood:0, Netherwood§r Acorn§r
+sky_orchards:acorn_netherwood:1, Netherwood§r Acorn Roasted§r
+sky_orchards:resin_netherwood, item.sky_orchards.resin_netherwood.name
+sky_orchards:acorn_enderwood:0, Enderwood§r Acorn§r
+sky_orchards:acorn_enderwood:1, Enderwood§r Acorn Roasted§r
+sky_orchards:resin_enderwood, item.sky_orchards.resin_enderwood.name
+sky_orchards:acorn_emeraldic:0, Emeraldic§r Acorn§r
+sky_orchards:acorn_emeraldic:1, Emeraldic§r Acorn Roasted§r
+sky_orchards:resin_emeraldic, item.sky_orchards.resin_emeraldic.name
+sky_orchards:acorn_carbon:0, Carbon§r Acorn§r
+sky_orchards:acorn_carbon:1, Carbon§r Acorn Roasted§r
+sky_orchards:resin_carbon, item.sky_orchards.resin_carbon.name
+sky_orchards:acorn_illuminatree:0, Illuminatree§r Acorn§r
+sky_orchards:acorn_illuminatree:1, Illuminatree§r Acorn Roasted§r
+sky_orchards:resin_illuminatree, item.sky_orchards.resin_illuminatree.name
+sky_orchards:acorn_chaotic:0, Chaotic§r Acorn§r
+sky_orchards:acorn_chaotic:1, Chaotic§r Acorn Roasted§r
+sky_orchards:resin_chaotic, item.sky_orchards.resin_chaotic.name
+sky_orchards:acorn_dirty:0, Dirty§r Acorn§r
+sky_orchards:acorn_dirty:1, Dirty§r Acorn Roasted§r
+sky_orchards:resin_dirty, item.sky_orchards.resin_dirty.name
+sky_orchards:acorn_prismatic:0, Prismatic§r Acorn§r
+sky_orchards:acorn_prismatic:1, Prismatic§r Acorn Roasted§r
+sky_orchards:resin_prismatic, item.sky_orchards.resin_prismatic.name
+sky_orchards:acorn_obsidic:0, Obsidic§r Acorn§r
+sky_orchards:acorn_obsidic:1, Obsidic§r Acorn Roasted§r
+sky_orchards:resin_obsidic, item.sky_orchards.resin_obsidic.name
+sky_orchards:acorn_alumina:0, Alumina§r Acorn§r
+sky_orchards:acorn_alumina:1, Alumina§r Acorn Roasted§r
+sky_orchards:resin_alumina, item.sky_orchards.resin_alumina.name
+sky_orchards:acorn_bronze:0, Bronze§r Acorn§r
+sky_orchards:acorn_bronze:1, Bronze§r Acorn Roasted§r
+sky_orchards:resin_bronze, item.sky_orchards.resin_bronze.name
+sky_orchards:acorn_constantan:0, Constantan§r Acorn§r
+sky_orchards:acorn_constantan:1, Constantan§r Acorn Roasted§r
+sky_orchards:resin_constantan, item.sky_orchards.resin_constantan.name
+sky_orchards:acorn_copperina:0, Copperina§r Acorn§r
+sky_orchards:acorn_copperina:1, Copperina§r Acorn Roasted§r
+sky_orchards:resin_copperina, item.sky_orchards.resin_copperina.name
+sky_orchards:acorn_electru:0, Electru§r Acorn§r
+sky_orchards:acorn_electru:1, Electru§r Acorn Roasted§r
+sky_orchards:resin_electru, item.sky_orchards.resin_electru.name
+sky_orchards:acorn_enderium:0, Enderium§r Acorn§r
+sky_orchards:acorn_enderium:1, Enderium§r Acorn Roasted§r
+sky_orchards:resin_enderium, item.sky_orchards.resin_enderium.name
+sky_orchards:acorn_invaric:0, Invaric§r Acorn§r
+sky_orchards:acorn_invaric:1, Invaric§r Acorn Roasted§r
+sky_orchards:resin_invaric, item.sky_orchards.resin_invaric.name
+sky_orchards:acorn_iridic:0, Iridic§r Acorn§r
+sky_orchards:acorn_iridic:1, Iridic§r Acorn Roasted§r
+sky_orchards:resin_iridic, item.sky_orchards.resin_iridic.name
+sky_orchards:acorn_leaden:0, Leaden§r Acorn§r
+sky_orchards:acorn_leaden:1, Leaden§r Acorn Roasted§r
+sky_orchards:resin_leaden, item.sky_orchards.resin_leaden.name
+sky_orchards:acorn_lumium:0, Lumium§r Acorn§r
+sky_orchards:acorn_lumium:1, Lumium§r Acorn Roasted§r
+sky_orchards:resin_lumium, item.sky_orchards.resin_lumium.name
+sky_orchards:acorn_mithril:0, Mithril§r Acorn§r
+sky_orchards:acorn_mithril:1, Mithril§r Acorn Roasted§r
+sky_orchards:resin_mithril, item.sky_orchards.resin_mithril.name
+sky_orchards:acorn_nicklic:0, Nicklic§r Acorn§r
+sky_orchards:acorn_nicklic:1, Nicklic§r Acorn Roasted§r
+sky_orchards:resin_nicklic, item.sky_orchards.resin_nicklic.name
+sky_orchards:acorn_platinic:0, Platinic§r Acorn§r
+sky_orchards:acorn_platinic:1, Platinic§r Acorn Roasted§r
+sky_orchards:resin_platinic, item.sky_orchards.resin_platinic.name
+sky_orchards:acorn_signalum:0, Signalum§r Acorn§r
+sky_orchards:acorn_signalum:1, Signalum§r Acorn Roasted§r
+sky_orchards:resin_signalum, item.sky_orchards.resin_signalum.name
+sky_orchards:acorn_silver:0, Silver§r Acorn§r
+sky_orchards:acorn_silver:1, Silver§r Acorn Roasted§r
+sky_orchards:resin_silver, item.sky_orchards.resin_silver.name
+sky_orchards:acorn_steely:0, Steely§r Acorn§r
+sky_orchards:acorn_steely:1, Steely§r Acorn Roasted§r
+sky_orchards:resin_steely, item.sky_orchards.resin_steely.name
+sky_orchards:acorn_tinium:0, Tinium§r Acorn§r
+sky_orchards:acorn_tinium:1, Tinium§r Acorn Roasted§r
+sky_orchards:resin_tinium, item.sky_orchards.resin_tinium.name
 agricraft:seed_analyzer, Seed Analyzer
 agricraft:peripheral, Computer Controlled Seed Analyzer
-agricraft:water_tank:0, Wooden Water Tank
-agricraft:water_tank:0, Wooden Water Tank
-agricraft:water_tank:0, Wooden Water Tank
-agricraft:water_tank:0, Wooden Water Tank
-agricraft:water_tank:0, Wooden Water Tank
-agricraft:water_tank:0, Wooden Water Tank
-agricraft:water_tank:0, Wooden Water Tank
-agricraft:water_tank:0, Wooden Water Tank
-agricraft:water_tank:0, Wooden Water Tank
-agricraft:water_tank:0, Wooden Water Tank
-agricraft:water_tank:0, Wooden Water Tank
-agricraft:water_tank:0, Wooden Water Tank
-agricraft:water_tank:0, Wooden Water Tank
-agricraft:water_tank:0, Wooden Water Tank
-agricraft:water_tank:0, Wooden Water Tank
-agricraft:water_tank:0, Wooden Water Tank
-agricraft:water_tank:0, Wooden Water Tank
-agricraft:water_tank:0, Wooden Water Tank
-agricraft:water_tank:0, Wooden Water Tank
-agricraft:water_tank:0, Wooden Water Tank
-agricraft:water_tank:0, Wooden Water Tank
-agricraft:water_tank:0, Wooden Water Tank
-agricraft:water_tank:0, Wooden Water Tank
-agricraft:water_tank:0, Wooden Water Tank
-agricraft:water_tank:0, Wooden Water Tank
-agricraft:water_tank:0, Wooden Water Tank
-agricraft:water_tank:0, Wooden Water Tank
-agricraft:water_tank:0, Wooden Water Tank
-agricraft:water_tank:0, Wooden Water Tank
-agricraft:water_tank:0, Wooden Water Tank
-agricraft:water_tank:0, Wooden Water Tank
-agricraft:water_tank:0, Wooden Water Tank
-agricraft:water_tank:0, Wooden Water Tank
-agricraft:water_tank:0, Wooden Water Tank
-agricraft:water_tank:0, Wooden Water Tank
-agricraft:water_tank:0, Wooden Water Tank
-agricraft:water_tank:0, Wooden Water Tank
-agricraft:water_tank:0, Wooden Water Tank
-agricraft:water_tank:0, Wooden Water Tank
-agricraft:water_tank:0, Wooden Water Tank
-agricraft:water_tank:0, Wooden Water Tank
-agricraft:water_tank:0, Wooden Water Tank
-agricraft:water_tank:0, Wooden Water Tank
-agricraft:water_tank:0, Wooden Water Tank
-agricraft:water_tank:0, Wooden Water Tank
-agricraft:water_tank:0, Wooden Water Tank
-agricraft:water_tank:0, Wooden Water Tank
-agricraft:water_tank:0, Wooden Water Tank
-agricraft:water_tank:0, Wooden Water Tank
-agricraft:water_tank:0, Wooden Water Tank
-agricraft:water_tank:0, Wooden Water Tank
-agricraft:water_tank:0, Wooden Water Tank
-agricraft:water_tank:0, Wooden Water Tank
-agricraft:water_tank:0, Wooden Water Tank
-agricraft:water_tank:0, Wooden Water Tank
-agricraft:water_tank:0, Wooden Water Tank
-agricraft:water_tank:0, Wooden Water Tank
-agricraft:water_tank:0, Wooden Water Tank
-agricraft:water_tank:0, Wooden Water Tank
-agricraft:water_tank:0, Wooden Water Tank
-agricraft:water_tank:0, Wooden Water Tank
-agricraft:water_tank:0, Wooden Water Tank
-agricraft:water_tank:0, Wooden Water Tank
-agricraft:water_tank:0, Wooden Water Tank
-agricraft:water_tank:0, Wooden Water Tank
-agricraft:water_tank:0, Wooden Water Tank
-agricraft:water_tank:0, Wooden Water Tank
-agricraft:water_tank:0, Wooden Water Tank
-agricraft:water_tank:0, Wooden Water Tank
-agricraft:water_tank:0, Wooden Water Tank
-agricraft:water_tank:0, Wooden Water Tank
-agricraft:water_tank:0, Wooden Water Tank
-agricraft:water_tank:0, Wooden Water Tank
-agricraft:water_tank:0, Wooden Water Tank
-agricraft:water_tank:0, Wooden Water Tank
-agricraft:water_tank:0, Wooden Water Tank
-agricraft:water_tank:0, Wooden Water Tank
-agricraft:water_tank:0, Wooden Water Tank
-agricraft:water_tank:0, Wooden Water Tank
-agricraft:water_tank:0, Wooden Water Tank
-agricraft:water_tank:0, Wooden Water Tank
-agricraft:water_tank:0, Wooden Water Tank
-agricraft:water_tank:0, Wooden Water Tank
-agricraft:water_tank:0, Wooden Water Tank
-agricraft:water_tank:0, Wooden Water Tank
-agricraft:water_tank:0, Wooden Water Tank
-agricraft:water_tank:0, Wooden Water Tank
-agricraft:water_tank:0, Wooden Water Tank
-agricraft:water_tank:0, Wooden Water Tank
-agricraft:water_tank:0, Wooden Water Tank
-agricraft:water_tank:0, Wooden Water Tank
-agricraft:water_tank:0, Wooden Water Tank
-agricraft:water_tank:0, Wooden Water Tank
-agricraft:water_tank:0, Wooden Water Tank
-agricraft:water_tank:0, Wooden Water Tank
-agricraft:water_tank:0, Wooden Water Tank
-agricraft:water_tank:0, Wooden Water Tank
-agricraft:water_tank:0, Wooden Water Tank
-agricraft:water_tank:0, Wooden Water Tank
-agricraft:grate:0, Wooden Grate
-agricraft:grate:0, Wooden Grate
-agricraft:grate:0, Wooden Grate
-agricraft:grate:0, Wooden Grate
-agricraft:grate:0, Wooden Grate
-agricraft:grate:0, Wooden Grate
-agricraft:grate:0, Wooden Grate
-agricraft:grate:0, Wooden Grate
-agricraft:grate:0, Wooden Grate
-agricraft:grate:0, Wooden Grate
-agricraft:grate:0, Wooden Grate
-agricraft:grate:0, Wooden Grate
-agricraft:grate:0, Wooden Grate
-agricraft:grate:0, Wooden Grate
-agricraft:grate:0, Wooden Grate
-agricraft:grate:0, Wooden Grate
-agricraft:grate:0, Wooden Grate
-agricraft:grate:0, Wooden Grate
-agricraft:grate:0, Wooden Grate
-agricraft:grate:0, Wooden Grate
-agricraft:grate:0, Wooden Grate
-agricraft:grate:0, Wooden Grate
-agricraft:grate:0, Wooden Grate
-agricraft:grate:0, Wooden Grate
-agricraft:grate:0, Wooden Grate
-agricraft:grate:0, Wooden Grate
-agricraft:grate:0, Wooden Grate
-agricraft:grate:0, Wooden Grate
-agricraft:grate:0, Wooden Grate
-agricraft:grate:0, Wooden Grate
-agricraft:grate:0, Wooden Grate
-agricraft:grate:0, Wooden Grate
-agricraft:grate:0, Wooden Grate
-agricraft:grate:0, Wooden Grate
-agricraft:grate:0, Wooden Grate
-agricraft:grate:0, Wooden Grate
-agricraft:grate:0, Wooden Grate
-agricraft:grate:0, Wooden Grate
-agricraft:grate:0, Wooden Grate
-agricraft:grate:0, Wooden Grate
-agricraft:grate:0, Wooden Grate
-agricraft:grate:0, Wooden Grate
-agricraft:grate:0, Wooden Grate
-agricraft:grate:0, Wooden Grate
-agricraft:grate:0, Wooden Grate
-agricraft:grate:0, Wooden Grate
-agricraft:grate:0, Wooden Grate
-agricraft:grate:0, Wooden Grate
-agricraft:grate:0, Wooden Grate
-agricraft:grate:0, Wooden Grate
-agricraft:grate:0, Wooden Grate
-agricraft:grate:0, Wooden Grate
-agricraft:grate:0, Wooden Grate
-agricraft:grate:0, Wooden Grate
-agricraft:grate:0, Wooden Grate
-agricraft:grate:0, Wooden Grate
-agricraft:grate:0, Wooden Grate
-agricraft:grate:0, Wooden Grate
-agricraft:grate:0, Wooden Grate
-agricraft:grate:0, Wooden Grate
-agricraft:grate:0, Wooden Grate
-agricraft:grate:0, Wooden Grate
-agricraft:grate:0, Wooden Grate
-agricraft:grate:0, Wooden Grate
-agricraft:grate:0, Wooden Grate
-agricraft:grate:0, Wooden Grate
-agricraft:grate:0, Wooden Grate
-agricraft:grate:0, Wooden Grate
-agricraft:grate:0, Wooden Grate
-agricraft:grate:0, Wooden Grate
-agricraft:grate:0, Wooden Grate
-agricraft:grate:0, Wooden Grate
-agricraft:grate:0, Wooden Grate
-agricraft:grate:0, Wooden Grate
-agricraft:grate:0, Wooden Grate
-agricraft:grate:0, Wooden Grate
-agricraft:grate:0, Wooden Grate
-agricraft:grate:0, Wooden Grate
-agricraft:grate:0, Wooden Grate
-agricraft:grate:0, Wooden Grate
-agricraft:grate:0, Wooden Grate
-agricraft:grate:0, Wooden Grate
-agricraft:grate:0, Wooden Grate
-agricraft:grate:0, Wooden Grate
-agricraft:grate:0, Wooden Grate
-agricraft:grate:0, Wooden Grate
-agricraft:grate:0, Wooden Grate
-agricraft:grate:0, Wooden Grate
-agricraft:grate:0, Wooden Grate
-agricraft:grate:0, Wooden Grate
-agricraft:grate:0, Wooden Grate
-agricraft:grate:0, Wooden Grate
-agricraft:grate:0, Wooden Grate
-agricraft:grate:0, Wooden Grate
-agricraft:grate:0, Wooden Grate
-agricraft:grate:0, Wooden Grate
-agricraft:grate:0, Wooden Grate
-agricraft:grate:0, Wooden Grate
-agricraft:grate:0, Wooden Grate
 agricraft:crop_sticks, Crop Sticks
 agricraft:journal, Agricultural Journal
 agricraft:trowel, Gardening Trowel
@@ -16700,37 +16404,6 @@ agricraft:debugger, Debugger
 agricraft:rake:0, Wooden Hand Rake
 agricraft:rake:1, Iron Hand Rake
 agricraft:clipping, Clipping
-agricraft:agri_seed:0, Generic Seeds
-agricraft:agri_seed:0, Generic Seeds
-agricraft:agri_seed:0, Generic Seeds
-agricraft:agri_seed:0, Generic Seeds
-agricraft:agri_seed:0, Generic Seeds
-agricraft:agri_seed:0, Generic Seeds
-agricraft:agri_seed:0, Generic Seeds
-agricraft:agri_seed:0, Generic Seeds
-agricraft:agri_seed:0, Generic Seeds
-agricraft:agri_seed:0, Generic Seeds
-agricraft:agri_seed:0, Generic Seeds
-agricraft:agri_seed:0, Generic Seeds
-agricraft:agri_seed:0, Generic Seeds
-agricraft:agri_seed:0, Generic Seeds
-agricraft:agri_seed:0, Generic Seeds
-agricraft:agri_seed:0, Generic Seeds
-agricraft:agri_seed:0, Generic Seeds
-agricraft:agri_seed:0, Generic Seeds
-agricraft:agri_seed:0, Generic Seeds
-agricraft:agri_seed:0, Generic Seeds
-agricraft:agri_seed:0, Generic Seeds
-agricraft:agri_seed:0, Generic Seeds
-agricraft:agri_seed:0, Generic Seeds
-agricraft:agri_seed:0, Generic Seeds
-agricraft:agri_seed:0, Generic Seeds
-agricraft:agri_seed:0, Generic Seeds
-agricraft:agri_seed:0, Generic Seeds
-agricraft:agri_seed:0, Generic Seeds
-agricraft:agri_seed:0, Generic Seeds
-agricraft:agri_seed:0, Generic Seeds
-agricraft:agri_seed:0, Generic Seeds
 agricraft:agri_nugget:0, Emerald Nugget
 agricraft:agri_nugget:1, Diamond Nugget
 agricraft:agri_nugget:2, Quartz Shard
@@ -16872,6 +16545,7 @@ contenttweaker:enderium_strip, Enderium Bacon Strip
 contenttweaker:lead_strip, Lead Bacon Strip
 contenttweaker:simplyjetpacks, Mod Unlock: Simply Jetpacks
 contenttweaker:charity_1, Bovine Enhancements
+contenttweaker:low_residential, Low Residential
 contenttweaker:redium_lapium, Equipment Unlock: Redium & Lapium
 contenttweaker:charity_2, Static Electric Research
 contenttweaker:general_kit, General Manager Survival Pack
@@ -16879,6 +16553,7 @@ contenttweaker:charity_3, Eco-friendly Self-Propulsion Systems
 contenttweaker:copper_strip, Copper Bacon Strip
 contenttweaker:agricraft, Mod Unlock: Agricraft
 contenttweaker:eu2, Mod Unlock: Extra Utils
+contenttweaker:mid_residential, Mid Residential
 contenttweaker:compact, Mod Unlock: Compact Machines
 contenttweaker:malisis, Mod Unlock: Malisis Doors
 contenttweaker:animalnet, Mod Unlock: Animal Net
@@ -16889,6 +16564,7 @@ contenttweaker:compactor, Mod Unlock: Compactor
 contenttweaker:mithril_strip, Mithril Bacon Strip
 contenttweaker:iridium_strip, Iridium Bacon Strip
 contenttweaker:vote_5, Board Vote #5
+contenttweaker:mid_income_community, Mid Income Community Plan
 contenttweaker:vote_6, Board Vote #6
 contenttweaker:superfactory, Mod Unlock: Super Factory Manager
 contenttweaker:kitchen, Mod Unlock: Cooking for Blockheads
@@ -16905,6 +16581,7 @@ contenttweaker:romeo_stone_mossy:0, LMR Industries Mossy Brick
 contenttweaker:enderio, Mod Unlock: Ender IO
 contenttweaker:ironchest, Mod Unlock: Iron Chests
 contenttweaker:mid_income_proposal, Purchase Proposal: Mid Income
+contenttweaker:creditclosed, Credit Closed
 contenttweaker:storagenetwork, Mod Unlock: Storage Network
 contenttweaker:compactstorage, Mod Unlock: Compact Storage
 contenttweaker:resource_hogs, Mod Unlock: Resource Hogs
@@ -16912,16 +16589,21 @@ contenttweaker:mid_income, Mid Income Businesses
 contenttweaker:prismarine_strip, Prismarine Bacon Strip
 contenttweaker:petrock, Mod Unlock: Pet Rock
 contenttweaker:bank_item, Piggy Bank
-contenttweaker:hundredbundle, item.contenttweaker.hundredBundle.name
+contenttweaker:hundredbundle, Bundle of Hundreds
 contenttweaker:serverinfo5, Server Token 5
 contenttweaker:serverinfo4, Server Token 4
 contenttweaker:serverinfo3, Server Token 3
 contenttweaker:serverinfo2, Server Token 2
 contenttweaker:serverinfo1, Server Token 1
+contenttweaker:high_residential, High Residential
 contenttweaker:bronze_strip, Bronze Bacon Strip
+contenttweaker:onefiftymillion, $150M
 contenttweaker:quartz_strip, Nether Quartz Bacon Strip
+contenttweaker:construction, Community Construction
 contenttweaker:electrum_strip, Electrum Bacon Strip
 contenttweaker:shift_kit, Shift Manager Survival Pack
+contenttweaker:twentymillion, $20M
+contenttweaker:hundredmillion, $100M
 contenttweaker:anti_coin_2, Dime Withdraw (-)
 contenttweaker:claysoldiers, Mod Unlock: Clay Soldiers
 contenttweaker:anti_coin_1, Nickel Withdraw (-)
@@ -16948,27 +16630,36 @@ contenttweaker:sandwich, Mod Unlock: Culinary Construct
 contenttweaker:archicraft, Mod Unlock: Archicraft
 contenttweaker:elevator, Mod Unlock: Open Blocks Elevator
 contenttweaker:sky_orchards, Mod Unlock: Sky Orchards
+contenttweaker:onebillion, $1 BILLION
 contenttweaker:emerald_strip, Emerald Bacon Strip
 contenttweaker:labyrinth, Mod Unlock: The Labyrinth
 contenttweaker:aw2_suite, Mod Unlock: Ancient Warfare
 contenttweaker:grinder, Mod Unlock: Simple Grinder
 contenttweaker:drawbridge, Mod Unlock: Drawbridge
+contenttweaker:approval, Economic Development Approval
 contenttweaker:approval_loan, Loan: $5000
 contenttweaker:progressive, Mod Unlock: Progressive Automation
 contenttweaker:engineersdecor, Mod Unlock: Engineer's Decor
 contenttweaker:aluminium_strip, Aluminium Bacon Strip
 contenttweaker:practicallogistics2, Mod Unlock: Practical Logistics 2
 contenttweaker:modularrouters, Mod Unlock: Modular Routers
+contenttweaker:fivehundredmillion, $500M
+contenttweaker:low_income_community, Low Income Community Plan
 contenttweaker:literalascension, Mod Unlock: Literal Ascension
 contenttweaker:anti_dollarten, Ten Withdraw(-)
+contenttweaker:bank, Bank
 contenttweaker:invar_strip, Invar Bacon Strip
 contenttweaker:item_water, Water Droplet
 contenttweaker:low_income_proposal, Purchase Proposal: Low Income
+contenttweaker:fiftymillion, $50M
 contenttweaker:steel_strip, Steel Bacon Strip
 contenttweaker:tin_strip, Tin Bacon Strip
 contenttweaker:thermal, Mod Unlock: Thermal
+contenttweaker:investmentclosed, Investment Matured
+contenttweaker:twenty-fivemillion, $25M
 contenttweaker:rftools, Mod Unlock: RF Tools
 contenttweaker:mobutils, Mod Unlock: Mob Grinding Utils
+contenttweaker:charter, Economic Development Charter
 contenttweaker:blockling, Mod Unlock: Blocklings
 contenttweaker:high_income, High Income Businesses
 contenttweaker:approval_credit, Credit: $5000
@@ -16978,16 +16669,17 @@ contenttweaker:aw2_warehouse, Mod Unlock: Ancient Warfare Warehouse
 contenttweaker:weapons, Mod Unlock: Too Many Weapons
 contenttweaker:filingcabinet, Mod Unlock: Real Filing Cabinet
 contenttweaker:prefab, Mod Unlock: Prefab
-contenttweaker:mobfarm, Mod Unlock: Tiny Mob Farm
 contenttweaker:glowstone_strip, Glowstone Bacon Strip
 contenttweaker:industforegoing, Mod Unlock: Industrial Foregoing
 contenttweaker:techreborn, Mod Unlock: Tech Reborn
 contenttweaker:nickel_strip, Nickel Bacon Strip
 contenttweaker:signalum_strip, Signalum Bacon Strip
 contenttweaker:platinum_strip, Platinum Bacon Strip
+contenttweaker:high_income_community, High Income Community Plan
 contenttweaker:magnets, Mod Unlock: Tiered Magnets
 contenttweaker:simplegen, Mod Unlock: Simple Generators
 contenttweaker:anti_coin_0, Penny Withdraw (-)
+contenttweaker:college, College
 contenttweaker:industmeat, Mod Unlock: Industrial Meat
 contenttweaker:virtualmachines, Mod Unlock: Virtual Machines
 contenttweaker:fartgen, Mod Unlock: Fart Generator
@@ -17001,6 +16693,7 @@ contenttweaker:gadgets, Mod Unlock: Building Gadgets
 contenttweaker:coal_strip, Coal Bacon Strip
 contenttweaker:advgenerators, Mod Unlock: Advanced Generators
 contenttweaker:architecture, Mod Unlock: Architecture Craft
+contenttweaker:primary, Primary School
 contenttweaker:romeo_stonebrick:0, LMR Industries Brick
 contenttweaker:petdog, Mod Unlock: Doggy Talents
 contenttweaker:refinedstorage, Mod Unlock: Refined Storage
@@ -17010,11 +16703,13 @@ contenttweaker:silver_strip, Silver Bacon Strip
 contenttweaker:xencraft, Mod Unlock: Xencraft
 contenttweaker:assistant_kit, Assistant Manager Survival Pack
 contenttweaker:ic2, Mod Unlock: Industrial Craft 2
+contenttweaker:loanclosed, Loan Closed
+contenttweaker:scooter_glass:0, Scooter Glass
 contenttweaker:redstone_strip, Redstone Bacon Strip
 contenttweaker:immersive, Mod Unlock: Immersive Engineering
 contenttweaker:xnet, Mod Unlock: XNET
 contenttweaker:anti_dollartwenty, Twenty Withdraw (-)
-contenttweaker:hundredbundlebundle, item.contenttweaker.hundredBundleBundle.name
+contenttweaker:hundredbundlebundle, Bundle of a Bundle of Hundreds
 contenttweaker:diamond_strip, Diamond Bacon Strip
 contenttweaker:extremereactors, Mod Unlock: Extreme Reactors
 contenttweaker:anti_dollarfive, Five Withdraw (-)
@@ -17026,12 +16721,13 @@ contenttweaker:chaos_strip, Chaos Bacon Strip
 contenttweaker:dirt_strip, Dirt Bacon Strip
 contenttweaker:garden, Mod Unlock: Garden Stuffs
 contenttweaker:iron_hammer, Better Stone Smasher
+contenttweaker:two-fiftymillion, $250M
 contenttweaker:ender_strip, Ender Bacon Strip
 contenttweaker:constantan_strip, Constantan Bacon Strip
 contenttweaker:backpacks, Mod Unlock: Smart Backpacks
 contenttweaker:airship, Mod Unlock: Viescraft Airships
 contenttweaker:industrenew, Mod Unlock: Industrial Renewal
-contenttweaker:wirelessutils, Mod Unlock: Wireless Utilities
+contenttweaker:fivemillion, $5M
 modcurrency:blockexchanger, Exchange Machine
 modcurrency:blockvending, Vending Machine
 modcurrency:guidebook, Currency for Blockheads

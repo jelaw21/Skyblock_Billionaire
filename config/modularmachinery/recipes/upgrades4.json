@@ -1,0 +1,31 @@
+{
+  "machine": "global_upgrades",
+  "registryName": "community_construction_4",
+  "recipeTime": 3600,
+  "requirements": [
+    {
+      "type": "modularmachinery:energy",
+      "io-type": "input",
+      "energyPerTick": 10
+    },
+    {
+      "type": "modularmachinery:item",
+      "io-type": "output",
+      "item": "contenttweaker:bank_item",
+      "nbt":{
+          "Total": "4000000.0f",
+          "display":{
+              "Lore": ["$4000000"]
+          }
+      }
+    },
+    {
+      "type": "modularmachinery:item",
+      "io-type": "input",
+      "item": "contenttweaker:construction",
+      "nbt":{
+        "Value": "4"
+      }
+    }
+  ]
+}

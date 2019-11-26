@@ -1,4 +1,5 @@
 import crafttweaker.item.IIngredient;
+import crafttweaker.oredict.IOreDictEntry;
 
 val machine = extrautilities2.Tweaker.IMachineRegistry.getMachine("global_items");
 
@@ -28,7 +29,7 @@ val onePenny = [
 	<ore:nuggetLumium>,
 	<ore:nuggetEnderium>
 	
-] as IIngredient[];
+] as IOreDictEntry[];
 
 val oneNickel = [
 	<ore:flowerRed>,
@@ -71,7 +72,7 @@ val oneNickel = [
 	<ore:nuggetChaos>,
 	<ore:nuggetEnderEssence>
 	
-] as IIngredient[];
+] as IOreDictEntry[];
 
 val oneDime = [
 	<ore:ingotBrick>,
@@ -91,9 +92,10 @@ val oneDime = [
 	<ore:nuggetSupremium>,
 	<ore:compressedDirt1>
 	
-] as IIngredient[];
+] as IOreDictEntry[];
 
 val oneQuarter = [
+
 	<ore:shardProsperity>,
 	<ore:ingotIron>,
 	<ore:ingotGold>,
@@ -143,7 +145,8 @@ val oneQuarter = [
 	<ore:ingotSoulium>,
 	<ore:nuggetSoulium>,
 	<ore:essenceTier1>
-] as IIngredient[];
+
+] as IOreDictEntry[];
 
 val twoQuarter=[
 
@@ -164,10 +167,9 @@ val twoQuarter=[
 	<ore:gemEnderEssence>,
 	<ore:essenceTier2>,
 	<ore:compressedStone1>,
-	<ore:chestWood>,
-	<immersiveengineering:sheetmetal:*>,
-    <immersiveengineering:sheetmetal_slab:*>
-] as IIngredient[];
+	<ore:chestWood>
+
+] as IOreDictEntry[];
 
 val oneDollar = [
 	
@@ -214,7 +216,7 @@ val oneDollar = [
 	<ore:ingotRefinedIron>,
 	<ore:ingotZinc>
 
-] as IIngredient[];
+] as IOreDictEntry[];
 
 val threeDollar=[
 	<ore:coinSteel>,
@@ -257,9 +259,10 @@ val threeDollar=[
 	<ore:foodAcorn>,
 	<ore:essenceSupremium>
 
-]as IIngredient[];
+]as IOreDictEntry[];
 
 val oneFive = [
+
 	<ore:seedsTier2>,
 	<ore:cofh:potion>,
 	<ore:compressed4xDirt>,
@@ -280,7 +283,7 @@ val oneFive = [
 	<ore:compressedObsidian1>,
 	<ore:chestEnder>
 
-] as IIngredient[];
+] as IOreDictEntry[];
 
 val oneTen = [
 
@@ -297,17 +300,16 @@ val oneTen = [
 	<ore:blockDiamond>,
 	<ore:blockEmerald>,
 	<ore:ingotSupremium>,
-    <techreborn:storage:8>,
 	<ore:blockIntermedium>
 	
-] as IIngredient[];
+] as IOreDictEntry[];
 
 val oneTwenty = [
 
 	<ore:compressed4xNetherrack>,
 	<ore:seedsTier3>
 	
-] as IIngredient[];
+] as IOreDictEntry[];
 
 val oneFifty = [
 
@@ -320,7 +322,8 @@ val oneFifty = [
 	<ore:compressedGlowstone2>,
 	<ore:compressedObsidian2>,
 	<ore:blockSupremiumEssence>
-] as IIngredient[];
+
+] as IOreDictEntry[];
 
 val oneHundred = [
 
@@ -331,9 +334,8 @@ val oneHundred = [
 	<ore:ingotEvilMetal>,
 	<ore:ingotDemonicMetal>,
 	<ore:ingotEnchantedMetal>
-
 	
-] as IIngredient[];
+] as IOreDictEntry[];
 
 val fiveHundred = [
 	
@@ -341,155 +343,245 @@ val fiveHundred = [
 	<ore:blockDemonicMetal>,
 	<ore:blockEvilMetal>,
 	
-] as IIngredient[];
+] as IOreDictEntry[];
 
 
-for items in onePenny{	
-	
-	for entry in items.items{
+for stuff in onePenny{
+
+    var reci = mods.modularmachinery.RecipeBuilder.newBuilder("oredict" + stuff.name, "global_items", 85, 0);
+    reci.addEnergyPerTickInput(20);
+    reci.addItemInput(stuff);
+    reci.addItemOutput(<modcurrency:coin>);
+    reci.setChance(0.80);
+    reci.build();
+
+	for entry in stuff.items{
 		entry.addTooltip(format.blue("$0.01"));
-		machine.addRecipe({"itemIn":entry}, {"moneyOut":<modcurrency:coin>%80}, 200, 60);
+		/*machine.addRecipe({"itemIn":entry}, {"moneyOut":<modcurrency:coin>%80}, 200, 60);
 		machine.addRecipe({"itemIn":entry, "upgrade":<contenttweaker:low_income>}, {"moneyOut":<modcurrency:coin>*2%80}, 200, 30);
 		machine.addRecipe({"itemIn":entry, "upgrade":<contenttweaker:mid_income>}, {"moneyOut":<modcurrency:coin>*3%80}, 200, 40);
-		machine.addRecipe({"itemIn":entry, "upgrade":<contenttweaker:high_income>}, {"moneyOut":<modcurrency:coin>*5%80}, 200, 50);
+		machine.addRecipe({"itemIn":entry, "upgrade":<contenttweaker:high_income>}, {"moneyOut":<modcurrency:coin>*5%80}, 200, 50);*/
+
 	}	
 }
 
-for items in oneNickel{	
-	
-	for entry in items.items{
+for stuff in oneNickel{
+
+    var reci = mods.modularmachinery.RecipeBuilder.newBuilder("oredict" + stuff.name, "global_items", 85, 0);
+    reci.addEnergyPerTickInput(20);
+    reci.addItemInput(stuff);
+    reci.addItemOutput(<modcurrency:coin:1>);
+    reci.setChance(0.80);
+    reci.build();
+
+	for entry in stuff.items{
 		entry.addTooltip(format.blue("$0.05"));
-		machine.addRecipe({"itemIn":entry}, {"moneyOut":<modcurrency:coin:1>%80}, 200, 60);
+		/*machine.addRecipe({"itemIn":entry}, {"moneyOut":<modcurrency:coin:1>%80}, 200, 60);
 		machine.addRecipe({"itemIn":entry, "upgrade":<contenttweaker:low_income>}, {"moneyOut":<modcurrency:coin:1>*2%80}, 200, 30);
 		machine.addRecipe({"itemIn":entry, "upgrade":<contenttweaker:mid_income>}, {"moneyOut":<modcurrency:coin:1>*3%80}, 200, 40);
-		machine.addRecipe({"itemIn":entry, "upgrade":<contenttweaker:high_income>}, {"moneyOut":<modcurrency:coin:1>*5%80}, 200, 50);
-	}	
+		machine.addRecipe({"itemIn":entry, "upgrade":<contenttweaker:high_income>}, {"moneyOut":<modcurrency:coin:1>*5%80}, 200, 50);*/
+    }
 }
 
-for items in oneDime{	
-	
-	for entry in items.items{
+for stuff in oneDime{
+
+	var reci = mods.modularmachinery.RecipeBuilder.newBuilder("oredict" + stuff.name, "global_items", 120, 0);
+    reci.addEnergyPerTickInput(20);
+    reci.addItemInput(stuff);
+    reci.addItemOutput(<modcurrency:coin:2>);
+    reci.setChance(0.80);
+    reci.build();
+
+	for entry in stuff.items{
 		entry.addTooltip(format.blue("$0.10"));
-		machine.addRecipe({"itemIn":entry}, {"moneyOut":<modcurrency:coin:2>%80}, 200, 60);
+		/*machine.addRecipe({"itemIn":entry}, {"moneyOut":<modcurrency:coin:2>%80}, 200, 60);
 		machine.addRecipe({"itemIn":entry, "upgrade":<contenttweaker:low_income>}, {"moneyOut":<modcurrency:coin:2>*2%80}, 200, 30);
 		machine.addRecipe({"itemIn":entry, "upgrade":<contenttweaker:mid_income>}, {"moneyOut":<modcurrency:coin:2>*3%80}, 200, 40);
-		machine.addRecipe({"itemIn":entry, "upgrade":<contenttweaker:high_income>}, {"moneyOut":<modcurrency:coin:2>*5%80}, 200, 50);
+		machine.addRecipe({"itemIn":entry, "upgrade":<contenttweaker:high_income>}, {"moneyOut":<modcurrency:coin:2>*5%80}, 200, 50);*/
 	}	
 }
 
-for items in oneQuarter{	
-	
-	for entry in items.items{
+for stuff in oneQuarter{
+
+	var reci = mods.modularmachinery.RecipeBuilder.newBuilder("oredict" + stuff.name, "global_items", 120, 0);
+    reci.addEnergyPerTickInput(20);
+    reci.addItemInput(stuff);
+    reci.addItemOutput(<modcurrency:coin:3>);
+    reci.setChance(0.80);
+    reci.build();
+
+	for entry in stuff.items{
 		entry.addTooltip(format.blue("$0.25"));
-		machine.addRecipe({"itemIn":entry}, {"moneyOut":<modcurrency:coin:3>%80}, 200, 60);
+		/*machine.addRecipe({"itemIn":entry}, {"moneyOut":<modcurrency:coin:3>%80}, 200, 60);
 		machine.addRecipe({"itemIn":entry, "upgrade":<contenttweaker:low_income>}, {"moneyOut":<modcurrency:coin:3>*2%80}, 200, 30);
 		machine.addRecipe({"itemIn":entry, "upgrade":<contenttweaker:mid_income>}, {"moneyOut":<modcurrency:coin:3>*3%80}, 200, 40);
-		machine.addRecipe({"itemIn":entry, "upgrade":<contenttweaker:high_income>}, {"moneyOut":<modcurrency:coin:3>*5%80}, 200, 50);
-	}	
+		machine.addRecipe({"itemIn":entry, "upgrade":<contenttweaker:high_income>}, {"moneyOut":<modcurrency:coin:3>*5%80}, 200, 50);*/
+	}
 }
 
-for items in twoQuarter{	
-	
-	for entry in items.items{
+for stuff in twoQuarter{
+
+	var reci = mods.modularmachinery.RecipeBuilder.newBuilder("oredict" + stuff.name, "global_items", 120, 0);
+    reci.addEnergyPerTickInput(20);
+    reci.addItemInput(stuff);
+    reci.addItemOutput(<modcurrency:coin:3>*2);
+    reci.setChance(0.80);
+    reci.build();
+
+	for entry in stuff.items{
 		entry.addTooltip(format.blue("$0.50"));
-		machine.addRecipe({"itemIn":entry}, {"moneyOut":<modcurrency:coin:3>*2%80}, 200, 60);
+		/*machine.addRecipe({"itemIn":entry}, {"moneyOut":<modcurrency:coin:3>*2%80}, 200, 60);
 		machine.addRecipe({"itemIn":entry, "upgrade":<contenttweaker:low_income>}, {"moneyOut":<modcurrency:coin:3>*4%80}, 200, 30);
 		machine.addRecipe({"itemIn":entry, "upgrade":<contenttweaker:mid_income>}, {"moneyOut":<modcurrency:coin:3>*6%80}, 200, 40);
-		machine.addRecipe({"itemIn":entry, "upgrade":<contenttweaker:high_income>}, {"moneyOut":<modcurrency:coin:3>*10%80}, 200, 50);
-	}	
+		machine.addRecipe({"itemIn":entry, "upgrade":<contenttweaker:high_income>}, {"moneyOut":<modcurrency:coin:3>*10%80}, 200, 50);*/
+	}
 }
 
-for items in oneDollar{	
-	
-	for entry in items.items{
+for stuff in oneDollar{
+	var reci = mods.modularmachinery.RecipeBuilder.newBuilder("oredict" + stuff.name, "global_items", 120, 0);
+    reci.addEnergyPerTickInput(20);
+    reci.addItemInput(stuff);
+    reci.addItemOutput(<modcurrency:coin:4>);
+    reci.setChance(0.80);
+    reci.build();
+
+	for entry in stuff.items{
 		entry.addTooltip(format.blue("$1"));
-		machine.addRecipe({"itemIn":entry}, {"moneyOut":<modcurrency:coin:4>%80}, 200, 60);
+		/*machine.addRecipe({"itemIn":entry}, {"moneyOut":<modcurrency:coin:4>%80}, 200, 60);
 		machine.addRecipe({"itemIn":entry, "upgrade":<contenttweaker:low_income>}, {"moneyOut":<modcurrency:coin:4>*2%80}, 200, 30);
 		machine.addRecipe({"itemIn":entry, "upgrade":<contenttweaker:mid_income>}, {"moneyOut":<modcurrency:coin:4>*3%80}, 200, 40);
-		machine.addRecipe({"itemIn":entry, "upgrade":<contenttweaker:high_income>}, {"moneyOut":<modcurrency:coin:4>*5%80}, 200, 50);
-		mods.Delivery.Store.addTrade("ASSISTANT_MANAGER",entry*32, <modcurrency:coin:4>*32);
-	}	
+		machine.addRecipe({"itemIn":entry, "upgrade":<contenttweaker:high_income>}, {"moneyOut":<modcurrency:coin:4>*5%80}, 200, 50);*/
+		mods.Delivery.Store.addTrade("SHIFT_MANAGER",entry*32, <modcurrency:coin:4>*32);
+	}
 }
 
-for items in threeDollar{	
-	
-	for entry in items.items{
+for stuff in threeDollar{
+
+	var reci = mods.modularmachinery.RecipeBuilder.newBuilder("oredict" + stuff.name, "global_items", 120, 0);
+    reci.addEnergyPerTickInput(20);
+    reci.addItemInput(stuff);
+    reci.addItemOutput(<modcurrency:coin:4>*3);
+    reci.setChance(0.80);
+    reci.build();
+
+	for entry in stuff.items{
 		entry.addTooltip(format.blue("$3"));
-		machine.addRecipe({"itemIn":entry}, {"moneyOut":<modcurrency:coin:4>*3%80}, 200, 60);
+		/*machine.addRecipe({"itemIn":entry}, {"moneyOut":<modcurrency:coin:4>*3%80}, 200, 60);
 		machine.addRecipe({"itemIn":entry, "upgrade":<contenttweaker:low_income>}, {"moneyOut":<modcurrency:coin:4>*6%80}, 200, 30);
 		machine.addRecipe({"itemIn":entry, "upgrade":<contenttweaker:mid_income>}, {"moneyOut":<modcurrency:coin:4>*9%80}, 200, 40);
-		machine.addRecipe({"itemIn":entry, "upgrade":<contenttweaker:high_income>}, {"moneyOut":<modcurrency:coin:4>*15%80}, 200, 50);
+		machine.addRecipe({"itemIn":entry, "upgrade":<contenttweaker:high_income>}, {"moneyOut":<modcurrency:coin:4>*15%80}, 200, 50);*/
 		mods.Delivery.Store.addTrade("ASSISTANT_MANAGER",entry*16, <modcurrency:coin:4>*48);
 	}	
 }
 
-for items in oneFive{	
-	
-	for entry in items.items{
+for stuff in oneFive{
+	var reci = mods.modularmachinery.RecipeBuilder.newBuilder("oredict" + stuff.name, "global_items", 120, 0);
+    reci.addEnergyPerTickInput(20);
+    reci.addItemInput(stuff);
+    reci.addItemOutput(<modcurrency:banknote:1>);
+    reci.setChance(0.80);
+    reci.build();
+
+	for entry in stuff.items{
 		entry.addTooltip(format.blue("$5"));
-		machine.addRecipe({"itemIn":entry}, {"moneyOut":<modcurrency:banknote:1>%80}, 200, 60);
+		/*machine.addRecipe({"itemIn":entry}, {"moneyOut":<modcurrency:banknote:1>%80}, 200, 60);
 		machine.addRecipe({"itemIn":entry, "upgrade":<contenttweaker:low_income>}, {"moneyOut":<modcurrency:banknote:1>*2%80}, 200, 30);
 		machine.addRecipe({"itemIn":entry, "upgrade":<contenttweaker:mid_income>}, {"moneyOut":<modcurrency:banknote:1>*3%80}, 200, 40);
-		machine.addRecipe({"itemIn":entry, "upgrade":<contenttweaker:high_income>}, {"moneyOut":<modcurrency:banknote:1>*5%80}, 200, 50);
+		machine.addRecipe({"itemIn":entry, "upgrade":<contenttweaker:high_income>}, {"moneyOut":<modcurrency:banknote:1>*5%80}, 200, 50);*/
 		mods.Delivery.Store.addTrade("ASSISTANT_MANAGER",entry*16, <modcurrency:banknote:1>*16);
-	}	
+	}
 }
 
-for items in oneTen{	
-	
-	for entry in items.items{
+for stuff in oneTen{
+
+	var reci = mods.modularmachinery.RecipeBuilder.newBuilder("oredict" + stuff.name, "global_items", 120, 0);
+    reci.addEnergyPerTickInput(20);
+    reci.addItemInput(stuff);
+    reci.addItemOutput(<modcurrency:banknote:2>);
+    reci.setChance(0.80);
+    reci.build();
+
+	for entry in stuff.items{
 		entry.addTooltip(format.blue("$10"));
-		machine.addRecipe({"itemIn":entry}, {"moneyOut":<modcurrency:banknote:2>%80}, 200, 60);
+		/*machine.addRecipe({"itemIn":entry}, {"moneyOut":<modcurrency:banknote:2>%80}, 200, 60);
 		machine.addRecipe({"itemIn":entry, "upgrade":<contenttweaker:low_income>}, {"moneyOut":<modcurrency:banknote:2>*2%80}, 200, 30);
 		machine.addRecipe({"itemIn":entry, "upgrade":<contenttweaker:mid_income>}, {"moneyOut":<modcurrency:banknote:2>*3%80}, 200, 40);
-		machine.addRecipe({"itemIn":entry, "upgrade":<contenttweaker:high_income>}, {"moneyOut":<modcurrency:banknote:2>*5%80}, 200, 50);
+		machine.addRecipe({"itemIn":entry, "upgrade":<contenttweaker:high_income>}, {"moneyOut":<modcurrency:banknote:2>*5%80}, 200, 50);*/
 		mods.Delivery.Store.addTrade("ASSISTANT_MANAGER",entry*8, <modcurrency:banknote:2>*8);
-	}	
+	}
 }
 
-for items in oneTwenty{	
-	
-	for entry in items.items{
+for stuff in oneTwenty{
+	var reci = mods.modularmachinery.RecipeBuilder.newBuilder("oredict" + stuff.name, "global_items", 120, 0);
+    reci.addEnergyPerTickInput(20);
+    reci.addItemInput(stuff);
+    reci.addItemOutput(<modcurrency:banknote:3>);
+    reci.setChance(0.80);
+    reci.build();
+
+	for entry in stuff.items{
 		entry.addTooltip(format.blue("$20"));
-		machine.addRecipe({"itemIn":entry}, {"moneyOut":<modcurrency:banknote:3>%80}, 200, 60);
+		/*machine.addRecipe({"itemIn":entry}, {"moneyOut":<modcurrency:banknote:3>%80}, 200, 60);
 		machine.addRecipe({"itemIn":entry, "upgrade":<contenttweaker:low_income>}, {"moneyOut":<modcurrency:banknote:3>*2%80}, 200, 30);
 		machine.addRecipe({"itemIn":entry, "upgrade":<contenttweaker:mid_income>}, {"moneyOut":<modcurrency:banknote:3>*3%80}, 200, 40);
-		machine.addRecipe({"itemIn":entry, "upgrade":<contenttweaker:high_income>}, {"moneyOut":<modcurrency:banknote:3>*5%80}, 200, 50);
-		mods.Delivery.Store.addTrade("ASSISTANT_MANAGER",entry*8, <modcurrency:banknote:3>*8);
-	}	
+		machine.addRecipe({"itemIn":entry, "upgrade":<contenttweaker:high_income>}, {"moneyOut":<modcurrency:banknote:3>*5%80}, 200, 50);*/
+		mods.Delivery.Store.addTrade("GENERAL_MANAGER",entry*8, <modcurrency:banknote:3>*8);
+    }
 }
 
-for items in oneFifty{	
-	
-	for entry in items.items{
+for stuff in oneFifty{
+
+	var reci = mods.modularmachinery.RecipeBuilder.newBuilder("oredict" + stuff.name, "global_items", 120, 0);
+    reci.addEnergyPerTickInput(20);
+    reci.addItemInput(stuff);
+    reci.addItemOutput(<modcurrency:banknote:4>);
+    reci.setChance(0.90);
+    reci.build();
+
+	for entry in stuff.items{
 		entry.addTooltip(format.blue("$50"));
-		machine.addRecipe({"itemIn":entry}, {"moneyOut":<modcurrency:banknote:4>%90}, 200, 60);
+		/*machine.addRecipe({"itemIn":entry}, {"moneyOut":<modcurrency:banknote:4>%90}, 200, 60);
 		machine.addRecipe({"itemIn":entry, "upgrade":<contenttweaker:low_income>}, {"moneyOut":<modcurrency:banknote:4>*2%90}, 200, 30);
 		machine.addRecipe({"itemIn":entry, "upgrade":<contenttweaker:mid_income>}, {"moneyOut":<modcurrency:banknote:4>*3%90}, 200, 40);
-		machine.addRecipe({"itemIn":entry, "upgrade":<contenttweaker:high_income>}, {"moneyOut":<modcurrency:banknote:4>*5%90}, 200, 50);
-		mods.Delivery.Store.addTrade("ASSISTANT_MANAGER",entry*4, <modcurrency:banknote:4>*4);
+		machine.addRecipe({"itemIn":entry, "upgrade":<contenttweaker:high_income>}, {"moneyOut":<modcurrency:banknote:4>*5%90}, 200, 50);*/
+		mods.Delivery.Store.addTrade("GENERAL_MANAGER",entry*4, <modcurrency:banknote:4>*4);
 	}	
 }
 
-for items in oneHundred{	
-	
-	for entry in items.items{
+for stuff in oneHundred{
+
+	var reci = mods.modularmachinery.RecipeBuilder.newBuilder("oredict" + stuff.name, "global_items", 120, 0);
+    reci.addEnergyPerTickInput(20);
+    reci.addItemInput(stuff);
+    reci.addItemOutput(<modcurrency:banknote:5>);
+    reci.setChance(0.90);
+    reci.build();
+
+	for entry in stuff.items{
 		entry.addTooltip(format.blue("$100"));
-		machine.addRecipe({"itemIn":entry}, {"moneyOut":<modcurrency:banknote:5>%90}, 200, 60);
+		/*machine.addRecipe({"itemIn":entry}, {"moneyOut":<modcurrency:banknote:5>%90}, 200, 60);
 		machine.addRecipe({"itemIn":entry, "upgrade":<contenttweaker:low_income>}, {"moneyOut":<modcurrency:banknote:5>*2%90}, 200, 30);
 		machine.addRecipe({"itemIn":entry, "upgrade":<contenttweaker:mid_income>}, {"moneyOut":<modcurrency:banknote:5>*3%90}, 200, 40);
-		machine.addRecipe({"itemIn":entry, "upgrade":<contenttweaker:high_income>}, {"moneyOut":<modcurrency:banknote:5>*5%90}, 200, 50);
+		machine.addRecipe({"itemIn":entry, "upgrade":<contenttweaker:high_income>}, {"moneyOut":<modcurrency:banknote:5>*5%90}, 200, 50);*/
 		mods.Delivery.Store.addTrade("ASSISTANT_MANAGER",entry*2, <modcurrency:banknote:5>*2);
 	}	
 }
 
-for items in fiveHundred{	
-	
-	for entry in items.items{
+for stuff in fiveHundred{
+
+	var reci = mods.modularmachinery.RecipeBuilder.newBuilder("oredict" + stuff.name, "global_items", 120, 0);
+    reci.addEnergyPerTickInput(20);
+    reci.addItemInput(stuff);
+    reci.addItemOutput(<modcurrency:banknote:5>*5);
+    reci.setChance(0.80);
+    reci.build();
+
+	for entry in stuff.items{
 		entry.addTooltip(format.blue("$500"));
-		machine.addRecipe({"itemIn":entry}, {"moneyOut":<modcurrency:banknote:5>*5%90}, 200, 60);
+		/*machine.addRecipe({"itemIn":entry}, {"moneyOut":<modcurrency:banknote:5>*5%90}, 200, 60);
 		machine.addRecipe({"itemIn":entry, "upgrade":<contenttweaker:low_income>}, {"moneyOut":<modcurrency:banknote:5>*10%90}, 200, 30);
 		machine.addRecipe({"itemIn":entry, "upgrade":<contenttweaker:mid_income>}, {"moneyOut":<modcurrency:banknote:5>*15%90}, 200, 40);
-		machine.addRecipe({"itemIn":entry, "upgrade":<contenttweaker:high_income>}, {"moneyOut":<modcurrency:banknote:5>*25%90}, 200, 50);
-	}	
+		machine.addRecipe({"itemIn":entry, "upgrade":<contenttweaker:high_income>}, {"moneyOut":<modcurrency:banknote:5>*25%90}, 200, 50);*/
+		mods.Delivery.Store.addTrade("ASSISTANT_MANAGER",entry, <modcurrency:banknote:5>*5);
+	}
 }

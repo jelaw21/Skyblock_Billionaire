@@ -1,5 +1,14 @@
 val construction ="Construction";
 
+
+mods.Delivery.Store.addTrade("FINANCE_MOGUL",<contenttweaker:charter>, construction, <contenttweaker:fivemillion>*2);
+mods.Delivery.Store.addTrade("FINANCE_MOGUL",<contenttweaker:bank_branch>, construction, <contenttweaker:onemillion>*2);
+mods.Delivery.Store.addTrade("FINANCE_MOGUL",<contenttweaker:low_residential>, construction, <contenttweaker:onemillion>*2);
+mods.Delivery.Store.addTrade("FINANCE_MOGUL",<contenttweaker:mid_residential>, construction, <contenttweaker:onemillion>*5);
+mods.Delivery.Store.addTrade("FINANCE_MOGUL",<contenttweaker:high_residential>, construction, <contenttweaker:fivemillion>, <contenttweaker:onemillion>*3);
+mods.Delivery.Store.addTrade("FINANCE_MOGUL",<contenttweaker:primary>, construction, <contenttweaker:onemillion>*3);
+mods.Delivery.Store.addTrade("FINANCE_MOGUL",<contenttweaker:college>, construction, <contenttweaker:fivemillion>);
+
 mods.Delivery.Store.addTrade("GENERAL_MANAGER",<contenttweaker:prefab>, construction, <contenttweaker:bank_item>.withTag({Total: 20000.0 as float, display: {Lore: ["$20000.0"]}}));
 mods.Delivery.Store.addTrade("GENERAL_MANAGER",<contenttweaker:kitchen>, construction, <contenttweaker:bank_item>.withTag({Total: 10000.0 as float, display: {Lore: ["$10000.0"]}}));
 mods.Delivery.Store.addTrade("GENERAL_MANAGER",<contenttweaker:chisel>, construction, <contenttweaker:bank_item>.withTag({Total: 12000.0 as float, display: {Lore: ["$12000.0"]}}));
@@ -8,7 +17,6 @@ mods.Delivery.Store.addTrade("GENERAL_MANAGER",<contenttweaker:architecture>, co
 mods.Delivery.Store.addTrade("GENERAL_MANAGER",<contenttweaker:blockcraft>, construction, <contenttweaker:bank_item>.withTag({Total: 5000.0 as float, display: {Lore: ["$5000.0"]}}));
 mods.Delivery.Store.addTrade("GENERAL_MANAGER",<contenttweaker:elevator>, construction, <contenttweaker:bank_item>.withTag({Total: 3000.0 as float, display: {Lore: ["$3000.0"]}}));
 mods.Delivery.Store.addTrade("GENERAL_MANAGER",<contenttweaker:literalascension>, construction, <contenttweaker:bank_item>.withTag({Total: 2000.0 as float, display: {Lore: ["$2000.0"]}}));
-//mods.Delivery.Store.addTrade("GENERAL_MANAGER",<contenttweaker:paint>, construction, <contenttweaker:bank_item>.withTag({Total: 5000.0 as float, display: {Lore: ["$5000.0"]}}));
 mods.Delivery.Store.addTrade("GENERAL_MANAGER",<contenttweaker:sonar>, construction, <contenttweaker:bank_item>.withTag({Total: 3000.0 as float, display: {Lore: ["$3000.0"]}}));
 mods.Delivery.Store.addTrade("REGIONAL_MANAGER",<contenttweaker:engineersdecor>, construction, <contenttweaker:bank_item>.withTag({Total: 15000.0 as float, display: {Lore: ["$15000.0"]}}));
 mods.Delivery.Store.addTrade("REGIONAL_MANAGER",<contenttweaker:xencraft>, construction, <contenttweaker:bank_item>.withTag({Total: 7000.0 as float, display: {Lore: ["$7000.0"]}}));

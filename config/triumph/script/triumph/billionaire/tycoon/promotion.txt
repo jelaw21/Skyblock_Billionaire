@@ -1,10 +1,14 @@
-setTitle("PROMOTION: Global Invester")
+setTitle("PROMOTION: Finance Mogul")
 
 setIcon(<minecraft:skull:3>)
 
 setDescription("Please consult the employee handbook for further instructions.")
 
 addParent("triumph:billionaire/tycoon/money")
+addParent("triumph:billionaire/tycoon/bank")
+addParent("triumph:billionaire/tycoon/investment")
+addParent("triumph:billionaire/tycoon/loan")
+addParent("triumph:billionaire/tycoon/credit")
 setRequiresParents()
 
 //Criteria

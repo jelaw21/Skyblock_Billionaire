@@ -107,12 +107,31 @@ val removalNames = [
 	"resourcehogs:deconstruct_bacon_ender",
 	"resourcehogs:deconstruct_bacon_nether_quartz",
 	"resourcehogs:deconstruct_bacon_dirt",
+	"resourcehogs:deconstruct_bacon_lumium",
+	"resourcehogs:deconstruct_bacon_signalum",
+	"resourcehogs:deconstruct_bacon_constantan",
+	"resourcehogs:deconstruct_bacon_bronze",
+	"resourcehogs:deconstruct_bacon_invar",
+	"resourcehogs:deconstruct_bacon_electrum",
+	"resourcehogs:deconstruct_bacon_steel",
+	"resourcehogs:deconstruct_bacon_mithril",
+	"resourcehogs:deconstruct_bacon_iridium",
+	"resourcehogs:deconstruct_bacon_platinum",
+	"resourcehogs:deconstruct_bacon_nickel",
+	"resourcehogs:deconstruct_bacon_aluminium",
+	"resourcehogs:deconstruct_bacon_lead",
+	"resourcehogs:deconstruct_bacon_silver",
+	"resourcehogs:deconstruct_bacon_tin",
+	"resourcehogs:deconstruct_bacon_copper",
+	"resourcehogs:deconstruct_bacon_enderium",
 	"soulus:bars_endersteel_ender",
 	"soulus:dust/dust_ender_iron",
 	"harvestcraft:minecraft_bread"
-	
-	
+
 ] as string[];
+
 for item in removalNames{
 	recipes.removeByRecipeName(item);
 }
+
+recipes.removeByMod("modularmachinery");

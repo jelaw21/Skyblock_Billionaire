@@ -2,14 +2,15 @@ setTitle("100K Shares")
 
 setIcon(<contenttweaker:share>)
 
-setDescription("Purchase Global Market: Energy")
+setDescription("Own your own company, and buy yourself a new office!")
 
 addParent("triumph:billionaire/ceo/root")
 setRequiresParents()
 
 //Criteria
-criteria = addCriteria("promotion", "minecraft:inventory_changed")
-criteria.addItem(<contenttweaker:share,  count:10~>)
+criteria = addCriteria("clickedItem", "triumph:right_click_item")
+criteria.addItem(<contenttweaker:share>)
+criteria.setCount(10)
 
 setShowToast(true)
 setAnnounceToChat(false)

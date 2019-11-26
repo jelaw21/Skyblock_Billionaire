@@ -12,6 +12,7 @@ var backpack = mods.contenttweaker.ResourceLocation.create("contenttweaker:items
 var vote = mods.contenttweaker.ResourceLocation.create("contenttweaker:items/vote");
 var charity = mods.contenttweaker.ResourceLocation.create("contenttweaker:items/charity");
 var upgradeImage = mods.contenttweaker.ResourceLocation.create("contenttweaker:items/proposal");
+var closed = mods.contenttweaker.ResourceLocation.create("contenttweaker:items/closedAccounts");
 
 var modbook = VanillaFactory.createItem("agricraft");
 modbook.maxStackSize = 1;
@@ -206,18 +207,6 @@ modbook.itemRightClick = function(stack, world, player, hand) {
 };
 modbook.register();
 
-modbook = VanillaFactory.createItem("backpacks");
-modbook.maxStackSize = 1;
-modbook.textureLocation = image;
-modbook.rarity = "rare";
-modbook.itemRightClick = function(stack, world, player, hand) {
-    Commands.call("gamestage add @s BACKPACKS", player, world, false, true);
-    Commands.call("gamestage silentremove @s REGIONAL_MANAGER_STORE", player, world, false, true);
-    stack.shrink(1);
-    return "Pass";
-};
-modbook.register();
-
 modbook = VanillaFactory.createItem("progressive");
 modbook.maxStackSize = 1;
 modbook.textureLocation = image;
@@ -236,17 +225,7 @@ modbook.textureLocation = image;
 modbook.rarity = "rare";
 modbook.itemRightClick = function(stack, world, player, hand) {
     Commands.call("gamestage add @s AIRSHIP", player, world, false, true);
-    stack.shrink(1);
-    return "Pass";
-};
-modbook.register();
-
-modbook = VanillaFactory.createItem("mobfarm");
-modbook.maxStackSize = 1;
-modbook.textureLocation = image;
-modbook.rarity = "rare";
-modbook.itemRightClick = function(stack, world, player, hand) {
-    Commands.call("gamestage add @s TINY_MOB_FARM", player, world, false, true);
+    Commands.call("gamestage silentremove @s REGIONAL_MANAGER_STORE", player, world, false, true);
     stack.shrink(1);
     return "Pass";
 };
@@ -390,17 +369,6 @@ modbook.textureLocation = image;
 modbook.rarity = "rare";
 modbook.itemRightClick = function(stack, world, player, hand) {
     Commands.call("gamestage add @s VIRTUAL_MACHINES", player, world, false, true);
-    stack.shrink(1);
-    return "Pass";
-};
-modbook.register();
-
-modbook = VanillaFactory.createItem("wirelessutils");
-modbook.maxStackSize = 1;
-modbook.textureLocation = image;
-modbook.rarity = "rare";
-modbook.itemRightClick = function(stack, world, player, hand) {
-    Commands.call("gamestage add @s WIRELESS_UTILS", player, world, false, true);
     stack.shrink(1);
     return "Pass";
 };
@@ -1124,6 +1092,65 @@ general.itemRightClick = function(stack, world, player, hand) {
 };
 general.register();
 
+general = VanillaFactory.createItem("global_items_kit");
+general.rarity="uncommon";
+general.textureLocation = backpack;
+general.itemRightClick = function(stack, world, player, hand) {
+    Commands.call("give @s modularmachinery:blockcontroller", player, world, false, true);
+    Commands.call("give @s modularmachinery:blockcasing", player, world, false, true);
+    Commands.call("give @s modularmachinery:blockinputbus", player, world, false, true);
+    Commands.call("give @s modularmachinery:blockoutputbus", player, world, false, true);
+    Commands.call("give @s modularmachinery:blockenergyinputhatch", player, world, false, true);
+    Commands.call("give @s modularmachinery:itemblueprint 1 0 {dynamicmachine: \"modularmachinery:global_items\"}", player, world, false, true);
+	stack.shrink(1);
+    return "Pass";
+};
+general.register();
+
+general = VanillaFactory.createItem("global_fluids_kit");
+general.rarity="uncommon";
+general.textureLocation = backpack;
+general.itemRightClick = function(stack, world, player, hand) {
+    Commands.call("give @s modularmachinery:blockcontroller", player, world, false, true);
+    Commands.call("give @s modularmachinery:blockcasing", player, world, false, true);
+    Commands.call("give @s modularmachinery:blockfluidinputhatch 1 2", player, world, false, true);
+    Commands.call("give @s modularmachinery:blockoutputbus", player, world, false, true);
+    Commands.call("give @s modularmachinery:blockenergyinputhatch", player, world, false, true);
+    Commands.call("give @s modularmachinery:itemblueprint 1 0 {dynamicmachine: \"modularmachinery:global_fluids\"}", player, world, false, true);
+	stack.shrink(1);
+    return "Pass";
+};
+general.register();
+
+general = VanillaFactory.createItem("global_energy_kit");
+general.rarity="uncommon";
+general.textureLocation = backpack;
+general.itemRightClick = function(stack, world, player, hand) {
+    Commands.call("give @s modularmachinery:blockcontroller", player, world, false, true);
+    Commands.call("give @s modularmachinery:blockcasing", player, world, false, true);
+    Commands.call("give @s modularmachinery:blockoutputbus", player, world, false, true);
+    Commands.call("give @s modularmachinery:blockenergyinputhatch", player, world, false, true);
+    Commands.call("give @s modularmachinery:itemblueprint 1 0 {dynamicmachine: \"modularmachinery:global_energy\"}", player, world, false, true);
+	stack.shrink(1);
+    return "Pass";
+};
+general.register();
+
+general = VanillaFactory.createItem("global_upgrades_kit");
+general.rarity="uncommon";
+general.textureLocation = backpack;
+general.itemRightClick = function(stack, world, player, hand) {
+    Commands.call("give @s modularmachinery:blockcontroller", player, world, false, true);
+    Commands.call("give @s modularmachinery:blockcasing 1 2", player, world, false, true);
+    Commands.call("give @s modularmachinery:blockinputbus", player, world, false, true);
+    Commands.call("give @s modularmachinery:blockoutputbus", player, world, false, true);
+    Commands.call("give @s modularmachinery:blockenergyinputhatch", player, world, false, true);
+    Commands.call("give @s modularmachinery:itemblueprint 1 0 {dynamicmachine: \"modularmachinery:global_upgrades\"}", player, world, false, true);
+	stack.shrink(1);
+    return "Pass";
+};
+general.register();
+
 var block = VanillaFactory.createBlock("chaos_endstone", <blockmaterial:rock>);
 block.setBlockHardness(3.0);
 block.setBlockResistance(45.0);
@@ -1141,9 +1168,8 @@ var investment = VanillaFactory.createItem("approval_loan");
 investment.maxStackSize = 1;
 investment.itemRightClick = function(stack, world, player, hand) {
     if !world.remote && !extrautilities2.Tweaker.XUTweaker.isPlayerFake(player) {
-        player.update(player.data + {"Investment": 36000});
-        player.update(player.data + {"InvestmentType": 0});
-        player.sendChat("Loan Period Started for Customer " + world.time);
+        player.update(player.data + {"Loan": 18000});
+        player.sendChat("Loan Period Started for Customer " + world.worldInfo.worldTotalTime);
         stack.shrink(1);
     }
     return "SUCCESS";
@@ -1154,8 +1180,7 @@ investment = VanillaFactory.createItem("approval_credit");
 investment.maxStackSize = 1;
 investment.itemRightClick = function(stack, world, player, hand) {
     if !world.remote && !extrautilities2.Tweaker.XUTweaker.isPlayerFake(player) {
-        player.update(player.data + {"Investment": 144000});
-        player.update(player.data + {"InvestmentType": 1});
+        player.update(player.data + {"Credit": 36000});
         player.sendChat("Line of Credit Started for Customer " + world.time);
         stack.shrink(1);
     }
@@ -1167,8 +1192,7 @@ investment = VanillaFactory.createItem("approval_investment");
 investment.maxStackSize = 1;
 investment.itemRightClick = function(stack, world, player, hand) {
     if !world.remote && !extrautilities2.Tweaker.XUTweaker.isPlayerFake(player) {
-        player.update(player.data + {"Investment": 432000});
-        player.update(player.data + {"InvestmentType": 2});
+        player.update(player.data + {"Investment": 72000});
         player.sendChat("Your Investment Started");
         stack.shrink(1);
     }
@@ -1180,36 +1204,60 @@ var boardVote = VanillaFactory.createItem("vote_1");
 boardVote.maxStackSize = 1;
 boardVote.textureLocation = vote;
 boardVote.rarity = "rare";
+boardVote.itemRightClick = function(stack, world, player, hand) {
+	stack.shrink(1);
+    return "Pass";
+};
 boardVote.register();
 
 boardVote = VanillaFactory.createItem("vote_2");
 boardVote.maxStackSize = 1;
 boardVote.textureLocation = vote;
 boardVote.rarity = "rare";
+boardVote.itemRightClick = function(stack, world, player, hand) {
+	stack.shrink(1);
+    return "Pass";
+};
 boardVote.register();
 
 boardVote = VanillaFactory.createItem("vote_3");
 boardVote.maxStackSize = 1;
 boardVote.textureLocation = vote;
 boardVote.rarity = "rare";
+boardVote.itemRightClick = function(stack, world, player, hand) {
+	stack.shrink(1);
+    return "Pass";
+};
 boardVote.register();
 
 boardVote = VanillaFactory.createItem("vote_4");
 boardVote.maxStackSize = 1;
 boardVote.textureLocation = vote;
 boardVote.rarity = "rare";
+boardVote.itemRightClick = function(stack, world, player, hand) {
+	stack.shrink(1);
+    return "Pass";
+};
 boardVote.register();
 
 boardVote = VanillaFactory.createItem("vote_5");
 boardVote.maxStackSize = 1;
 boardVote.textureLocation = vote;
 boardVote.rarity = "rare";
+boardVote.itemRightClick = function(stack, world, player, hand) {
+	stack.shrink(1);
+    return "Pass";
+};
 boardVote.register();
 
 boardVote = VanillaFactory.createItem("vote_6");
 boardVote.maxStackSize = 1;
 boardVote.textureLocation = vote;
 boardVote.rarity = "rare";
+boardVote.itemRightClick = function(stack, world, player, hand) {
+	stack.shrink(1);
+    return "Pass";
+};
 boardVote.register();
 
 var charityItem = VanillaFactory.createItem("charity_1");
@@ -1256,6 +1304,10 @@ charityItem.register();
 var share = VanillaFactory.createItem("share");
 share.maxStackSize = 10;
 share.rarity = "epic";
+share.itemRightClick = function(stack, world, player, hand) {
+	stack.shrink(1);
+    return "Pass";
+};
 share.register();
 
 var upgrade = VanillaFactory.createItem("low_income");
@@ -1273,41 +1325,69 @@ upgrade.maxStackSize = 64;
 upgrade.rarity = "epic";
 upgrade.register();
 
-upgrade = VanillaFactory.createItem("low_income_proposal");
+upgrade = VanillaFactory.createItem("low_income_new");
 upgrade.maxStackSize = 64;
+upgrade.rarity = "epic";
+upgrade.register();
+
+upgrade = VanillaFactory.createItem("mid_income_new");
+upgrade.maxStackSize = 64;
+upgrade.rarity = "epic";
+upgrade.register();
+
+upgrade = VanillaFactory.createItem("high_income_new");
+upgrade.maxStackSize = 64;
+upgrade.rarity = "epic";
+upgrade.register();
+
+upgrade = VanillaFactory.createItem("low_income_proposal");
+upgrade.maxStackSize = 1;
 upgrade.textureLocation = upgradeImage;
 upgrade.rarity = "epic";
 upgrade.register();
 
 upgrade = VanillaFactory.createItem("mid_income_proposal");
-upgrade.maxStackSize = 64;
+upgrade.maxStackSize = 1;
 upgrade.textureLocation = upgradeImage;
 upgrade.rarity = "epic";
 upgrade.register();
 
 upgrade = VanillaFactory.createItem("high_income_proposal");
-upgrade.maxStackSize = 64;
+upgrade.maxStackSize = 1;
 upgrade.textureLocation = upgradeImage;
 upgrade.rarity = "epic";
 upgrade.register();
 
-var romeo = VanillaFactory.createBlock("romeo_stonebrick", <blockmaterial:rock>);
-romeo.setLightValue(15);
-romeo.setBlockHardness(2.0);
-romeo.setBlockResistance(6000.0);
-romeo.setToolClass("pickaxe");
-romeo.setToolLevel(0);
-romeo.setBlockSoundType(<soundtype:stone>);
-romeo.register();
+var donor = VanillaFactory.createBlock("romeo_stonebrick", <blockmaterial:rock>);
+donor.setLightValue(1.0f);
+donor.setLightOpacity(1);
+donor.setBlockHardness(2.0);
+donor.setBlockResistance(6000.0);
+donor.setToolClass("pickaxe");
+donor.setToolLevel(0);
+donor.setBlockSoundType(<soundtype:stone>);
+donor.register();
 
-romeo = VanillaFactory.createBlock("romeo_stone_mossy", <blockmaterial:rock>);
-romeo.setLightValue(15);
-romeo.setBlockHardness(2.0);
-romeo.setBlockResistance(6000.0);
-romeo.setToolClass("pickaxe");
-romeo.setToolLevel(0);
-romeo.setBlockSoundType(<soundtype:stone>);
-romeo.register();
+donor = VanillaFactory.createBlock("romeo_stone_mossy", <blockmaterial:rock>);
+donor.setLightValue(1.0f);
+donor.setBlockHardness(2.0);
+donor.setBlockResistance(6000.0);
+donor.setToolClass("pickaxe");
+donor.setToolLevel(0);
+donor.setBlockSoundType(<soundtype:stone>);
+donor.register();
+
+donor = VanillaFactory.createBlock("scooter_glass", <blockmaterial:glass>);
+donor.setLightValue(1.0f);
+donor.setLightOpacity(1);
+donor.setBlockLayer("TRANSLUCENT");
+donor.setFullBlock(false);
+donor.setBlockHardness(2.0);
+donor.setBlockResistance(6000.0);
+donor.setToolClass("axe");
+donor.setToolLevel(0);
+donor.setBlockSoundType(<soundtype:glass>);
+donor.register();
 
 var bundle = VanillaFactory.createItem("hundredBundle");
 bundle.maxStackSize = 64;
@@ -1316,3 +1396,144 @@ bundle.register();
 bundle = VanillaFactory.createItem("hundredBundleBundle");
 bundle.maxStackSize = 64;
 bundle.register();
+
+var million = VanillaFactory.createItem("fiveMillion");
+million.maxStackSize = 64;
+million.register();
+
+million = VanillaFactory.createItem("onemillion");
+million.maxStackSize = 64;
+million.register();
+
+million = VanillaFactory.createItem("twentyMillion");
+million.maxStackSize = 64;
+million.register();
+
+million = VanillaFactory.createItem("fiftyMillion");
+million.maxStackSize = 64;
+million.register();
+
+million = VanillaFactory.createItem("twenty-fiveMillion");
+million.maxStackSize = 64;
+million.register();
+
+million = VanillaFactory.createItem("hundredMillion");
+million.maxStackSize = 64;
+million.register();
+
+million = VanillaFactory.createItem("onefiftyMillion");
+million.maxStackSize = 64;
+million.register();
+
+million = VanillaFactory.createItem("two-fiftyMillion");
+million.maxStackSize = 64;
+million.register();
+
+million = VanillaFactory.createItem("fivehundredMillion");
+million.maxStackSize = 64;
+million.register();
+
+million = VanillaFactory.createItem("oneBillion");
+million.maxStackSize = 64;
+million.register();
+
+var accounts = VanillaFactory.createItem("loanclosed");
+accounts.maxStackSize = 1;
+accounts.textureLocation = closed;
+accounts.itemRightClick = function(stack, world, player, hand) {
+	stack.shrink(1);
+    return "Pass";
+};
+accounts.register();
+
+accounts = VanillaFactory.createItem("creditclosed");
+accounts.maxStackSize = 1;
+accounts.textureLocation = closed;
+accounts.itemRightClick = function(stack, world, player, hand) {
+	stack.shrink(1);
+    return "Pass";
+};
+accounts.register();
+
+accounts = VanillaFactory.createItem("investmentclosed");
+accounts.maxStackSize = 1;
+accounts.textureLocation = closed;
+accounts.itemRightClick = function(stack, world, player, hand) {
+	stack.shrink(1);
+    return "Pass";
+};
+accounts.register();
+
+accounts = VanillaFactory.createItem("stop");
+accounts.maxStackSize = 1;
+accounts.textureLocation = closed;
+accounts.itemRightClick = function(stack, world, player, hand) {
+	stack.shrink(1);
+    return "Pass";
+};
+accounts.register();
+
+accounts = VanillaFactory.createItem("player_gift");
+accounts.maxStackSize = 1;
+accounts.itemRightClick = function(stack, world, player, hand) {
+	stack.shrink(1);
+    return "Pass";
+};
+accounts.register();
+
+var community = VanillaFactory.createItem("bank");
+community.maxStackSize = 1;
+community.register();
+
+community = VanillaFactory.createItem("bank_branch");
+community.maxStackSize = 1;
+community.register();
+
+community = VanillaFactory.createItem("college");
+community.maxStackSize = 1;
+community.register();
+
+community = VanillaFactory.createItem("high_income_community");
+community.maxStackSize = 1;
+community.register();
+
+community = VanillaFactory.createItem("high_residential");
+community.maxStackSize = 1;
+community.register();
+
+community = VanillaFactory.createItem("low_residential");
+community.maxStackSize = 1;
+community.register();
+
+community = VanillaFactory.createItem("mid_residential");
+community.maxStackSize = 1;
+community.register();
+
+community = VanillaFactory.createItem("low_income_community");
+community.maxStackSize = 1;
+community.register();
+
+community = VanillaFactory.createItem("mid_income_community");
+community.maxStackSize = 1;
+community.register();
+
+community = VanillaFactory.createItem("primary");
+community.maxStackSize = 1;
+community.register();
+
+community = VanillaFactory.createItem("charter");
+community.maxStackSize = 1;
+community.textureLocation = upgradeImage;
+community.rarity = "epic";
+community.register();
+
+community = VanillaFactory.createItem("approval");
+community.maxStackSize = 1;
+community.textureLocation = upgradeImage;
+community.rarity = "epic";
+community.register();
+
+community = VanillaFactory.createItem("construction");
+community.maxStackSize = 1;
+community.rarity = "uncommon";
+community.register();

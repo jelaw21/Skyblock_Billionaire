@@ -1,0 +1,26 @@
+{
+  "machine": "global_upgrades",
+  "registryName": "community_construction_38",
+  "recipeTime": 6000,
+  "requirements": [
+    {
+      "type": "modularmachinery:energy",
+      "io-type": "input",
+      "energyPerTick": 10
+    },
+    {
+      "type": "modularmachinery:item",
+      "io-type": "output",
+      "item": "contenttweaker:fivemillion",
+	  "amount": 8
+    },
+    {
+      "type": "modularmachinery:item",
+      "io-type": "input",
+      "item": "contenttweaker:construction",
+      "nbt":{
+        "Value": "38"
+      }
+    }
+  ]
+}

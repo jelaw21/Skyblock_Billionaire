@@ -1,4 +1,4 @@
-execute @s ~ ~ ~ gamestage silentadd @p FINANCIAL_TYCOON
+execute @s ~ ~ ~ gamestage silentadd @p BUSINESS_TYCOON
 title @s subtitle "PROMOTION EARNED - SEE HANDBOOK"
-title @s title "FINANCIAL TYCOON"
+title @s title "BUSINESS TYCOON"
 ranks add @s tycoon

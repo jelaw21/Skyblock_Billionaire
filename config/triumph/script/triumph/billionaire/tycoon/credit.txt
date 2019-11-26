@@ -1,0 +1,20 @@
+setTitle("Close a Line of Credit")
+
+setIcon(<contenttweaker:approval_credit>)
+
+setDescription("Approve and Close a Line of Credit")
+
+addParent("triumph:billionaire/tycoon/root")
+setRequiresParents()
+
+//Criteria
+criteria = addCriteria("promotion", "minecraft:inventory_changed")
+criteria.addItem(<contenttweaker:creditclosed>)
+
+
+setShowToast(true)
+setAnnounceToChat(false)
+
+//Rewards
+
+visibleIf("triumph:billionaire/tycoon/root")

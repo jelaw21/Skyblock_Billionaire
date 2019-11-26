@@ -57,19 +57,19 @@ ftbutilities.chat.name_format: [&9PHILANTHROPIST&r]<{name}>:
 
 [tycoon]
 power: 14
-ftbutilities.chat.name_format: [&dFINANCIAL TYCOON&r]<{name}>:
+ftbutilities.chat.name_format: [&dBUSINESS TYCOON&r]<{name}>:
 
-[investor]
+[mogul]
 power: 15
-ftbutilities.chat.name_format: [&aGLOBAL INVESTOR&r]<{name}>:
-
-[un]
-power: 16
-ftbutilities.chat.name_format: [&eSECRETARY GENERAL&r]<{name}>:
+ftbutilities.chat.name_format: [&aFINANCE MOGUL&r]<{name}>:
 
 [world]
+power: 16
+ftbutilities.chat.name_format: [&ePRES. WORLD BANK&r]<{name}>:
+
+[un]
 power: 17
-ftbutilities.chat.name_format: [&6WORLD LEADER&r]<{name}>:
+ftbutilities.chat.name_format: [&6SECRETARY GENERAL&r]<{name}>:
 
 [president]
 power: 18

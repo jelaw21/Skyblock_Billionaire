@@ -32,7 +32,6 @@ mods.ItemStages.stageModItems("AGRICRAFT", "agricraft");
 mods.ItemStages.stageModItems("MOO", "moofluids");
 mods.ItemStages.stageModItems("PROGRESSIVE", "progressiveautomation");
 mods.ItemStages.stageModItems("AIRSHIP", "vc");
-mods.ItemStages.stageModItems("TINY_MOB_FARM", "tinymobfarm");
 mods.ItemStages.stageModItems("ANIMAL_NET", "animalnet");
 mods.ItemStages.stageModItems("MOB_UTILS", "mob_grinding_utils");
 mods.ItemStages.stageModItems("WEAPONS", "seltaks_weapon_pack");
@@ -74,7 +73,6 @@ mods.ItemStages.stageModItems("COMPACTOR", "compacter");
 mods.ItemStages.stageModItems("GRINDER", "simplegrinder");
 mods.ItemStages.stageModItems("FURNACES", "morefurnaces");
 mods.ItemStages.stageModItems("VIRTUAL_MACHINES", "virtualmachines");
-mods.ItemStages.stageModItems("WIRELESS_UTILS", "wirelessutils");
 mods.ItemStages.stageModItems("SUPER_FACTORY", "superfactorymanager");
 mods.ItemStages.stageModItems("COMPACT_MACHINES", "compactmachines3");
 mods.ItemStages.stageModItems("INDUSTRIAL_MEAT", "industrialmeat");
@@ -184,9 +182,4 @@ mods.ItemStages.addItemStage("TRILIUM",<powderpower:swordtrilium>);
 mods.ItemStages.addItemStage("TRILIUM",<powderpower:pickaxetrilium>);
 mods.ItemStages.addItemStage("TRILIUM",<powderpower:axetrilium>);
 mods.ItemStages.addItemStage("TRILIUM",<powderpower:shoveltrilium>);
-
-mods.ItemStages.addItemStage("BACKPACKS", <v0idssmartbackpacks:reinforced_leather>);
-mods.ItemStages.addItemStage("BACKPACKS", <v0idssmartbackpacks:dragon_scales>);
-mods.ItemStages.addItemStage("BACKPACKS", <v0idssmartbackpacks:upgrade_base>);
-mods.recipestages.Recipes.setRecipeStage("BACKPACKS", <v0idssmartbackpacks:backpack>);
 

@@ -1,4 +1,6 @@
 execute @s ~ ~ ~ gamestage silentadd @p BOARD_MEMBER
+execute @s ~ ~ ~ gamestage silentadd @p BOARD_STORE
+execute @s ~ ~ ~ gamestage silentremove @p CEO_STORE
 title @s subtitle "PROMOTION EARNED - SEE HANDBOOK"
 title @s title "BOARD MEMBER"
 ranks add @s board

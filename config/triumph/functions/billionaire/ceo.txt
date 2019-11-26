@@ -1,4 +1,5 @@
 execute @s ~ ~ ~ gamestage silentadd @p CEO
+execute @s ~ ~ ~ gamestage silentadd @p CEO_STORE
 title @s subtitle "PROMOTION EARNED - SEE HANDBOOK"
 title @s title "C.E.O"
 ranks add @s ceo

@@ -1,4 +1,4 @@
-setTitle("SECRETARY GENERAL OF THE U.N.")
+setTitle("President of the World Bank")
 //setTranslatedTitle("advancements.stage0.root.title")
 
 setIcon(<minecraft:skull:3>)

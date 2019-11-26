@@ -1,10 +1,14 @@
-setTitle("PROMOTION: Secretary General of the U.N.")
+setTitle("PROMOTION: President of the World Bank")
 
 setIcon(<minecraft:skull:3>)
 
 setDescription("Please consult the employee handbook for further instructions.")
 
 addParent("triumph:billionaire/invester/money")
+addParent("triumph:billionaire/invester/low")
+addParent("triumph:billionaire/invester/mid")
+addParent("triumph:billionaire/invester/high")
+addParent("triumph:billionaire/invester/stop")
 setRequiresParents()
 
 //Criteria

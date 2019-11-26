@@ -1,6 +1,6 @@
 setTitle("Global Market: Fluids")
 
-setIcon(<extrautils2:machine>)
+setIcon(<contenttweaker:global_fluids_kit>)
 
 setDescription("Purchase Global Market: Fluids")
 
@@ -10,7 +10,7 @@ setRequiresParents()
 
 //Criteria
 criteria = addCriteria("promotion", "minecraft:inventory_changed")
-criteria.addItem(<extrautils2:machine,  nbt:{Type:"crafttweaker:global_liquid"}>)
+criteria.addItem(<contenttweaker:global_fluids_kit>)
 
 setShowToast(true)
 setAnnounceToChat(false)

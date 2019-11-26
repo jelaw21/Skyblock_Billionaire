@@ -1,0 +1,20 @@
+setTitle("Mature Your Investments")
+
+setIcon(<contenttweaker:approval_investment)
+
+setDescription("Approve and wait for your Investment to mature.")
+
+addParent("triumph:billionaire/tycoon/root")
+setRequiresParents()
+
+//Criteria
+criteria = addCriteria("promotion", "minecraft:inventory_changed")
+criteria.addItem(<contenttweaker:investmentclosed>)
+
+
+setShowToast(true)
+setAnnounceToChat(false)
+
+//Rewards
+
+visibleIf("triumph:billionaire/tycoon/root")

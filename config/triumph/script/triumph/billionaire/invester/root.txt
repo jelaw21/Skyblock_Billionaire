@@ -1,9 +1,9 @@
-setTitle("GLOBAL INVESTOR")
+setTitle("FINANCE MOGUL")
 //setTranslatedTitle("advancements.stage0.root.title")
 
 setIcon(<minecraft:skull:3>)
 
-setDescription("Spread the Wealth!")
+setDescription("Capital Gains!")
 //setTranslatedDescription("advancements.stage0.root.description")
 
 setBackground("minecraft:textures/blocks/lapis_block.png")

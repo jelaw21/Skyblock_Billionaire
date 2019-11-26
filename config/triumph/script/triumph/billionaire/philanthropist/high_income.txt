@@ -9,7 +9,7 @@ setRequiresParents()
 
 //Criteria
 criteria = addCriteria("promotion", "minecraft:inventory_changed")
-criteria.addItem(<contenttweaker:high_income, count:64~>)
+criteria.addItem(<contenttweaker:high_income_new>)
 
 
 setShowToast(true)

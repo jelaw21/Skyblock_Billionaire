@@ -11,10 +11,10 @@
         <stage-unlocked name="board" stage="BOARD_MEMBER"/>
         <stage-unlocked name="chairman" stage="CHAIRMAN"/>
         <stage-unlocked name="philanthropist" stage="PHILANTHROPIST"/>
-        <stage-unlocked name="tycoon" stage="FINANCIAL_TYCOON"/>
-        <stage-unlocked name="invester" stage="GLOBAL_INVESTER"/>
-        <stage-unlocked name="un" stage="UN_SECRETARY"/>
-        <stage-unlocked name="world" stage="WORLD_LEADER"/>
+        <stage-unlocked name="tycoon" stage="BUSINESS_TYCOON"/>
+        <stage-unlocked name="mogul" stage="FINANCE_MOGUL"/>
+        <stage-unlocked name="world_bank" stage="WORLD_BANK"/>
+        <stage-unlocked name="un" stage="SECRETARY_GENERAL"/>
         <stage-unlocked name="president" stage="WORLD_PRESIDENT"/>
     </conditions>
 
@@ -32,10 +32,10 @@
             <link condition="board" ref="board">Board Member</link>
             <link condition="chairman" ref="chairman">Chairman of the Board</link>
             <link condition="philanthropist" ref="philanthropist">Philanthropist</link>
-            <link condition="tycoon" ref="tycoon">Financial Tycoon</link>
-            <link condition="invester" ref="invester">Global Invester</link>
-            <link condition="un" ref="un">UN Secretary-General</link>
-            <link condition="world" ref="world">World Leader</link>
+            <link condition="tycoon" ref="tycoon">Business Tycoon</link>
+            <link condition="mogul" ref="mogul">Finance Mogul</link>
+            <link condition="world_bank" ref="world_bank">President of World Bank</link>
+            <link condition="un" ref="un">Secretary-General of the U.N.</link>
             <link condition="president" ref="president">President of the World</link>
         </page>
         <page>
@@ -81,6 +81,7 @@
                 that to 'L' or something.</p>
             <p space="10">You can hold down shift to help plants and saplings grow. But be careful not to have an
                 accident!</p>
+            <p space="10">You might wanna fish a whole stack of dirt. Save ya some time later.</p>
         </page>
 
     </chapter>
@@ -304,7 +305,11 @@
             <p space="10">Purchase at least one of each Global Markets and earn an income of $100,000.</p>
             <title space='20'>GATHER</title>
             <p space="10"><stack item="contenttweaker:bank_item"/><span> with EXACTLY $100,000</span></p>
-            <p space="20">Purchase 1 of EACH Global Markets</p>
+            <p space="20">
+                <stack item="contenttweaker:global_items_kit"/>
+                <stack item="contenttweaker:global_fluids_kit"/>
+                <stack item="contenttweaker:global_energy_kit"/>
+            </p>
             <title space='20'>UNLOCKS</title>
             <p space="10">Access to the Global Markets via the Special Equipment tab in the store.</p>
         </page>
@@ -325,6 +330,9 @@
         <page>
             <title space='20'>GATHER</title>
             <p space="10"><stack item="contenttweaker:bank_item"/><span> with EXACTLY $250,000</span></p>
+            <p space="10">
+                <stack item="contenttweaker:share"/>
+            </p>
             <title space='20'>UNLOCKS</title>
         </page>
         <page>
@@ -342,7 +350,14 @@
         <page>
             <title space='20'>GATHER</title>
             <p space="10"><stack item="contenttweaker:bank_item"/><span> with EXACTLY $500,000</span></p>
-            <p space="10">6 Board Member Votes</p>
+            <p space="10">
+                <stack item="contenttweaker:vote_1"/>
+                <stack item="contenttweaker:vote_2"/>
+                <stack item="contenttweaker:vote_3"/>
+                <stack item="contenttweaker:vote_4"/>
+                <stack item="contenttweaker:vote_5"/>
+                <stack item="contenttweaker:vote_6"/>
+            </p>
             <title space='20'>UNLOCKS</title>
         </page>
         <page>
@@ -360,6 +375,9 @@
         <page>
             <title space='20'>GATHER</title>
             <p space="10"><stack item="contenttweaker:bank_item"/><span> with EXACTLY $1,000,000</span></p>
+            <p space="10"><stack item="contenttweaker:charity_1"/>
+                <stack item="contenttweaker:charity_2"/>
+                <stack item="contenttweaker:charity_3"/> You only have to choose ONE of these.</p>
             <title space='20'>UNLOCKS</title>
         </page>
         <page>
@@ -372,50 +390,79 @@
             <title space='20'>Philanthropist</title>
             <p color="#4f5f98" space='10'>I'm back kid, cause frankly, you need me. You need a good advisor. Listen kid, money is where its at. If you have money, you have power. We got a good thing here but we are going to need to expand. Get our fingers in a whole lot more honey pots.</p>
 
-            <p color="#4f5f98" space='10'>To make more money, we're going to buy companies and business and sell their goods to our global markets. But there's always a risk, and some companies don't want to merge. Here's how this works. We're going to propose a merger, and if its succssful, we can apply that business to our global markets. There are three categories of businesses, low-risk/ low-income, normal risk/normal income, and high risk/high income.</p>
+            <p color="#4f5f98" space='10'>To make more money, we're going to buy companies and businesses and sell their goods to our global markets. But there's always a risk, and some companies don't want to merge. Here's how this works. We're going to propose a merger, and if its successful, we can apply that business to our global markets. There are three categories of businesses, low-risk/low-income, normal risk/normal income, and high risk/high income.</p>
 
         </page>
         <page>
             <title space='20'>REQUIREMENTS</title>
-            <p color="#4f5f98" space='10'>Purchase the Global Market: Businesses from the store and put any level proposal into it. After a bit of time, companies will accept your offer and you can apply those directly to any of the Global Markets. The high income businesses are risky, and many don't want to be bought out, while the low income businesses are more willing. This will effect the number of businesses that accept your proposal</p>
+            <p color="#4f5f98" space='10'>Purchase the Global Upgrades Construction Pack from the store and put a proposal into it. After a bit of time, companies will accept your offer and you can use those companies to upgrade your Global Markets. However, it is possible that no companies want to sell, and you will get nothing. The high income businesses are risky, and many don't want to be bought out, while the low income businesses are more willing.</p>
             <title space='20'>GATHER</title>
-            <p space="10"><stack item="contenttweaker:bank_item"/><span> with EXACTLY $25,000,000</span></p>
-            <p space="10"> <stack item="contenttweaker:low_income" count="64"/>
-                <stack item="contenttweaker:mid_income" count="64"/>
-                <stack item="contenttweaker:high_income" count="64"/></p>
-
+            <p space="10"><stack item="contenttweaker:twenty-fivemillion"/>
+                <stack item="contenttweaker:low_income_new"/>
+                <stack item="contenttweaker:mid_income_new"/>
+                <stack item="contenttweaker:high_income_new"/></p>
         </page>
         <page>
             <title space='20'>UNLOCKS</title>
+            <p space="10">You can now upgrade your Global Markets to get increased outputs.</p>
+
             <title space='20'>HINTS</title>
 
         </page>
     </chapter>
     <chapter id="tycoon" condition="tycoon">
         <page>
-            <title space='20'>Financial Tycoon</title>
-            <p color="#4f5f98" space='10'>Now that we own some banks, let's give up some cheese and establish them world-wide. But here's the catch, kiddo. If people don't have money, they can't pay their loans, which means we don't get interest. Or they don't get credit cards, and we don't get interest. So what we need to do, is dumb money into under-funded communities and countries around the world and help them establish a decent economy, then plop The Bank of GWK, right in the middle. GOLD MINE! Everyone wins, we make money, communities prosper and people are happy. </p>
-            <title space='20'>REQUIREMENTS</title>
+            <title space='20'>Business Tycoon</title>
+            <p color="#4f5f98" space='10'>Welp, our little company here has hit the big time. Money is rolling in from all our businesses and global accounts. We just have to sit back and watch it all pour in. But ya know what kid? You don't look like the type to just sit back? Honestly, our industries are doing well and almost autonomous, which means we can turn our eyes to other venues. </p>
+            <p color="#4f5f98" space='10'>One thing has always bothered me about businesses, why do they entrust they're entire livelihood to other institutions? That's right, I'm talking about BANKS. We make money, then place it in banks. They use our money to get more money. WE should use OUR money to get richer. Let's fund a bank, the Bank of GWK. Then, we approve some loans, give people credit cards and maybe invest, and just sit back and let the hundreds fall from the sky.</p>
         </page>
         <page>
+            <title space='20'>REQUIREMENTS</title>
+            <p color="#4f5f98" space='10'>Firstly, buy a bank from the store's special equipment tab. After that approve a loan, a line of credit and an investment. You may only have ONE of each active at any time. If you activate an approval, while one is still active, it will stop the previous one and start the new one, and you will have lost money.</p>
             <title space='20'>GATHER</title>
-            <p space="10"><stack item="contenttweaker:bank_item"/><span> with EXACTLY $150,000,000</span></p>
+            <p space="10"><stack item="contenttweaker:hundredmillion"/>
+                <stack item="contenttweaker:low_income_community"/>
+                <stack item="contenttweaker:mid_income_community"/>
+                <stack item="contenttweaker:high_income_community"/></p>
             <title space='20'>UNLOCKS</title>
         </page>
         <page>
             <title space='20'>HINTS</title>
-
         </page>
     </chapter>
-    <chapter id="invester" condition="invester">
+    <chapter id="mogul" condition="mogul">
         <page>
-            <title space='20'>Global Investor</title>
+            <title space='20'>Finance Mogul</title>
+            <p color="#4f5f98" space='10'>Now that we own some banks, let's give up some cheese and establish them world-wide. But here's the catch, kiddo. If people don't have money, they can't pay their loans, which means we don't get interest. Or they don't get credit cards, and we don't get interest.</p>
+            <p color="#4f5f98" space='10'> So what we need to do, is dump money into under-funded communities and countries around the world and help them establish a decent economy, then plop The Bank of GWK, right in the middle. GOLD MINE! Everyone wins, we make money, communities prosper and people are happy.</p>
+
+        </page>
+        <page>
+            <title space='20'>REQUIREMENTS</title>
+            <p color="#4f5f98" space='10'>This is going to be a bit tricky kid. First thing you have to do is purchase an Economic Development Charter. This purchases lands and rights to build in an under-funded community. After that, you must purchase a residential zone and apply it to the charter. More people is more money, and more likely to spend it if they have a nice house. Once you've applied a residential zone to a charter, you will get a Community Plan.</p>
+            <p color="#4f5f98" space='10'>A Community Plan has two values, Building Points and Worth. As you apply businesses we own, and our own banks, the worth goes up and the building points goes down. Once you are out of building points, you can no longer add any more zones. When you are satisfied with the worth of a community plan, you will need to get a Economic Construction Approval from our bank. This will give you a Construction Plan and you will apply it to our Global Upgrades and wait for payday!</p>
+        </page>
+        <page>
+            <p color="#4f5f98" space='10'></p>
+            <p color="#4f5f98" space='10'>There are a few things to consider as you think on how to build up these communities. A higher tier business or residential cannot be applied to a lower tiered one. In order to increase a communities profitability, you must educate them and give them more choices of residential zones to live. All upgrades and building items are available in the construction tab of the store.</p>
+            <title space='20'>GATHER</title>
+            <p space="10"><stack item="contenttweaker:two-fiftymillion"/>
+                <stack item="contenttweaker:low_income_community"/>
+                <stack item="contenttweaker:mid_income_community"/>
+                <stack item="contenttweaker:high_income_community"/></p>
+            <title space='20'>UNLOCKS</title>
+            <title space='20'>HINTS</title>
+        </page>
+    </chapter>
+    <chapter id="world_bank" condition="world_bank">
+        <page>
+            <title space='20'>President of the World Bank</title>
             <p color="#4f5f98" space='10'>.</p>
             <title space='20'>REQUIREMENTS</title>
         </page>
         <page>
             <title space='20'>GATHER</title>
-            <p space="10"><stack item="contenttweaker:bank_item"/><span> with EXACTLY $250,000,000</span></p>
+            <p space="10"><stack item="contenttweaker:fivehundredmillion"/></p>
             <title space='20'>UNLOCKS</title>
         </page>
         <page>
@@ -425,29 +472,13 @@
     </chapter>
     <chapter id="un" condition="un">
         <page>
-            <title space='20'>Secretary General of the UN</title>
+            <title space='20'>Secretary-General of the United Nations</title>
             <p color="#4f5f98" space='10'>.</p>
             <title space='20'>REQUIREMENTS</title>
         </page>
         <page>
             <title space='20'>GATHER</title>
-            <p space="10"><stack item="contenttweaker:bank_item"/><span> with EXACTLY $500,000,000</span></p>
-            <title space='20'>UNLOCKS</title>
-        </page>
-        <page>
-            <title space='20'>HINTS</title>
-
-        </page>
-    </chapter>
-    <chapter id="world" condition="world">
-        <page>
-            <title space='20'>World Leader</title>
-            <p color="#4f5f98" space='10'>.</p>
-            <title space='20'>REQUIREMENTS</title>
-        </page>
-        <page>
-            <title space='20'>GATHER</title>
-            <p space="10"><stack item="contenttweaker:bank_item"/><span> with EXACTLY $1,000,000,000</span></p>
+            <p space="10"><stack item="contenttweaker:onebillion"/></p>
             <title space='20'>UNLOCKS</title>
         </page>
         <page>

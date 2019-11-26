@@ -1,4 +1,4 @@
-execute @s ~ ~ ~ gamestage silentadd @p GLOBAL_INVESTOR
+execute @s ~ ~ ~ gamestage silentadd @p FINANCE_MOGUL
 title @s subtitle "PROMOTION EARNED - SEE HANDBOOK"
-title @s title "GLOBAL INVESTOR"
-ranks add @s investor
+title @s title "FINANCE MOGUL"
+ranks add @s mogul

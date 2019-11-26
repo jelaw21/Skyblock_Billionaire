@@ -1,4 +1,4 @@
-execute @s ~ ~ ~ gamestage silentadd @p UN_SECRETARY
+execute @s ~ ~ ~ gamestage silentadd @p WORLD_BANK
 title @s subtitle "PROMOTION EARNED - SEE HANDBOOK"
-title @s title "U.N. SECRETARY GENERAL"
-ranks add @s un
+title @s title "PRESIDENT OF THE WORLD BANK"
+ranks add @s bank

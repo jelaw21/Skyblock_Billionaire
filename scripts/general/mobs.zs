@@ -310,3 +310,11 @@
    else
         return null;
 });
+<entity:minecraft:ender_dragon>.addDropFunction(function(entity,dmgSource){
+
+   if(dmgSource.getDamageType()=="player" & entity.getDimension() == 1){
+        return <minecraft:dragon_egg>;
+   }
+   else
+        return null;
+});

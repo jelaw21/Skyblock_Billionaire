@@ -1,4 +1,12 @@
 //SHAPELESS
+recipes.addShapeless(<contenttweaker:approval>, [<contenttweaker:bank>.giveBack(),<thermalfoundation:diagram_redprint>]);
+recipes.addShapeless(<contenttweaker:approval_investment>, [<contenttweaker:bank>.reuse(),<minecraft:writable_book>]);
+recipes.addShapeless(<contenttweaker:approval_credit>, [<contenttweaker:bank>.reuse(),<minecraft:book>]);
+recipes.addShapeless(<contenttweaker:approval_loan>, [<contenttweaker:bank>.reuse(),<minecraft:paper>]);
+recipes.addShapeless(<contenttweaker:scooter_glass> * 8, [<ore:blockGlass>,<minecraft:glowstone_dust>,<minecraft:dye:1>,<minecraft:glowstone_dust>]);
+recipes.addShapeless(<industrialforegoing:pink_slime>*2, [<forge:bucketfilled>.onlyWithTag({FluidName:"if.pink_slime",Amount:1000}).transformReplace(<minecraft:bucket>)]);
+recipes.addShapeless(<contenttweaker:hundredbundle>*9, [<contenttweaker:hundredbundlebundle>]);
+recipes.addShapeless(<modcurrency:banknote:5>*9, [<contenttweaker:hundredbundle>]);
 recipes.addShapeless(<contenttweaker:romeo_stone_mossy> * 2, [<contenttweaker:romeo_stonebrick>, <minecraft:vine>, <minecraft:vine>]);
 recipes.addShapeless(<gardenstuff:stone_block>,[<chisel:block_charcoal2:1>]);
 recipes.addShapeless(<mekanism:basicblock:3>,[<gardenstuff:stone_block>]);
@@ -123,7 +131,7 @@ recipes.addShaped(<sky_orchards:sapling_copperina>, [[<ore:oreCopper>, <ore:tree
 recipes.addShaped(<sky_orchards:sapling_mithril>, [[<ore:oreMithril>, <ore:treeSapling>, <ore:oreMithril>],[<ore:treeSapling>, <silentgems:craftingmaterial>, <ore:treeSapling>], [<ore:oreMithril>, <ore:treeSapling>, <ore:oreMithril>]]);
 recipes.addShaped(<boneappetit:fiery_bone_meal>*4, [[<minecraft:dye:15>, <minecraft:dye:15>, <minecraft:dye:15>],
 [<minecraft:dye:15>, <minecraft:blaze_powder>, <minecraft:dye:15>], [<minecraft:dye:15>, <minecraft:dye:15>, <minecraft:dye:15>]]);
-recipes.addShaped(<earthworks:block_rammed_earth>, [[null, null, null],[<minecraft:dirt>, <minecraft:dirt:1>, <minecraft:dirt>], [<minecraft:dirt>, <minecraft:dirt:1>, <minecraft:dirt>]]);
+recipes.addShaped(<earthworks:block_rammed_earth>*2, [[null, null, null],[<minecraft:dirt>, <minecraft:dirt:1>, <minecraft:dirt>], [<minecraft:dirt>, <minecraft:dirt:1>, <minecraft:dirt>]]);
 recipes.addShaped(<contenttweaker:wood_hammer>, [[null, <ore:plankWood>, null],[null, <minecraft:stick>, <ore:plankWood>], [<minecraft:stick>, null, null]]);
 recipes.addShaped(<contenttweaker:diamond_hammer>, [[null, <minecraft:diamond>, null],[null, <minecraft:stick>, <minecraft:diamond>], [<minecraft:stick>, null, null]]);
 recipes.addShaped(<contenttweaker:iron_hammer>, [[null, <minecraft:iron_ingot>, null],[null, <minecraft:stick>, <minecraft:iron_ingot>], [<minecraft:stick>, null, null]]);
@@ -214,6 +222,7 @@ furnace.addRecipe(<minecraft:dirt>, <sky_orchards:amber_dirty>, 2.03703697770833
 furnace.addRecipe(<silentgems:craftingmaterial:3>, <sky_orchards:amber_chaotic>, 2.0370369777083397);
 furnace.addRecipe(<minecraft:glowstone_dust>, <sky_orchards:amber_illuminatree>, 2.0370369777083397);
 furnace.addRecipe(<minecraft:coal>, <sky_orchards:amber_carbon>, 2.0370369777083397);
+furnace.addRecipe(<minecraft:dirt>, <contenttweaker:dirt_strip>, 1.0);
 furnace.addRecipe(<minecraft:prismarine_shard>, <contenttweaker:prismarine_strip>, 1.0);
 furnace.addRecipe(<minecraft:ender_pearl>, <contenttweaker:ender_strip>, 1.0);
 furnace.addRecipe(<minecraft:quartz>, <contenttweaker:quartz_strip>, 1.0);

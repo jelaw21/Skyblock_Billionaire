@@ -1,0 +1,72 @@
+{
+    "registryname": "global_energy",
+    "localizedname": "Global Market: Energy",
+    "requires-blueprint": true,
+    "modifiers":[
+        {
+            "elements": "modularmachinery:blockcasing@3",
+            "x": 0,
+            "y": -1,
+            "z": 0,
+            "description": "Use the Low-Income Business Upgrade and the Machine Casing\nin the Global Market Upgrade to get upgrade block.\nReplace the block under controller with upgrade block.",
+            "modifier": {
+                "io": "output",
+                "target": "modularmachinery:item",
+                "operation": 1,
+                "multiplier": 2
+            }
+        },
+        {
+            "elements": "modularmachinery:blockcasing@5",
+            "x": 0,
+            "y": -1,
+            "z": 0,
+            "description": "Use the Mid-Income Business Upgrade and the Machine Casing\nin the Global Market Upgrade to get upgrade block.\nReplace the block under controller with upgrade block.",
+            "modifier": {
+                "io": "output",
+                "target": "modularmachinery:item",
+                "operation": 1,
+                "multiplier": 3
+            }
+        },
+        {
+            "elements": "modularmachinery:blockcasing@4",
+            "x": 0,
+            "y": -1,
+            "z": 0,
+            "description": "Use the High-Income Business Upgrade and the Machine Casing\nin the Global Market Upgrade to get upgrade block.\nReplace the block under controller with upgrade block.",
+            "modifier": {
+                "io": "output",
+                "target": "modularmachinery:item",
+                "operation": 1,
+                "multiplier": 5
+            }
+        }
+    ],
+    "color": "88567e",
+    "parts": [
+        {
+            "x": 1,
+            "y": -1,
+            "z": 0,
+            "elements": [
+                "modularmachinery:blockenergyinputhatch"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -1,
+            "z": 0,
+            "elements": [
+                "modularmachinery:blockcasing"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -1,
+            "z": 0,
+            "elements": [
+                "modularmachinery:blockoutputbus"
+            ]
+        }
+    ]}
