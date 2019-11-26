@@ -97,7 +97,6 @@ reci.build();
 reci = mods.modularmachinery.RecipeBuilder.newBuilder("item_output_upgrade1", "global_upgrades", 160, 0);
 reci.addEnergyPerTickInput(10);
 reci.addItemInput(<modularmachinery:blockoutputbus>);
-reci.addItemInput(<modcurrency:banknote:5>);
 reci.addItemOutput(<modularmachinery:blockoutputbus:1>);
 reci.build();
 
