@@ -11,7 +11,6 @@ mods.Delivery.Store.addTrade("GENERAL_MANAGER",<contenttweaker:filingcabinet>, w
 
 mods.Delivery.Store.addTrade("REGIONAL_MANAGER",<contenttweaker:compactstorage>, warehouse, <contenttweaker:bank_item>
 .withTag({Total: 17000.0 as float, display: {Lore: ["$17000.0"]}}));
-mods.Delivery.Store.addTrade("REGIONAL_MANAGER",<contenttweaker:backpacks>, warehouse, <contenttweaker:bank_item>.withTag({Total: 40000.0 as float, display: {Lore: ["$40000.0"]}}));
 mods.Delivery.Store.addTrade("REGIONAL_MANAGER",<contenttweaker:practicallogistics2>, warehouse, <contenttweaker:bank_item>.withTag({Total: 25000.0 as float, display: {Lore: ["$25000.0"]}}));
 mods.Delivery.Store.addTrade("REGIONAL_MANAGER",<contenttweaker:refinedrelocation>, warehouse, <contenttweaker:bank_item>.withTag({Total: 20000.0 as float, display: {Lore: ["$20000.0"]}}));
 mods.Delivery.Store.addTrade("REGIONAL_MANAGER",<contenttweaker:xnet>, warehouse, <contenttweaker:bank_item>.withTag({Total: 30000.0 as float, display: {Lore: ["$30000.0"]}}));
