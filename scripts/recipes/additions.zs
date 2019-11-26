@@ -2,7 +2,7 @@
 recipes.addShapeless(<contenttweaker:global_upgrades_kit>, [<extrautils2:machine>.withTag({Type: "crafttweaker:global_upgrade"})]);
 recipes.addShapeless(<contenttweaker:global_items_kit>, [<extrautils2:machine>.withTag({Type: "crafttweaker:global_items"})]);
 recipes.addShapeless(<contenttweaker:global_fluids_kit>, [<extrautils2:machine>.withTag({Type: "crafttweaker:global_liquid"})]);
-recipes.addShapeless(<contenttweaker:global_energy_kit>, [<extrautils2:machine>.withTag({Type: "crafttweaker:global_energy"}));
+recipes.addShapeless(<contenttweaker:global_energy_kit>, [<extrautils2:machine>.withTag({Type: "crafttweaker:global_energy"})]);
 recipes.addShapeless(<contenttweaker:approval>, [<contenttweaker:bank>.giveBack(),<thermalfoundation:diagram_redprint>]);
 recipes.addShapeless(<contenttweaker:approval_investment>, [<contenttweaker:bank>.reuse(),<minecraft:writable_book>]);
 recipes.addShapeless(<contenttweaker:approval_credit>, [<contenttweaker:bank>.reuse(),<minecraft:book>]);
