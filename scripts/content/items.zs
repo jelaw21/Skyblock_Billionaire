@@ -1052,6 +1052,53 @@ wood.itemDestroyedBlock = function(stack, world, blockstate, pos, player) {
 };
 wood.register();
 
+var pick = VanillaFactory.createItem("starpick");
+pick.toolClass = "pickaxe";
+pick.toolLevel = 4;
+pick.maxDamage = 777;
+pick.maxStackSize = 1;
+pick.itemDestroySpeed = function(stack, block){
+	return 7.0 as float;
+};
+pick.itemDestroyedBlock = function(stack, world, blockstate, pos, player) {
+    stack.damage(1, player);
+    return true;
+};
+pick.register();
+
+pick = VanillaFactory.createItem("pick_nub");
+pick.toolClass = "pickaxe";
+pick.toolLevel = 6;
+pick.maxDamage = 4000;
+pick.maxStackSize = 1;
+pick.itemDestroySpeed = function(stack, block){
+	return 9.0 as float;
+};
+pick.itemDestroyedBlock = function(stack, world, blockstate, pos, player) {
+    stack.damage(1, player);
+    return true;
+};
+pick.register();
+
+var food = VanillaFactory.createItemFood("starshot", 17);
+food.maxStackSize = 77;
+food.setSaturation(0.7);
+food.alwaysEdible = true;
+food.onItemFoodEaten = function(stack, world, player) {
+    if (!world.isRemote()) {
+        player.addPotionEffect(<potion:minecraft:health_boost>.makePotionEffect(18000, 3));
+    }
+};
+food.register();
+
+var blockDonor = VanillaFactory.createBlock("block_nub", <blockmaterial:wood>);
+blockDonor.setBlockHardness(2.0);
+blockDonor.setBlockResistance(600.0);
+blockDonor.setToolClass("axe");
+blockDonor.setToolLevel(2);
+blockDonor.setBlockSoundType(<soundtype:wood>);
+blockDonor.register();
+
 var water = VanillaFactory.createItem("item_water");
 water.maxStackSize = 64;
 water.register();
@@ -1389,6 +1436,18 @@ donor.setToolLevel(0);
 donor.setBlockSoundType(<soundtype:glass>);
 donor.register();
 
+donor = VanillaFactory.createBlock("StarlighT", <blockmaterial:rock>);
+donor.setLightValue(1.0f);
+donor.setLightOpacity(200);
+donor.setBlockLayer("TRANSLUCENT");
+donor.setFullBlock(false);
+donor.setBlockHardness(2.0);
+donor.setBlockResistance(6000.0);
+donor.setToolClass("shovel");
+donor.setToolLevel(0);
+donor.setBlockSoundType(<soundtype:metal>);
+donor.register();
+
 var bundle = VanillaFactory.createItem("hundredBundle");
 bundle.maxStackSize = 64;
 bundle.register();
@@ -1473,14 +1532,6 @@ accounts.itemRightClick = function(stack, world, player, hand) {
 };
 accounts.register();
 
-accounts = VanillaFactory.createItem("player_gift");
-accounts.maxStackSize = 1;
-accounts.itemRightClick = function(stack, world, player, hand) {
-	stack.shrink(1);
-    return "Pass";
-};
-accounts.register();
-
 var community = VanillaFactory.createItem("bank");
 community.maxStackSize = 1;
 community.register();
@@ -1537,3 +1588,4 @@ community = VanillaFactory.createItem("construction");
 community.maxStackSize = 1;
 community.rarity = "uncommon";
 community.register();
+

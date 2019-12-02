@@ -578,7 +578,7 @@ for items in onePenny{
 	machine.addRecipe({"itemIn":items, "upgrade":<contenttweaker:low_income>}, {"moneyOut":<modcurrency:coin>*2%80}, 200, 30);
 	machine.addRecipe({"itemIn":items, "upgrade":<contenttweaker:mid_income>}, {"moneyOut":<modcurrency:coin>*3%80}, 200, 40);
 	machine.addRecipe({"itemIn":items, "upgrade":<contenttweaker:high_income>}, {"moneyOut":<modcurrency:coin>*5%80}, 200, 50);*/
-	var reci = mods.modularmachinery.RecipeBuilder.newBuilder("items" + items.name + items.metadata, "global_items", 120, 0);
+	var reci = mods.modularmachinery.RecipeBuilder.newBuilder("items" + items.name + items.metadata, "global_items", 90, 0);
     reci.addEnergyPerTickInput(20);
     reci.addItemInput(items);
     reci.addItemOutput(<modcurrency:coin>);
@@ -595,7 +595,7 @@ for items in oneNickel{
 	machine.addRecipe({"itemIn":items, "upgrade":<contenttweaker:low_income>}, {"moneyOut":<modcurrency:coin:1>*2%80}, 200, 30);
 	machine.addRecipe({"itemIn":items, "upgrade":<contenttweaker:mid_income>}, {"moneyOut":<modcurrency:coin:1>*3%80}, 200, 40);
 	machine.addRecipe({"itemIn":items, "upgrade":<contenttweaker:high_income>}, {"moneyOut":<modcurrency:coin:1>*5%80}, 200, 50);*/
-    var reci = mods.modularmachinery.RecipeBuilder.newBuilder("market" + items.name + items.metadata, "global_items", 120, 0);
+    var reci = mods.modularmachinery.RecipeBuilder.newBuilder("market" + items.name + items.metadata, "global_items", 90, 0);
     reci.addEnergyPerTickInput(20);
     reci.addItemInput(items);
     reci.addItemOutput(<modcurrency:coin:1>);
@@ -611,7 +611,7 @@ for items in oneDime{
     machine.addRecipe({"itemIn":items, "upgrade":<contenttweaker:low_income>}, {"moneyOut":<modcurrency:coin:2>*2%80}, 200, 30);
     machine.addRecipe({"itemIn":items, "upgrade":<contenttweaker:mid_income>}, {"moneyOut":<modcurrency:coin:2>*3%80}, 200, 40);
     machine.addRecipe({"itemIn":items, "upgrade":<contenttweaker:high_income>}, {"moneyOut":<modcurrency:coin:2>*5%80}, 200, 50);*/
-    var reci = mods.modularmachinery.RecipeBuilder.newBuilder("market" + items.name + items.metadata, "global_items", 120, 0);
+    var reci = mods.modularmachinery.RecipeBuilder.newBuilder("market" + items.name + items.metadata, "global_items", 90, 0);
     reci.addEnergyPerTickInput(20);
     reci.addItemInput(items);
     reci.addItemOutput(<modcurrency:coin:2>);
@@ -628,7 +628,7 @@ for items in oneQuarter{
 	machine.addRecipe({"itemIn":items, "upgrade":<contenttweaker:low_income>}, {"moneyOut":<modcurrency:coin:3>*2%80}, 200, 30);
 	machine.addRecipe({"itemIn":items, "upgrade":<contenttweaker:mid_income>}, {"moneyOut":<modcurrency:coin:3>*3%80}, 200, 40);
 	machine.addRecipe({"itemIn":items, "upgrade":<contenttweaker:high_income>}, {"moneyOut":<modcurrency:coin:3>*5%80}, 200, 50);*/
-    var reci = mods.modularmachinery.RecipeBuilder.newBuilder("market" + items.name + items.metadata, "global_items", 120, 0);
+    var reci = mods.modularmachinery.RecipeBuilder.newBuilder("market" + items.name + items.metadata, "global_items", 90, 0);
     reci.addEnergyPerTickInput(20);
     reci.addItemInput(items);
     reci.addItemOutput(<modcurrency:coin:3>);
@@ -645,7 +645,7 @@ for items in twoQuarter{
 	machine.addRecipe({"itemIn":items, "upgrade":<contenttweaker:low_income>}, {"moneyOut":<modcurrency:coin:3>*4%80}, 200, 30);
 	machine.addRecipe({"itemIn":items, "upgrade":<contenttweaker:mid_income>}, {"moneyOut":<modcurrency:coin:3>*6%80}, 200, 40);
 	machine.addRecipe({"itemIn":items, "upgrade":<contenttweaker:high_income>}, {"moneyOut":<modcurrency:coin:3>*10%80}, 200, 50);*/
-    var reci = mods.modularmachinery.RecipeBuilder.newBuilder("market" + items.name + items.metadata, "global_items", 120, 0);
+    var reci = mods.modularmachinery.RecipeBuilder.newBuilder("market" + items.name + items.metadata, "global_items", 90, 0);
     reci.addEnergyPerTickInput(20);
     reci.addItemInput(items);
     reci.addItemOutput(<modcurrency:coin:3>*2);
@@ -663,7 +663,7 @@ for items in oneDollar{
 	machine.addRecipe({"itemIn":items, "upgrade":<contenttweaker:mid_income>}, {"moneyOut":<modcurrency:coin:4>*3%80}, 200, 40);
 	machine.addRecipe({"itemIn":items, "upgrade":<contenttweaker:high_income>}, {"moneyOut":<modcurrency:coin:4>*5%80}, 200, 50);*/
 	mods.Delivery.Store.addTrade("EMPLOYEE",items*32, <modcurrency:coin:4>*32);
-    var reci = mods.modularmachinery.RecipeBuilder.newBuilder("market" + items.name + items.metadata, "global_items", 120, 0);
+    var reci = mods.modularmachinery.RecipeBuilder.newBuilder("market" + items.name + items.metadata, "global_items", 90, 0);
     reci.addEnergyPerTickInput(20);
     reci.addItemInput(items);
     reci.addItemOutput(<modcurrency:coin:4>);
@@ -681,7 +681,7 @@ for items in twoDollar{
 	machine.addRecipe({"itemIn":items, "upgrade":<contenttweaker:mid_income>}, {"moneyOut":<modcurrency:coin:4>*6%80}, 200, 40);
 	machine.addRecipe({"itemIn":items, "upgrade":<contenttweaker:high_income>}, {"moneyOut":<modcurrency:coin:4>*10%80}, 200, 50);*/
 	mods.Delivery.Store.addTrade("EMPLOYEE",items*16, <modcurrency:coin:4>*32);
-    var reci = mods.modularmachinery.RecipeBuilder.newBuilder("market" + items.name + items.metadata, "global_items", 120, 0);
+    var reci = mods.modularmachinery.RecipeBuilder.newBuilder("market" + items.name + items.metadata, "global_items", 90, 0);
     reci.addEnergyPerTickInput(20);
     reci.addItemInput(items);
     reci.addItemOutput(<modcurrency:coin:4>*2);
@@ -699,7 +699,7 @@ for items in threeDollar{
 	machine.addRecipe({"itemIn":items, "upgrade":<contenttweaker:mid_income>}, {"moneyOut":<modcurrency:coin:4>*9%80}, 200, 40);
 	machine.addRecipe({"itemIn":items, "upgrade":<contenttweaker:high_income>}, {"moneyOut":<modcurrency:coin:4>*15%80}, 200, 50);*/
 	mods.Delivery.Store.addTrade("EMPLOYEE",items*16, <modcurrency:coin:4>*48);
-    var reci = mods.modularmachinery.RecipeBuilder.newBuilder("market" + items.name + items.metadata, "global_items", 120, 0);
+    var reci = mods.modularmachinery.RecipeBuilder.newBuilder("market" + items.name + items.metadata, "global_items", 90, 0);
     reci.addEnergyPerTickInput(20);
     reci.addItemInput(items);
     reci.addItemOutput(<modcurrency:coin:4>*3);
@@ -720,7 +720,7 @@ for items in oneFive{
 	machine.addRecipe({"itemIn":items, "upgrade":<contenttweaker:mid_income>}, {"moneyOut":<modcurrency:banknote:1>*3%80}, 200, 40);
 	machine.addRecipe({"itemIn":items, "upgrade":<contenttweaker:high_income>}, {"moneyOut":<modcurrency:banknote:1>*5%80}, 200, 50);*/
 	mods.Delivery.Store.addTrade("SHIFT_MANAGER",items*16, <modcurrency:banknote:1>*16);
-    var reci = mods.modularmachinery.RecipeBuilder.newBuilder("market" + items.name + items.metadata, "global_items", 120, 0);
+    var reci = mods.modularmachinery.RecipeBuilder.newBuilder("market" + items.name + items.metadata, "global_items", 90, 0);
     reci.addEnergyPerTickInput(20);
     reci.addItemInput(items);
     reci.addItemOutput(<modcurrency:banknote:1>);
@@ -738,7 +738,7 @@ for items in sixDollar{
 	machine.addRecipe({"itemIn":items, "upgrade":<contenttweaker:mid_income>}, {"moneyOut":<modcurrency:coin:4>*18%80}, 200, 40);
 	machine.addRecipe({"itemIn":items, "upgrade":<contenttweaker:high_income>}, {"moneyOut":<modcurrency:coin:4>*30%80}, 200, 50);*/
 	mods.Delivery.Store.addTrade("SHIFT_MANAGER",items*10, <modcurrency:coin:4>*60);
-    var reci = mods.modularmachinery.RecipeBuilder.newBuilder("market" + items.name + items.metadata, "global_items", 120, 0);
+    var reci = mods.modularmachinery.RecipeBuilder.newBuilder("market" + items.name + items.metadata, "global_items", 90, 0);
     reci.addEnergyPerTickInput(20);
     reci.addItemInput(items);
     reci.addItemOutput(<modcurrency:coin:4>*6);
@@ -757,7 +757,7 @@ for items in oneTen{
 	machine.addRecipe({"itemIn":items, "upgrade":<contenttweaker:mid_income>}, {"moneyOut":<modcurrency:banknote:2>*3%80}, 200, 40);
 	machine.addRecipe({"itemIn":items, "upgrade":<contenttweaker:high_income>}, {"moneyOut":<modcurrency:banknote:2>*5%80}, 200, 50);*/
 	mods.Delivery.Store.addTrade("SHIFT_MANAGER",items*8, <modcurrency:banknote:2>*8);
-    var reci = mods.modularmachinery.RecipeBuilder.newBuilder("market" + items.name + items.metadata, "global_items", 120, 0);
+    var reci = mods.modularmachinery.RecipeBuilder.newBuilder("market" + items.name + items.metadata, "global_items", 90, 0);
     reci.addEnergyPerTickInput(20);
     reci.addItemInput(items);
     reci.addItemOutput(<modcurrency:banknote:2>);
@@ -775,7 +775,7 @@ for items in oneTwenty{
 	machine.addRecipe({"itemIn":items, "upgrade":<contenttweaker:mid_income>}, {"moneyOut":<modcurrency:banknote:3>*3%80}, 200, 40);
 	machine.addRecipe({"itemIn":items, "upgrade":<contenttweaker:high_income>}, {"moneyOut":<modcurrency:banknote:3>*5%80}, 200, 50);*/
 	mods.Delivery.Store.addTrade("GENERAL_MANAGER",items*8, <modcurrency:banknote:3>*8);
-    var reci = mods.modularmachinery.RecipeBuilder.newBuilder("market" + items.name + items.metadata, "global_items", 120, 0);
+    var reci = mods.modularmachinery.RecipeBuilder.newBuilder("market" + items.name + items.metadata, "global_items", 90, 0);
     reci.addEnergyPerTickInput(20);
     reci.addItemInput(items);
     reci.addItemOutput(<modcurrency:banknote:3>);
@@ -794,7 +794,7 @@ for items in threeTen{
 	machine.addRecipe({"itemIn":items, "upgrade":<contenttweaker:mid_income>}, {"moneyOut":<modcurrency:banknote:2>*9%80}, 200, 40);
 	machine.addRecipe({"itemIn":items, "upgrade":<contenttweaker:high_income>}, {"moneyOut":<modcurrency:banknote:2>*15%80}, 200, 50);*/
 	mods.Delivery.Store.addTrade("GENERAL_MANAGER",items*8, <modcurrency:banknote:2>*24);
-    var reci = mods.modularmachinery.RecipeBuilder.newBuilder("market" + items.name + items.metadata, "global_items", 120, 0);
+    var reci = mods.modularmachinery.RecipeBuilder.newBuilder("market" + items.name + items.metadata, "global_items", 90, 0);
     reci.addEnergyPerTickInput(20);
     reci.addItemInput(items);
     reci.addItemOutput(<modcurrency:banknote:2>*3);
@@ -812,7 +812,7 @@ for items in oneFifty{
 	machine.addRecipe({"itemIn":items, "upgrade":<contenttweaker:mid_income>}, {"moneyOut":<modcurrency:banknote:4>*3%90}, 200, 40);
 	machine.addRecipe({"itemIn":items, "upgrade":<contenttweaker:high_income>}, {"moneyOut":<modcurrency:banknote:4>*5%90}, 200, 50);*/
 	mods.Delivery.Store.addTrade("GENERAL_MANAGER",items*4, <modcurrency:banknote:4>*4);
-	var reci = mods.modularmachinery.RecipeBuilder.newBuilder("market" + items.name + items.metadata, "global_items", 120, 0);
+	var reci = mods.modularmachinery.RecipeBuilder.newBuilder("market" + items.name + items.metadata, "global_items", 90, 0);
     reci.addEnergyPerTickInput(20);
     reci.addItemInput(items);
     reci.addItemOutput(<modcurrency:banknote:4>);
@@ -829,7 +829,7 @@ for items in oneHundred{
 	machine.addRecipe({"itemIn":items, "upgrade":<contenttweaker:mid_income>}, {"moneyOut":<modcurrency:banknote:5>*3%90}, 200, 40);
 	machine.addRecipe({"itemIn":items, "upgrade":<contenttweaker:high_income>}, {"moneyOut":<modcurrency:banknote:5>*5%90}, 200, 50);*/
 	mods.Delivery.Store.addTrade("ASSISTANT_MANAGER",items*2, <modcurrency:banknote:5>*2);
-    var reci = mods.modularmachinery.RecipeBuilder.newBuilder("market" +items.name + items.metadata, "global_items", 120, 0);
+    var reci = mods.modularmachinery.RecipeBuilder.newBuilder("market" +items.name + items.metadata, "global_items", 90, 0);
     reci.addEnergyPerTickInput(20);
     reci.addItemInput(items);
     reci.addItemOutput(<modcurrency:banknote:5>);
@@ -847,7 +847,7 @@ for items in twoHundred{
 	machine.addRecipe({"itemIn":items, "upgrade":<contenttweaker:mid_income>}, {"moneyOut":<modcurrency:banknote:5>*6%90}, 200, 40);
 	machine.addRecipe({"itemIn":items, "upgrade":<contenttweaker:high_income>}, {"moneyOut":<modcurrency:banknote:5>*10%90}, 200, 50);*/
 	mods.Delivery.Store.addTrade("ASSISTANT_MANAGER",items*2,<modcurrency:banknote:5>*2);
-    var reci = mods.modularmachinery.RecipeBuilder.newBuilder("market" + items.name + items.metadata, "global_items", 120, 0);
+    var reci = mods.modularmachinery.RecipeBuilder.newBuilder("market" + items.name + items.metadata, "global_items", 90, 0);
     reci.addEnergyPerTickInput(20);
     reci.addItemInput(items);
     reci.addItemOutput(<modcurrency:banknote:5>*2);
@@ -864,7 +864,7 @@ for items in fiveHundred{
 		machine.addRecipe({"itemIn":items, "upgrade":<contenttweaker:mid_income>}, {"moneyOut":<modcurrency:banknote:5>*15%90}, 200, 40);
 		machine.addRecipe({"itemIn":items, "upgrade":<contenttweaker:high_income>}, {"moneyOut":<modcurrency:banknote:5>*25%90}, 200, 50);*/
 		mods.Delivery.Store.addTrade("ASSISTANT_MANAGER",items,<modcurrency:banknote:5>*5);
-        var reci = mods.modularmachinery.RecipeBuilder.newBuilder("market" + items.name + items.metadata, "global_items", 120, 0);
+        var reci = mods.modularmachinery.RecipeBuilder.newBuilder("market" + items.name + items.metadata, "global_items", 90, 0);
         reci.addEnergyPerTickInput(20);
         reci.addItemInput(items);
         reci.addItemOutput(<modcurrency:banknote:5>*5);
@@ -881,7 +881,7 @@ for items in tenHundred{
 		machine.addRecipe({"itemIn":items, "upgrade":<contenttweaker:mid_income>}, {"moneyOut":<modcurrency:banknote:5>*30%95}, 200, 40);
 		machine.addRecipe({"itemIn":items, "upgrade":<contenttweaker:high_income>}, {"moneyOut":<modcurrency:banknote:5>*50%95}, 200, 50);*/
 		mods.Delivery.Store.addTrade("ASSISTANT_MANAGER",items,<modcurrency:banknote:5>*10);
-        var reci = mods.modularmachinery.RecipeBuilder.newBuilder("market" + items.name + items.metadata, "global_items", 120, 0);
+        var reci = mods.modularmachinery.RecipeBuilder.newBuilder("market" + items.name + items.metadata, "global_items", 90, 0);
         reci.addEnergyPerTickInput(20);
         reci.addItemInput(items);
         reci.addItemOutput(<modcurrency:banknote:5>*10);

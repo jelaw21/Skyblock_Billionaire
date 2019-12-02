@@ -50,7 +50,6 @@ reci.build();
 reci = mods.modularmachinery.RecipeBuilder.newBuilder("item_input_upgrade1", "global_upgrades", 160, 0);
 reci.addEnergyPerTickInput(10);
 reci.addItemInput(<modularmachinery:blockinputbus>);
-reci.addItemInput(<modcurrency:banknote:5>);
 reci.addItemOutput(<modularmachinery:blockinputbus:1>);
 reci.build();
 
@@ -97,6 +96,7 @@ reci.build();
 reci = mods.modularmachinery.RecipeBuilder.newBuilder("item_output_upgrade1", "global_upgrades", 160, 0);
 reci.addEnergyPerTickInput(10);
 reci.addItemInput(<modularmachinery:blockoutputbus>);
+reci.addItemInput(<modcurrency:banknote:5>);
 reci.addItemOutput(<modularmachinery:blockoutputbus:1>);
 reci.build();
 

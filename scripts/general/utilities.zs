@@ -50,9 +50,7 @@ import crafttweaker.data.IData;
 <contenttweaker:creditclosed>.addTooltip(format.green("Right Click to Trash"));
 <contenttweaker:investmentclosed>.addTooltip(format.green("Right Click to Trash"));
 
-
-<contenttweaker:player_gift>.addTooltip(format.green("A Gift of Gratitude"));
-<contenttweaker:player_gift>.addTooltip(format.green("Right Click to Use"));
+<contenttweaker:pick_nub>.addTooltip(format.green("It's actually a pickaxe."));
 
 <minecraft:ender_pearl>.maxStackSize = 32;
 

@@ -8,7 +8,7 @@ addParent("triumph:billionaire/boardmember/root")
 setRequiresParents()
 
 //Criteria
-criteria = addCriteria("clickedItem", "triumph:right_click_item")
+criteria = addCriteria("promotion", "minecraft:inventory_changed")
 criteria.addItem(<contenttweaker:vote_1>)
 
 setShowToast(true)

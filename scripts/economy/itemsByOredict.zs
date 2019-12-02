@@ -385,7 +385,7 @@ for stuff in oneNickel{
 
 for stuff in oneDime{
 
-	var reci = mods.modularmachinery.RecipeBuilder.newBuilder("oredict" + stuff.name, "global_items", 120, 0);
+	var reci = mods.modularmachinery.RecipeBuilder.newBuilder("oredict" + stuff.name, "global_items", 90, 0);
     reci.addEnergyPerTickInput(20);
     reci.addItemInput(stuff);
     reci.addItemOutput(<modcurrency:coin:2>);
@@ -403,7 +403,7 @@ for stuff in oneDime{
 
 for stuff in oneQuarter{
 
-	var reci = mods.modularmachinery.RecipeBuilder.newBuilder("oredict" + stuff.name, "global_items", 120, 0);
+	var reci = mods.modularmachinery.RecipeBuilder.newBuilder("oredict" + stuff.name, "global_items", 90, 0);
     reci.addEnergyPerTickInput(20);
     reci.addItemInput(stuff);
     reci.addItemOutput(<modcurrency:coin:3>);
@@ -421,7 +421,7 @@ for stuff in oneQuarter{
 
 for stuff in twoQuarter{
 
-	var reci = mods.modularmachinery.RecipeBuilder.newBuilder("oredict" + stuff.name, "global_items", 120, 0);
+	var reci = mods.modularmachinery.RecipeBuilder.newBuilder("oredict" + stuff.name, "global_items", 90, 0);
     reci.addEnergyPerTickInput(20);
     reci.addItemInput(stuff);
     reci.addItemOutput(<modcurrency:coin:3>*2);
@@ -438,7 +438,7 @@ for stuff in twoQuarter{
 }
 
 for stuff in oneDollar{
-	var reci = mods.modularmachinery.RecipeBuilder.newBuilder("oredict" + stuff.name, "global_items", 120, 0);
+	var reci = mods.modularmachinery.RecipeBuilder.newBuilder("oredict" + stuff.name, "global_items", 90, 0);
     reci.addEnergyPerTickInput(20);
     reci.addItemInput(stuff);
     reci.addItemOutput(<modcurrency:coin:4>);
@@ -457,7 +457,7 @@ for stuff in oneDollar{
 
 for stuff in threeDollar{
 
-	var reci = mods.modularmachinery.RecipeBuilder.newBuilder("oredict" + stuff.name, "global_items", 120, 0);
+	var reci = mods.modularmachinery.RecipeBuilder.newBuilder("oredict" + stuff.name, "global_items", 90, 0);
     reci.addEnergyPerTickInput(20);
     reci.addItemInput(stuff);
     reci.addItemOutput(<modcurrency:coin:4>*3);
@@ -475,7 +475,7 @@ for stuff in threeDollar{
 }
 
 for stuff in oneFive{
-	var reci = mods.modularmachinery.RecipeBuilder.newBuilder("oredict" + stuff.name, "global_items", 120, 0);
+	var reci = mods.modularmachinery.RecipeBuilder.newBuilder("oredict" + stuff.name, "global_items", 90, 0);
     reci.addEnergyPerTickInput(20);
     reci.addItemInput(stuff);
     reci.addItemOutput(<modcurrency:banknote:1>);
@@ -494,7 +494,7 @@ for stuff in oneFive{
 
 for stuff in oneTen{
 
-	var reci = mods.modularmachinery.RecipeBuilder.newBuilder("oredict" + stuff.name, "global_items", 120, 0);
+	var reci = mods.modularmachinery.RecipeBuilder.newBuilder("oredict" + stuff.name, "global_items", 90, 0);
     reci.addEnergyPerTickInput(20);
     reci.addItemInput(stuff);
     reci.addItemOutput(<modcurrency:banknote:2>);
@@ -512,7 +512,7 @@ for stuff in oneTen{
 }
 
 for stuff in oneTwenty{
-	var reci = mods.modularmachinery.RecipeBuilder.newBuilder("oredict" + stuff.name, "global_items", 120, 0);
+	var reci = mods.modularmachinery.RecipeBuilder.newBuilder("oredict" + stuff.name, "global_items", 90, 0);
     reci.addEnergyPerTickInput(20);
     reci.addItemInput(stuff);
     reci.addItemOutput(<modcurrency:banknote:3>);
@@ -531,7 +531,7 @@ for stuff in oneTwenty{
 
 for stuff in oneFifty{
 
-	var reci = mods.modularmachinery.RecipeBuilder.newBuilder("oredict" + stuff.name, "global_items", 120, 0);
+	var reci = mods.modularmachinery.RecipeBuilder.newBuilder("oredict" + stuff.name, "global_items", 90, 0);
     reci.addEnergyPerTickInput(20);
     reci.addItemInput(stuff);
     reci.addItemOutput(<modcurrency:banknote:4>);
@@ -550,7 +550,7 @@ for stuff in oneFifty{
 
 for stuff in oneHundred{
 
-	var reci = mods.modularmachinery.RecipeBuilder.newBuilder("oredict" + stuff.name, "global_items", 120, 0);
+	var reci = mods.modularmachinery.RecipeBuilder.newBuilder("oredict" + stuff.name, "global_items", 90, 0);
     reci.addEnergyPerTickInput(20);
     reci.addItemInput(stuff);
     reci.addItemOutput(<modcurrency:banknote:5>);
@@ -569,7 +569,7 @@ for stuff in oneHundred{
 
 for stuff in fiveHundred{
 
-	var reci = mods.modularmachinery.RecipeBuilder.newBuilder("oredict" + stuff.name, "global_items", 120, 0);
+	var reci = mods.modularmachinery.RecipeBuilder.newBuilder("oredict" + stuff.name, "global_items", 90, 0);
     reci.addEnergyPerTickInput(20);
     reci.addItemInput(stuff);
     reci.addItemOutput(<modcurrency:banknote:5>*5);

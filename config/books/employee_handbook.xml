@@ -420,10 +420,10 @@
             <title space='20'>REQUIREMENTS</title>
             <p color="#4f5f98" space='10'>Firstly, buy a bank from the store's special equipment tab. After that approve a loan, a line of credit and an investment. You may only have ONE of each active at any time. If you activate an approval, while one is still active, it will stop the previous one and start the new one, and you will have lost money.</p>
             <title space='20'>GATHER</title>
-            <p space="10"><stack item="contenttweaker:hundredmillion"/>
-                <stack item="contenttweaker:low_income_community"/>
-                <stack item="contenttweaker:mid_income_community"/>
-                <stack item="contenttweaker:high_income_community"/></p>
+            <p space="10"><stack item="contenttweaker:hundredmillion"/></p>
+            <p><stack item="contenttweaker:approval_loan"/><span>-></span><stack item="contenttweaker:loanclosed"/></p>
+            <p><stack item="contenttweaker:approval_credit"/><span>-></span><stack item="contenttweaker:creditclosed"/></p>
+            <p><stack item="contenttweaker:approval_investment"/><span>-></span><stack item="contenttweaker:investmentclosed"/></p>
             <title space='20'>UNLOCKS</title>
         </page>
         <page>

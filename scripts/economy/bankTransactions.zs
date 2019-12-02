@@ -330,6 +330,42 @@ recipes.addShapeless("subtract_hundred", bank, [bank.marked("bag").transformRepl
 				return null;	
 		
 	}, null);
+
+recipes.addShapeless("subtract_million", bank, [bank.marked("bag").transformReplace(<contenttweaker:onemillion>),<contenttweaker:onemillion>.reuse()],
+
+		function(out, ins, cInfo){
+
+			var bagTag = ins.bag.tag.Total.asFloat();
+			var sum=0.0 as float;
+			var amount = 1000000.0 as float;
+
+			if(bagTag >= amount){
+				sum = bagTag - amount;
+				sum = round(sum);
+
+				return out.updateTag({Total: sum}).withLore(["$"+ sum]);
+			}else
+				return null;
+
+	}, null);
+
+recipes.addShapeless("subtract_five_million", bank, [bank.marked("bag").transformReplace(<contenttweaker:fivemillion>),<contenttweaker:fivemillion>.reuse()],
+
+		function(out, ins, cInfo){
+
+			var bagTag = ins.bag.tag.Total.asFloat();
+			var sum=0.0 as float;
+			var amount = 5000000.0 as float;
+
+			if(bagTag >= amount){
+				sum = bagTag - amount;
+				sum = round(sum);
+
+				return out.updateTag({Total: sum}).withLore(["$"+ sum]);
+			}else
+				return null;
+
+	}, null);
 	
 recipes.addShapeless("combine_banks", bank, [bank.marked("bag1").transformReplace(bank.withTag({Total: 0}).withLore(["$0"])),bank.marked("bag2")],
 
@@ -358,18 +394,6 @@ recipes.addShapeless("split_banks", bank, [<contenttweaker:split_bill>.reuse(), 
 	
 }, null);
 
-/*recipes.addShapeless("redeem_ira", bank, [bank.marked("bag1"),<contenttweaker:fooldollarone>.marked("bag2")],
-
-	function(out, ins, cInfo){
-
-		var bagTag1 = ins.bag1.tag.Total.asFloat();
-		var bagTag2 = ins.bag2.maxDamage as float;
-		var sum=bagTag1 + bagTag2;
-		sum = round(sum);
-		return out.updateTag({Total: sum}).withLore(["$"+ sum]);
-
-
-}, null);*/
 
 function round(a as float) as float{
     var sum = (a*100) + 0.5;

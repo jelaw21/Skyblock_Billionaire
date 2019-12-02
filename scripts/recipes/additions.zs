@@ -1,12 +1,13 @@
 //SHAPELESS
+recipes.addShapeless(<appliedenergistics2:material:46>, [<techreborn:dust:20>]);
+recipes.addShapeless(<techreborn:dust:20>, [<appliedenergistics2:material:46>]);
+
 recipes.addShapeless(<contenttweaker:global_upgrades_kit>, [<extrautils2:machine>.withTag({Type: "crafttweaker:global_upgrade"})]);
 recipes.addShapeless(<contenttweaker:global_items_kit>, [<extrautils2:machine>.withTag({Type: "crafttweaker:global_items"})]);
 recipes.addShapeless(<contenttweaker:global_fluids_kit>, [<extrautils2:machine>.withTag({Type: "crafttweaker:global_liquid"})]);
 recipes.addShapeless(<contenttweaker:global_energy_kit>, [<extrautils2:machine>.withTag({Type: "crafttweaker:global_energy"})]);
 recipes.addShapeless(<contenttweaker:approval>, [<contenttweaker:bank>.giveBack(),<thermalfoundation:diagram_redprint>]);
-recipes.addShapeless(<contenttweaker:approval_investment>, [<contenttweaker:bank>.reuse(),<minecraft:writable_book>]);
-recipes.addShapeless(<contenttweaker:approval_credit>, [<contenttweaker:bank>.reuse(),<minecraft:book>]);
-recipes.addShapeless(<contenttweaker:approval_loan>, [<contenttweaker:bank>.reuse(),<minecraft:paper>]);
+
 recipes.addShapeless(<contenttweaker:scooter_glass> * 8, [<ore:blockGlass>,<minecraft:glowstone_dust>,<minecraft:dye:1>,<minecraft:glowstone_dust>]);
 recipes.addShapeless(<industrialforegoing:pink_slime>*2, [<forge:bucketfilled>.onlyWithTag({FluidName:"if.pink_slime",Amount:1000}).transformReplace(<minecraft:bucket>)]);
 recipes.addShapeless(<contenttweaker:hundredbundle>*9, [<contenttweaker:hundredbundlebundle>]);
@@ -78,6 +79,12 @@ recipes.addShapeless(<contenttweaker:steel_strip>*2, [<resourcehogs:bacon>.withT
 
 
 //SHAPED
+recipes.addShaped(<contenttweaker:pick_nub>, [[null, <minecraft:gold_ingot>, null],[<minecraft:diamond_axe>, <minecraft:gold_ingot>, <minecraft:diamond_axe>], [null, <minecraft:gold_ingot>, null]]);
+recipes.addShaped(<contenttweaker:block_nub> * 16, [[<minecraft:log:2>, <minecraft:log:2>, <minecraft:log:2>],[<minecraft:log:2>, <minecraft:dye:1>, <minecraft:log:2>], [<minecraft:log:2>, <minecraft:log:2>, <minecraft:log:2>]]);
+recipes.addShaped(<contenttweaker:starshot>, [[<minecraft:cooked_chicken>, <minecraft:cooked_beef>, <minecraft:cooked_fish>],[<minecraft:baked_potato>, <minecraft:glass_bottle>, <minecraft:apple>], [<minecraft:carrot>, <minecraft:sugar>, <minecraft:bread>]]);
+recipes.addShaped(<contenttweaker:starpick>, [[<contenttweaker:starlight>, <contenttweaker:starlight>, <contenttweaker:starlight>],[<contenttweaker:starlight>, <minecraft:iron_pickaxe>, <contenttweaker:starlight>], [<contenttweaker:starlight>, <contenttweaker:starlight>, <contenttweaker:starlight>]]);
+recipes.addShaped(<contenttweaker:starlight> * 8, [[<minecraft:glass>, <minecraft:dye:6>, <minecraft:glass>],[<minecraft:dye>, <minecraft:glowstone_dust>, <minecraft:dye>], [<minecraft:glass>, <minecraft:dye:5>, <minecraft:glass>]]);
+
 recipes.addShaped(<contenttweaker:hundredbundlebundle>, [[<contenttweaker:hundredbundle>, <contenttweaker:hundredbundle>, <contenttweaker:hundredbundle>],[<contenttweaker:hundredbundle>, <contenttweaker:hundredbundle>, <contenttweaker:hundredbundle>], [<contenttweaker:hundredbundle>, <contenttweaker:hundredbundle>, <contenttweaker:hundredbundle>]]);
 recipes.addShaped(<contenttweaker:hundredbundle>, [[<modcurrency:banknote:5>, <modcurrency:banknote:5>, <modcurrency:banknote:5>],[<modcurrency:banknote:5>, <modcurrency:banknote:5>, <modcurrency:banknote:5>], [<modcurrency:banknote:5>, <modcurrency:banknote:5>, <modcurrency:banknote:5>]]);
 recipes.addShaped(<contenttweaker:romeo_stonebrick> * 16, [[<minecraft:stonebrick>, <minecraft:stonebrick>, <minecraft:stonebrick>],[<minecraft:stonebrick>, <minecraft:dye:4>, <minecraft:stonebrick>], [<minecraft:stonebrick>, <minecraft:stonebrick>, <minecraft:stonebrick>]]);

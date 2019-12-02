@@ -1,8 +1,5 @@
 val special = "Special Equipment";
 
-mods.Delivery.Store.addTrade(<contenttweaker:player_gift>, special, <minecraft:diamond> );
-
-
 mods.Delivery.Store.addTrade("SHIFT_MANAGER",<thermalfoundation:tool.fishing_rod_nickel>.withTag({display:{Name:"Fossil Fisher"}, ench: [{lvl: 5, id: 62}, {lvl: 6, id: 34}], RepairCost: 0}), special, <harvestcraft:catfishrawitem>*2, <harvestcraft:troutrawitem>*2, <soulus:bone_chunk_ender>*4 );
 
 mods.Delivery.Store.addTrade("SHIFT_MANAGER",<soulus:gear_oscillating>, special, <soulus:ingot_endersteel>*2);

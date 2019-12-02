@@ -15,14 +15,19 @@ recipes.addShapeless("anti_fifty",<contenttweaker:anti_dollarfifty>, [<modcurren
 recipes.addShapeless("anti_hundred",<contenttweaker:anti_dollaronehundred> , [<modcurrency:banknote:5>, <contenttweaker:split_bill>.reuse()]);
 recipes.addShapeless("anti_bill", <contenttweaker:split_bill> , [<minecraft:iron_ingot>, <modcurrency:banknote:1>.reuse()]);
 
+
+recipes.addShapeless(<contenttweaker:approval_investment>, [<contenttweaker:bank>.reuse(),<minecraft:writable_book>, bank.onlyWithTag({Total: 1000000.0f, display:{Lore:["$1000000.0"]}})]);
+recipes.addShapeless(<contenttweaker:approval_credit>, [<contenttweaker:bank>.reuse(),<minecraft:book>, bank.onlyWithTag({Total: 750000.0f, display:{Lore:["$750000.0"]}})]);
+recipes.addShapeless(<contenttweaker:approval_loan>, [<contenttweaker:bank>.reuse(),<minecraft:paper>, bank.onlyWithTag({Total: 500000.0f, display:{Lore:["$500000.0"]}})]);
+
 //LARGE MONEY
 
 recipes.addShapeless("1-mil",<contenttweaker:onemillion>, [bank.onlyWithTag({Total: 1000000.0f, display:{Lore:["$1000000.0"]}})]);
-recipes.addShapeless("1-mil-back",bank.withTag({Total: 1000000.0f}).withLore(["$1000000.0"]), [<contenttweaker:fivemillion>]);
+recipes.addShapeless("1-mil-back",bank.withTag({Total: 1000000.0f}).withLore(["$1000000.0"]), [<contenttweaker:onemillion>]);
 recipes.addShapeless("5-mil-alt",<contenttweaker:fivemillion>,[<contenttweaker:onemillion>,<contenttweaker:onemillion>,<contenttweaker:onemillion>,<contenttweaker:onemillion>,<contenttweaker:onemillion>]);
 
 recipes.addShapeless("20-mil",<contenttweaker:twentymillion>, [bank.onlyWithTag({Total: 20000000.0f, display:{Lore:["$20000000.0"]}})]);
-recipes.addShapeless("20-mil-back",bank.withTag({Total: 20000000.0f}).withLore(["$20000000.0"]), [<contenttweaker:twentymillion>]);
+recipes.addShapeless("20-mil-back",bank.withTag({Total: 20000000.0f}).withLore(["$2.0E7"]), [<contenttweaker:twentymillion>]);
 recipes.addShapeless("20-mil-alt",<contenttweaker:twentymillion>, [<contenttweaker:fivemillion>,<contenttweaker:fivemillion>,<contenttweaker:fivemillion>,<contenttweaker:fivemillion>]);
 
 recipes.addShapeless("5-mil",<contenttweaker:fivemillion>, [bank.onlyWithTag({Total: 5000000.0f, display:{Lore:["$5000000.0"]}})]);
