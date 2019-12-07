@@ -44,3 +44,11 @@ mods.MobStages.addStage("CLAY_SOLDIERS", "claysoldiers:mounthorse");
 mods.MobStages.addStage("CLAY_SOLDIERS", "claysoldiers:mountpegasus");
 mods.MobStages.addStage("CLAY_SOLDIERS", "claysoldiers:mountturtle");
 mods.MobStages.addStage("CLAY_SOLDIERS", "claysoldiers:snowprojectile");
+
+
+mods.MobStages.addStage("IMPOSSIBLE", "mekanism:babyskeleton");
+mods.MobStages.addStage("IMPOSSIBLE", "industrialforegoing:pink_slime");
+
+mods.MobStages.addStage("IMPOSSIBLE", "thermalfoundation:basalz");
+mods.MobStages.addStage("IMPOSSIBLE", "thermalfoundation:blitz");
+mods.MobStages.addStage("IMPOSSIBLE", "thermalfoundation:blizz");

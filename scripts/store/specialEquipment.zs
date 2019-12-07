@@ -15,7 +15,7 @@ mods.Delivery.Store.addTrade("EXECUTIVE_DIRECTOR",<modularmachinery:blockcasing>
 mods.Delivery.Store.addTrade("EXECUTIVE_DIRECTOR",<contenttweaker:global_energy_kit>, special, <contenttweaker:bank_item>.withTag({Total: 15000.0 as float, display: {Lore: ["$15000.0"]}}));
 mods.Delivery.Store.addTrade("EXECUTIVE_DIRECTOR",<contenttweaker:global_items_kit>, special, <contenttweaker:bank_item>.withTag({Total: 15000.0 as float, display: {Lore: ["$15000.0"]}}));
 mods.Delivery.Store.addTrade("EXECUTIVE_DIRECTOR",<contenttweaker:global_fluids_kit>, special, <contenttweaker:bank_item>.withTag({Total: 15000.0 as float, display: {Lore: ["$15000.0"]}}));
-mods.Delivery.Store.addTrade("PHILANTHROPIST",<contenttweaker:global_upgrades_kit>, special, <contenttweaker:bank_item>.withTag({Total: 300000.0 as float, display: {Lore: ["$300000.0"]}}));
+mods.Delivery.Store.addTrade("BOARD_MEMBER",<contenttweaker:global_upgrades_kit>, special, <contenttweaker:bank_item>.withTag({Total: 300000.0 as float, display: {Lore: ["$300000.0"]}}));
 
 mods.Delivery.Store.addTrade("CEO_STORE",<contenttweaker:share>, special, <contenttweaker:bank_item>.withTag({Total: 20000.0 as float, display: {Lore: ["$20000.0"]}}));
 

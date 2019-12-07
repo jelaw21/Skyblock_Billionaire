@@ -70,7 +70,7 @@
 					}
 				}
 			},
-			"*": {
+			"minecraft:*": {
 				"spawn_chance": 0.0,
 				"drops": {
 					"summoned": {

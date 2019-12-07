@@ -331,7 +331,7 @@
             <title space='20'>GATHER</title>
             <p space="10"><stack item="contenttweaker:bank_item"/><span> with EXACTLY $250,000</span></p>
             <p space="10">
-                <stack item="contenttweaker:share"/>
+                <stack item="contenttweaker:share" count="10"/>
             </p>
             <title space='20'>UNLOCKS</title>
         </page>

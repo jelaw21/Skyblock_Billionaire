@@ -15,9 +15,10 @@
         "modularmachinery:blockfluidinputhatch",
         "modularmachinery:blockfluidoutputhatch"
     ],
-    "casings_energy": [
-        "modularmachinery:blockenergyinputhatch",
-        "modularmachinery:blockenergyoutputhatch"
+    "normal_energy": [
+        "modularmachinery:blockenergyinputhatch@0",
+        "modularmachinery:blockenergyinputhatch@1",
+        "modularmachinery:blockenergyinputhatch@2"
     ],
     "casings_item": [
         "modularmachinery:blockinputbus",

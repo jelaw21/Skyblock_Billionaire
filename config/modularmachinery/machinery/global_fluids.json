@@ -41,6 +41,71 @@
                 "operation": 1,
                 "multiplier": 5
             }
+        },
+        {
+            "elements": "modularmachinery:blockenergyinputhatch@3",
+            "x": 0,
+            "y": -1,
+            "z": 1,
+            "description": "\"Upgrade the Energy Input Hatch to increase speed.\",",
+            "modifier": {
+                "io": "output",
+                "target": "modularmachinery:duration",
+                "operation": 0,
+                "multiplier": -10
+            }
+        },
+        {
+            "elements": "modularmachinery:blockenergyinputhatch@4",
+            "x": 0,
+            "y": -1,
+            "z": 1,
+            "description": "\"Upgrade the Energy Input Hatch to increase speed.\",",
+            "modifier": {
+                "io": "output",
+                "target": "modularmachinery:duration",
+                "operation": 0,
+                "multiplier": -20
+            }
+        },
+        {
+            "elements": "modularmachinery:blockenergyinputhatch@5",
+            "x": 0,
+            "y": -1,
+            "z": 1,
+            "description": "\"Upgrade the Energy Input Hatch to increase speed.\",",
+            "modifier": {
+                "io": "output",
+                "target": "modularmachinery:duration",
+                "operation": 0,
+                "multiplier": -30
+            }
+        },
+        {
+            "elements": "modularmachinery:blockenergyinputhatch@6",
+            "x": 0,
+            "y": -1,
+            "z": 1,
+            "description": "\"Upgrade the Energy Input Hatch to increase speed.\",",
+            "modifier": {
+                "io": "output",
+                "target": "modularmachinery:duration",
+                "operation": 0,
+                "multiplier": -50
+            }
+        },
+        {
+            "elements": "modularmachinery:blockenergyinputhatch@7",
+            "x": 0,
+            "y": -1,
+            "z": 1,
+            "description": "\"Upgrade the Energy Input Hatch to increase speed.\",",
+            "modifier": {
+                "io": "output",
+                "target": "modularmachinery:duration",
+                "operation": 0,
+                "multiplier": -60
+            }
         }
     ],
     "color": "547ecc",
@@ -65,9 +130,7 @@
             "x": 0,
             "y": -1,
             "z": 1,
-            "elements": [
-                "modularmachinery:blockenergyinputhatch"
-            ]
+            "elements": "normal_energy"
         },
         {
             "x": -1,
