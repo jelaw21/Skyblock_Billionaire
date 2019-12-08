@@ -1,6 +1,6 @@
 setTitle("Mature Your Investments")
 
-setIcon(<contenttweaker:approval_investment)
+setIcon(<contenttweaker:approval_investment>)
 
 setDescription("Approve and wait for your Investment to mature.")
 

@@ -1,9 +1,9 @@
-setTitle("President of the World Bank")
+setTitle("SECRETARY-GENERAL OF THE UN")
 //setTranslatedTitle("advancements.stage0.root.title")
 
 setIcon(<minecraft:skull:3>)
 
-setDescription("Wealth for Everyone")
+setDescription("LEADER FOR THE PEOPLE")
 //setTranslatedDescription("advancements.stage0.root.description")
 
 setBackground("minecraft:textures/blocks/redstone_block.png")
@@ -16,7 +16,7 @@ setRequirements("any")
 
 //Criteria
 criteria = addCriteria("completedAssistant", "triumph:completed_advancement")
-criteria.setString("triumph:billionaire/invester/promotion")
+criteria.setString("triumph:billionaire/world/promotion")
 
 //Rewards
 setRewardFunction("billionaire:un")
