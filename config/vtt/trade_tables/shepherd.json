@@ -1,0 +1,13 @@
+{ 
+	Profession:"minecraft:farmer",
+	Career:"shepherd",
+
+	Offers:{
+		Recipes:[
+
+			{action:"add", buy:{id:"silentgems:craftingmaterial",Damage: 21, Count:{min:40,max:64}},sell:{id:"modcurrency:banknote",Damage:5,Count:3}, CareerLevel:3}
+
+		]
+	}
+
+}

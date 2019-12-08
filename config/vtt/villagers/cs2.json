@@ -1,0 +1,10 @@
+{
+	profession: {
+		name: "vtt:city_state_2",
+		texture: "vtt:textures/entity/villager/redstoner.png",
+		zombieTexture: "vtt:textures/entity/zombie_villager/zombie_redstoner.png"
+	},
+	careers: [
+		"beestown","castleconfido"
+	]
+}

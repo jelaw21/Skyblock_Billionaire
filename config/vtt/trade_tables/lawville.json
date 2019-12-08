@@ -1,0 +1,13 @@
+{ 
+	Profession:"vtt:city_state_1",
+	Career:"lawville",
+
+	Offers:{
+		Recipes:[
+			{action:"add", buy:{id:"minecraft:emerald_block",Count:64}, buyB:{id:"contenttweaker:badge",Count:1},sell:{id:"silentgems:gemblocklight", Damage:1, Count:2}, CareerLevel:1},
+			{action:"add", buy:{id:"contenttweaker:treatise1",Count:1},sell:{id:"contenttweaker:onemillion",Count:1}, CareerLevel:2},
+			{action:"add", buy:{id:"contenttweaker:treatise4",Count:1},buyB:{id:"contenttweaker:fivemillion",Count:1}, sell:{id:"contenttweaker:city_key1",Count:1}, CareerLevel:3},
+			{action:"add", buy:{id:"minecraft:emerald_block",Count:64}, sell:{id:"contenttweaker:onemillion",Count:1}, CareerLevel:4}
+		]
+	}
+}

@@ -1,0 +1,10 @@
+{
+	profession: {
+		name: "vtt:city_state_3",
+		texture: "vtt:textures/entity/villager/tinkerer.png",
+		zombieTexture: "vtt:textures/entity/zombie_villager/zombie_tinkerer.png"
+	},
+	careers: [
+		"skyblockerton","minecrafton"
+	]
+}

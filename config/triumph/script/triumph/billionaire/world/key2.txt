@@ -1,0 +1,20 @@
+setTitle("Key to the City: Spinkxyton")
+
+setIcon(<contenttweaker:city_key2>)
+
+setDescription("Earn this Key to the City")
+
+addParent("triumph:billionaire/world/root")
+setRequiresParents()
+
+
+//Criteria
+criteria = addCriteria("promotion", "minecraft:inventory_changed")
+criteria.addItem(<contenttweaker:city_key2>)
+
+setShowToast(true)
+setAnnounceToChat(false)
+
+//Rewards
+
+visibleIf("triumph:billionaire/world/root")

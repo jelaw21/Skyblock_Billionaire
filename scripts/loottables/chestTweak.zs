@@ -69,3 +69,10 @@ chestPool1.addItemEntryHelper(<mysticalagriculture:crafting:1>, 15, 0, [Function
 chestPool1.addItemEntryHelper(<mysticalagriculture:crafting:2>, 10, 0, [Functions.setCount(3,6)], []);
 chestPool1.addItemEntryHelper(<mysticalagriculture:crafting:3>, 10, 0, [Functions.setCount(1,3)], []);
 chestPool1.addItemEntryHelper(<mysticalagriculture:crafting:4>, 2, 0, [Functions.setCount(1,2)], []);
+
+chestMain.addItemEntry(<contenttweaker:treatise1>, 5);
+chestMain.addItemEntry(<contenttweaker:treatise2>, 5);
+chestMain.addItemEntry(<contenttweaker:treatise3>, 5);
+chestMain.addItemEntry(<contenttweaker:treatise4>, 5);
+chestMain.addItemEntry(<contenttweaker:treatise5>, 5);
+chestMain.addItemEntry(<contenttweaker:treatise6>, 5);

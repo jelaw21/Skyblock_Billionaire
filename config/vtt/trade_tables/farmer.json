@@ -1,0 +1,13 @@
+{ 
+	Profession:"minecraft:farmer",
+	Career:"farmer",
+
+	Offers:{
+		Recipes:[
+		
+			{action:"add", buy:{id:"minecraft:wheat_seeds",Count:64},sell:{id:"modcurrency:banknote",Damage:5,Count:1}, CareerLevel:5,maxUses:4}
+			
+		]
+	}
+
+}

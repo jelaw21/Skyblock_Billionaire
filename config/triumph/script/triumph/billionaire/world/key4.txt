@@ -1,0 +1,20 @@
+setTitle("Key to the City: Castle Confido")
+
+setIcon(<contenttweaker:city_key4>)
+
+setDescription("Earn this Key to the City")
+
+addParent("triumph:billionaire/world/root")
+setRequiresParents()
+
+
+//Criteria
+criteria = addCriteria("promotion", "minecraft:inventory_changed")
+criteria.addItem(<contenttweaker:city_key4>)
+
+setShowToast(true)
+setAnnounceToChat(false)
+
+//Rewards
+
+visibleIf("triumph:billionaire/world/root")

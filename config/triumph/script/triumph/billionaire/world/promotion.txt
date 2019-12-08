@@ -1,10 +1,17 @@
-setTitle("PROMOTION: World Leader")
+setTitle("PROMOTION: Secretary General of the U.N.")
 
 setIcon(<minecraft:skull:3>)
 
 setDescription("Please consult the employee handbook for further instructions.")
 
 addParent("triumph:billionaire/world/money")
+addParent("triumph:billionaire/world/key1")
+addParent("triumph:billionaire/world/key2")
+addParent("triumph:billionaire/world/key3")
+addParent("triumph:billionaire/world/key4")
+addParent("triumph:billionaire/world/key5")
+addParent("triumph:billionaire/world/key6")
+addParent("triumph:billionaire/world/stop")
 setRequiresParents()
 
 //Criteria

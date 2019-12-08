@@ -8,7 +8,6 @@ addParent("triumph:billionaire/invester/money")
 addParent("triumph:billionaire/invester/low")
 addParent("triumph:billionaire/invester/mid")
 addParent("triumph:billionaire/invester/high")
-addParent("triumph:billionaire/invester/stop")
 setRequiresParents()
 
 //Criteria

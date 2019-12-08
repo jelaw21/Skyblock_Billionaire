@@ -1,0 +1,13 @@
+{ 
+	Profession:"minecraft:priest", 
+	Career:"cleric",
+
+	Offers:{
+		Recipes:[
+
+			{action:"add", buy:{id:"industrialrenewal:medkit",Count:{min:6,max:24}},sell:{id:"modcurrency:banknote",Damage:5,Count:3}, CareerLevel:4,maxUses:3}
+			
+		]
+	}
+
+}

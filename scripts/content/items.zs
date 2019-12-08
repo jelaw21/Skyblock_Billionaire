@@ -13,6 +13,9 @@ var vote = mods.contenttweaker.ResourceLocation.create("contenttweaker:items/vot
 var charity = mods.contenttweaker.ResourceLocation.create("contenttweaker:items/charity");
 var upgradeImage = mods.contenttweaker.ResourceLocation.create("contenttweaker:items/proposal");
 var closed = mods.contenttweaker.ResourceLocation.create("contenttweaker:items/closedAccounts");
+var imageKey = mods.contenttweaker.ResourceLocation.create("contenttweaker:items/city_key");
+var imageTreatise = mods.contenttweaker.ResourceLocation.create("contenttweaker:items/treatise");
+
 
 var modbook = VanillaFactory.createItem("agricraft");
 modbook.maxStackSize = 1;
@@ -1589,3 +1592,79 @@ community.maxStackSize = 1;
 community.rarity = "uncommon";
 community.register();
 
+var trading = VanillaFactory.createItem("treatise1");
+trading.maxStackSize = 4;
+trading.textureLocation = imageTreatise;
+trading.rarity = "uncommon";
+trading.register();
+
+trading = VanillaFactory.createItem("treatise2");
+trading.maxStackSize = 4;
+trading.textureLocation = imageTreatise;
+trading.rarity = "uncommon";
+trading.register();
+
+trading = VanillaFactory.createItem("treatise3");
+trading.maxStackSize = 4;
+trading.textureLocation = imageTreatise;
+trading.rarity = "uncommon";
+trading.register();
+
+trading = VanillaFactory.createItem("treatise4");
+trading.maxStackSize = 4;
+trading.textureLocation = imageTreatise;
+trading.rarity = "uncommon";
+trading.register();
+
+trading = VanillaFactory.createItem("treatise5");
+trading.maxStackSize = 4;
+trading.textureLocation = imageTreatise;
+trading.rarity = "uncommon";
+trading.register();
+
+trading = VanillaFactory.createItem("treatise6");
+trading.maxStackSize = 4;
+trading.textureLocation = imageTreatise;
+trading.rarity = "uncommon";
+trading.register();
+
+trading = VanillaFactory.createItem("city_key1");
+trading.maxStackSize = 1;
+trading.textureLocation = imageKey;
+trading.rarity = "uncommon";
+trading.register();
+
+trading = VanillaFactory.createItem("city_key2");
+trading.maxStackSize = 1;
+trading.textureLocation = imageKey;
+trading.rarity = "uncommon";
+trading.register();
+
+trading = VanillaFactory.createItem("city_key3");
+trading.maxStackSize = 1;
+trading.textureLocation = imageKey;
+trading.rarity = "uncommon";
+trading.register();
+
+trading = VanillaFactory.createItem("city_key4");
+trading.maxStackSize = 1;
+trading.textureLocation = imageKey;
+trading.rarity = "uncommon";
+trading.register();
+
+trading = VanillaFactory.createItem("city_key5");
+trading.maxStackSize = 1;
+trading.textureLocation = imageKey;
+trading.rarity = "uncommon";
+trading.register();
+
+trading = VanillaFactory.createItem("city_key6");
+trading.maxStackSize = 1;
+trading.textureLocation = imageKey;
+trading.rarity = "uncommon";
+trading.register();
+
+trading = VanillaFactory.createItem("badge");
+trading.maxStackSize = 64;
+trading.rarity = "uncommon";
+trading.register();

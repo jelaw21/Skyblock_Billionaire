@@ -1,0 +1,13 @@
+{ 
+	Profession:"minecraft:librarian",
+	Career:"cartographer",
+
+	Offers:{
+		Recipes:[
+
+			{action:"add", buy:{id:"minecraft:dye",Damage:0,Count:{min:35,max:64}},sell:{id:"modcurrency:banknote",Damage:5,Count:1}, CareerLevel:4, maxUses:3}
+			
+		]
+	}
+
+}

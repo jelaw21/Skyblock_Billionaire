@@ -1,0 +1,12 @@
+{ 
+	Profession:"minecraft:butcher", 
+	Career:"butcher",
+
+	Offers:{
+		Recipes:[
+		
+			{action:"add", buy:{id:["minecraft:beef","minecraft:cooked_porkchop","minecraft:cooked_chicken","minecraft:cooked_rabbit","minecraft:cooked_mutton","harvestcraft:turkeycookeditem","harvestcraft:venisoncookeditem", "harvestcraft:duckcookeditem"],Count:{min:10,max:32}},sell:{id:"modcurrency:banknote",Damage:5,Count:1}, CareerLevel:3, maxUses:10}
+		]
+	}
+
+}

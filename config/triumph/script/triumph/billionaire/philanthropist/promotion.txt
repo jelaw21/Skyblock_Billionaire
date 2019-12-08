@@ -1,4 +1,4 @@
-setTitle("PROMOTION: Financial Tycoon")
+setTitle("PROMOTION: Business Tycoon")
 
 setIcon(<minecraft:skull:3>)
 

@@ -1,0 +1,56 @@
+{
+  "rules": [
+    {
+      "match": {
+        "blocks": {
+          "blocks": [
+            "minecraft:bookshelf",
+            "chisel:bookshelf_oak:*",
+            "chisel:bookshelf_spruce:*",
+            "chisel:bookshelf_birch:*",
+            "chisel:bookshelf_jungle:*",
+            "chisel:bookshelf_acacia:*",
+            "chisel:bookshelf_darkoak:*"
+          ]
+        },
+        "harvester": {
+          "type": "REAL_PLAYER"
+        },
+        "dimensions":{
+          "ids": [1024]
+        }
+      },
+      "replaceStrategy": "ADD",
+      "drops": [
+        {
+          "selector": {
+            "weight": {
+              "value": 80
+            }
+          },
+          "item": {
+            "items": [
+              "contenttweaker:treatise1",
+              "contenttweaker:treatise2",
+              "contenttweaker:treatise3",
+              "contenttweaker:treatise4",
+              "contenttweaker:treatise5",
+              "contenttweaker:treatise6"
+            ]
+          }
+        },
+        {
+          "selector": {
+            "weight": {
+              "value": 20
+            }
+          },
+          "item": {
+            "items": [
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}

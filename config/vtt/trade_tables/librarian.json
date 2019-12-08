@@ -1,0 +1,13 @@
+{
+	Profession:"minecraft:librarian",
+	Career:"librarian",
+
+	Offers:{
+		Recipes:[
+
+			{action:"add", buy:{id:"minecraft:bookshelf",Count:{min:32,max:64}},sell:{id:"modcurrency:banknote",Damage:5,Count:1}, CareerLevel:5}
+			
+		]
+	}
+
+}

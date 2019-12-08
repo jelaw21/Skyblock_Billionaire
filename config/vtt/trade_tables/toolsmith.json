@@ -1,0 +1,13 @@
+{ 
+	Profession: "minecraft:smith", 
+	Career:"tool",
+
+	Offers:{
+		Recipes:[
+		
+			{action:"add", buy:{id:"silentgems:craftingmaterial",Damage: 9, Count:{min:48,max:64}},sell:{id:"modcurrency:banknote",Damage:5,Count:2}, CareerLevel:3}
+			
+		]
+	}
+
+}

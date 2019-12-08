@@ -315,13 +315,15 @@
         </page>
         <page>
             <title space='20'>HINTS</title>
-            <p space="10">TBA</p>
+            <p space="5">The Global Markets apply a tax. The shipping bin does not.</p>
+            <p space="5">The Global Markets can be upgraded later, so don't sweat the speed and output.</p>
+            <p space="5">Sometimes its better to do mass produce one item, than sorta produce a bunch of others.</p>
         </page>
     </chapter>
     <chapter id="ceo" condition="ceo">
         <page>
             <title space='20'>Chief Executive Officer</title>
-            <p color="#4f5f98" space='10'>Well, the company recognized your greatness and moved you up to CEO. I advised against this, but they don't like listening to an old man. But here we are, so we gotta make due with what we have. If I were you, I would try and get myself on the Board of Directors and be a part of the decision making. You can easily contorl the major decisions of the company from there.</p>
+            <p color="#4f5f98" space='10'>Well, the company recognized your greatness and moved you up to CEO. I advised against this, but they don't like listening to an old man. But here we are, so we gotta make due with what we have. If I were you, I would try and get myself on the Board of Directors and be a part of the decision making. You can easily control the major decisions of the company from there.</p>
             <p color="#4f5f98" space='10'>If they moved you to CEO, they must need some serious guidance on the Board.</p>
             <title space='20'>REQUIREMENTS</title>
             <p color="#4f5f98" space='10'>To acquire a seat on the Board of Directors you must acquire 100,000 shares of the company. You can purchase 10,000 shares at a time. </p>
@@ -337,6 +339,8 @@
         </page>
         <page>
             <title space='20'>HINTS</title>
+            <p space="5">It may be easier to get the money first, then the shares.</p>
+            <p space="5">Use all your resources to make money, most everything can be sold. Don't forget to trade as well.</p>
 
         </page>
     </chapter>
@@ -457,15 +461,21 @@
     <chapter id="world_bank" condition="world_bank">
         <page>
             <title space='20'>President of the World Bank</title>
-            <p color="#4f5f98" space='10'>.</p>
+            <p color="#4f5f98" space='10'>Well, I'll be. Congratulations! You've been elected President of the World Bank. The foremost mission of the World Bank is to increase economic efficacy in under-privileged countries, which we've done. Doesn't it feel good to do some good, and make a load of money doing it?</p>
+            <p color="#4f5f98" space='10'>But why stop there? Why not shoot for the world, or better yet, control of the United Nations? You see, another missive of the World Bank is, once countries are established, to educate them on laws, justice and equality. In other words, peacekeeping missions through education. And isn't that what the UN's about, keeping the peace.</p>
+            <p color="#4f5f98" space='10'>Maybe, if we can show our ability to manage and educate the city-states we have created, then maybe we can get elected as Secretary General of the United Nations, and thus make laws, both judicious and economic, which countries around the world must obey. But first, we'll need to prove ourselves.</p>
+        </page>
+        <page>
             <title space='20'>REQUIREMENTS</title>
-        </page>
-        <page>
+            <p color="#4f5f98" space='10'>There are 6 City-States we will need to educate and teach the ways of justice and economics. Lawville, Spinkxton, Beetopia, Castle Confido, Skyblockerton and Minecraftia. You will need summon these villagers and begin negotiations with them. Once you have earned enough reputation with them, they will award you the keys to their cities. Gather all 6 to prove to the UN Security Council that you are worthy to lead them.</p>
+            <p color="#4f5f98" space='10'>The documents you will need to educate the city-state representatives can be found in the Labyrinth, either by breaking bookshelves or rarely in chests and other containers. Good luck!</p>
             <title space='20'>GATHER</title>
-            <p space="10"><stack item="contenttweaker:fivehundredmillion"/></p>
-            <title space='20'>UNLOCKS</title>
+            <p space="10"><stack item="contenttweaker:fivehundredmillion"/><stack item="contenttweaker:city_key1"/><stack item="contenttweaker:city_key2"/><stack item="contenttweaker:city_key3"/><stack item="contenttweaker:city_key4"/><stack item="contenttweaker:city_key5"/><stack item="contenttweaker:city_key6"/></p>
+
         </page>
         <page>
+            <title space='20'>UNLOCKS</title>
+            <p><stack item="contenttweaker:badge"/> available in the special equipment store </p>
             <title space='20'>HINTS</title>
 
         </page>

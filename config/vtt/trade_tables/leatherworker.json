@@ -1,0 +1,12 @@
+{ 
+	Profession:"minecraft:butcher", 
+	Career:"leather",
+
+	Offers:{
+		Recipes:[
+		
+			{action:"add", buy:{id:"harvestcraft:hardenedleatheritem",Count:16},sell:{id:"modcurrency:banknote",Damage:5,Count:1}, CareerLevel:3,maxUses:10}
+		]
+	}
+
+}

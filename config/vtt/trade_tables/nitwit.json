@@ -1,0 +1,16 @@
+{ 
+	Profession:"minecraft:nitwit", 
+	Career:"nitwit",
+
+	Offers:{
+		Recipes:[
+		
+			{action:"add", buy:{id:"minecraft:poisonous_potato",Count:64},sell:{id:"modcurrency:banknote",Damage:5,Count:1}, CareerLevel:1},
+			{action:"add", buy:{id:"minecraft:pumpkin",Count:32},sell:{id:"modcurrency:banknote",Damage:5,Count:1}, CareerLevel:2},
+			{action:"add", buy:{id:"minecraft:melon_block",Count:32},sell:{id:"modcurrency:banknote",Damage:5,Count:1}, CareerLevel:2},
+			{action:"add", buy:{id:"minecraft:bone_block",Count:32},sell:{id:"modcurrency:banknote",Damage:5,Count:2}, CareerLevel:3}
+			
+		]
+	}
+
+}

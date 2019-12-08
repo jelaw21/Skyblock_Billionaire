@@ -1,0 +1,13 @@
+{ 
+	Profession:"minecraft:farmer",
+	Career:"fletcher",
+
+	Offers:{
+		Recipes:[
+		
+			{action:"add", buy:{id:"minecraft:egg",Count:16},sell:{id:"modcurrency:banknote",Damage:5,Count:1}, CareerLevel:3,maxUses:5}
+
+		]
+	}
+
+}

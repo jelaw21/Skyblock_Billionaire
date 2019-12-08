@@ -1,0 +1,14 @@
+{
+	Profession:"vtt:city_state_3",
+	Career:"minecrafton",
+
+	Offers:{
+		Recipes:[
+
+			{action:"add", buy:{id:"contenttweaker:fivemillion", Count:2}, buyB:{id:"contenttweaker:badge",Count:1},sell:{id:"minecraft:emerald_block",Count:4}, CareerLevel:1},
+			{action:"add", buy:{id:"contenttweaker:treatise6",Count:1},sell:{id:"powderpower:ingottrilium",Count:18}, CareerLevel:2},
+			{action:"add", buy:{id:"contenttweaker:treatise5",Count:1},buyB:{id:"contenttweaker:fivemillion",Count:1},sell:{id:"contenttweaker:city_key6",Count:1}, CareerLevel:3}
+			
+		]
+	}
+}

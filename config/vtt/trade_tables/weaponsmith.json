@@ -1,0 +1,13 @@
+{ 
+	Profession: "minecraft:smith", 
+	Career:"weapon",
+
+	Offers:{
+		Recipes:[
+		
+			{action:"add", buy:{id:"seltaks_weapon_pack:bladeofchaos",Count:1},sell:{id:"modcurrency:banknote",Damage:5,Count:1}, CareerLevel:3}
+			
+		]
+	}
+
+}

@@ -1,7 +1,5 @@
 import crafttweaker.liquid.ILiquidStack;
 
-var machine = extrautilities2.Tweaker.IMachineRegistry.getMachine("global_liquid");
-
 val onePenny = [
 
     <liquid:ic2air>,
@@ -182,10 +180,6 @@ val oneHundred = [
 for items in onePenny{
 
 	items.addTooltip(format.blue("$0.01"));
-	/*machine.addRecipe({"fluidIn":items*1000}, {"moneyOut":<modcurrency:coin>%80}, 200, 60);
-	machine.addRecipe({"fluidIn":items*1000, "upgrade":<contenttweaker:low_income>}, {"moneyOut":<modcurrency:coin>*2%80}, 200, 30);
-	machine.addRecipe({"fluidIn":items*1000, "upgrade":<contenttweaker:mid_income>}, {"moneyOut":<modcurrency:coin>*3%80}, 200, 40);
-	machine.addRecipe({"fluidIn":items*1000, "upgrade":<contenttweaker:high_income>}, {"moneyOut":<modcurrency:coin>*5%80}, 200, 50);*/
     var reci = mods.modularmachinery.RecipeBuilder.newBuilder("fluid" + items.name, "global_fluids", 60, 0);
     reci.addEnergyPerTickInput(20);
     reci.addFluidInput(items*1000);
@@ -199,10 +193,6 @@ for items in onePenny{
 for items in oneNickel{
 
 	items.addTooltip(format.blue("$0.05"));
-	/*machine.addRecipe({"fluidIn":items*1000}, {"moneyOut":<modcurrency:coin:1>%80}, 200, 60);
-	machine.addRecipe({"fluidIn":items*1000, "upgrade":<contenttweaker:low_income>}, {"moneyOut":<modcurrency:coin:1>*2%80}, 200, 30);
-	machine.addRecipe({"fluidIn":items*1000, "upgrade":<contenttweaker:mid_income>}, {"moneyOut":<modcurrency:coin:1>*3%80}, 200, 40);
-	machine.addRecipe({"fluidIn":items*1000, "upgrade":<contenttweaker:high_income>}, {"moneyOut":<modcurrency:coin:1>*5%80}, 200, 50);*/
     var reci = mods.modularmachinery.RecipeBuilder.newBuilder("fluids" + items.name, "global_fluids", 60, 0);
     reci.addEnergyPerTickInput(20);
     reci.addFluidInput(items*1000);
@@ -215,10 +205,6 @@ for items in oneNickel{
 for items in oneDime{
 
 	items.addTooltip(format.blue("$0.10"));
-	/*machine.addRecipe({"fluidIn":items*1000}, {"moneyOut":<modcurrency:coin:2>%80}, 200, 60);
-	machine.addRecipe({"fluidIn":items*1000, "upgrade":<contenttweaker:low_income>}, {"moneyOut":<modcurrency:coin:2>*2%80}, 200, 30);
-	machine.addRecipe({"fluidIn":items*1000, "upgrade":<contenttweaker:mid_income>}, {"moneyOut":<modcurrency:coin:2>*3%80}, 200, 40);
-	machine.addRecipe({"fluidIn":items*1000, "upgrade":<contenttweaker:high_income>}, {"moneyOut":<modcurrency:coin:2>*5%80}, 200, 50);*/
     var reci = mods.modularmachinery.RecipeBuilder.newBuilder("fluids" + items.name, "global_fluids", 60, 0);
     reci.addEnergyPerTickInput(20);
     reci.addFluidInput(items*1000);
@@ -231,10 +217,6 @@ for items in oneDime{
 for items in oneQuarter{
 
 	items.addTooltip(format.blue("$0.25"));
-	/*machine.addRecipe({"fluidIn":items*1000}, {"moneyOut":<modcurrency:coin:3>%80}, 200, 60);
-	machine.addRecipe({"fluidIn":items*1000, "upgrade":<contenttweaker:low_income>}, {"moneyOut":<modcurrency:coin:3>*2%80}, 200, 30);
-	machine.addRecipe({"fluidIn":items*1000, "upgrade":<contenttweaker:mid_income>}, {"moneyOut":<modcurrency:coin:3>*3%80}, 200, 40);
-	machine.addRecipe({"fluidIn":items*1000, "upgrade":<contenttweaker:high_income>}, {"moneyOut":<modcurrency:coin:3>*5%80}, 200, 50);*/
     var reci = mods.modularmachinery.RecipeBuilder.newBuilder("fluids" + items.name, "global_fluids", 60, 0);
     reci.addEnergyPerTickInput(20);
     reci.addFluidInput(items*1000);
@@ -249,10 +231,6 @@ for items in twoQuarter{
 
 
 	items.addTooltip(format.blue("$0.50"));
-	/*machine.addRecipe({"fluidIn":items*1000}, {"moneyOut":<modcurrency:coin:3>*2%80}, 200, 60);
-	machine.addRecipe({"fluidIn":items*1000, "upgrade":<contenttweaker:low_income>}, {"moneyOut":<modcurrency:coin:3>*4%80}, 200, 30);
-	machine.addRecipe({"fluidIn":items*1000, "upgrade":<contenttweaker:mid_income>}, {"moneyOut":<modcurrency:coin:3>*6%80}, 200, 40);
-	machine.addRecipe({"fluidIn":items*1000, "upgrade":<contenttweaker:high_income>}, {"moneyOut":<modcurrency:coin:3>*10%80}, 200, 50);*/
     var reci = mods.modularmachinery.RecipeBuilder.newBuilder("fluids" + items.name, "global_fluids", 60, 0);
     reci.addEnergyPerTickInput(20);
     reci.addFluidInput(items*1000);
@@ -267,10 +245,6 @@ for items in oneDollar{
 
 
 	items.addTooltip(format.blue("$1"));
-	/*machine.addRecipe({"fluidIn":items*1000}, {"moneyOut":<modcurrency:coin:4>%80}, 200, 60);
-	machine.addRecipe({"fluidIn":items*1000, "upgrade":<contenttweaker:low_income>}, {"moneyOut":<modcurrency:coin:4>*2%80}, 200, 30);
-	machine.addRecipe({"fluidIn":items*1000, "upgrade":<contenttweaker:mid_income>}, {"moneyOut":<modcurrency:coin:4>*3%80}, 200, 40);
-	machine.addRecipe({"fluidIn":items*1000, "upgrade":<contenttweaker:high_income>}, {"moneyOut":<modcurrency:coin:4>*5%80}, 200, 50);*/
 
     var reci = mods.modularmachinery.RecipeBuilder.newBuilder("fluids" + items.name, "global_fluids", 60, 0);
     reci.addEnergyPerTickInput(20);
@@ -286,10 +260,6 @@ for items in oneFive{
 
 
 	items.addTooltip(format.blue("$5"));
-	/*machine.addRecipe({"fluidIn":items*1000}, {"moneyOut":<modcurrency:banknote:1>%85}, 200, 60);
-	machine.addRecipe({"fluidIn":items*1000, "upgrade":<contenttweaker:low_income>}, {"moneyOut":<modcurrency:banknote:1>*2%85}, 200, 30);
-	machine.addRecipe({"fluidIn":items*1000, "upgrade":<contenttweaker:mid_income>}, {"moneyOut":<modcurrency:banknote:1>*3%85}, 200, 40);
-	machine.addRecipe({"fluidIn":items*1000, "upgrade":<contenttweaker:high_income>}, {"moneyOut":<modcurrency:banknote:1>*5%85}, 200, 50);*/
 
     var reci = mods.modularmachinery.RecipeBuilder.newBuilder("fluids" + items.name, "global_fluids", 60, 0);
     reci.addEnergyPerTickInput(20);
@@ -305,10 +275,6 @@ for items in oneTen{
 
 
 	items.addTooltip(format.blue("$10"));
-	/*machine.addRecipe({"fluidIn":items*1000}, {"moneyOut":<modcurrency:banknote:2>%85}, 200, 60);
-	machine.addRecipe({"fluidIn":items*1000, "upgrade":<contenttweaker:low_income>}, {"moneyOut":<modcurrency:banknote:2>*2%85}, 200, 30);
-	machine.addRecipe({"fluidIn":items*1000, "upgrade":<contenttweaker:mid_income>}, {"moneyOut":<modcurrency:banknote:2>*3%85}, 200, 40);
-	machine.addRecipe({"fluidIn":items*1000, "upgrade":<contenttweaker:high_income>}, {"moneyOut":<modcurrency:banknote:2>*5%85}, 200, 50);*/
 
     var reci = mods.modularmachinery.RecipeBuilder.newBuilder("fluids" + items.name, "global_fluids", 60, 0);
     reci.addEnergyPerTickInput(20);
@@ -322,10 +288,6 @@ for items in oneTen{
 for items in oneTwenty{
 
 	items.addTooltip(format.blue("$20"));
-	/*machine.addRecipe({"fluidIn":items*1000}, {"moneyOut":<modcurrency:banknote:3>%90}, 200, 60);
-	machine.addRecipe({"fluidIn":items*1000, "upgrade":<contenttweaker:low_income>}, {"moneyOut":<modcurrency:banknote:3>%90}, 200, 30);
-	machine.addRecipe({"fluidIn":items*1000, "upgrade":<contenttweaker:mid_income>}, {"moneyOut":<modcurrency:banknote:3>%90}, 200, 40);
-	machine.addRecipe({"fluidIn":items*1000, "upgrade":<contenttweaker:high_income>}, {"moneyOut":<modcurrency:banknote:3>%90}, 200, 50);*/
 
     var reci = mods.modularmachinery.RecipeBuilder.newBuilder("fluids" + items.name, "global_fluids", 60, 0);
     reci.addEnergyPerTickInput(20);
@@ -341,10 +303,6 @@ for items in oneFifty{
 
 
 	items.addTooltip(format.blue("$50"));
-	/*machine.addRecipe({"fluidIn":items*1000}, {"moneyOut":<modcurrency:banknote:4>%90}, 200, 60);
-	machine.addRecipe({"fluidIn":items*1000, "upgrade":<contenttweaker:low_income>}, {"moneyOut":<modcurrency:banknote:4>%90}, 200, 30);
-	machine.addRecipe({"fluidIn":items*1000, "upgrade":<contenttweaker:mid_income>}, {"moneyOut":<modcurrency:banknote:4>%90}, 200, 40);
-	machine.addRecipe({"fluidIn":items*1000, "upgrade":<contenttweaker:high_income>}, {"moneyOut":<modcurrency:banknote:4>%90}, 200, 50);*/
 
     var reci = mods.modularmachinery.RecipeBuilder.newBuilder("fluids" + items.name, "global_fluids", 60, 0);
     reci.addEnergyPerTickInput(20);
@@ -359,10 +317,6 @@ for items in oneHundred{
 
 
 	items.addTooltip(format.blue("$100"));
-	/*machine.addRecipe({"fluidIn":items*1000}, {"moneyOut":<modcurrency:banknote:5>%95}, 200, 60);
-	machine.addRecipe({"fluidIn":items*1000, "upgrade":<contenttweaker:low_income>}, {"moneyOut":<modcurrency:banknote:4>%90}, 200, 30);
-	machine.addRecipe({"fluidIn":items*1000, "upgrade":<contenttweaker:mid_income>}, {"moneyOut":<modcurrency:banknote:4>%90}, 200, 40);
-	machine.addRecipe({"fluidIn":items*1000, "upgrade":<contenttweaker:high_income>}, {"moneyOut":<modcurrency:banknote:4>%90}, 200, 50);*/
 
     var reci = mods.modularmachinery.RecipeBuilder.newBuilder("fluids" + items.name, "global_fluids", 60, 0);
     reci.addEnergyPerTickInput(20);
