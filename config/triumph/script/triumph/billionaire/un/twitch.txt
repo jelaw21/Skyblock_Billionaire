@@ -1,0 +1,20 @@
+setTitle("TWITCH SUPPORT")
+
+setIcon(<contenttweaker:twitchmedal>)
+
+setDescription("Earn Twitch's Support")
+
+addParent("triumph:billionaire/un/root")
+setRequiresParents()
+
+//Criteria
+criteria = addCriteria("promotion", "minecraft:inventory_changed")
+criteria.addItem(<contenttweaker:twitchmedal>)
+
+
+setShowToast(true)
+setAnnounceToChat(false)
+
+//Rewards
+
+visibleIf("triumph:billionaire/un/root")

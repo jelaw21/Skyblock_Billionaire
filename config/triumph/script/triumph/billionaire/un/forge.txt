@@ -1,0 +1,20 @@
+setTitle("FORGE SUPPORT")
+
+setIcon(<contenttweaker:cursemedal>)
+
+setDescription("Earn Forge's Support")
+
+addParent("triumph:billionaire/un/root")
+setRequiresParents()
+
+//Criteria
+criteria = addCriteria("promotion", "minecraft:inventory_changed")
+criteria.addItem(<contenttweaker:forgemedal>)
+
+
+setShowToast(true)
+setAnnounceToChat(false)
+
+//Rewards
+
+visibleIf("triumph:billionaire/un/root")

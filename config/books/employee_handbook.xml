@@ -483,13 +483,34 @@
     <chapter id="un" condition="un">
         <page>
             <title space='20'>Secretary-General of the United Nations</title>
-            <p color="#4f5f98" space='10'>.</p>
-            <title space='20'>REQUIREMENTS</title>
+            <p color="#4f5f98" space='10'>Isn't this great! We set laws and edicts and the other nations of the world must follow. We are really making a difference in the world. However, we can do more. Some of our changes are opposed by others, and thus the policies that could enact positive change are being denied and vetoed.</p>
+			<p color="#4f5f98" space='10'>We should disband this democratic system and raise ourselves up as President of the World. Then, all countries will be bound to the same laws and edicts, shared financial gains and a general increase in cultural awareness. How great would that be? Not to mention, that if we ran the world, our coffers would be massive! All we have to do is convince the 5 major members of the U.N. to acknowledge our rule as BAM, President of the World.</p>
+			<p color="#4f5f98" space='10'>It's not going to be easy, but the plan is to offer goods and services to these 5 members which supprts and improves their respective nations.</p>
+		</page>
+		<page>
+            <title space='20'>REQUIREMENTS</title>			
+			<p color="#4f5f98" space='10'>The Forge Republic is suffering space issue, so we can provide them exceptional storage and living quarters in smaller spaces.</p>
+			<p color="#4f5f98" space='10'> The Mojang Nation has a growing threat from corruption and underword opposition, so we'll take out the mob leaders.</p>
+			<p color="#4f5f98" space='10'> F.T.B has accrued a lot of debt and owes the other 5 members money, we will paid off their debts.</p>
+			<p color="#4f5f98" space='10'> Twitch Kingdom is suffering from lack of productivity, so we'll give them a kick in the pants; a few items to increase production.</p>
+			<p color="#4f5f98" space='10'> Curse has a power issue. Its nuclear reactors need replacing and its environmental energy is noisy and loud. We will provide quieter solutions and better nuclear plants.</p>
         </page>
         <page>
             <title space='20'>GATHER</title>
-            <p space="10"><stack item="contenttweaker:onebillion"/></p>
-            <title space='20'>UNLOCKS</title>
+            <p space="10">
+				<stack item="contenttweaker:onebillion"/>
+				<stack item="contenttweaker:ftbmedal"/>
+				<stack item="contenttweaker:twitchmedal"/>
+				<stack item="contenttweaker:cursemedal"/>
+				<stack item="contenttweaker:forgemedal"/>
+				<stack item="contenttweaker:mojangmedal"/>
+			</p>
+            <title space='20'>UNLOCKS</title>			
+				<stack item="contenttweaker:ftbmedal"/>
+				<stack item="contenttweaker:twitchmedal"/>
+				<stack item="contenttweaker:cursemedal"/>
+				<stack item="contenttweaker:forgemedal"/>
+				<stack item="contenttweaker:mojangmedal"/>
         </page>
         <page>
             <title space='20'>HINTS</title>
@@ -499,16 +520,8 @@
     <chapter id="president" condition="president">
         <page>
             <title space='20'>President of the World</title>
-            <p color="#4f5f98" space='10'>.</p>
-            <title space='20'>REQUIREMENTS</title>
-        </page>
-        <page>
-            <title space='20'>GATHER</title>
-            <title space='20'>UNLOCKS</title>
-        </page>
-        <page>
-            <title space='20'>HINTS</title>
-
+            <p color="#4f5f98" space='10'>CONGRATULATIONS!!  YOU'VE MADE IT!!  You are PRESIDENT OF THE WORLD! There is no where else to go but UP. Maybe, Galactic Emperor. Increase our wealth, and be billionaires in all forms of alien currency too! But, alas, I'm getting ahead of myself. We'll save that for another day.</p>
+			<p color="#4f5f98" space='10'>For now, we will sit back and bask in the sunshine. Enjoying our amassed millions, the peace we've brought to the world and the good we've done for many countries around the globe. Ya done good, kid.</p>
         </page>
     </chapter>
 

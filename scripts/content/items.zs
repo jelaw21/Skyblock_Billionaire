@@ -23,7 +23,7 @@ modbook.textureLocation = image;
 modbook.rarity = "rare";
 modbook.itemRightClick = function(stack, world, player, hand) {
     Commands.call("gamestage add @s AGRICRAFT", player, world, false, true);
-    Commands.call("gamestage silentremove @s REGIONAL_MANAGER_STORE", player, world, false, true);
+    Commands.call("gamestage silentremove @s REGIONAL_STORE", player, world, false, true);
 	stack.shrink(1);
     return "Pass";
 };
@@ -216,7 +216,7 @@ modbook.textureLocation = image;
 modbook.rarity = "rare";
 modbook.itemRightClick = function(stack, world, player, hand) {
     Commands.call("gamestage add @s PROGRESSIVE", player, world, false, true);
-    Commands.call("gamestage silentremove @s REGIONAL_MANAGER_STORE", player, world, false, true);
+    Commands.call("gamestage silentremove @s REGIONAL_STORE", player, world, false, true);
     stack.shrink(1);
     return "Pass";
 };
@@ -228,7 +228,7 @@ modbook.textureLocation = image;
 modbook.rarity = "rare";
 modbook.itemRightClick = function(stack, world, player, hand) {
     Commands.call("gamestage add @s AIRSHIP", player, world, false, true);
-    Commands.call("gamestage silentremove @s REGIONAL_MANAGER_STORE", player, world, false, true);
+    Commands.call("gamestage silentremove @s REGIONAL_STORE", player, world, false, true);
     stack.shrink(1);
     return "Pass";
 };
@@ -1499,6 +1499,34 @@ million = VanillaFactory.createItem("oneBillion");
 million.maxStackSize = 64;
 million.register();
 
+million = VanillaFactory.createItem("fivehundredthousand");
+million.maxStackSize = 64;
+million.register();
+
+million = VanillaFactory.createItem("fivethousand");
+million.maxStackSize = 64;
+million.register();
+
+million = VanillaFactory.createItem("hundredthousand");
+million.maxStackSize = 64;
+million.register();
+
+million = VanillaFactory.createItem("onethousand");
+million.maxStackSize = 64;
+million.register();
+
+million = VanillaFactory.createItem("tenthousand");
+million.maxStackSize = 64;
+million.register();
+
+million = VanillaFactory.createItem("twentyfivethousand");
+million.maxStackSize = 64;
+million.register();
+
+million = VanillaFactory.createItem("twofiftythousand");
+million.maxStackSize = 64;
+million.register();
+
 var accounts = VanillaFactory.createItem("loanclosed");
 accounts.maxStackSize = 1;
 accounts.textureLocation = closed;
@@ -1668,3 +1696,23 @@ trading = VanillaFactory.createItem("badge");
 trading.maxStackSize = 64;
 trading.rarity = "uncommon";
 trading.register();
+
+var endgame = VanillaFactory.createItem("ftbmedal");
+endgame.rarity = "epic";
+endgame.register();
+
+endgame = VanillaFactory.createItem("twitchmedal");
+endgame.rarity = "epic";
+endgame.register();
+
+endgame = VanillaFactory.createItem("cursemedal");
+endgame.rarity = "epic";
+endgame.register();
+
+endgame = VanillaFactory.createItem("mojangmedal");
+endgame.rarity = "epic";
+endgame.register();
+
+endgame = VanillaFactory.createItem("forgemedal");
+endgame.rarity = "epic";
+endgame.register();
