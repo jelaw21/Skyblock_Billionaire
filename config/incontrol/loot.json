@@ -1,0 +1,106 @@
+[
+  {
+    "mob": ["dungeonmobs:dmeldermob"],
+    "dimension": 1024,
+    "realplayer": true,
+    "item": "modcurrency:banknote@5",
+    "itemcount": "5/6/7/8-10"
+  },
+  {
+    "mob": ["dungeonmobs:dmbeholder", "dungeonmobs:dmillithid","dungeonmobs:dmmanticore", "dungeonmobs:dmrakshasa", "dungeonmobs:dmrevenant", "dungeonmobs:dmtroll","dungeonmobs:dmumberhulk","dungeonmobs:dmvampire", "minecraft:skeleton_horse", "minecraft:zombie_horse"],
+    "dimension": 1024,
+    "realplayer": true,
+    "item": "modcurrency:banknote@5",
+    "itemcount": "2/3/4-5/6-8"
+  },
+  {
+  "mob": ["dungeonmobs:dmhookhorror","dungeonmobs:dmlizalfos","dungeonmobs:dmnetherhound","dungeonmobs:dmrustmonster"],
+  "dimension": 1024,
+  "realplayer": true,
+  "item": "modcurrency:banknote@4",
+  "itemcount": "2/3/4-5/6-8"
+  },
+  {
+    "mob": ["minecraft:silverfish","dungeonmobs:dmbladetrap","dungeonmobs:dmghoul","dungeonmobs:dmshrieker"],
+    "dimension": 1024,
+    "realplayer": true,
+    "item": "modcurrency:banknote@3",
+    "itemcount": "2/3/4-5/6-8"
+  },
+  {
+    "mob": ["minecraft:slime"],
+    "dimension": 1024,
+    "realplayer": true,
+    "item": "modcurrency:coin@4",
+    "itemcount": "2/3/4-5/6-8"
+  },
+  {
+    "mob": ["minecraft:enderman","minecraft:silverfish","minecraft:skeleton", "minecraft:witch", "minecraft:zombie_pigman", "minecraft:zombie_villager", "thermalfoundation:basalz", "thermalfoundation:blitz", "thermalfoundation:blizz", "minecraft:zombie"],
+    "dimension": 1024,
+    "realplayer": true,
+    "item": "modcurrency:coin@3",
+    "itemcount": "2/3/4-5/6-8"
+  },
+  {
+    "mob": ["minecraft:bat", "minecraft:creeper", "minecraft:spider"],
+    "dimension": 1024,
+    "realplayer": true,
+    "item": "modcurrency:coin@2",
+    "itemcount": "2/3/4-5/6-8"
+  },
+  {
+    "mob": ["minecraft:ender_dragon"],
+    "dimension": 1,
+    "realplayer": true,
+    "item": "minecraft:dragon_egg",
+    "itemcount": "1/1/2"
+  },
+  {
+    "mob": ["dungeonmobs:dmeldermob"],
+    "dimension": 1024,
+    "realplayer": true,
+    "item": "minecraft:skull@1",
+    "gamestage": "SECRETARY_GENERAL",
+    "nbt": {
+      "display": {
+        "Name": "Mojang Mob Kingpin"
+      }
+    }
+  },
+  {
+    "mob": ["dungeonmobs:dmvampire"],
+    "dimension": 1024,
+    "realplayer": true,
+    "item": "minecraft:skull@2",
+    "gamestage": "SECRETARY_GENERAL",
+    "nbt": {
+      "display": {
+        "Name": "Mojang Mob Lord"
+      }
+    }
+  },
+  {
+    "mob": ["dungeonmobs:dmrakshasa"],
+    "dimension": 1024,
+    "realplayer": true,
+    "item": "minecraft:skull@3",
+    "gamestage": "SECRETARY_GENERAL",
+    "nbt": {
+      "display": {
+        "Name": "Mojang Mob Syndicate"
+      }
+    }
+  },
+  {
+    "mob": ["dungeonmobs:dmillithid"],
+    "dimension": 1024,
+    "realplayer": true,
+    "item": "minecraft:skull",
+    "gamestage": "SECRETARY_GENERAL",
+    "nbt": {
+      "display": {
+        "Name": "Mojang Mob Leader"
+      }
+    }
+  }
+]

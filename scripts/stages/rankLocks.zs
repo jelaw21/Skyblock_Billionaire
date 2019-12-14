@@ -32,6 +32,12 @@ mods.ItemStages.addItemStage("GENERAL_MANAGER",<contenttweaker:anti_dollarfifty>
 mods.ItemStages.addItemStage("GENERAL_MANAGER",<contenttweaker:anti_dollaronehundred>);
 mods.ItemStages.addItemStage("GENERAL_MANAGER",<contenttweaker:split_bill>);
 
+mods.ItemStages.addItemStage("SECRETARY_GENERAL",<contenttweaker:ftbmedal>);
+mods.ItemStages.addItemStage("SECRETARY_GENERAL",<contenttweaker:cursemedal>);
+mods.ItemStages.addItemStage("SECRETARY_GENERAL",<contenttweaker:twitchmedal>);
+mods.ItemStages.addItemStage("SECRETARY_GENERAL",<contenttweaker:forgemedal>);
+mods.ItemStages.addItemStage("SECRETARY_GENERAL",<contenttweaker:mojangmedal>);
+
 
 
 

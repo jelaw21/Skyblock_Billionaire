@@ -1,6 +1,6 @@
 setTitle("$100,000")
 
-setIcon(<contenttweaker:bank_item>)
+setIcon(<contenttweaker:hundredthousand>)
 
 setDescription("Collect EXACTLY $100,000")
 
@@ -10,7 +10,7 @@ setRequiresParents()
 
 //Criteria
 criteria = addCriteria("promotion", "minecraft:inventory_changed")
-criteria.addItem(<contenttweaker:bank_item, meta:0, count:1, nbt:{Total:100000.0f,display:{Lore:["$100000.0"]}}>)
+criteria.addItem(<contenttweaker:hundredthousand, count:1~>)
 
 setShowToast(true)
 setAnnounceToChat(false)

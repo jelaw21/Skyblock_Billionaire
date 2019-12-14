@@ -37,15 +37,6 @@ import crafttweaker.data.IData;
 <contenttweaker:serverinfo4>.addTooltip(format.green("Right Click to Use"));
 <contenttweaker:serverinfo5>.addTooltip(format.green("Right Click to Use"));
 
-
-<contenttweaker:share>.addTooltip(format.green("Right Click to Apply"));
-<contenttweaker:vote_1>.addTooltip(format.green("Right Click to Submit"));
-<contenttweaker:vote_2>.addTooltip(format.green("Right Click to Submit"));
-<contenttweaker:vote_3>.addTooltip(format.green("Right Click to Submit"));
-<contenttweaker:vote_4>.addTooltip(format.green("Right Click to Submit"));
-<contenttweaker:vote_5>.addTooltip(format.green("Right Click to Submit"));
-<contenttweaker:vote_6>.addTooltip(format.green("Right Click to Submit"));
-
 <contenttweaker:loanclosed>.addTooltip(format.green("Right Click to Trash"));
 <contenttweaker:creditclosed>.addTooltip(format.green("Right Click to Trash"));
 <contenttweaker:investmentclosed>.addTooltip(format.green("Right Click to Trash"));

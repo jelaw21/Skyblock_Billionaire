@@ -10,7 +10,7 @@ setRequiresParents()
 
 //Criteria
 criteria = addCriteria("promotion", "minecraft:inventory_changed")
-criteria.addItem(<contenttweaker:twenty-fivemillion, meta:0, count:1>)
+criteria.addItem(<contenttweaker:twenty-fivemillion, meta:0, count:1~>)
 
 setShowToast(true)
 setAnnounceToChat(false)

@@ -234,17 +234,6 @@ modbook.itemRightClick = function(stack, world, player, hand) {
 };
 modbook.register();
 
-modbook = VanillaFactory.createItem("animalnet");
-modbook.maxStackSize = 1;
-modbook.textureLocation = image;
-modbook.rarity = "rare";
-modbook.itemRightClick = function(stack, world, player, hand) {
-    Commands.call("gamestage add @s ANIMAL_NET", player, world, false, true);
-    stack.shrink(1);
-    return "Pass";
-};
-modbook.register();
-
 modbook = VanillaFactory.createItem("mobutils");
 modbook.maxStackSize = 1;
 modbook.textureLocation = image;

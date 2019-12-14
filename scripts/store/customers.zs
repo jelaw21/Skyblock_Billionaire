@@ -1,6 +1,6 @@
 val utils ="Utilities";
 
-mods.Delivery.Store.addTrade("ASSISTANT_MANAGER",<contenttweaker:animalnet>, utils, <modcurrency:banknote:5>*25);
+mods.Delivery.Store.addTrade("ASSISTANT_MANAGER",<industrialforegoing:mob_imprisonment_tool>, utils, <modcurrency:banknote:5>*2);
 
 mods.Delivery.Store.addTrade("ASSISTANT_MANAGER",<contenttweaker:labyrinth>, utils, <contenttweaker:fivethousand>, <contenttweaker:onethousand>*2);
 

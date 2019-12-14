@@ -1,10 +1,15 @@
-setTitle("PROMOTION: World Leader")
+setTitle("PROMOTION: PRESIDENT OF THE WORLD")
 
 setIcon(<minecraft:skull:3>)
 
 setDescription("Please consult the employee handbook for further instructions.")
 
 addParent("triumph:billionaire/un/money")
+addParent("triumph:billionaire/un/ftbmedal")
+addParent("triumph:billionaire/un/curse")
+addParent("triumph:billionaire/un/forge")
+addParent("triumph:billionaire/un/mojang")
+addParent("triumph:billionaire/un/twitch")
 setRequiresParents()
 
 //Criteria

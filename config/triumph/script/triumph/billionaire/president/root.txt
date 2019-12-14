@@ -16,7 +16,7 @@ setRequirements("any")
 
 //Criteria
 criteria = addCriteria("completedAssistant", "triumph:completed_advancement")
-criteria.setString("triumph:billionaire/world/promotion")
+criteria.setString("triumph:billionaire/un/promotion")
 
 //Rewards
 setRewardFunction("billionaire:president")
