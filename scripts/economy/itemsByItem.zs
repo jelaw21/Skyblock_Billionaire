@@ -635,7 +635,7 @@ for items in oneDollar{
 	
 	
 	items.addTooltip(format.blue("$1"));
-	mods.Delivery.Store.addTrade("EMPLOYEE",items*32, <modcurrency:coin:4>*32);
+	//mods.Delivery.Store.addTrade("EMPLOYEE",items*32, <modcurrency:coin:4>*32);
     var reci = mods.modularmachinery.RecipeBuilder.newBuilder("market" + items.name + items.metadata, "global_items", 90, 0);
     reci.addEnergyPerTickInput(20);
     reci.addItemInput(items);
@@ -649,7 +649,7 @@ for items in twoDollar{
 	
 	
 	items.addTooltip(format.blue("$2"));
-	mods.Delivery.Store.addTrade("EMPLOYEE",items*16, <modcurrency:coin:4>*32);
+	//mods.Delivery.Store.addTrade("EMPLOYEE",items*16, <modcurrency:coin:4>*32);
     var reci = mods.modularmachinery.RecipeBuilder.newBuilder("market" + items.name + items.metadata, "global_items", 90, 0);
     reci.addEnergyPerTickInput(20);
     reci.addItemInput(items);
@@ -663,7 +663,7 @@ for items in threeDollar{
 	
 	
 	items.addTooltip(format.blue("$3"));
-	mods.Delivery.Store.addTrade("EMPLOYEE",items*16, <modcurrency:coin:4>*48);
+	//mods.Delivery.Store.addTrade("EMPLOYEE",items*16, <modcurrency:coin:4>*48);
     var reci = mods.modularmachinery.RecipeBuilder.newBuilder("market" + items.name + items.metadata, "global_items", 90, 0);
     reci.addEnergyPerTickInput(20);
     reci.addItemInput(items);
@@ -680,7 +680,7 @@ for items in oneFive{
 	
 
 	items.addTooltip(format.blue("$5"));
-	mods.Delivery.Store.addTrade("SHIFT_MANAGER",items*16, <modcurrency:banknote:1>*16);
+	//mods.Delivery.Store.addTrade("SHIFT_MANAGER",items*16, <modcurrency:banknote:1>*16);
     var reci = mods.modularmachinery.RecipeBuilder.newBuilder("market" + items.name + items.metadata, "global_items", 90, 0);
     reci.addEnergyPerTickInput(20);
     reci.addItemInput(items);
@@ -694,7 +694,7 @@ for items in sixDollar{
 	
 	
 	items.addTooltip(format.blue("$6"));
-	mods.Delivery.Store.addTrade("SHIFT_MANAGER",items*10, <modcurrency:coin:4>*60);
+	//mods.Delivery.Store.addTrade("SHIFT_MANAGER",items*10, <modcurrency:coin:4>*60);
     var reci = mods.modularmachinery.RecipeBuilder.newBuilder("market" + items.name + items.metadata, "global_items", 90, 0);
     reci.addEnergyPerTickInput(20);
     reci.addItemInput(items);
@@ -709,7 +709,7 @@ for items in oneTen{
 	
 	
 	items.addTooltip(format.blue("$10"));
-	mods.Delivery.Store.addTrade("SHIFT_MANAGER",items*8, <modcurrency:banknote:2>*8);
+	//mods.Delivery.Store.addTrade("SHIFT_MANAGER",items*8, <modcurrency:banknote:2>*8);
     var reci = mods.modularmachinery.RecipeBuilder.newBuilder("market" + items.name + items.metadata, "global_items", 90, 0);
     reci.addEnergyPerTickInput(20);
     reci.addItemInput(items);
@@ -723,7 +723,7 @@ for items in oneTwenty{
 	
 	
 	items.addTooltip(format.blue("$20"));
-	mods.Delivery.Store.addTrade("GENERAL_MANAGER",items*8, <modcurrency:banknote:3>*8);
+	//mods.Delivery.Store.addTrade("GENERAL_MANAGER",items*8, <modcurrency:banknote:3>*8);
     var reci = mods.modularmachinery.RecipeBuilder.newBuilder("market" + items.name + items.metadata, "global_items", 90, 0);
     reci.addEnergyPerTickInput(20);
     reci.addItemInput(items);
@@ -738,7 +738,7 @@ for items in threeTen{
 	
 	
 	items.addTooltip(format.blue("$30"));
-	mods.Delivery.Store.addTrade("GENERAL_MANAGER",items*8, <modcurrency:banknote:2>*24);
+	//mods.Delivery.Store.addTrade("GENERAL_MANAGER",items*8, <modcurrency:banknote:2>*24);
     var reci = mods.modularmachinery.RecipeBuilder.newBuilder("market" + items.name + items.metadata, "global_items", 90, 0);
     reci.addEnergyPerTickInput(20);
     reci.addItemInput(items);
@@ -752,7 +752,7 @@ for items in oneFifty{
 	
 	
 	items.addTooltip(format.blue("$50"));
-	mods.Delivery.Store.addTrade("GENERAL_MANAGER",items*4, <modcurrency:banknote:4>*4);
+	//mods.Delivery.Store.addTrade("GENERAL_MANAGER",items*4, <modcurrency:banknote:4>*4);
 	var reci = mods.modularmachinery.RecipeBuilder.newBuilder("market" + items.name + items.metadata, "global_items", 90, 0);
     reci.addEnergyPerTickInput(20);
     reci.addItemInput(items);
@@ -765,7 +765,7 @@ for items in oneHundred{
 	
 	
 	items.addTooltip(format.blue("$100"));
-	mods.Delivery.Store.addTrade("ASSISTANT_MANAGER",items*2, <modcurrency:banknote:5>*2);
+	//mods.Delivery.Store.addTrade("ASSISTANT_MANAGER",items*2, <modcurrency:banknote:5>*2);
     var reci = mods.modularmachinery.RecipeBuilder.newBuilder("market" +items.name + items.metadata, "global_items", 90, 0);
     reci.addEnergyPerTickInput(20);
     reci.addItemInput(items);
@@ -779,7 +779,7 @@ for items in twoHundred{
 	
 	
 	items.addTooltip(format.blue("$200"));
-	mods.Delivery.Store.addTrade("ASSISTANT_MANAGER",items*2,<modcurrency:banknote:5>*2);
+	//mods.Delivery.Store.addTrade("ASSISTANT_MANAGER",items*2,<modcurrency:banknote:5>*2);
     var reci = mods.modularmachinery.RecipeBuilder.newBuilder("market" + items.name + items.metadata, "global_items", 90, 0);
     reci.addEnergyPerTickInput(20);
     reci.addItemInput(items);
@@ -792,7 +792,7 @@ for items in twoHundred{
 for items in fiveHundred{
 	
 		items.addTooltip(format.blue("$500"));
-		mods.Delivery.Store.addTrade("ASSISTANT_MANAGER",items,<modcurrency:banknote:5>*5);
+		//mods.Delivery.Store.addTrade("ASSISTANT_MANAGER",items,<modcurrency:banknote:5>*5);
         var reci = mods.modularmachinery.RecipeBuilder.newBuilder("market" + items.name + items.metadata, "global_items", 90, 0);
         reci.addEnergyPerTickInput(20);
         reci.addItemInput(items);
@@ -805,7 +805,7 @@ for items in fiveHundred{
 for items in tenHundred{
 	
 		items.addTooltip(format.blue("$1000"));
-		mods.Delivery.Store.addTrade("ASSISTANT_MANAGER",items,<modcurrency:banknote:5>*10);
+		//mods.Delivery.Store.addTrade("ASSISTANT_MANAGER",items,<modcurrency:banknote:5>*10);
         var reci = mods.modularmachinery.RecipeBuilder.newBuilder("market" + items.name + items.metadata, "global_items", 90, 0);
         reci.addEnergyPerTickInput(20);
         reci.addItemInput(items);

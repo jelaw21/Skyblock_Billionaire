@@ -940,54 +940,6 @@ modbook.itemRightClick = function(stack, world, player, hand) {
 modbook.register();
 
 
-var bank = VanillaFactory.createItem("bank_item");
-bank.maxStackSize = 1;
-bank.register();
-
-var money0 = VanillaFactory.createItem("anti_coin_0");
-money0.maxStackSize = 1;
-money0.register();
-
-var money1 = VanillaFactory.createItem("anti_coin_1");
-money1.maxStackSize = 1;
-money1.register();
-
-var money2 = VanillaFactory.createItem("anti_coin_2");
-money2.maxStackSize = 1;
-money2.register();
-
-var money3 = VanillaFactory.createItem("anti_coin_3");
-money3.maxStackSize = 1;
-money3.register();
-
-var money4 = VanillaFactory.createItem("anti_coin_4");
-money4.maxStackSize = 1;
-money4.register();
-
-var money5 = VanillaFactory.createItem("anti_dollarfifty");
-money5.maxStackSize = 1;
-money5.register();
-
-var money6 = VanillaFactory.createItem("anti_dollarfive");
-money6.maxStackSize = 1;
-money6.register();
-
-var money7 = VanillaFactory.createItem("anti_dollaronehundred");
-money7.maxStackSize = 1;
-money7.register();
-
-var money8 = VanillaFactory.createItem("anti_dollarten");
-money8.maxStackSize = 1;
-money8.register();
-
-var money9 = VanillaFactory.createItem("anti_dollartwenty");
-money9.maxStackSize = 1;
-money9.register();
-
-var money10 = VanillaFactory.createItem("split_bill");
-money10.maxStackSize = 1;
-money10.register();
-
 var stone = VanillaFactory.createItem("stone_hammer");
 stone.toolClass = "pickaxe";
 stone.maxStackSize = 1;
@@ -1065,6 +1017,20 @@ pick.maxDamage = 4000;
 pick.maxStackSize = 1;
 pick.itemDestroySpeed = function(stack, block){
 	return 9.0 as float;
+};
+pick.itemDestroyedBlock = function(stack, world, blockstate, pos, player) {
+    stack.damage(1, player);
+    return true;
+};
+pick.register();
+
+pick = VanillaFactory.createItem("lmr_pick");
+pick.toolClass = "pickaxe";
+pick.toolLevel = 8;
+pick.maxDamage = 6000;
+pick.maxStackSize = 1;
+pick.itemDestroySpeed = function(stack, block){
+	return 15.0 as float;
 };
 pick.itemDestroyedBlock = function(stack, world, blockstate, pos, player) {
     stack.damage(1, player);
@@ -1426,6 +1392,18 @@ donor.setBlockResistance(6000.0);
 donor.setToolClass("axe");
 donor.setToolLevel(0);
 donor.setBlockSoundType(<soundtype:glass>);
+donor.register();
+
+donor = VanillaFactory.createBlock("lmr2", <blockmaterial:rock>);
+donor.setLightValue(1.0f);
+donor.setLightOpacity(150);
+donor.setBlockLayer("TRANSLUCENT");
+donor.setFullBlock(true);
+donor.setBlockHardness(2.0);
+donor.setBlockResistance(6000.0);
+donor.setToolClass("pickaxe");
+donor.setToolLevel(0);
+donor.setBlockSoundType(<soundtype:stone>);
 donor.register();
 
 donor = VanillaFactory.createBlock("StarlighT", <blockmaterial:rock>);

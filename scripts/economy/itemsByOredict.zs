@@ -425,7 +425,7 @@ for stuff in oneDollar{
 
 	for entry in stuff.items{
 		entry.addTooltip(format.blue("$1"));
-		mods.Delivery.Store.addTrade("SHIFT_MANAGER",entry*32, <modcurrency:coin:4>*32);
+		//mods.Delivery.Store.addTrade("SHIFT_MANAGER",entry*32, <modcurrency:coin:4>*32);
 	}
 }
 
@@ -440,7 +440,7 @@ for stuff in threeDollar{
 
 	for entry in stuff.items{
 		entry.addTooltip(format.blue("$3"));
-		mods.Delivery.Store.addTrade("ASSISTANT_MANAGER",entry*16, <modcurrency:coin:4>*48);
+		//mods.Delivery.Store.addTrade("ASSISTANT_MANAGER",entry*16, <modcurrency:coin:4>*48);
 	}	
 }
 
@@ -454,7 +454,7 @@ for stuff in oneFive{
 
 	for entry in stuff.items{
 		entry.addTooltip(format.blue("$5"));
-		mods.Delivery.Store.addTrade("ASSISTANT_MANAGER",entry*16, <modcurrency:banknote:1>*16);
+		//mods.Delivery.Store.addTrade("ASSISTANT_MANAGER",entry*16, <modcurrency:banknote:1>*16);
 	}
 }
 
@@ -469,7 +469,7 @@ for stuff in oneTen{
 
 	for entry in stuff.items{
 		entry.addTooltip(format.blue("$10"));
-		mods.Delivery.Store.addTrade("ASSISTANT_MANAGER",entry*8, <modcurrency:banknote:2>*8);
+		//mods.Delivery.Store.addTrade("ASSISTANT_MANAGER",entry*8, <modcurrency:banknote:2>*8);
 	}
 }
 
@@ -483,7 +483,7 @@ for stuff in oneTwenty{
 
 	for entry in stuff.items{
 		entry.addTooltip(format.blue("$20"));
-		mods.Delivery.Store.addTrade("GENERAL_MANAGER",entry*8, <modcurrency:banknote:3>*8);
+		//mods.Delivery.Store.addTrade("GENERAL_MANAGER",entry*8, <modcurrency:banknote:3>*8);
     }
 }
 
@@ -498,7 +498,7 @@ for stuff in oneFifty{
 
 	for entry in stuff.items{
 		entry.addTooltip(format.blue("$50"));
-		mods.Delivery.Store.addTrade("GENERAL_MANAGER",entry*4, <modcurrency:banknote:4>*4);
+		//mods.Delivery.Store.addTrade("GENERAL_MANAGER",entry*4, <modcurrency:banknote:4>*4);
 	}	
 }
 
@@ -513,7 +513,7 @@ for stuff in oneHundred{
 
 	for entry in stuff.items{
 		entry.addTooltip(format.blue("$100"));
-		mods.Delivery.Store.addTrade("ASSISTANT_MANAGER",entry*2, <modcurrency:banknote:5>*2);
+		//mods.Delivery.Store.addTrade("ASSISTANT_MANAGER",entry*2, <modcurrency:banknote:5>*2);
 	}	
 }
 
@@ -528,6 +528,6 @@ for stuff in fiveHundred{
 
 	for entry in stuff.items{
 		entry.addTooltip(format.blue("$500"));
-		mods.Delivery.Store.addTrade("ASSISTANT_MANAGER",entry, <modcurrency:banknote:5>*5);
+		//mods.Delivery.Store.addTrade("ASSISTANT_MANAGER",entry, <modcurrency:banknote:5>*5);
 	}
 }

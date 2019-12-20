@@ -6,12 +6,12 @@ mods.Delivery.Store.addTrade("CHAIRMAN_STORE",<contenttweaker:charity_1>, specia
 mods.Delivery.Store.addTrade("CHAIRMAN_STORE",<contenttweaker:charity_2>, special, <contenttweaker:hundredthousand>*2);
 mods.Delivery.Store.addTrade("CHAIRMAN_STORE",<contenttweaker:charity_3>, special, <contenttweaker:hundredthousand>*2);
 
-mods.Delivery.Store.addTrade("BOARD_STORE",<contenttweaker:vote_1>, special, <contenttweaker:tenthousand>*3);
-mods.Delivery.Store.addTrade("BOARD_STORE",<contenttweaker:vote_2>, special, <contenttweaker:tenthousand>*4);
-mods.Delivery.Store.addTrade("BOARD_STORE",<contenttweaker:vote_3>, special, <contenttweaker:tenthousand>*5);
-mods.Delivery.Store.addTrade("BOARD_STORE",<contenttweaker:vote_4>, special, <minecraft:diamond_block>*32, <minecraft:emerald_block>*16);
+mods.Delivery.Store.addTrade("BOARD_STORE",<contenttweaker:vote_1>, special, <contenttweaker:hundredthousand>*2);
+mods.Delivery.Store.addTrade("BOARD_STORE",<contenttweaker:vote_2>, special, <contenttweaker:tenthousand>*8);
+mods.Delivery.Store.addTrade("BOARD_STORE",<contenttweaker:vote_3>, special, <contenttweaker:hundredthousand>);
+mods.Delivery.Store.addTrade("BOARD_STORE",<contenttweaker:vote_4>, special, <minecraft:diamond_block>*32, <minecraft:emerald_block>*16, <silentgems:gemblocksuper:6>*16);
 mods.Delivery.Store.addTrade("BOARD_STORE",<contenttweaker:vote_5>, special, <harvestcraft:southernstylebreakfastitem>*2, <harvestcraft:meatfeastpizzaitem>*2, <harvestcraft:thankfuldinneritem>*2);
-mods.Delivery.Store.addTrade("BOARD_STORE",<contenttweaker:vote_6>, special, <minecraft:rotten_flesh>*32, <minecraft:spider_eye>*8, <minecraft:ender_pearl>*16);
+mods.Delivery.Store.addTrade("BOARD_STORE",<contenttweaker:vote_6>, special, <minecraft:ghast_tear>*16, <minecraft:skull:1>*8, <minecraft:ender_pearl>*32);
 mods.Delivery.Store.addTrade("CEO_STORE",<contenttweaker:share>, special, <contenttweaker:tenthousand>*2);
 
 mods.Delivery.Store.addTrade("GENERAL_MANAGER",<aroma1997sdimension:dimensionchanger>, special, <contenttweaker:fivethousand>, <contenttweaker:onethousand>*2);

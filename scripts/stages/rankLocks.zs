@@ -19,18 +19,6 @@ mods.ItemStages.addItemStage("ASSISTANT_MANAGER",<silentgems:craftingmaterial:0>
 mods.ItemStages.addItemStage("ASSISTANT_MANAGER",<silentgems:craftingmaterial:0>);
 mods.ItemStages.addItemStage("SHIFT_MANAGER",<soulus:summoner>);
 mods.ItemStages.addItemStage("ASSISTANT_MANAGER",<modcurrency:wallet>);
-mods.ItemStages.addItemStage("GENERAL_MANAGER",<contenttweaker:bank_item>);
-mods.ItemStages.addItemStage("GENERAL_MANAGER",<contenttweaker:anti_coin_0>);
-mods.ItemStages.addItemStage("GENERAL_MANAGER",<contenttweaker:anti_coin_1>);
-mods.ItemStages.addItemStage("GENERAL_MANAGER",<contenttweaker:anti_coin_2>);
-mods.ItemStages.addItemStage("GENERAL_MANAGER",<contenttweaker:anti_coin_3>);
-mods.ItemStages.addItemStage("GENERAL_MANAGER",<contenttweaker:anti_coin_4>);
-mods.ItemStages.addItemStage("GENERAL_MANAGER",<contenttweaker:anti_dollarfive>);
-mods.ItemStages.addItemStage("GENERAL_MANAGER",<contenttweaker:anti_dollarten>);
-mods.ItemStages.addItemStage("GENERAL_MANAGER",<contenttweaker:anti_dollartwenty>);
-mods.ItemStages.addItemStage("GENERAL_MANAGER",<contenttweaker:anti_dollarfifty>);
-mods.ItemStages.addItemStage("GENERAL_MANAGER",<contenttweaker:anti_dollaronehundred>);
-mods.ItemStages.addItemStage("GENERAL_MANAGER",<contenttweaker:split_bill>);
 
 mods.ItemStages.addItemStage("SECRETARY_GENERAL",<contenttweaker:ftbmedal>);
 mods.ItemStages.addItemStage("SECRETARY_GENERAL",<contenttweaker:cursemedal>);

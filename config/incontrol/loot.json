@@ -53,7 +53,7 @@
     "dimension": 1,
     "realplayer": true,
     "item": "minecraft:dragon_egg",
-    "itemcount": "1/1/2"
+    "itemcount": "1/1/1/2"
   },
   {
     "mob": ["dungeonmobs:dmeldermob"],
@@ -92,7 +92,7 @@
     }
   },
   {
-    "mob": ["dungeonmobs:dmillithid"],
+    "mob": ["dungeonmobs:dmbeholder"],
     "dimension": 1024,
     "realplayer": true,
     "item": "minecraft:skull",
